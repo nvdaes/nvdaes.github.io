@@ -8,7 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-name: Inicio
+name: Web personal con documentación sobre NVDA
 description: Web personal con documentación sobre el lector de pantalla NVDA.
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 footer-links:
