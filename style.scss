@@ -125,11 +125,12 @@ img {
   color: $black;
   background: $lightGray;
 }
-::selection {
+//
+ ::selection {
   color: $black;
   background: $lightGray;
 }
-
+//
 // Nicolas Gallagher's micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
