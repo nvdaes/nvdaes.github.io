@@ -8,20 +8,20 @@ collections:
   uploads:
     title: Uploads
     output: true
-name: Your Name
-description: Web Developer from Somewhere
+name: nvdaes
+description: Web personal con documentación sobre el lector de pantalla NVDA.
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 footer-links:
   dribbble: 
-  email: 
+  email: nrm1977@gmail.com
   facebook: 
   flickr: 
-  github: barryclark/jekyll-now
+  github: nvdaes
   instagram: 
   linkedin: 
   pinterest: 
   rss: 
-  twitter: jekyllrb
+  twitter: norrumar
   stackoverflow: 
   youtube: 
   googleplus: 

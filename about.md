@@ -2,6 +2,7 @@
 title: About
 permalink: "/about/"
 layout: page
+published: false
 ---
 
 Some information about you!
