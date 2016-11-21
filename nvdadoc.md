@@ -4,10 +4,10 @@ permalink: "/ayuda/"
 layout: page
 ---
 
-## Documentación sobre NVDA ##
+## DocumentaciÃ³n sobre NVDA ##
 
-A continuación podrás encontrar documentos disponibles en el menú Ayuda de NVDA:
-- [Guía del usuario][1]
-- [¿Qué hay de nuevo?][2]
+A continuaciÃ³n podrÃ¡s encontrar documentos disponibles en el menÃº Ayuda de NVDA:
+- [GuÃ­a del usuario][1]
+- [Â¿QuÃ© hay de nuevo?][2]
 [1]: guia.html
 [2]: cambios.html
