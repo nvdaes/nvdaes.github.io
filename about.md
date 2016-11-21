@@ -1,8 +1,8 @@
 ---
 title: About
 permalink: "/about/"
-layout: page
 published: false
+layout: page
 ---
 
 Some information about you!
