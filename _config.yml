@@ -8,7 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-name: @nvdaes
+name: nvdaEs
 description: Web personal con documentación en español sobre el lector de pantalla NVDA.
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 footer-links:
