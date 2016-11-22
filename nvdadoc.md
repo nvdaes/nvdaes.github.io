@@ -14,6 +14,7 @@ A continuación podrás encontrar documentos disponibles en el menú Ayuda de NV
 ### Descargar última versión ###
 
 Para descargar la última versión estable de NVDA:
+
 1. Accede a la página de descarga en el sitio de NV Access.
 2. Elige la cantidad que quieras donar a NV Access, o, para no donar esta vez, "Skip donation this time", entre los botones de opción disponibles.
 3. Indica tu dirección de correo electrónico en el cuadro de edición "Email address:".
