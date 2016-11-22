@@ -1,15 +1,14 @@
 ---
-date: 2014-03-03 00:00:00 Z
+date: 6 de agosto de 2014
 layout: post
 title: NVDA, presente en las jornadas de usuarios de tecnologías de la información UTLAI
 ---
-### NVDA, presente en las jornadas de usuarios de tecnologías de la información UTLAI ###
 Una vez más, nuestro lector de pantalla estará presente en las jornadas de UTLAI (Usuarios de Tiflotecnología para el Libre Acceso a la Información).
 Como se explica en el [programa de las VI Jornadas de Usuarios de Tecnología para personas con diversidad funcional visual](http://www.utlai.org/programa-de-las-vi-jornadas-de-usuarios-de-tecnologia-para-personas-con-diversidad-funcional-visual/), en esta ocasión se celebrará el taller: “Introducción al uso de NVDA”, el 3 de diciembre de 2016, de 11:30 a 12:30, en la sede de la ONCE en Barcelona (sala 4).
 Agradecemos a UTLAI por dar espacio a NVDA en las jornadas de usuarios, y a las personas que participan para difundir, conocer y enriquecer la experiencia en el uso y desarrollo de este lector de pantalla.
 Como ejemplo de experiencia práctica (ciertamente ejemplar), compartimos el texto correspondiente a la intervención de nuestro compañero Chris, coautor de este blog, en las anteriores jornadas de UTLAI, dentro del taller NVDA: Un lector de pantalla de código abierto.
 
-#### Accesibilidad en bibliotecas de Roma mediante NVDA ####
+### Accesibilidad en bibliotecas de Roma mediante NVDA ###
 > Hola, qué tal a todos, soy Chris.
 > En este espacio del taller sobre NVDA me gustaría contar una experiencia acerca de la accesibilidad a los ordenadores en las bibliotecas de Roma.
 > Es como un ejemplo práctico y real para difundir y para la propagación de herramientas de tiflotecnología Completas a bajo costo.
@@ -53,7 +52,7 @@ Como ejemplo de experiencia práctica (ciertamente ejemplar), compartimos el tex
 > en fin, agradeciendo por la oportunidad de participar en las quintas jornadas os mando un gran saludo desde Italia.
 Chris
 
-Referencias
+### Referencias ###
 * [Documentación y podcast sobre el taller NVDA: Un lector de pantalla de código abierto](http://www.utlai.org/tifloclub-utlai-podcast-especial-no-6-v-jornadas-a-coruna-2014/) (V Jornadas de usuarios UTLAI)
 
 Esperamos que esta información sea útil, y deseamos que las VI Jornadas UTLAI sirvan para seguir conociendo y mejorando nuestra experiencia con NVDA. 
