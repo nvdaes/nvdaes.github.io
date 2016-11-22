@@ -1,6 +1,7 @@
+---
 date: 2014-03-03 00:00:00 Z
 layout: post
-
+---
 ### NVDA, presente en las jornadas de usuarios de tecnologías de la información UTLAI ###
 Una vez más, nuestro lector de pantalla estará presente en las jornadas de UTLAI (Usuarios de Tiflotecnología para el Libre Acceso a la Información).
 Como se explica en el [programa de las VI Jornadas de Usuarios de Tecnología para personas con diversidad funcional visual], en esta ocasión se celebrará el taller: “Introducción al uso de NVDA”, el 3 de diciembre de 2016, de 11:30 a 12:30, en la sede de la ONCE en Barcelona (sala 4).
