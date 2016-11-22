@@ -23,4 +23,4 @@ Para descargar la última versión estable de NVDA:
 #### Notas ####
 
 * Si no quieres recibir las noticias de NV Access, desmarca la casilla "Keep me up to date with the latest news from NV Access".
-* Como se indica en la [página sobre privacidad de NV Access](http://www.nvaccess.org/privacy/) (en inglés), a veces sitios externos incluso ofrecen descargas 
+* Como se indica en la [página sobre privacidad de NV Access](http://www.nvaccess.org/privacy/) (en inglés), a veces sitios externos incluso ofrecen descargas de NVDA, y NV Access no es responsable del contenido o prácticas de privacidad de esos sitios.
