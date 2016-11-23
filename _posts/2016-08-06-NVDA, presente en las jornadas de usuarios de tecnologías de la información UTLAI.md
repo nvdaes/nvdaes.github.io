@@ -53,6 +53,7 @@ Como ejemplo de experiencia práctica (ciertamente ejemplar), compartimos el tex
 > para aquellos que tienen la oportunidad de hacerlo, proponer el uso de herramientas de código abierto como NVDA en 
 > instalaciones como bibliotecas u otros centros públicos o de agregación, recalcando el aspecto económico del bajo costo y una funcionalidad más o menos completa.
 > en fin, agradeciendo por la oportunidad de participar en las quintas jornadas os mando un gran saludo desde Italia.
+
 Chris
 
 ### Referencias ###
