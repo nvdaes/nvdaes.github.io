@@ -7,7 +7,7 @@ layout: default
       <div class="entry">
     {{ content }}
   </div>
-<div class="date">{{ author.displayName }}</div>
+<div class="date"><a href="{{ author.web }}">{{ author.display_name }}</a></div>
   
 
   {% include disqus.html %}
