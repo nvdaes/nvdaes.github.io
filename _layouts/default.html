@@ -23,18 +23,20 @@
             <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
             <p class="site-description">{{ site.description }}</p>
           </div>
-    <form role="search" method=GET action="http://www.google.es/search"> 
-    <fieldset> 
-        <input type=hidden name=ie value=UTF-8 /> 
-        <input type=hidden name=oe value=UTF-8 /> 
-                      
-        <INPUT TYPE=text id="s" name="q" value="" size="50" /> 
-        <input type=hidden name=domains value="http://www.uterra.com" /><br> 
-        <input type=radio name=sitesearch value="" /> En todo Internet</br> 
-        <input type=radio name=sitesearch value="https://nvdaes.github.io" checked />En nvdaes.github.io />
-                                 <INPUT type=submit  id="x" name=btnG VALUE="Buscar" /> 
-    </fieldset> 
-    </FORM> 
+    <div role="search">
+<script>
+  (function() {
+    var cx = '011883322771040066014:gm034mfgwzy';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<div class="gcse-search"></div>
+</div>
           <nav>
             <a href="{{ site.baseurl }}/">Inicio</a>
             <a href="{{ site.baseurl }}/ayuda">Ayuda de NVDA</a>
