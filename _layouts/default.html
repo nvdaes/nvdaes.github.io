@@ -23,27 +23,23 @@
             <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
             <p class="site-description">{{ site.description }}</p>
           </div>
-
-<div role="search">
-<div id="gcsengine"></div>
+<div id="gcsengine" role="search">
 <script>
 var gcseDiv = document.getElementById('gcsengine');
 gcseDiv.innerHTML = '<gcse:searchresults-only></gcse:searchresults-only>'
 </script>
-</div>
-		  <script>
-  (function() {
-    var cx = '011883322771040066014:gm034mfgwzy';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
+<script>
+(function() {
+var cx = '011883322771040066014:gm034mfgwzy';
+var gcse = document.createElement('script');
+gcse.type = 'text/javascript';
+gcse.async = true;
+gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+'//cse.google.com/cse.js?cx=' + cx;
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(gcse, s);
+})();
 </script>
-<div class="gcse-searchbox" data-queryParameterName="search">
-</div>
 </div>
           <nav>
             <a href="{{ site.baseurl }}/">Inicio</a>
