@@ -1,6 +1,6 @@
 ---
 title: Formulario de contacto enviado
-layout: default
+layout: page
 ---
 
 Gracias por ponerte en contacto con nvdaes.github.io.
