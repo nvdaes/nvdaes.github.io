@@ -47,7 +47,7 @@ Como ejemplo de experiencia práctica (ciertamente ejemplar), compartimos el tex
 > Rosa ha ido presencialmente a comprobar los ordenadores en la biblioteca de su zona.
 > Para aquellos que quieran utilizar esta experiencia como un ejemplo para promover el acceso a la educación con NVDA,
 > y que no pueden ir a Roma para comprobarlo por si mismos, se puede encontrar en el sitio 
-> (http://www.comune.roma.it)
+> [http://www.comune.roma.it](http://www.comune.roma.it)
 > en la sección dedicada a las bibliotecas de Roma.
 > El mensaje que quiero dejar es:
 > para aquellos que tienen la oportunidad de hacerlo, proponer el uso de herramientas de código abierto como NVDA en 
