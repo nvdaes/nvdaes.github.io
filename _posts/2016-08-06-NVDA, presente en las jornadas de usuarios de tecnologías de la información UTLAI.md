@@ -42,17 +42,18 @@ Como ejemplo de experiencia práctica (ciertamente ejemplar), compartimos el tex
 > Otro paso importante sería crear archivos de libros y aplicaciones accesibles para almacenar libros. 
 > y a veces hay libros, por ejemplo en PDF, donde la protección del texto no permite la lectura por lectores de pantalla.
 > Todo esto se puede mejorar.
-> La experiencia de la amiga Rosa Mauro, que saludo desde aquí, no fue una cosa simple####  ####
+> La experiencia de la amiga Rosa Mauro, que saludo desde aquí, no fue una cosa simple.
 > Ella había solicitado varias veces y sin la ayuda de organizaciones, que a veces no tienen interés en la propagación de productos válidos y sin costo como NVDA.
 > Rosa ha ido presencialmente a comprobar los ordenadores en la biblioteca de su zona.
 > Para aquellos que quieran utilizar esta experiencia como un ejemplo para promover el acceso a la educación con NVDA,
 > y que no pueden ir a Roma para comprobarlo por si mismos, se puede encontrar en el sitio 
-> http://www.comune.roma.it
+> (http://www.comune.roma.it)
 > en la sección dedicada a las bibliotecas de Roma.
 > El mensaje que quiero dejar es:
 > para aquellos que tienen la oportunidad de hacerlo, proponer el uso de herramientas de código abierto como NVDA en 
 > instalaciones como bibliotecas u otros centros públicos o de agregación, recalcando el aspecto económico del bajo costo y una funcionalidad más o menos completa.
-> en fin, agradeciendo por la oportunidad de participar en las quintas jornadas os mando un gran saludo desde Italia.
+>
+> En fin, agradeciendo por la oportunidad de participar en las quintas jornadas os mando un gran saludo desde Italia.
 
 Chris
 
