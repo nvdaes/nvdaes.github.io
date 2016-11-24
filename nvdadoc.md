@@ -1,5 +1,5 @@
 ---
-title: Ayuda de NVDA
+title: Ayuda y descarga
 permalink: "/ayuda/"
 layout: page
 ---
