@@ -1,8 +1,9 @@
 ---
-layout: post
 title: Disponible NVDA 2016.4rc1
-author: Noelia
+date: 2016-12-02 00:00:00 Z
 permalink: "/nvda-2016-4rc1/"
+layout: post
+author: Noelia
 ---
 
 <footer>Viernes, 2 de diciembre de 2016</footer>
