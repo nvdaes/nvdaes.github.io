@@ -1,6 +1,8 @@
 ---
+title: NVDA, presente en las jornadas de usuarios de tecnologías de la información
+  UTLAI
+date: 2016-08-06 00:00:00 Z
 layout: post
-title: NVDA, presente en las jornadas de usuarios de tecnologías de la información UTLAI
 author: Noelia
 ---
 

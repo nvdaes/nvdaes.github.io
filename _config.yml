@@ -9,7 +9,11 @@ collections:
     title: Uploads
     output: true
 name: Comunidad hispanohablante de NVDA
-description: NVDA es un lector de pantalla para Windows, de código abierto y gratuito, desarrollado por NV Access con la participación de la amplia comunidad de personas que lo disfrutan. En este espacio colaborativo compartiremos información generada por la comunidad hispanohablante de NVDA. Esperamos que resulte ameno y útil para profundizar en el conocimiento y construcción de nuestro lector de pantalla.
+description: NVDA es un lector de pantalla para Windows, de código abierto y gratuito,
+  desarrollado por NV Access con la participación de la amplia comunidad de personas
+  que lo disfrutan. En este espacio colaborativo compartiremos información generada
+  por la comunidad hispanohablante de NVDA. Esperamos que resulte ameno y útil para
+  profundizar en el conocimiento y construcción de nuestro lector de pantalla.
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 footer-links:
   dribbble: 
@@ -51,4 +55,3 @@ authors:
     name: Noelia
     display_name: Noelia
     web: https://nvdaes.github.io/noelia
-    
