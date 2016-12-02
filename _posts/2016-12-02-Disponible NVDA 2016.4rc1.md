@@ -12,6 +12,7 @@ Como se explica en este [artículo de NV Access sobre NVDA 2016.4rc1](http://www
 Las versiones "release candidate" (rc) se publican para que las personas usuarias de NVDA colaboren informando sobre errores que deberían corregirse antes de la publicación de la próxima versión estable. Por eso es importante que probemos las versiones rc de NVDA.
 
 Para descargar NVDA 2016.4rc1:
+
 1. Accede a la [página para descargar NVDA 2016.4rc1](http://www.nvaccess.org/download?nvdaVersion=2016.4rc1).
 2. Elige la cantidad que quieras donar a NV Access, o, para no donar esta vez, "Skip donation this time", entre los botones de opción disponibles.
 3. Indica tu dirección de correo electrónico en el cuadro de edición "Email address:".
