@@ -1,5 +1,6 @@
 ﻿---
 title: Expresiones regulares en los diccionarios del Habla
+date: 2015-11-29 00:00:00 Z
 layout: post
 author: Chris
 ---
