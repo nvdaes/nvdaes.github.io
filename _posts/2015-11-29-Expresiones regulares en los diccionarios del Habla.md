@@ -42,7 +42,7 @@ la expresión "Odissea2001" coincide con "Odissea2001".
 
 Lista completa de caracteres especiales y su comportamiento en el contexto de las expresiones regulares:
 
-*	"\" Marca el siguiente caracter como un caracter especial, un literal, una referencia inversa. Por ejemplo, "r" coincide con el caracter "r", mientras  "\r" coincide con un caracter de retorno de carro. Cuando precede  caracteres que normalmente se tratan de forma especial, indica que el siguiente caracter no es especial y debe ser interpretado literalmente. Por ejemplo, la secuencia "\\" coincide con "\" y "\(" coincide con "(".
+*	"\\" Marca el siguiente caracter como un caracter especial, un literal, una referencia inversa. Por ejemplo, "r" coincide con el caracter "r", mientras  "\r" coincide con un caracter de retorno de carro. Cuando precede  caracteres que normalmente se tratan de forma especial, indica que el siguiente caracter no es especial y debe ser interpretado literalmente. Por ejemplo, la secuencia "\\" coincide con "\" y "\(" coincide con "(".
 *	"." Coincide con cualquier caracter excepto con "\n".
 *	"^" Coincide con la posición al principio de la cadena de entrada.  La propiedad Multiline está establecida para coincidir también con la siguiente posición a "\n" o "\r". Es decir, este caracter corresponde también a la posición inmediatamente después de una nueva línea o un retorno de carro.
 *	"$" Coincide con la posición al final de la cadena de entrada. La propiedad Multiline  está establecida para que $ coincida también con la posición anterior a "\n" o "\r".
@@ -57,7 +57,7 @@ Lista completa de caracteres especiales y su comportamiento en el contexto de la
 *	"[^xy]" Un juego de caracteres negativo. Coincide con cualquier caracter no incluido entre corchetes. Por ejemplo, "[^aeu]" coincide con la "M", la"d", la "r", la "d" de "Madrid", pero no coincide con la "a". 
 *	"[a-z]" Un intervalo de caracteres, coincide con cualquier caracter del intervalo especificado. Por ejemplo, "[a-z]" coincide con cualquier caracter alfabético en minúsculas dentro del intervalo de la 'a' a la 'z'. 
 *	"[^a-z]" Caracteres de un intervalo negativo. Es decir, coincide con cualquier caracter que no esté incluido en el intervalo especificado. Por ejemplo, "[^a-z]" coincide con cualquier caracter que no esté incluido en el intervalo de la 'a' a la 'z'.
-*	"|" Es un carácter disyuntivo: x|y, coincide con x o con y. Por ejemplo, la expresión "Juli(a|o)" coincide con "Julia" o con "Julio".
+*	"\|" Es un carácter disyuntivo: x|y, coincide con x o con y. Por ejemplo, la expresión "Juli(a|o)" coincide con "Julia" o con "Julio".
 *	"(...)" Una subexpresión que coincide con el modelo entre paréntesis y captura la coincidencia. La coincidencia capturada se puede recuperar en el remplazo  mediante las secuencias especiales "\1" "\2" etc. Para que coincidan los paréntesis ( ), utilice "\(" o "\)".
 *	"(?:...)" Una subexpresión que coincide con el modelo entre los paréntesis, pero que no captura la coincidencia, es decir, la coincidencia no se almacena para un posible uso posterior. La expresión "(?:\d+)(Salir)" coincide con la palabra "Salir" despues un conjunto de números en una cadena como por ejemplo "123456Salir Grafico Enlace". Notar, los números no se almacenan y a demás no serán   procesado por el sintetizador. El sintetizador simplemente ignora el contenido de esta Afirmación. Esta subexpresión se considera como  grupo de cadena irregular, No se utiliza mucho en los diccionarios.
 *	"(?=...)" Una subexpresión que realiza una búsqueda anticipada positiva, la cual coincide con la cadena en cualquier punto donde empiece una cadena que coincida con el modelo entre los paréntesis. Por ejemplo, "Juli(?=a|o)" coincide con "Juli" en "Julia" pero no con "Juli" en "Juliu". Ésta es una coincidencia sin captura, es decir, la coincidencia no se captura para un posible uso posterior. Las búsquedas anticipadas no consumen caracteres, es decir, después de que se produce una coincidencia, la búsqueda de la siguiente comienza inmediatamente después de la última coincidencia, no después de los caracteres que componen la cadena de búsqueda anticipada.
@@ -67,7 +67,7 @@ Lista completa de caracteres especiales y su comportamiento en el contexto de la
 
 ### Secuencias Especiales ###
 
-Las secuencias especiales  consisten en "\" y un caracter ordinario como en  la lista de abajo.  Si el caracter ordinario no está en la lista, entonces la resultante  expresione coincidirá con el segundo caracter.
+Las secuencias especiales  consisten en "\\" y un caracter ordinario como en  la lista de abajo.  Si el caracter ordinario no está en la lista, entonces la resultante  expresione coincidirá con el segundo caracter.
 
 *	"\A" Coincide sólo en el inicio de la cadena.
 *	"\Z" Coincide sólo con el final de la cadena.
@@ -80,13 +80,13 @@ Las secuencias especiales  consisten en "\" y un caracter ordinario como en  la 
 *	"\w" Coincide con cualquier caracter alfanumérico incluido el subrayado. Equivale a "[A-Za-z0-9_]".
 *	"\W" Coincide con cualquier caracter que no pertenezca a los caracteres alfanuméricos. Equivale a "[^A-Za-z0-9_]".
 
-###Ejemplos:###
+### Ejemplos: ###
 
 Finalmente llegamos a la parte práctica  con los ejemplos.
 
 Por conveniencia usaremos un diccionario temporál en los ejemplos. Para ello, necesitamos ajustar la opción para las expresiones regulares desde el diálogo correspondiente.
 
-####Ejemplo 1####
+#### Ejemplo 1 ####
 
 El sintetizador eSpeak en español pronuncia con C suave palabras extranjeras que comienzan con "ch", como Christ, christmass, Christofer o Christopher, Christian etcetera.
 Si deseamos escuchar una pronunciación mejor, podemos usar la siguiente y sencilla expresión regular.
@@ -103,7 +103,7 @@ Tener en cuenta que las secuencias especiales \b y \B son marcadores de posició
 
 La mayoría de las secuencias especiales, como por ejemplo \s, \w, \d, necesitan ser recuperadas en el reemplazo, si no vamos a recuperarlas no se envierán al sintetizador.
 
-####Ejemplo 2####
+#### Ejemplo 2 ####
 
 A veces puede ser útil leer el nombre de unidades de medida  cuándo en el texto aparece como  abreviatura.
 
@@ -155,7 +155,7 @@ Por eso la segunda expresiónSe inserta a continuación de la primera.
 
 ¿Qué estás esperando? Ahora trata de crear  reglas para leer otras unidades  como  Kg, MB, m² o cm³.
 
-####Ejemplo 3####
+#### Ejemplo 3 ####
 
 Todavía es práctica común  separar los millares, millones, etc., mediante un espacio Para facilitar la lectura de  números cuando constan de más de cuatro cifras:
 
@@ -191,7 +191,7 @@ Por lo contrario, vamos a recuperar la tercera subexpresión "(\d{3})" mediante 
 
 De esta manera enviamos al sintetizador   un  número sin espacios entre los dígitos.
 
-####Ejemplo 4####
+#### Ejemplo 4 ####
 
 Cuándo consultamos a una lista de números de teléfono, o algo así, puede ser útil leer los números como  singulares  dígito.
 
