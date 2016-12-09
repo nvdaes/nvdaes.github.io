@@ -24,7 +24,7 @@ Hay una lista larga de cambios, los mayores son:
 *	Se usa  -fPIC para el soporte  a la arquitecturas sparc/sparc64.
 *	Ahora se usa el sistema  s Sonic-library.
 *	Cuando los fonemas, los diccionarios y la entonación contienen errores se genera una falta al compilar los archivos.
-*	Para la compilación de eSpeak-ng en Windows se proporciona el uso del Visual Studio más recente, con  un proyecto  WiX-based para crear un instalador   MSI.
+*	Para la compilación de eSpeak-ng en Windows se proporciona el uso del Visual Studio más reciente, con  un proyecto  WiX-based para crear un instalador   MSI.
 *	Quitado el programa  `espeakedit` y sus   dependencias relacionadas a wxWidgets.
 *	Reemplazadas las API de audio con PCAudioLib para mejorar la portabilidad de audio y compartir a través de diferentes proyectos.
 
@@ -50,7 +50,7 @@ Dejaremos otras versiones de prueba para escuchar un trabajo experimental sobre 
 
 Hay un repositorio a parte del repositorio principal eSpeak-ng donde se puede seguir el trabajo experimental, añadir mejoras, sugerencias o enviar incidencias: [spanishOnEspeak-ng](https://github.com/Christianlm/SpanishOnEspeak-ng.git).
 
-###eSpeak-ng suena robótico...###
+### eSpeak-ng suena robótico... ###
 
 El sintetizador eSpeak-ng usa spectral formant syntesis por defecto, por eso tiene un sonido robótico, pero puede ser configurado para usar klatt syntesis, y también  MBROLA, para darle un sonido más natural.
 
