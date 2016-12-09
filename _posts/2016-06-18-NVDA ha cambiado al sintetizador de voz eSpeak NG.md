@@ -4,6 +4,7 @@ layout: post
 author: Chris
 ---
 
+
 <footer>Sábado, 18 de junio de 2016</footer>
 
 Desde que el desarrollo de eSpeak pareció haberse detenido por un motivo desconocido, un proyecto  separado de eSpeak fue creado por la comunidad.
