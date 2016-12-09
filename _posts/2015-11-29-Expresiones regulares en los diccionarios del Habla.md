@@ -1,4 +1,4 @@
-﻿---
+---
 title: Expresiones regulares en los diccionarios del Habla
 layout: post
 author: Chris
