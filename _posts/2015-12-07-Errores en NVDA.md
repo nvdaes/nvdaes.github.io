@@ -8,6 +8,7 @@ series: "Errores"
 <footer>lunes, 7 de diciembre de 2015</footer>
 En esta ocasión propondremos algunas sugerencias para comprender los errores que a veces observamos en NVDA, intentando mejorar nuestra experiencia con el lector de pantalla.
 Lo haremos en compañía del investigador David C. Krakauer... O, por lo menos, con algunas de sus interesantes reflexionhes:
+
 ### 1. ¿Hay algún problema? ###
 
 > La estupidez es un tipo de fenómeno muy interesante y tiene que ver con sistemas de normas que han hecho que nos cueste más conocer la verdad, y hablar sobre ella.
@@ -38,9 +39,9 @@ Para conocer y hablar sobre los errores observados en NVDA, puede ser útil rein
 
 ### Referencias ###
 
-- Guía de NVDA(https://nvdaes.github.io/nvda/userGuide.html), disponible en el submenú Ayuda.
-- Archivos de registro y de volcado de NVDA(https://github.com/nvaccess/nvda/wiki/LogFilesAndCrashDumps) (en inglés).
-- Artículo sobre David C. Krakauwer(http://www.elconfidencial.com/alma-corazon-vida/2015-05-15/david-c-krakauer-explica-lo-que-significa-ser-inteligente_792358/).
+- [Guía de NVDA](https://nvdaes.github.io/nvda/userGuide.html), disponible en el submenú Ayuda.
+- [Archivos de registro y de volcado de NVDA](https://github.com/nvaccess/nvda/wiki/LogFilesAndCrashDumps) (en inglés).
+- [Artículo sobre David C. Krakauwer](http://www.elconfidencial.com/alma-corazon-vida/2015-05-15/david-c-krakauer-explica-lo-que-significa-ser-inteligente_792358/).
 
 En próximas entradas compartiremos más información sobre los archivos de registro y de volcado de NVDA.
 Deseamos que disfrutes del blog y esperamos tu colaboración.
