@@ -16,6 +16,7 @@ Lo haremos en compañía del investigador David C. Krakauer... O, por lo menos, 
 A partir de esta reflexión podemos preguntarnos:
 ¿De verdad hay algún error que deba ser resuelto? ¿Cómo hablar sobre él?
 Si lo más propio de los errores es la expectativa de mejora:
+
 - Observa las cosas como son y descubre cómo te gustaría que sean.
 - Cuando hables sobre un error, indica cómo son las cosas (por ejemplo, versión del sistema operativo, idiomas de la interfaz, con qué frecuencia se produce el error, si es posible reproducirlo y cómo, etc); si es necesario, explica en detalle tus objetivos. Es decir: comenta lo que observas y lo que esperas.
 
