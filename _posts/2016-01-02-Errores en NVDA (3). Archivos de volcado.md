@@ -24,7 +24,9 @@ Para habilitarlo para una aplicación determinada:
 1. Ve a la aplicación.
 2. Pulsa NVDA+control+z para abrir la consola Python de NVDA.
 3. Teclea la siguiente instrucción exactamente como aparece (probablemente querrás copiar y pegarla):
+
 > focus.appModule.dumpOnCrash()
+
 4. Pulsa Enter
 5. Se mostrará la ruta del archivo que será generado. Si deseas copiarla, puedes pulsar f6 para desplazarte al "texto de salida" de la consola.
 
@@ -33,7 +35,7 @@ Estos archivos de volcado siempre se ubicarán en la "carpeta temporal del usuar
 ### Referencias ###
 
 - [Cómo leer un minidump](https://norfipc.com/recuperar/como-leer-minidump-saber-provoca-error-pantalla-azul.php).
-- Usar archivos de volcado de memoria para depurar bloqueos de la aplicación en Visual Studio(https://msdn.microsoft.com/es-es/library/d5zhxt22.aspx).
+- [Usar archivos de volcado de memoria para depurar bloqueos de la aplicación en Visual Studio](https://msdn.microsoft.com/es-es/library/d5zhxt22.aspx).
 
 Esperamos que esta información sea útil, y deseamos un feliz 2016 a los miembros presentes o futuros de nuestra comunidad, con una [cita compartida en la lista de correo de NVDA](https://es.groups.yahoo.com/neo/groups/nvdaespanol/conversations/messages/24189):
 
