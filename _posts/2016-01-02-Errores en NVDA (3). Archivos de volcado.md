@@ -24,9 +24,7 @@ Para habilitarlo para una aplicación determinada:
 1. Ve a la aplicación.
 2. Pulsa NVDA+control+z para abrir la consola Python de NVDA.
 3. Teclea la siguiente instrucción exactamente como aparece (probablemente querrás copiar y pegarla):
-
-> focus.appModule.dumpOnCrash()
-
+"focus.appModule.dumpOnCrash()"
 4. Pulsa Enter
 5. Se mostrará la ruta del archivo que será generado. Si deseas copiarla, puedes pulsar f6 para desplazarte al "texto de salida" de la consola.
 
