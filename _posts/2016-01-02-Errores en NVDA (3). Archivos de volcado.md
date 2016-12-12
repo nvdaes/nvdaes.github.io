@@ -20,7 +20,7 @@ Si NVDA se bloquea, generará un fichero llamado archivo de minivolcado ("minidu
 Cuando NVDA se bloquee, habitualmente se reiniciará por sí mismo. En algunas circunstancias excepcionales, esto podría no funcionar.
 Si NVDA se bloquea, se generará un archivo de minivolcado en un fichero llamado nvda_crash.dmp. Para la mayoría de usuarios, este fichero puede encontrarse en la "carpeta temporal del usuario" (%temp%). Para usuarios que ejecuten NVDA desde el código fuente, nvda_crash.dmp se ubicará en el directorio source.
 
-####Archivos de minivolcado para otras aplicaciones ####
+#### Archivos de minivolcado para otras aplicaciones ####
 
 Si una aplicación que usas se está bloqueando y sospechas que NVDA es la causa, puedes solicitar que se genere un archivo de minivolcado cuando esa aplicación se bloquee. En general, solo deberías hacer esto cuando un desarrollador lo solicite o si eres un usuario avanzado. Esto no está habilitado por defecto, y es necesario habilitarlo para cada aplicación después de que haya sido ejecutada.
 Para habilitarlo para una aplicación determinada:
