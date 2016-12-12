@@ -1,5 +1,5 @@
 ---
-title: Errores en NVDA
+title: Errores en NVDA (2). Archivos de registro
 layout: post
 author: Noelia
 permalink: "/errores2/"
