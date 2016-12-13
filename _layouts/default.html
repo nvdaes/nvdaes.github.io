@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-        <meta charset="utf-8" />
-    {% seo title=false %}
-	  {% include meta.html %}
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
+
+    {% include meta.html %}
+
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
