@@ -1,5 +1,5 @@
 ---
-title: Nvdaes.Github.Io
+title: Comunidad hispanohablante de NVDA
 timezone: UTC
 collections:
   posts:
@@ -45,6 +45,7 @@ sass:
 gems:
 - jekyll-sitemap
 - jekyll-feed
+- jekyll-seo-tag
 exclude:
 - Gemfile.lock
 - LICENSE
