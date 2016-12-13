@@ -6,6 +6,7 @@ permalink: "/errores2/"
 series: "Errores"
 ---
 <footer>Jueves, 17 de diciembre de 2015</footer>
+
 En este artículo se explica cómo encontrar los archivos de registro de NVDA, que, como mencionamos en la entrada Errores en NVDA, pueden ayudar a comprender, comunicar y solucionar problemas y, por ello, a mejorar la experiencia con el lector de pantalla.
 NVDA guarda información sobre su actividad en los siguientes archivos:
 

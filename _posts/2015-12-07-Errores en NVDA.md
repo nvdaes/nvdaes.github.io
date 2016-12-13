@@ -6,6 +6,7 @@ permalink: "/errores1/"
 series: "Errores"
 ---
 <footer>Lunes, 7 de diciembre de 2015</footer>
+
 En esta ocasión propondremos algunas sugerencias para comprender los errores que a veces observamos en NVDA, intentando mejorar nuestra experiencia con el lector de pantalla.
 Lo haremos en compañía del investigador David C. Krakauer... O, por lo menos, con algunas de sus interesantes reflexionhes:
 
