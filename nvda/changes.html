@@ -8,6 +8,125 @@
 <font size="4">
 </font></center>
 
+<h2>2016.4</h2>
+<p>
+Lo reseñable de esta versión incluye la mejora del soporte para 
+Microsoft Edge; el modo exploración en la aplicación Correo de Windows 
+10; y mejoras significativas para los diálogos de NVDA.
+</p>
+<h3>Nuevas Características</h3>
+<ul>
+<li>NVDA ahora puede indicar la sangría de líneas utilizando tonos. Esto
+ se puede configurar utilizando el cuadro combinado "Anunciar Sangría de
+ Líneas" en las preferencias del diálogo Formateado de documentos de 
+NVDA. (<a href="https://github.com/nvaccess/nvda/issues/5906" target="_blank">#5906</a>)
+</li><li>Soporte para la pantalla braille Orbit Reader 20 . (<a href="https://github.com/nvaccess/nvda/issues/6007" target="_blank">#6007</a>)
+</li><li>Se ha añadido una opción para abrir la ventana del visualizador
+ de voz al arrancar. Esto puede habilitarse a través de una casilla de 
+verificación en la ventana del visualizador de voz. (<a href="https://github.com/nvaccess/nvda/issues/5050" target="_blank">#5050</a>)
+</li><li>Al reabrir la ventana del visualizador de voz, la localización y las dimensiones ahora se restaurarán. (<a href="https://github.com/nvaccess/nvda/issues/5050" target="_blank">#5050</a>)
+</li><li>Los campos de referencia cruzada en Microsoft Word ahora se 
+tratan como hipervínculos. Se anuncian como enlaces y se pueden activar.
+ (<a href="https://github.com/nvaccess/nvda/issues/6102" target="_blank">#6102</a>)
+</li><li>Soporte para las pantallas braille Baum SuperVario2, Baum Vario 340 y HumanWare Brailliant2. (<a href="https://github.com/nvaccess/nvda/issues/6116" target="_blank">#6116</a>)
+</li><li>Soporte inicial para la actualización Anniversary de Microsoft Edge. (<a href="https://github.com/nvaccess/nvda/issues/6271" target="_blank">#6271</a>)
+</li><li>Ahora se utiliza el modo exploración al leer correos electrónicos en la aplicación correo de Windows 10. (<a href="https://github.com/nvaccess/nvda/issues/6271" target="_blank">#6271</a>)
+</li></ul>
+
+<h3>Cambios</h3>
+<ul>
+<li>Actualizado el transcriptor braille liblouis a 3.0.0. Esto incluye mejoras significativas para el Braille Inglés Unificado. (<a href="https://github.com/nvaccess/nvda/issues/6109" target="_blank">#6109</a>, <a href="https://github.com/nvaccess/nvda/issues/4194" target="_blank">#4194</a>, <a href="https://github.com/nvaccess/nvda/issues/6220" target="_blank">#6220</a>, <a href="https://github.com/nvaccess/nvda/issues/6140" target="_blank">#6140</a>)
+</li><li>En el administrador de complementos, los botones Deshabilitar 
+complemento y Habilitar complemento ahora tienen atajos de teclado 
+(alt+d y alt+e, respectivamente). (<a href="https://github.com/nvaccess/nvda/issues/6388" target="_blank">#6388</a>)
+</li><li>Se han resuelto varios problemas de relleno y alineación en diálogos de NVDA. (<a href="https://github.com/nvaccess/nvda/issues/6317" target="_blank">#6317</a>, <a href="https://github.com/nvaccess/nvda/issues/5548" target="_blank">#5548</a>, <a href="https://github.com/nvaccess/nvda/issues/6342" target="_blank">#6342</a>, <a href="https://github.com/nvaccess/nvda/issues/6343" target="_blank">#6343</a>, <a href="https://github.com/nvaccess/nvda/issues/6349" target="_blank">#6349</a>)
+</li><li>El diálogo formateado de documento se ha ajustado de manera que el contenido se deslice. (<a href="https://github.com/nvaccess/nvda/issues/6348" target="_blank">#6348</a>)
+</li><li>Ajustada la distribución del diálogo pronunciación de símbolos 
+por lo que se utiliza todo el ancho del diálogo para la lista de 
+símbolos. (<a href="https://github.com/nvaccess/nvda/issues/6101" target="_blank">#6101</a>)
+</li><li>En modo exploración en navegadores web, las órdenes de 
+navegación de una sola letra de los campos de edición (e y shift+e) y de
+ los campos de formulario (f y shift+f) ahora mueven a campos de edición
+ de sólo lectura. (<a href="https://github.com/nvaccess/nvda/issues/4164" target="_blank">#4164</a>)
+</li><li>En las opciones de formateado de documentos de NVDA, "Anunciar 
+cambios de formato después del cursor" se ha renombrado a "Anunciar 
+cambios de formato después  del cursor", tal que afecte tanto al braille
+ como a la voz. Nota: esto no afecta a la traducción al español ya que 
+usamos announce y report como sinónimos. (<a href="https://github.com/nvaccess/nvda/issues/6336" target="_blank">#6336</a>)
+</li><li>Ajustada la apariencia del "diálogo Bienvenida" de NVDA. (<a href="https://github.com/nvaccess/nvda/issues/6350" target="_blank">#6350</a>)
+</li><li>Los cuadros de diálogo de NVDA ahora tienen sus botones "Aceptar" y "Cancelar" alineados a la derecha del diálogo. (<a href="https://github.com/nvaccess/nvda/issues/6333" target="_blank">#6333</a>)
+</li><li>Ahora se utilizan controles de giro para los campos de entrada 
+numérica tal como la opción de "porcentaje de tono de mayúsculas" en el 
+diálogo Opciones de Vopz. Puedes introducir el valor decidido o utilizar
+ las teclhas de flecha arriba y abajo para ajustar el valor. (<a href="https://github.com/nvaccess/nvda/issues/6099" target="_blank">#6099</a>)
+</li><li>El modo en el que IFrames se anuncia (documentos integrados 
+dentro de documentos) se ha hecho mucho más consistente para los 
+navegadores. IFrames ahora se anuncia como "marco" en Firefox. (<a href="https://github.com/nvaccess/nvda/issues/6047" target="_blank">#6047</a>)
+</li></ul>
+
+<h3>Corrección de Fallos</h3>
+<ul>
+<li>Corregido un extraño problema al salir de  NVDA mientras el visualizador de voz está abierto causa un error. (<a href="https://github.com/nvaccess/nvda/issues/5050" target="_blank">#5050</a>)
+</li><li>Los mapas de imagen ahora se procesan como se esperaba en el modo exploración en Mozilla firefox. (<a href="https://github.com/nvaccess/nvda/issues/6051" target="_blank">#6051</a>)
+</li><li>Mientras se está en el diálogo diccionarios, al pulsar la tecla
+ intro ahora se guarda cualquier cambio que hayas hecho y se cierra el 
+diálogo. Anteriormente, al pulsar intro no se hacía nada. (<a href="https://github.com/nvaccess/nvda/issues/6206" target="_blank">#6206</a>)
+</li><li>Ahora se muestran los mensajes en braille al cambiar los modos 
+de entrada para un método de entrada (entrada nativa/alfanumérica, forma
+ completa/ forma media, etc.). (<a href="https://github.com/nvaccess/nvda/issues/5892" target="_blank">#5892</a>, <a href="https://github.com/nvaccess/nvda/issues/5893" target="_blank">#5893</a>)
+</li><li>Al deshabilitar y luego inmediatamente rehabilitar un 
+complemento o viceversa, el estado del complemento  ahora vuelve a tal y
+ como estaba anteriormente. (<a href="https://github.com/nvaccess/nvda/issues/6299" target="_blank">#6299</a>)
+</li><li>Al utilizar Microsoft Word, los campos de número de página en encabezados ahora pueden leerse. (<a href="https://github.com/nvaccess/nvda/issues/6004" target="_blank">#6004</a>)
+</li><li>El ratón ahora puede utilizarse para mover el foco entre la 
+lista de símbolos y los campos de edición en el diálogo pronunciación de
+ símbolos. (<a href="https://github.com/nvaccess/nvda/issues/6312" target="_blank">#6312</a>)
+</li><li>En modo exploración en microsoft Word se corrigió un problema 
+que detiene la aparición de la lista de elementos cuando contiene un 
+hipervínculo inválido. (<a href="https://github.com/nvaccess/nvda/issues/5886" target="_blank">#5886</a>)
+</li><li>Después de cerrarse a través de la barra de tareas o del atajo 
+de teclado alt+F4, el estado de la casilla de verificación visualizador 
+de voz en el menú NVDA ahora reflejará la visibilidad actual de la 
+ventana. (<a href="https://github.com/nvaccess/nvda/issues/6340" target="_blank">#6340</a>)
+</li><li>La orden recargar plugins ya no causa problemas para los 
+perfiles de configuración disparados, en los documentos nuevos en 
+navegadores web y en revisión de pantalla. (<a href="https://github.com/nvaccess/nvda/issues/2892" target="_blank">#2892</a>, <a href="https://github.com/nvaccess/nvda/issues/5380" target="_blank">#5380</a>)
+</li><li>En la lista de idiomas en el diálogo Opciones Generales de 
+NVDA, idiomas tales como el Aragonés ahora se muestran correctamente en 
+Windows 10. (<a href="https://github.com/nvaccess/nvda/issues/6259" target="_blank">#6259</a>)
+</li><li>Las teclas de sistema de emulación de teclado (ej.: un botón en
+ una pantalla braille que emule la pulsación de la tecla tab) ahora se 
+presentan en el idioma configurado en NVDA en la ayuda de entrada y en 
+el diálogo Gestos de Entrada. Anteriormente, siempre se presentaban en 
+inglés. (<a href="https://github.com/nvaccess/nvda/issues/6212" target="_blank">#6212</a>)
+</li><li>Al cambiar el idioma de NVDA (desde el diálogo Opciones Generales) ahora no tiene efecto hasta que NVDA se reinicie. (<a href="https://github.com/nvaccess/nvda/issues/4561" target="_blank">#4561</a>)
+</li><li>Ya no es posible dejar el campo Patrón en blanco para una entrada de diccionario nueva. (<a href="https://github.com/nvaccess/nvda/issues/6412" target="_blank">#6412</a>)
+</li><li>Corregido un extraño problema al escanear puertos serie en 
+algunos sistemas que hacía algunos controladores de pantallas braille 
+inusables. (<a href="https://github.com/nvaccess/nvda/issues/6462" target="_blank">#6462</a>)
+</li><li>En Microsoft word las viñetas numeradas ahora se leen desde las celdas de las tablas al moverse por celdas. (<a href="https://github.com/nvaccess/nvda/issues/6446" target="_blank">#6446</a>)
+</li><li>Ahora es posible asignar gestos a órdenes para el controlador 
+de la pantalla braille Handy Tech en el diálogo Gestos de Entrada. (<a href="https://github.com/nvaccess/nvda/issues/6461" target="_blank">#6461</a>)
+</li><li>En Microsoft Excel, al pulsar intro o intro del teclado 
+numérico cuando se navega por una hoja de cálculo ahora se anuncia 
+correctamente la navegación a la siguiente fila. (<a href="https://github.com/nvaccess/nvda/issues/6500" target="_blank">#6500</a>)
+</li><li>iTunes ya no se cuelga intermitentemente al utilizar el modo exploración para la Tienda iTunes, Apple Music, etc. (<a href="https://github.com/nvaccess/nvda/issues/6502" target="_blank">#6502</a>)
+</li><li>Corregidos cuelgues en aplicaciones basadas en Mozilla y Chrome de 64 bits. (<a href="https://github.com/nvaccess/nvda/issues/6497" target="_blank">#6497</a>)
+</li><li>En Firefox con el multiproceso habilitado, el modo exploración y los campos de texto editables ahora funcionan correctamente. (<a href="https://github.com/nvaccess/nvda/issues/6380" target="_blank">#6380</a>)
+</li></ul>
+
+<h3>Cambios para Desarrolladores</h3>
+<ul>
+<li>Ahora es posible proporcionar app modules para ejecutables que 
+contengan un punto (.) en sus nombres. Los puntos se reemplazan con 
+subrayados (_). (<a href="https://github.com/nvaccess/nvda/issues/5323" target="_blank">#5323</a>)
+</li><li>El nuevo módulo gui.guiHelper incluye utilidades para 
+simplificar la creación de GUIs wxPython, incluyendo la gestión 
+automática de espaciado. Esto facilita una mejor  apariencia visual y 
+consistencia, así como la creación fácil de GUIs nuevas para 
+desarrolladores ciegos. (<a href="https://github.com/nvaccess/nvda/issues/6287" target="_blank">#6287</a>)
+</li></ul>
+
 <h2>2016.3</h2>
 <p>
 Lo reseñable de esta versión incluye la capacidad para deshabilitar 
@@ -1631,7 +1750,7 @@ Por favor ten en cuenta los siguientes  cambios para órdenes comúnmente utiliz
 Además, entre otros cambios, han variado las órdenes para toda la 
 navegación de objetos, revisión de texto, clic del ratón y grupos de 
 opciones del sintetizador.
-Por favor mira el documento <a href="file:///C:/Users/User/AppData/Local/Temp/nsh9F41.tmp/app/documentation/es/keyCommands.html" target="_blank">Referencia Rápida de Órdenes</a> para las nuevas teclas.
+Por favor mira el documento <a href="file:///C:/Program%20Files%20%28x86%29/NVDA/documentation/es/keyCommands.html" target="_blank">Referencia Rápida de Órdenes</a> para las nuevas teclas.
 </p>
 <h3>Nuevas Características</h3>
 <ul>

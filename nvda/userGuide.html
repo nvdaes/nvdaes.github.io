@@ -2,9 +2,9 @@
 <html><head>
 <meta name="generator" content="http://txt2tags.sf.net">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>	Guía del Usuario de NVDA 2016.3</title>
+<title>	Guía del Usuario de NVDA 2016.4</title>
 </head><body text="black" bgcolor="white">
-<p align="center"></p><center><h1>	Guía del Usuario de NVDA 2016.3</h1>
+<p align="center"></p><center><h1>	Guía del Usuario de NVDA 2016.4</h1>
 <font size="4">
 </font></center>
 
@@ -153,7 +153,7 @@
     </li><li><a href="#toc103">12.2. Optelec ALVA BC640/680</a>
     </li><li><a href="#toc104">12.3. Pantallas Handy Tech</a>
     </li><li><a href="#toc105">12.4. MDV Lilli</a>
-    </li><li><a href="#toc106">12.5. Pantallas braille Baum/Humanware/APH</a>
+    </li><li><a href="#toc106">12.5. Pantallas braille Baum/Humanware/APH/Orbit</a>
     </li><li><a href="#toc107">12.6. hedo ProfiLine USB</a>
     </li><li><a href="#toc108">12.7. hedo MobilLine USB</a>
     </li><li><a href="#toc109">12.8. HumanWare Brailliant Series BI/B</a>
@@ -334,12 +334,14 @@ también tienen las siguientes restricciones:
 </li><li>La incapacidad de leer las pantallas del Control de Cuentas de 
 Usuario (UAC) cuando trate de iniciar una aplicación con privilegios de 
 administrador.
-</li><li>Windows 8 y superior: la incapacidad para soportar la entrada desde una pantalla táctil.
-</li><li>Windows 8 y superior: la incapacidad de proporcionar 
+</li><li>Windows 8 y posterior: la incapacidad para soportar la entrada desde una pantalla táctil.
+</li><li>Windows 8 y posterior: la incapacidad de proporcionar 
 características tales como modo exploración y verbalización de 
 caracteres al escribir en Windows Store apps.
+</li><li>Windows 8 y posterior: la atenuación de audio no se soporta.
 </li></ul>
 
+<p></p>
 <a name="toc11"></a>
 <h3>3.2. Instalando NVDA</h3>
 <p>
@@ -2068,9 +2070,9 @@ Esta opción te permite elegir la tarjeta de sonido a través de la que NVDA deb
 Tecla: NVDA+shift+d
 </p>
 <p>
-En Windows 8 y superiores, esta opción te permite elegir si NVDA debería
- bajar el volumen de otras aplicaciones mientras NVDA esté hablando, o 
-todo el tiempo mientras NVDA esté en ejecución.
+En Windows 8 y posteriores, esta opción te permite elegir si NVDA 
+debería bajar el volumen de otras aplicaciones mientras NVDA esté 
+hablando, o todo el tiempo mientras NVDA esté en ejecución.
 </p>
 <ul>
 <li>Sin atenuación: NVDA nunca bajará el volumen de otro audio. 
@@ -2081,6 +2083,10 @@ volumen de otro audio cuando NVDA esté hablando o reproduciendo sonidos.
 </li></ul>
 
 <p></p>
+<p>
+Esta opción sólo está disponible si NVDA se ha instalado.
+No es posible soportar la atenuación de audio para copias portables y temporales de NVDA.
+</p>
 <a name="VoiceSettings"></a>
 <h4>9.1.3. Opciones de Voz (NVDA+control+v)</h4>
 <p>
@@ -2849,34 +2855,50 @@ la fuente, cada vez que navegues por el texto con una fuente diferente,
 el nombre de la fuente será anunciado.
 </p>
 <p>
+Las opciones de formateado de documento se organizan en grupos.
 Puedes configurar el anunciado de:
 </p>
 <ul>
-<li>Nombre de fuente
-</li><li>Tamaño de fuente
-</li><li>Atributos de fuente
-</li><li>Alineación del texto
-</li><li>Colores
-</li><li>Comentarios
-</li><li>Revisiones del editor
-</li><li>Énfasis
-</li><li>Estilo del texto
-</li><li>Errores de ortografía
-</li><li>Números de página
-</li><li>Números de línea
-</li><li>Sangría de línea
-</li><li>Sangría de párrafo (por ejemplo: sangría francesa, sangría de primera línea)
-</li><li>Espaciado de línea (simple, doble etc)
-</li><li>Tablas
-</li><li>Encabezados de fila/columna de tabla
-</li><li>Coordenadas de celdas de tabla
-</li><li>Enlaces
-</li><li>Encabezados
-</li><li>Listas
-</li><li>Citas
-</li><li>Puntos de referencia
-</li><li>Marcos
-</li><li>Cuando algo admite clic
+<li>Fuente
+ <ul>
+ <li>Nombre de fuente
+ </li><li>Tamaño de fuente
+ </li><li>Atributos de fuente
+ </li><li>Énfasis
+ </li><li>Estilo
+ </li><li>Colores
+ </li></ul>
+</li><li>Información de documento
+ <ul>
+ <li>Comentarios
+ </li><li>Revisiones del editor
+ </li><li>Errores de ortografía
+ </li></ul>
+</li><li>Páginas y espaciado
+ <ul>
+ <li>Números de página
+ </li><li>Números de línea
+ </li><li>Anunciado de sangría de línea <a href="#lineIndentationOptions">(Desactivado, voz, Tonos, voz y tonos)</a>
+ </li><li>Sangría de párrafo (ej.: sangría, sangría de primera línea)
+ </li><li>Espaciado de línea (simple, doble etc)
+ </li><li>Alineación
+ </li></ul>
+</li><li>Información de tabla
+ <ul>
+ <li>Tablas
+ </li><li>Encabezados de fila/columna
+ </li><li>Coordenadas de celda
+ </li></ul>
+</li><li>Elementos
+ <ul>
+ <li>Encabezados
+ </li><li>Enlaces
+ </li><li>Listas
+ </li><li>Citas
+ </li><li>Puntos de referencia
+ </li><li>Marcos
+ </li><li>Admite clic
+ </li></ul>
 </li></ul>
 
 <p></p>
@@ -2886,7 +2908,7 @@ Para conmutar estas  opciones desde cualquier lugar, por favor asigna gestos per
 <h5>Anunciar cambios de formato después del cursor</h5>
 <p>
 Si está activada, esta opción dice a NVDA que pruebe y detecte todos los
- cambios de formato en una línea según la verbaliza, si se hace esto 
+ cambios de formato en una línea según la anuncia, si se hace esto 
 podría enlentecerse la respuesta de NVDA.
 </p>
 <p>
@@ -2897,8 +2919,27 @@ de la respuesta.
 </p>
 <p>
 Activa esta opción mientras compruebas la lectura de documentos en 
-aplicaciones tales como Microsoft Word, donde el formato sea importante.
+aplicaciones tales como Worpad, donde el formato sea importante.
 </p>
+<a name="lineIndentationOptions"></a>
+<h5>Anunciado de sangría de líneas</h5>
+<p>
+Esta opción te permite configurar cómo debe leerse la sangría del principio de las líneas.
+El cuadro combinado Anunciar sangría de líneas con tiene cuatro opciones.
+</p>
+<ul>
+<li>Desactivado: NVDA no tratará la sangría especialmente.
+</li><li>Voz: si se selecciona voz, cuando la cantidad de sangrado 
+cambie, NVDA verbalizará algo como "doce espacios" o "cuatro 
+tabuladores."
+</li><li>Tonos: Si se selecciona Tonos, cuando la cantidad de sangrado 
+cambie, los tonos indican la cantidad de cambios en la sangría.
+El tono se incrementará en intensidad para cada espacio, y para el 
+tabulador,se incrementará en intensidad equivalente de 4 espacios.
+</li><li>Voz y Tonos: esta opción lee la sangría utilizando ambos métodos de arriba.
+</li></ul>
+
+<p></p>
 <a name="toc76"></a>
 <h4>9.1.13. Diccionarios del Habla</h4>
 <p>
@@ -3304,6 +3345,11 @@ ver todo el texto que NVDA esté verbalizando actualmente.
 <p>
 Para activar el visualizador de voz, marca el elemento de menú "Visualizador de Voz" bajo Herramientas en el menú NVDA.
 Desmarca el elemento de menú para desactivarlo.
+</p>
+<p>
+La ventana del visualizador de voz contiene una casilla de verificación etiquetada "Mostrar visualizador de voz al arrancar".
+Si esta está marcada, el visualizador de voz se abrirá cuando NVDA arranque.
+La ventana del visualizador de voz siempre intentará reabrirse con las mismas dimensiones y localización que cuando se cerró.
 </p>
 <p>
 Mientras el visualizador de voz está activado, se actualiza 
@@ -3826,6 +3872,10 @@ Por favor consulta la documentación de la pantalla para descripciones de dónde
 <td>spEnter</td>
 </tr>
 <tr>
+<td>Anunciar fecha/hora</td>
+<td>sp1+sp2</td>
+</tr>
+<tr>
 <td>menú NVDA</td>
 <td>sp1+sp3</td>
 </tr>
@@ -3994,24 +4044,31 @@ Por favor consulta la documentación de la pantalla para descripciones de dónde
 </tbody></table>
 
 <a name="toc106"></a>
-<h3>12.5. Pantallas braille Baum/Humanware/APH</h3>
+<h3>12.5. Pantallas braille Baum/Humanware/APH/Orbit</h3>
 <p>
-Varias pantallas braille de <a href="http://www.baum.de/cms/en/">Baum</a>, <a href="http://www.humanware.com/">HumanWare</a> y <a href="http://www.aph.org/">APH</a> están soportadas cuando se conecten a través del USB o del bluetooth.
+Varias pantallas braille de <a href="http://www.baum.de/cms/en/">Baum</a>, <a href="http://www.humanware.com/">HumanWare</a>, <a href="http://www.aph.org/">APH</a> y <a href="http://www.orbitresearch.com/">Orbit</a> están soportadas cuando se conecten a través de los puertos USB, bluetooth o serie.
 Estas incluyen:
 </p>
 <ul>
-<li>Baum: SuperVario, PocketVario, VarioUltra, Pronto!
-</li><li>HumanWare: Brailliant, BrailleConnect
+<li>Baum: SuperVario, PocketVario, VarioUltra, Pronto!, SuperVario2, Vario 340
+</li><li>HumanWare: Brailliant, BrailleConnect, Brailliant2
 </li><li>APH: Refreshabraille
+</li><li>Orbit: Orbit Reader 20
 </li></ul>
 
 <p>
 Algunas otras pantallas manufacturadas por Baum también podrían funcionar, aunque no han sido probadas.
 </p>
 <p>
-Si conectas a través de USB otras pantallas diferentes a VarioUltra, 
-Pronto! o Refreshabraille con el modo USB configurado a HID, primero 
-debes instalar los controladores USB proporcionados por el fabricante.
+Si conectas a través de USB otras pantallas que no utilicen HID, primero
+ debes instalar los controladores USB proporcionados por el fabricante.
+La VarioUltra y Pronto! utilizan HID.
+La Refreshabraille y la Orbit Reader 20 pueden utilizar HID si se 
+configuran apropiadamente.
+</p>
+<p>
+El modo serie USB de la Orbit Reader 20 actualmente sólo se soporta en Windows 10.
+Generalmente debería utilizarse USB HID  en su lugar.
 </p>
 <p>
 Seguidamente van las asignaciones de teclas para esta pantalla con NVDA.
