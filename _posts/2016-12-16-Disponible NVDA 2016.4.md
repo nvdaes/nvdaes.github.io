@@ -17,4 +17,4 @@ Puedes descargar la última versión de NVDA desde la [página de descarga en el
 
 Para ayuda en español sobre NVDA o el procedimiento de descarga, consulta la [página Ayuda y descarga](https://nvdaes.github.io/ayuda/) disponible en esta web.
 
-Te deseamos una buena experiencia con NVDA 2016.3, y esperamos contar contigo para seguir construyendo nuestra comunidad. 
+Te deseamos una buena experiencia con NVDA 2016.4, y esperamos contar contigo para seguir construyendo nuestra comunidad. 
