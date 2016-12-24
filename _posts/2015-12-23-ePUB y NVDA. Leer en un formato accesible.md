@@ -13,7 +13,7 @@ No obstante, como ePUB es compatible con diferentes dispositivos y tecnologías,
 
 ### ¿Qué es un ePUB? ###
 
-ePUB (<span lang("en">Electronic Publication</span>) es un formato de código abierto para la creación y distribución de libros digitales, desarrollado por el [Foro Internacional de Publicación Digital](http://www.idpf.org/).
+ePUB (<span lang="en">Electronic Publication</span>) es un formato de código abierto para la creación y distribución de libros digitales, desarrollado por el [Foro Internacional de Publicación Digital](http://www.idpf.org/).
 
 Un libro en formato ePUB es un archivo comprimido que puede contener un conjunto de documentos similares a páginas web, entre otros recursos como imágenes o información relativa a la presentación del texto.
 
@@ -28,7 +28,7 @@ Cada ePUB debe incluir:
 
 Recomendamos leer estos libros en el navegador web, concretamente en [Firefox](https://www.mozilla.org/es-ES/firefox/new/), para seleccionar texto de cada documento y utilizar el modo exploración de NVDA.
 
-#### Biblioteca EL-Books ####
+##### Biblioteca EL-Books #####
 
 Existen bibliotecas que pueden mostrar los archivos ePUB cargando sus distintos documentos en el navegador web. Aquí destacamos [EL-Books](http://www.el-books.org/), una biblioteca digital para personas con discapacidad visual, cuyo formato principal es ePUB.
 
@@ -36,7 +36,7 @@ Además de descargarse para su lectura con programas externos, cada libro puede 
 
 También es posible usar el complemento de NVDA [PlaceMarkers](http://addons.nvda-project.org/addons/placeMarkers.es.html), para encontrar más fácilmente partes de cada documento mostrado en la lectura de los libros.
 
-#### Complementos de Firefox ####
+##### Complementos de Firefox #####
 
 Recomendamos el complemento [ePUBReader](https://addons.mozilla.org/es/firefox/addon/epubreader/), que también puede usarse con PlaceMarkers.
 
@@ -47,7 +47,7 @@ Otra opción es el complemento [Lucifox](https://addons.mozilla.org/en-US/firefo
 También pueden ser útiles los siguientes programas, aunque probablemente la experiencia de lectura no resulte tan satisfactoria:
 
 - [Adobe Digital Editions](http://www.adobe.com/es/solutions/ebook/digital-editions/download.html) (página en inglés).
-- [Balabolka(http://www.cross-plus-a.com/es/balabolka.htm).
+- [Balabolka](http://www.cross-plus-a.com/es/balabolka.htm).
 - [EbookReader](http://www.litersoft.org/EbookReader).
 
 ### Lectura accesible: eliminar el DRM ###
