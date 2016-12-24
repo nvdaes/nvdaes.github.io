@@ -69,3 +69,5 @@ También puede ser útil consultar el artículo 7 del [Tratado de Marrakech](htt
 - [ePUB accesibles (blog de Olga Carreras)](http://olgacarreras.blogspot.com.es/2011/09/epub-accesibles.html).
 
 Esperamos que esta entrada resulte útil para seguir disfrutando de buenas lecturas.
+
+{% include series.html %}
