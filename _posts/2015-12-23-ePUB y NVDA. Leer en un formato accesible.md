@@ -1,7 +1,7 @@
 ---
 title: ePUB y NVDA. Leer en un formato accesible
 permalink: epub1
-series: ePUB
+series: "ePUB"
 layout: post
 author: Noelia
 ---
