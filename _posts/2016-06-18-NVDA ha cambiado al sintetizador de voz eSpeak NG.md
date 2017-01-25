@@ -1,5 +1,6 @@
 ---
 title: NVDA ha cambiado al sintetizador de voz eSpeak NG
+date: 2016-06-18 00:00:00 Z
 layout: post
 author: Chris
 ---

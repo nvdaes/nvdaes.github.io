@@ -1,9 +1,10 @@
 ---
 title: ePUB y NVDA. Leer en un formato accesible
+date: 2015-12-23 00:00:00 Z
 permalink: epub1
 layout: post
 author: Noelia
-series: "ePUB"
+series: ePUB
 ---
 
 <footer>Miércoles, 23 de diciembre de 2015</footer>

@@ -1,5 +1,6 @@
 ---
 title: Braille y NVDA. A propósito de la estenografía
+date: 2016-09-07 00:00:00 Z
 permalink: braille1
 layout: post
 author: Noelia

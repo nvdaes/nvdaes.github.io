@@ -1,10 +1,12 @@
 ---
 title: Errores en NVDA (3). Archivos de volcado
+date: 2016-01-02 00:00:00 Z
+permalink: "/errores3/"
 layout: post
 author: Noelia
-permalink: "/errores3/"
-series: "Errores"
+series: Errores
 ---
+
 <footer>Sábado, 2 de enero de 2016</footer>
 
 A continuación traducimos parte de un [artículo sobre archivos de registro y de volcado](https://github.com/nvaccess/nvda/wiki/LogFilesAndCrashDumps) (en inglés), publicado en el [Wiki de NV Access](https://github.com/nvaccess/nvda/wiki).
