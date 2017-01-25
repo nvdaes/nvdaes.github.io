@@ -1,10 +1,12 @@
 ---
 title: Errores en NVDA
+date: 2015-12-07 00:00:00 Z
+permalink: "/errores1/"
 layout: post
 author: Noelia
-permalink: "/errores1/"
-series: "Errores"
+series: Errores
 ---
+
 <footer>Lunes, 7 de diciembre de 2015</footer>
 
 En esta ocasión propondremos algunas sugerencias para comprender los errores que a veces observamos en NVDA, intentando mejorar nuestra experiencia con el lector de pantalla.
