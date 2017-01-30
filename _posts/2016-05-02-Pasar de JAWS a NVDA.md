@@ -1,5 +1,6 @@
 ---
 title: Pasar de JAWS a NVDA
+date: 2016-05-02 00:00:00 Z
 layout: post
 author: BlindHelp
 ---
