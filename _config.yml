@@ -59,3 +59,8 @@ authors:
     name: Chris
     display_name: Chris
     web: https://nvdaes.github.io/chris
+  BlindHelp:
+    name: BlindHelp
+    display_name: BlindHelp
+    web: https://nvdaes.github.io/blindHelp
+    
