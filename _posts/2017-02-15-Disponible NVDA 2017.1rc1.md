@@ -1,5 +1,6 @@
 ---
 title: Disponible NVDA 2017.1rc1
+date: 2017-02-15 00:00:00 Z
 permalink: "/nvda-2017-1rc1/"
 layout: post
 author: Noelia
