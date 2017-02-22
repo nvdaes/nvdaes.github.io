@@ -11,7 +11,7 @@ Como se explica en esta [noticia de NV Access sobre NVDA 2017.1](https://www.nva
 
 Lo reseñable de esta versión incluye el anunciado de secciones y columnas de texto en Microsoft Word; el Soporte para lectura, navegación y anotación de libros en Kindle para PC; y el soporte mejorado para Microsoft Edge. 
 
-Para más información sobre novedades de NVDA, consulta el documento [¿Qué hay de nuevo?](https://nvdaes.github.io/nvda/changes.html), también disponible en el menú Ayuda.
+Para más información sobre novedades de NVDA, consulta el documento [¿Qué hay de nuevo?](https://nvdaes.github.io/changes.html), también disponible en el menú Ayuda.
 
 Puedes descargar la última versión de NVDA desde la [página de descarga en el sitio de NV Access](https://www.nvaccess.org/download/).
 
