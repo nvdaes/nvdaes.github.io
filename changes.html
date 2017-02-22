@@ -3,10 +3,102 @@
 <meta name="generator" content="http://txt2tags.sf.net">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Qué hay de Nuevo en NVDA</title>
-</head><body text="black" bgcolor="white">
+</head><body bgcolor="white" text="black">
 <p align="center"></p><center><h1>Qué hay de Nuevo en NVDA</h1>
 <font size="4">
 </font></center>
+
+<h2>2017.1</h2>
+<p>
+Lo reseñable de esta versión incluye el anunciado de secciones y 
+columnas de texto en Microsoft Word; el Soporte para lectura, navegación
+ y anotación de libros en Kindle para PC; y el soporte mejorado para 
+Microsoft Edge.
+</p>
+<h3>Nuevas Características</h3>
+<ul>
+<li>Ahora pueden anunciarse en Microsoft Word el tipo de salto de 
+sección y el número de sección. Esto se habilita con la opción "anunciar
+ número de página" en el diálogo Formateado de documentos. (<a href="https://github.com/nvaccess/nvda/issues/5946" target="_blank">#5946</a>)
+</li><li>En Microsoft Word ahora pueden anunciarse las columnas de 
+texto. Esto se habilita con la opción "anunciar números de página" en el
+ diálogo Formateado de documentos. (<a href="https://github.com/nvaccess/nvda/issues/5946" target="_blank">#5946</a>)
+</li><li>Ahora se soporta el cambio automático de idiomas en Wordpad. (<a href="https://github.com/nvaccess/nvda/issues/6555" target="_blank">#6555</a>)
+</li><li>La orden buscar de NVDA (NVDA+control+f) ahora se soporta en modo exploración para Microsoft Edge. (<a href="https://github.com/nvaccess/nvda/issues/6580" target="_blank">#6580</a>)
+</li><li>La navegación rápida por botones en modo exploración (b y shift+b) ahora se soporta en Microsoft Edge. (<a href="https://github.com/nvaccess/nvda/issues/6577" target="_blank">#6577</a>)
+</li><li>Cuando se copìa una hoja en Microsoft Excel, se recuerdan los encabezados de columna y de fila configurados. (<a href="https://github.com/nvaccess/nvda/issues/6628" target="_blank">#6628</a>)
+</li><li>Soporte para leer y navegar libros en Kindle para PC versión 
+1.19, incluyendo el acceso a enlaces, notas al pie, gráficos, texto 
+resaltado y notas de usuario. Por favor consulta la sección Kindle para 
+PC de la Guía de Usuario de NVDA para información adicional. (<a href="https://github.com/nvaccess/nvda/issues/6247" target="_blank">#6247</a>, <a href="https://github.com/nvaccess/nvda/issues/6638" target="_blank">#6638</a>)
+</li><li>Ahora se soporta la navegación de tablas en modo exploración en Microsoft Edge. (<a href="https://github.com/nvaccess/nvda/issues/6594" target="_blank">#6594</a>)
+</li><li>En Microsoft Excel, la orden anunciar localizaciónm del cursor 
+de revisión (escritorio: NVDA+suprimir del teclado numérico, portátil: 
+NVDA+suprimir) ahora anuncia el nombre de la hoja de cálculo y de la 
+localización de la celda. (<a href="https://github.com/nvaccess/nvda/issues/6613" target="_blank">#6613</a>)
+</li><li>Añadida una opción al diálogo Salir para reiniciar con el nivel depuración en el registro. (<a href="https://github.com/nvaccess/nvda/issues/6689" target="_blank">#6689</a>)
+</li></ul>
+
+<h3>Cambios</h3>
+<ul>
+<li>La velocidad mínima del parpadeo del cursor braille ahora es 200ms. 
+Los perfiles o las configuraciones con valores por debajo de este se 
+incrementarán en 200ms. (<a href="https://github.com/nvaccess/nvda/issues/6470" target="_blank">#6470</a>)
+</li><li>Se ha añadido una casilla de verificación al diálogo opciones 
+braille para permitir habilitar o deshabilitar el parpadeo del cursor 
+braille. Anteriormente se utilizaba un valor de cero para lograr esto. (<a href="https://github.com/nvaccess/nvda/issues/6470" target="_blank">#6470</a>)
+</li><li>Actualizado eSpeak NG (commit e095f008, 10 de enero de 2017). (<a href="https://github.com/nvaccess/nvda/issues/6717" target="_blank">#6717</a>)
+</li><li>Debido a cambios en la actualización Windows 10 Creators, el 
+modo "Atenuar siempre" ya no está disponible en las opciones de 
+Atenuación de audio de NVDA. Todavía está disponible en versiones más 
+antiguas de windows 10. (<a href="https://github.com/nvaccess/nvda/issues/6684" target="_blank">#6684</a>)
+</li><li>Debido a cambios en la Actualización Windows 10 Creators, el 
+modo "Atenuar cuando salgan voz y sonidos" ya no puede asegurarse de que
+ el audio se haya atenuado completamente antes de comenzar a hablar, ni 
+mantendrá el audio atenuado el tiempo suficiente después de hablar para 
+detener el rebote rápido en el volumen. Estos cambios no afectan a 
+versiones más antiguas de windows 10. (<a href="https://github.com/nvaccess/nvda/issues/6684" target="_blank">#6684</a>)
+</li></ul>
+
+<h3>Corrección de Fallos</h3>
+<ul>
+<li>Corregido el cuelgue en Microsoft Word al moverse por párrafos a 
+través de un documento largo mientras se está en modo exploración. (<a href="https://github.com/nvaccess/nvda/issues/6368" target="_blank">#6368</a>)
+</li><li>Las tablas en Microsoft Word que se hayan copiado desde 
+Microsoft Excel ya no se tratan como tablas de diseño, y por lo tanto, 
+ya no se ignoran. (<a href="https://github.com/nvaccess/nvda/issues/5927" target="_blank">#5927</a>)
+</li><li>Cuando se intenta teclear en Microsoft Excel mientras se esté 
+en vista protegida, NVDA ahora hace un sonido en lugar de verbalizar los
+ caracteres que no se escribieron. (<a href="https://github.com/nvaccess/nvda/issues/6570" target="_blank">#6570</a>)
+</li><li>Pulsando escape en Microsoft Excel ya no se cambia 
+incorrectamente a modo exploración, al menos que el usuario haya 
+cambiado anteriormente a modo exploración explícitamente con 
+NVDA+espacio y luego entrado en el modo foco pulsando intro en un campo 
+de formulario. (<a href="https://github.com/nvaccess/nvda/issues/6569" target="_blank">#6569</a>) 
+</li><li>NVDA ya no se cuelga en hojas de cálculo de Microsoft Excel donde se fusione una fila o columna entera. 9<a href="https://github.com/nvaccess/nvda/issues/6216" target="_blank">#6216</a>)
+</li><li>El anunciado de texto recortado o desbordado en celdas de Microsoft Excel ahora debería de ser más preciso (<a href="https://github.com/nvaccess/nvda/issues/6472" target="_blank">#6472</a>)
+</li><li>NVDA ahora anuncia cuando una casilla de verificación es de sólo lectura. (<a href="https://github.com/nvaccess/nvda/issues/6563" target="_blank">#6563</a>)
+</li><li>El lanzador de NVDA ya no mostrará un diálogo de advertencia 
+cuando no pueda reproducir el sonido de inicio debido a que no esté 
+disponible el dispositivo de audio. (<a href="https://github.com/nvaccess/nvda/issues/6289" target="_blank">#6289</a>)
+</li><li>Los controles en la cinta de Microsoft Excel que no estén disponibles ahora se anuncian como tales. (<a href="https://github.com/nvaccess/nvda/issues/6430" target="_blank">#6430</a>)
+</li><li>NVDA ya no anunciará "panel" cuando se minimicen ventanas. (<a href="https://github.com/nvaccess/nvda/issues/6671" target="_blank">#6671</a>)
+</li><li>Los caracteres que se escriben ahora se verbalizan en 
+aplicaciones UWP (incluyendo Microsoft Edge) en la actualización Windows
+ 10 Creators. (<a href="https://github.com/nvaccess/nvda/issues/6017" target="_blank">#6017</a>)
+</li><li>El seguimiento del ratón ahora funciona en todas las pantallas en ordenadores con varios monitores. (<a href="https://github.com/nvaccess/nvda/issues/6598" target="_blank">#6598</a>)
+</li><li>NVDA ya no se volverá inusable después de salir de Windows Media Player mientras se enfoca un control deslizador. (<a href="https://github.com/nvaccess/nvda/issues/5467" target="_blank">#5467</a>)
+</li></ul>
+
+<h3>Cambios para Desarrolladores</h3>
+<ul>
+<li>Los ficheros de perfiles y configuración ahora se actualizan 
+automáticamente para cumplir con los requisitos de las modificaciones 
+del esquema. Si hay un error durante la actualización, se muestra una 
+notificación, se reinicia la configuración, y el fichero de 
+configuración antiguo está disponible en el registro de NVDA en el nivel
+ 'Info'. (<a href="https://github.com/nvaccess/nvda/issues/6470" target="_blank">#6470</a>)
+</li></ul>
 
 <h2>2016.4</h2>
 <p>
@@ -31,6 +123,7 @@ tratan como hipervínculos. Se anuncian como enlaces y se pueden activar.
 </li><li>Soporte para las pantallas braille Baum SuperVario2, Baum Vario 340 y HumanWare Brailliant2. (<a href="https://github.com/nvaccess/nvda/issues/6116" target="_blank">#6116</a>)
 </li><li>Soporte inicial para la actualización Anniversary de Microsoft Edge. (<a href="https://github.com/nvaccess/nvda/issues/6271" target="_blank">#6271</a>)
 </li><li>Ahora se utiliza el modo exploración al leer correos electrónicos en la aplicación correo de Windows 10. (<a href="https://github.com/nvaccess/nvda/issues/6271" target="_blank">#6271</a>)
+</li><li>Idioma nuevo: Lituano.
 </li></ul>
 
 <h3>Cambios</h3>
@@ -444,13 +537,13 @@ muestran de nuevo como se esperaba cuando se activa una pestaña. (<a href="http
 contenido de la hoja en Microsoft Excel con el anunciado de encabezados 
 de fila y columna habilitado. (<a href="https://github.com/nvaccess/nvda/issues/5705" target="_blank">#5705</a>)
 </li><li>En Google Chrome, al navegar dentro de una Composición de 
-Entrada cuando se introducen carácteres del Este Asiático ahora funciona
+Entrada cuando se introducen caracteres del Este Asiático ahora funciona
  como se esperaba. (<a href="https://github.com/nvaccess/nvda/issues/4080" target="_blank">#4080</a>)
 </li><li>Cuando se busca en Apple Music en iTunes, el modo exploración 
 para el documento de resultados de la búsqueda ahora se actualiza como 
 se esperaba. (<a href="https://github.com/nvaccess/nvda/issues/5659" target="_blank">#5659</a>)
 </li><li>En Microsoft Excel, pulsando shift+f11 para crear una hoja nueva ahora anuncia tu nueva posición en lugar de no anunciar nada. (<a href="https://github.com/nvaccess/nvda/issues/5689" target="_blank">#5689</a>)
-</li><li>Corregidos problemas con la salida de la pantalla braille cuando se introducen carácteres coreanos. (<a href="https://github.com/nvaccess/nvda/issues/5640" target="_blank">#5640</a>)
+</li><li>Corregidos problemas con la salida de la pantalla braille cuando se introducen caracteres coreanos. (<a href="https://github.com/nvaccess/nvda/issues/5640" target="_blank">#5640</a>)
 </li></ul>
 
 <h3>Cambios para Desarrolladores</h3>
@@ -527,7 +620,7 @@ braille habilitado. (<a href="https://github.com/nvaccess/nvda/issues/2634" targ
 <h3>Cambios</h3>
 <ul>
 <li>La opción Anunciar Revisiones del Editor en el diálogo Opciones de Formato de documento de NVDA ahora se activa por omisión. (<a href="https://github.com/nvaccess/nvda/issues/4920" target="_blank">#4920</a>)
-</li><li>Al moverse por carácteres en Microsoft Word con la opción de 
+</li><li>Al moverse por caracteres en Microsoft Word con la opción de 
 NVDA Anunciar Vevisiones del Editor, ahora se anuncia menos información 
 para seguimiento de cambios, lo cual hace la navegación más eficiente. 
 Para ver la información extra, utiliza la Lista de Elementos. (<a href="https://github.com/nvaccess/nvda/issues/4920" target="_blank">#4920</a>)
@@ -572,7 +665,7 @@ controles read-only ARIA grid en modo Exploración para Mozilla Firefox y
 en una pantalla táctil.
 </li><li>Corregidos problemas al teclear varias palabras dentro del campo filtro en el diálogo Gestos de Entrada. (<a href="https://github.com/nvaccess/nvda/issues/5426" target="_blank">#5426</a>)
 </li><li>NVDA ya no se cuelga en algunos casos cuando se reconecta a una pantalla HumanWare Brailliant BI/B series a través de USB. (<a href="https://github.com/nvaccess/nvda/issues/5406" target="_blank">#5406</a>)
-</li><li>En idiomas con carácteres conjunción, las descripciones de 
+</li><li>En idiomas con caracteres conjunción, las descripciones de 
 carácter ahora funciona como debiera para mayúsculas de caracteres en 
 inglés. (<a href="https://github.com/nvaccess/nvda/issues/5375" target="_blank">#5375</a>)
 </li><li>NVDA ya no debería colgarse ocasionalmente al desplegar el Menú de Inicio en Windows 10. (<a href="https://github.com/nvaccess/nvda/issues/5417" target="_blank">#5417</a>)
@@ -729,7 +822,7 @@ controla el volumen del audio de las coordenadas. (<a href="https://github.com/n
 
 <h3>Corrección de Fallos</h3>
 <ul>
-<li>Las descripciones de carácter ahora se manejan correctamente para conjuntos de carácteres en ciertos idiomas de la India. (<a href="https://github.com/nvaccess/nvda/issues/4582" target="_blank">#4582</a>)
+<li>Las descripciones de carácter ahora se manejan correctamente para conjuntos de caracteres en ciertos idiomas de la India. (<a href="https://github.com/nvaccess/nvda/issues/4582" target="_blank">#4582</a>)
 </li><li>Si la opción "Confiar en el Idioma de la Voz al Procesar 
 Caracteres y Símbolos" está activada, el diálogo Pronunciación de 
 Puntuación/Símbolos  ahora utiliza correctamente el idioma de la voz. 
@@ -1265,7 +1358,7 @@ opción se anuncian como controles en lugar de como texto admite clic. (<a href=
 exploración cuando está enfocado un elemento de menú de opción o 
 verificable. (<a href="https://github.com/nvaccess/nvda/issues/4092" target="_blank">#4092</a>)
 </li><li>En Microsoft PowerPoint con Verbalizar palabras al escribir 
-habilitado, los carácteres eliminados con retroceso ya no se anuncian 
+habilitado, los caracteres eliminados con retroceso ya no se anuncian 
 como parte de la palabra escrita. (<a href="https://github.com/nvaccess/nvda/issues/3231" target="_blank">#3231</a>)
 </li><li>En los diálogos de opciones de Microsoft Office 2010, las etiquetas de los cuadros combinados se anuncian correctamente. (<a href="https://github.com/nvaccess/nvda/issues/4056" target="_blank">#4056</a>)
 </li><li>En modo exploración en aplicaciones de Mozilla, la utilización 
@@ -2197,7 +2290,7 @@ contengan plugins y controladores. Ten en cuenta que el Administrador de
 controladores copiados manualmente en tu directorio de configuración. (<a href="https://github.com/nvaccess/nvda/issues/213" target="_blank">#213</a>)
 </li><li>Ahora funcionan Muchas más características comunes de NVDA en 
 el estilo de aplicaciones de Windows 8 Metro cuando se utiliza una 
-versión instalada de NVDA, incluyendo la verbalización de carácteres al 
+versión instalada de NVDA, incluyendo la verbalización de caracteres al 
 escribir y modo exploración para documentos web (se incluye soporte para
  la versión metro de Internet Explorer 10). Las copias portables de NVDA
  no pueden acceder al estilo de aplicaciones metro. (<a href="https://github.com/nvaccess/nvda/issues/1801" target="_blank">#1801</a>) 
@@ -2408,7 +2501,7 @@ Excel y el editor de mensajes de Eudora. (<a href="https://github.com/nvaccess/n
  integrados tales como contenido Flash.
 </li><li>NVDA ahora se reinicia correctamente (ej.: después de cambiar 
 el idioma configurado) cuando se localice en un directorio con 
-contenidos de carácteres no ASCII. (<a href="https://github.com/nvaccess/nvda/issues/2079" target="_blank">#2079</a>)
+contenidos de caracteres no ASCII. (<a href="https://github.com/nvaccess/nvda/issues/2079" target="_blank">#2079</a>)
 </li><li>El Braille respeta correctamente las opciones para el anunciado
  de teclas de atajo de los objetos, información de posición y 
 descripciones.
@@ -2598,7 +2691,7 @@ interface de usuario de NVDA será utilizado.
 <p>
 Lo subrayable en esta revisión incluye mejoras mayores concernientes a 
 la puntuación y símbolos, incluyendo niveles configurables, etiquetado y
- descripciones de carácteres personalizados; sin pausas al final de las 
+ descripciones de caracteres personalizados; sin pausas al final de las 
 líneas durante la lectura completa; soporte mejorado para ARIA en 
 Internet Explorer; y mucho mejor soporte para documentos PDF 
 XFA/LiveCycle en Adobe Reader; acceso a texto escrito en la pantalla en 
@@ -2609,7 +2702,7 @@ escrito en la pantalla.
 <ul>
 <li>Ahora es posible escuchar la descripción para cualquier carácter 
 dado presionando el script revisar carácter actual dos veces en sucesión
- rápida.  Para carácteres en Inglés esto es el alfabeto fonético inglés 
+ rápida.  Para caracteres en Inglés esto es el alfabeto fonético inglés 
 estándar. Para idiomas pictográficos tales como el Chino Mandarín, se 
 proporcionan una o más frases de ejemplo utilizando el símbolo dado. 
 También presionando revisar palabra actual o revisar línea actual tres 
@@ -2861,7 +2954,7 @@ crítico en el fichero de registro.
  SCons. mira readme.txt en la raíz de la distribución fuente para 
 detalles, incluyendo dependencias asociadas.
 </li><li>Las Localizaciones ahora pueden proporcionar descripciones para
- carácteres. Mira la sección Character Descriptions de la Developer 
+ caracteres. Mira la sección Character Descriptions de la Developer 
 Guide para detalles. (<a href="https://github.com/nvaccess/nvda/issues/55" target="_blank">#55</a>)
 </li><li>Las Localizaciones ahora pueden proporcionar información acerca
  de la pronunciación de puntuación específica y otros símbolos. Mira la 
