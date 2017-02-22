@@ -4,7 +4,7 @@ permalink: "/ayuda/"
 layout: page
 ---
 
-### Documentación sobre NVDA 2016.4 ###
+### Documentación sobre NVDA 2017.1 ###
 
 A continuación podrás encontrar una lista de documentos disponibles en el menú Ayuda de NVDA, al que puedes acceder pulsando la combinación de teclas <kbd>NVDA+n</kbd> o haciendo clic con el botón derecho del ratón sobre el icono correspondiente en la bandeja del sistema:
 
