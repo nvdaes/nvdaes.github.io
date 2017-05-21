@@ -6,7 +6,7 @@ layout: post
 
 <footer>Domingo, 21 de mayo de 2017</footer>
 
-Por Salva Domenech Miguel
+Por Salva Doménech Miguel
 
             Es cierto que desde hace bastante tiempo, unos 4 años calculando a ojo, NVDA soportaba, mediante un plugin chapuza, la lectura del editor Lambda. También es cierto que ONCE intentó, mediante este plugin,, que debía ejecutarse en un portable y recomendaban ejecutar en una máquina virtual de Windows XP en VirtualBox (que yo llegué a tener cuando Windows 8 empezó a expandirse), potenciarlo; pero no es menos cierto que como ya comenté, el plugin (creo que de autor desconocido) era chapucero. Era inestable, el soporte no era completo y además debía utilizarse una versión portable de NVDA con ese plugin instalado a mano y a ser posible nada más a riesgo de que interfiriera con otros complementos. No sé si algún asiduo usuario de Lambda pudo probar esto, la verdad es que yo no llegué a usarlo, ni en dos ocasiones, pero casi juraría que no ofrecía soporte braille en ningún idioma
 
