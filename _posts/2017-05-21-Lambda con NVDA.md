@@ -4,8 +4,9 @@ layout: post
 ---
 
 
-Por Salva Domenech Miguel
+<footer>Domingo, 21 de mayo de 2017</footer>
 
+Por Salva Domenech Miguel
 
             Es cierto que desde hace bastante tiempo, unos 4 años calculando a ojo, NVDA soportaba, mediante un plugin chapuza, la lectura del editor Lambda. También es cierto que ONCE intentó, mediante este plugin,, que debía ejecutarse en un portable y recomendaban ejecutar en una máquina virtual de Windows XP en VirtualBox (que yo llegué a tener cuando Windows 8 empezó a expandirse), potenciarlo; pero no es menos cierto que como ya comenté, el plugin (creo que de autor desconocido) era chapucero. Era inestable, el soporte no era completo y además debía utilizarse una versión portable de NVDA con ese plugin instalado a mano y a ser posible nada más a riesgo de que interfiriera con otros complementos. No sé si algún asiduo usuario de Lambda pudo probar esto, la verdad es que yo no llegué a usarlo, ni en dos ocasiones, pero casi juraría que no ofrecía soporte braille en ningún idioma
 
@@ -19,8 +20,10 @@ Por Salva Domenech Miguel
 
             En definitiva, creo que podemos estar contentos si decimos que el soporte es similar al que ofrece JAWS con sus correspondientes scripts como así podéis comprobar en el podcast enlazado en esta entrada.
 
- ES muy probable que en el futuro inmediato, las próximas versiones del addon ya no presenten algunos errores de los que doy cuenta en él.
- 
+ Es muy probable que en el futuro inmediato, las próximas versiones del addon ya no presenten algunos errores de los que doy cuenta en él.
+
+### Podcast sobre Lambda 
+
  <audio controls>
    <source src="https://s.juventudelatina.com/juvenube/index.php/s/KtyR7zeybfI7uRL/download" type="audio/mpeg">
 Tu navegador no admite la reproducción de este podcast.
