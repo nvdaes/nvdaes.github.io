@@ -3,7 +3,6 @@ title: Lambda con NVDA
 layout: post
 ---
 
-
 Por Salva Domenech Miguel
 
 
