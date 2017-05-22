@@ -35,8 +35,8 @@ Tu navegador no admite la reproducción de este podcast.
 
 #### Contenido matemático del podcast
 
-- [Descargar fichero Lambda](https://nvdaes.github.io/salvaPrueba.lambda)
-- [Ver en formato HTML](https://nvdaes.github.io/salvaPrueba.html)
+- [Descargar fichero Lambda](https://nvdaes.github.io/linkedFiles/salvaPrueba.lambda)
+- [Ver en formato HTML](https://nvdaes.github.io/linkedFiles/salvaPrueba.html)
 
 Nota: Para explorar el fichero anterior con Firefox o Internet Explorer, puedes instalar [MathPlayer](http://www.dessci.com/en/products/mathplayer/)
 
