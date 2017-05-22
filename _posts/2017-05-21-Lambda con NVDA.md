@@ -30,3 +30,20 @@ Tu navegador no admite la reproducción de este podcast.
 </audio>
 
 [Descargar podcast](https://s.juventudelatina.com/juvenube/index.php/s/KtyR7zeybfI7uRL/download)
+
+### Referencias
+
+#### Contenido matemático del podcast
+
+- [Descargar fichero Lambda](https://nvdaes.github.io/salvaPrueba.lambda)
+- [Ver en formato HTML](https://nvdaes.github.io/salvaPrueba.html)
+
+Nota: Para explorar el fichero anterior con Firefox o Internet Explorer, puedes instalar [MathPlayer](http://www.dessci.com/en/products/mathplayer/)
+
+Para más información, consulta la sección "Leyendo Contenido Matemático" en la guía de NVDA.
+
+#### Lambda y su complemento
+
+- [Página del complemento de NVDA](https://addons.nvda-project.org/addons/lambda.es.html)
+- [Proyecto Lambda](http://www.lambdaproject.org/home)
+- [Descargar Lambda](ftp://ftp.once.es/pub/utt/tiflosoftware/Miscelanea/LambdaSetup140.zip) (archivo del CIDAT)
