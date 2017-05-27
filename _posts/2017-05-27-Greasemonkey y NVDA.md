@@ -10,7 +10,7 @@ author: Noelia
 
 Al navegar por la web, podemos encontrar dificultades para acceder a información debidas a que no se cumplen las [pautas de accesibilidad del W3C](http://www.sidar.org/traducciones/wcag20/es/), o a veces nos gustaría adaptar la estructura de los contenidos a nuestros gustos y necesidades.
 
-En ocasiones nos planteamos si nuestro lector de pantalla, NVDA, podría utilizarse para resolver el problema. Y en varios debates relacionados ha surgido la posibilidad de usar .[Greasemonkey](https://addons.mozilla.org/es/firefox/addon/greasemonkey/), un complemento de Firefox que, mediante ficheros llamados scripts que se pueden añadir al complemento, facilita la personalización de las páginas web, en este caso, para mejorar su accesibilidad.
+En ocasiones nos planteamos si nuestro lector de pantalla, NVDA, podría utilizarse para resolver el problema. Y en varios debates relacionados ha surgido la posibilidad de usar [Greasemonkey](https://addons.mozilla.org/es/firefox/addon/greasemonkey/), un complemento de Firefox que, mediante ficheros llamados scripts que se pueden añadir al complemento, facilita la personalización de las páginas web, en este caso, para mejorar su accesibilidad.
 
 Por ejemplo, en esta [Incidencia sobre contenido Flash inaccesible](https://github.com/nvaccess/nvda/issues/750), o en esta [Incidencia sobre verbalización de contenido dinámico](https://github.com/nvaccess/nvda/issues/2934).
 
@@ -28,5 +28,7 @@ Las páginas anteriores podrán actualizarse si se modifica o amplía el materia
 ### Referencias
 
 - [Scripts para Greasemonkey en la lista de NVDA en español](https://es.groups.yahoo.com/neo/groups/nvdaespanol/conversations/topics/27910;_ylc=X3oDMTM3MHFsdmUxBF9TAzk3NDkwNDYzBGdycElkAzU1MTg2NzQxBGdycHNwSWQDMTY2MDM5NjA5NQRtc2dJZAMyODc4NARzZWMDZnRyBHNsawN2dHBjBHN0aW1lAzE0OTU1NDIxOTUEdHBjSWQDMjc5MTA-)
+- [Repositorio de scripts de NV Access](https://github.com/nvaccess/axSGrease)
+- [Repositorio de scripts de nvdaes](https://github.com/nvdaes/esAxSGrease)
 
 Que lo disfrutes.
