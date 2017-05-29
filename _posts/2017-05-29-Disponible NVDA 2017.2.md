@@ -1,5 +1,6 @@
 ---
 title: Disponible NVDA 2017.2
+date: 2017-05-29 00:00:00 Z
 permalink: "/nvda-2017-2/"
 layout: post
 author: Noelia
