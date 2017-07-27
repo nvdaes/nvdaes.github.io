@@ -2,6 +2,7 @@
 title: Lambda con NVDA
 author: Noelia
 date: 2017-05-21 00:00:00 Z
+excerpt: true
 layout: post
 ---
 
