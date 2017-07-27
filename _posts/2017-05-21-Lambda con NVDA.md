@@ -1,5 +1,6 @@
 ---
 title: Lambda con NVDA
+author: Noelia
 date: 2017-05-21 00:00:00 Z
 layout: post
 ---
@@ -24,7 +25,7 @@ Por Salva Doménech Miguel
 
 ### Podcast sobre Lambda 
 
- <audio controls>
+ <audio controls
    <source src="https://s.juventudelatina.com/juvenube/index.php/s/KtyR7zeybfI7uRL/download" type="audio/mpeg">
 Tu navegador no admite la reproducción de este podcast.
 </audio>
