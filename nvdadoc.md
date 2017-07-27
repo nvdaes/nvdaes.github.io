@@ -39,4 +39,11 @@ Para descargar la última versión estable de NVDA:
 
 #### Introducción a NVDA (Jornadas UTLAI 2016)
 
-<iframe width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" src="http://www.ivoox.com/player_ej_15036522_2_1.html?data=kpqdlZuZdpOhhpywj5mdaZS1k5mah5yncZKhhpywj5WRaZi3jpWah5yncaLpxc7c1ZDIqYzgwtiYuK6PjtDmz8bRw9iJd6KfkZmYh6qWaZmkhp6gja7SuNPjxdrQxc6Jh5SZo5jbjcaPkre4opKSmaiRudXgws6ah5yncZE.&"></iframe>
+<audio controls>
+   <source src="http://www.utlai.org/wp-content/uploads/2016/12/06nvda.mp3" type="audio/mpeg">
+Tu navegador no admite la reproducción de este podcast.
+</audio>
+
+<p><a download href="http://www.utlai.org/wp-content/uploads/2016/12/06nvda.mp3">Descargar Introducción a NVDA</a></p>
+
+
