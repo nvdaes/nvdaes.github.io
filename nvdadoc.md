@@ -58,7 +58,7 @@ En esta charla, Juan Buño, Noelia Ruiz Martínez, Chris Leo y Ricardo Busto nos
 
 Duración: 01:09:02
 
-<audio> controls="controls"
+<audio controls="controls">
    <source src="http://www.utlai.org/wp-content/uploads/2014/12/15_nvda.mp3" type="audio/mpeg">
 Tu navegador no admite la reproducción de este podcast.
 </audio>
