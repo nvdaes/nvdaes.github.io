@@ -43,8 +43,7 @@ Charla impartida por Jose Manuel delicado.
 
 Duración: 49:24
 
-<audio controls="controls">
-   <source src="http://www.utlai.org/wp-content/uploads/2016/12/06nvda.mp3" type="audio/mpeg">
+<audio controls src="http://www.utlai.org/wp-content/uploads/2016/12/06nvda.mp3">
 Tu navegador no admite la reproducción de este podcast.
 </audio>
 
@@ -58,8 +57,7 @@ En esta charla, Juan Buño, Noelia Ruiz Martínez, Chris Leo y Ricardo Busto nos
 
 Duración: 01:09:02
 
-<audio controls="controls">
-   <source src="http://www.utlai.org/wp-content/uploads/2014/12/15_nvda.mp3" type="audio/mpeg">
+<audio controls src="http://www.utlai.org/wp-content/uploads/2014/12/15_nvda.mp3">
 Tu navegador no admite la reproducción de este podcast.
 </audio>
 
