@@ -39,11 +39,30 @@ Para descargar la última versión estable de NVDA:
 
 #### Introducción a NVDA (Jornadas UTLAI 2016)
 
+Charla impartida por Jose Manuel delicado.
+
+Duración: 49:24
+
 <audio controls>
    <source src="http://www.utlai.org/wp-content/uploads/2016/12/06nvda.mp3" type="audio/mpeg">
 Tu navegador no admite la reproducción de este podcast.
 </audio>
 
-<p><a download href="http://www.utlai.org/wp-content/uploads/2016/12/06nvda.mp3">Descargar Introducción a NVDA</a></p>
+[Descargar Introducción a NVDA](http://www.utlai.org/wp-content/uploads/2016/12/06nvda.mp3)
 
+[Introducción a NVDA en iVoox](http://www.ivoox.com/15036522)
 
+####  Taller NVDA: Un lector de pantalla de código abierto (Jornadas UTLAI 2014)
+
+En esta charla, Juan Buño, Noelia Ruiz Martínez, Chris Leo y Ricardo Busto nos hablan de las posibilidades del lector de pantalla NVDA.
+
+Duración: 01:09:02
+
+<audio controls>
+   <source src="http://www.utlai.org/wp-content/uploads/2014/12/15_nvda.mp3" type="audio/mpeg">
+Tu navegador no admite la reproducción de este podcast.
+</audio>
+
+[Descargar taller sobre NVDA](http://www.utlai.org/wp-content/uploads/2014/12/15_nvda.mp3)
+
+[Taller sobre NVDA en iVoox](https://www.ivoox.com/nvda-lector-pantallas-codigo-abierto-audios-mp3_rf_3912332_1.html)
