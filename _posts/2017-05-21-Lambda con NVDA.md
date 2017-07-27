@@ -25,8 +25,7 @@ Por Salva Doménech Miguel
 
 ### Podcast sobre Lambda 
 
- <audio controls="controls">
-   <source src="https://s.juventudelatina.com/juvenube/index.php/s/KtyR7zeybfI7uRL/download" type="audio/mpeg">
+ <audio controls src="https://s.juventudelatina.com/juvenube/index.php/s/KtyR7zeybfI7uRL/download">
 Tu navegador no admite la reproducción de este podcast.
 </audio>
 
