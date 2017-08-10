@@ -13,7 +13,7 @@ Muchas gracias, Carlos, por enviar tu opinión sobre nuestra web y esta interesa
 
 ### Historia de NV Access
 
-Traducción de [NV Access: Our Story](https://www.nvaccess.org/about/our-story/)
+(Traducción de [NV Access: Our Story](https://www.nvaccess.org/about/our-story/))
 
 Michael Curran y James Teh se conocieron de niños en un grupo de música para personas ciegas, donde se dieron cuenta de que compartían un gran interés en los ordenadores. Varios años después, decidieron unir esfuerzos para ayudar a mejorar la accesibilidad de los ordenadores para personas ciegas y con discapacidad visual.
 
