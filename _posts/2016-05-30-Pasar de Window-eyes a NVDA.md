@@ -181,7 +181,7 @@ Cuando te encuentras en una página Web, las órdenes de navegación rápida son
 
 ## Modo de Ayuda de Entrada
 
-NVDA tiene un Modo de Ayuda de Entrada que es similar a lo que está en Window-eyes.  Insert y 1 en el teclado principal lo activa. Cuando pulsas una tecla o combinación de teclas que podrían ser una orden, escucharás cuáles son las teclas y qué, si hay alguna orden  que se ejecutan.  Esto varía dependiendo de dónde te encuentres                  .
+NVDA tiene un Modo de Ayuda de Entrada que es similar a lo que está en Window-eyes.  Insert y 1 en el teclado principal lo activa. Cuando pulsas una tecla o combinación de teclas que podrían ser una orden, escucharás cuáles son las teclas y qué, si hay alguna orden  que se ejecutan.  Esto varía dependiendo de dónde te encuentres.                  
 
 Cuando estás en un navegador que soporta  el Modo Exploración, tecleando muchas letras individuales te dará información sobre lo que hacen las teclas en el Modo Exploración.  Ya di gran parte de esa información arriba, pero es posible que deseas pulsar muchas teclas usando el Modo de Ayuda de Entrada en un navegador. Para desactivar el Modo de Ayuda de Entrada utiliza la misma orden que usastes para activarla, insert 1.                
  
@@ -189,14 +189,14 @@ Cuando estás en un navegador que soporta  el Modo Exploración, tecleando mucha
 
 Para obtener más información acerca de NVDA, un tutorial popular está disponible en:
 
-http://www.josephsl.net/tutorials
+[http://www.josephsl.net/tutorials](http://www.josephsl.net/tutorials)                              
 
 En esa página, verás enlaces para descargar diferentes secciones del tutorial que tratan sobre diferentes temas.  También puedes descargar todo el tutorial como un archivo zip.
  
 También hay una lista de correo electrónico para usuarios de NVDA.  Para Suscríbirté, envía un mensaje en blanco a esta 
 dirección:
 
-nvda+subscribe@nvda.groups.io
+[nvda+subscribe@nvda.groups.io](mailto:nvda+subscribe@nvda.groups.io)            
  
 Espero que este tutorial haya eliminado gran parte de tu aprensión sobre el cambio a NVDA.  Ahora, como desees o necesites, puedes consultar el tutorial al que di un enlace. NVDA es un potente lector de pantalla y satisfará una gran cantidad de necesidades de los usuarios así como  los de JAWS o los de Window-eyes.  Espero que este breve tutorial te brinde una buena base para construir la confianza de que la transición debería ser mucho más fácil de lo que pensaste y que te ayudará a que sea mucho más agradable.
 
