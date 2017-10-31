@@ -68,7 +68,7 @@ Ahora, continuemos con lo que hablé al comienzo de este tutorial.  El malentend
 
 Considera los siguientes ejemplos:           
 
-* Abriendo el menús fue y sigue siendo alt.  Es una orden de Windows para abrir los menús en los programas.  Es lo mismo no importa qué lector de pantalla tu usas.     
+* Abriendo los menús fue y sigue siendo alt.  Es una orden de Windows para abrir los menús en los programas.  Es lo mismo no importa qué lector de pantalla tu usas.     
 * Control o para abrir no cambia.       
 * Utilizando las teclas de flechas para moverse en un documento no cambia.       
 * Tabulación a través de cuadros de diálogo no cambia.  Tampoco cómo te muevas en una lista o en una vista en árbol o al trabajar con un cuadro combinado, y la lista continúa.      
@@ -124,14 +124,14 @@ Ahora, aquí están las órdenes de revisión en la distribución portátil:
 * Mover y leer línea anterior, NVDA flecha arriba.               
 * Leer palabra actual, NVDA control punto.         
 * Leer palabra anterior, NVDA control flecha izquierda.           
-* Leer siguiente palabra, NVDA control +flecha derecha.              
+* Leer siguiente palabra, NVDA control  flecha derecha.              
 * Anunciar carácter actual, NVDA punto.                  
 * Mover y leer carácter anterior, NVDA flecha izquierda.                         
 * Mover y leer siguiente carácter, NVDA flecha derecha.                  
 
 Después de un poco más de discusión, te diré cómo cambiar la distribución de teclado para portátil.                    
 
-Volviendo a las teclas de revisión en la distribución portátil, hay una especie de patrones en la distribución portátil, pero no el tipo de patrón uniforme como en la distribución de sobremesa. Si tuviera una computadora portátil sin un teclado numérico, compraría un teclado numérico USB y no juguetearía con la distribución portátil.  Pero puedes decidir eso por ti mismo.  Pero aparte de las teclas predecibles, como ese punto que actualmente está siendo utilizado, y que las flechas izquierda y derecha están siendo utilizados con modificadores, no  puedes generalizar más.  Tales patrones no se siguen en cada elemento anterior y siguiente.  En uno de los elementos anteriores y siguientes, la flecha arriba y abajo están siendo utilizados.  
+Volviendo a las teclas de revisión en la distribución portátil, hay una especie de patrones en la distribución portátil, pero no el tipo de patrón uniforme como en la distribución de sobremesa. Si tuviera una computadora portátil sin un teclado numérico, compraría un teclado numérico USB y no juguetearía con la distribución portátil.  Pero puedes decidir eso por ti mismo.  Pero aparte de las teclas predecibles, como ese punto que actualmente está siendo utilizado, y que las flechas izquierda y derecha están siendo utilizados con las modificadoras, no  puedes generalizar más.  Tales patrones no se siguen en cada elemento anterior y siguiente.  En uno de los elementos anteriores y siguientes, la flecha arriba y abajo están siendo utilizados.  
 
 ## Más órdenes de revisión y Modos de Revisión
 
@@ -144,7 +144,7 @@ He dicho la parte superior e inferior  de la ventana pero eso es simplista.  Est
  
 ### Una breve introducción a los modos de revisión.
 
-Si estás revisando material en un procesador de textos, utiliza las órdenes de revisión que te he proporcionado. Si estás en un cuadro de diálogo u otras estructuras, para ver qué hay en la pantalla, cambia al modo de revisión de pantalla. Para hacerlo, utiliza  la orden insert teclado numérico 7 teclado numérico en la distribución sobremesa.  En la distribución portátil, la orden es tecla NVDA retroceso página.  Invoca la orden  y repítelo si es necesario hasta que escuches Revisión de pantalla. Entonces puedes utilizar las órdenes  de revisión como 7 teclado numérico, 8 9, etc. para revisar lo que está en la pantalla.                   
+Si estás revisando material en un procesador de textos, utiliza las órdenes de revisión que te he proporcionado. Si estás en un cuadro de diálogo u otras estructuras, para ver qué hay en la pantalla, cambia al modo de revisión de pantalla. Para hacerlo, utiliza  la orden insert teclado numérico 7 teclado numérico en la distribución sobremesa.  En la distribución portátil, la orden es tecla NVDA retroceso página.  Invoca la orden  y repítelo si es necesario hasta que escuches Revisión de pantalla. Entonces puedes utilizar las órdenes  de revisión como 7 teclado numérico, 8, 9, etc. para revisar lo que está en la pantalla.                   
 
 Después de que hayas terminado de trabajar en la revisión de pantalla, es muy importante volver a la revisión de objeto.  Invoca la orden insert teclado numérico 1 teclado numérico en la distribución sobremesa.  La orden en la distribución portátil es Tecla NVDA avance página.  Repite la orden  si es necesario hasta que escuches Revisión de objetos.  Si no haces esto, a menudo escucharás información incorrecta sobre dónde estás cuando haces varias cosas en NVDA.                          
 
@@ -157,7 +157,7 @@ Para abrir las Opciones de Teclado, invoca  la orden control insert k. Ahora est
 
 A medida que hagas Tab, notarás las casillas de verificación sobre qué   teclas sirven como tecla NVDA. BloqMayus no está marcada.  Marcala con la barra espaciadora. Puedes permanecer en la  distribución de sobremesa y hacer todavía Tab y mira estas casillas de verificación.            
 
-Yo Utilizo BloqMayus como una tecla  de NVDA a menudo y utilizo la distribución de sobremesa.  Me resulta mucho más cómodo de usarlo para la orden Leer hasta el final.  Yo mantengo  el bloqueo mayúsculas y pulsos   flecha abajo.  Es decir, para mí, es mucho más conveniente que  usar insert flecha abajo, independientemente  de   cual insert yo uso.                   
+Yo utilizo BloqMayus como una tecla  de NVDA a menudo y utilizo la distribución de sobremesa.  Me resulta mucho más cómodo de usarlo para la orden Leer hasta el final.  Yo mantengo  el bloqueo mayúsculas y pulsos   flecha abajo.  Es decir, para mí, es mucho más conveniente que  usar insert flecha abajo, independientemente  de   cual insert yo uso.                   
 
 Si deseas alternar entre activar y desactivar bloqueo mayúsculas al teclear, puedes pulsar la tecla dos veces en sucesión rápida.  Si lo pulsas una vez y lo mantienes pulsado, sirve como una tecla NVDA.  Si lo pulsas dos veces en sucesión rápida, alternará bloqueo mayúsculas entre activado y desactivado.                    
  
@@ -165,7 +165,7 @@ Si deseas alternar entre activar y desactivar bloqueo mayúsculas al teclear, pu
 
 Para hacer clic con el botón izquierdo del ratón, enruta el ratón a la posición de revisión con la orden insert teclado numérico dividir teclado numérico.  Esa es la misma orden que tu haces clic con el botón izquierdo en Window-eyes.  Si deseas hacer clic con el botón derecho, enruta el ratón con la misma orden (insert teclado numérico dividir teclado numérico), luego  usa multiplicar  teclado numérico, la tecla inmediatamente  a la derecha de dividir teclado numérico.  En otras palabras, tu haces clic derecho con la misma tecla que usas en Window-eyes.                     
 
-La revisión de pantalla, aunque las órdenes son diferentes, es similar en concepto al utilizar el puntero del ratón en Window-eyes.  La Navegación de objetos es diferente de cualquier modo de revisión en Window-eyes.  No voy a enseñarte su uso aquí, pero encontrarás una discusión sobre esto en un tutorial  Yo daré una dirección para más adelante en este tutorial.  Dependiendo de cómo usas  tu computadora, puede que te resulte muy útil.      
+La revisión de pantalla, aunque las órdenes son diferentes, es similar en concepto al utilizar el puntero del ratón en Window-eyes.  La Navegación de objetos es diferente de cualquier modo de revisión en Window-eyes.  No voy a enseñarte su uso aquí, pero encontrarás una discusión sobre esto en un tutorial.  Yo daré una dirección  más adelante en este tutorial.  Dependiendo de cómo usas  tu computadora, puede que te resulte muy útil.      
  
 Eso es todo lo que enseñaré en este breve tutorial sobre la revisión de pantalla y el ratón.  Como dije, su propósito es permitirte hacer mucho de lo que haces con Window-eyes rápida y fácilmente.  Pero te contaré algunas cosas más.                 
  
