@@ -34,7 +34,7 @@ Como sabrás, tanto JAWS como NVDA pueden utilizar la tecla insert como teclas m
 Con JAWS cargado, la tecla insert es únicamente para su uso. Esto significa que, para utilizar la función original que se le ha asignado (como cambiar entre los modos insertar y sobrescribir en un editor de texto o procesador de texto), primero debes activar la tecla de JAWS a través de órdenes.            
 NVDA por otra parte te permite llevar a cabo la función original de la tecla insert presionándola dos veces rápidamente. Tenga esto en cuenta la próxima vez que estés editando texto mientras usas NVDA y te encuentras borrando lo que ya escribistés escribiendo sobre él.                      
 
-# Alternativas  a eSpeak #
+# Alternativas  para eSpeak #
 eSpeak NG es el sintetizador de voz que se incluye con NVDA. Al igual que NVDA en sí, también es libre y de código abierto, que es una de las razones de su inclusión. Otro es el número de idiomas que puede hablar.               
 
 Sin embargo, tu  puedes encontrar que, por la razón que sea, no es para ti. Si este es el caso, estarás encantado de saber que hay alternativas, que se discutirán en las siguientes secciones.                  
@@ -53,12 +53,12 @@ Consulte la sección titulada "Scripts" para obtener información sobre los comp
 # Voces de Windows OneCore #
 Si estás en Windows 10 y estás ejecutando NVDA versión 2017.3 o posterior, tienes otra alternativa en forma de voces de Windows OneCore. Estas voces son desarrolladas por Microsoft y se incluyen de forma gratuita con Windows 10.               
 
-Hay bastantes disponibles en varios idiomas y dialectos; algunos de los cuales ya estarán instalados. Sin embargo, éstos variarán dependiendo de los paquetes de idioma que tenga en tu sistema. La única forma de obtener nuevas voces en la actualidad es instalar otros paquetes de idioma en Configuración. Una vez hecho esto, puedes descargar las voces para ese idioma. En ese momento, puedes quitar el paquete de idioma. Esto no afectará las voces que acabas de instalar.                 
+Hay bastantes disponibles en varios idiomas y dialectos; algunos de los cuales ya estarán instalados. Sin embargo, éstos variarán dependiendo de los paquetes de idioma que tenga en tu sistema. La única forma de obtener nuevas voces en la actualidad es instalar otros paquetes de idioma en Configuración. Una vez hecho esto, puedes descargar las voces para ese idioma. En ese momento, puedes eliminar el paquete de idioma. Esto no afectará las voces que acabas de instalar.                 
 esperemos que esto se haga más simple en el futuro.                
 
-Si detectas que las voces de Windows OneCore no hablan lo suficientemente rápido, incluso cuando la velocidad de conversación de NVDA es máxima, ajusta también la velocidad de voz en las configuraciones de Windows.             
+Si detectas que las voces de Windows OneCore no hablan lo suficientemente rápido, incluso cuando la velocidad de voz de NVDA es máxima, ajusta también la velocidad de voz en las configuraciones de Windows.             
 
-Sus ligeras complicaciones a un lado, estas voces ofrecen una alternativa viable a eSpeak NG ya que son sensibles y tienes sonidos bastante naturales.               
+Sus ligeras complicaciones a un lado, estas voces ofrecen una alternativa viable a eSpeak NG ya que son sensibles y tienen sonidos bastante naturales.               
 
 # Aún más voces #
 Si todavía no encuentras la voz perfecta para ti, esta página enumera varios otros sintetizadores de voz (tanto gratuitos como pagados, puedes usarlos en su lugar).                
@@ -80,12 +80,12 @@ Lo equivalente al cursor de JAWS es una combinación de navegación de objetos, 
 
 A diferencia de JAWS, no hay que cambiar entre los equivalentes al cursor del PC y de JAWS, pues el teclado numérico está reservado exclusivamente para trabajar con las funciones correspondientes al cursor de JAWS.                  
 
-Vale la pena señalar que cuando se utiliza la navegación de objetos o el cursor de revisión, el ratón no se mueve en sincronía. Tienes que pulsar una orden para mover el ratón a la ubicación del cursor de revisión, que es similar a cómo funciona el cursor invisible de JAWS. También hay órdenes para simular clic o bloquear ambos botones del ratón.                 
+Vale la pena señalar que cuando se utiliza la navegación de objetos o el cursor de revisión, el ratón no se mueve en sincronía. Tienes que pulsar una orden para mover el ratón a la ubicación del cursor de revisión, que es similar a cómo funciona el "cursor invisible" de JAWS. También hay órdenes para simular clic o bloquear ambos botones del ratón.                 
 
-Sin embargo, si simplemente deseas activar el objeto actual en el que estás enfocado cuando utilizas la navegación de objetos, hay una orden para hacer esto sin tener que mover el cursor del ratón sobre él primero.                 
+Sin embargo, si simplemente deseas activar el objeto actual en el que estás enfocado cuando utilizas la navegación de objetos, hay una orden para hacer esto sin tener que mover el cursor del ratón a él primero.                 
 
 # Cursor táctil #
-En JAWS 15 o posterior, puedes utilizar las teclas del teclado numérico para navegar por las aplicaciones utilizando una estructura parecida a un árbol, similar a la forma en que los usuarios de los lectores de pantallas de teléfonos inteligentes como VoiceOver navegarían por pantallas táctiles. En NVDA, las órdenes de navegación de objetos y de modo objeto táctil se pueden utilizar con este fin               
+En JAWS 15 o posterior, puedes utilizar las teclas del teclado numérico para navegar por las aplicaciones utilizando una estructura parecida a un árbol, similar a la forma en que los usuarios de los lectores de pantallas de teléfonos inteligentes (smartphone) como VoiceOver navegarían por pantallas táctiles. En NVDA, las órdenes de navegación de objetos y de modo objeto táctil se pueden utilizar con este fin               
 
 # Cursor virtual. #
 El cursor virtual es conocido como "modo exploración". En gran parte funciona como en JAWS, ofreciéndote acceso a teclas rápidas de navegación, o en el lenguaje de NVDA, "navegación con una sola letra".               
@@ -98,14 +98,16 @@ Por si no lo has advertido, JAWS tiene dos modos de mostrar páginas web u otros
 La opción por defecto en NVDA es "Diseño de pantalla", pero puedes cambiar fácilmente a su versión de diseño simple pulsando NVDA+v mientras estés en modo exploración. Esto desactivará el "diseño de pantalla". Asegúrate de guardar tu configuración con NVDA+control+c después de hacer este cambio.                    
 
 # Sigue diciendo "Se puede hacer clic, se puede hacer clic..." #
-Durante la lectura de páginas web, podrías notar que NVDA dice "se puede hacer clic", a veces con demasiada frecuencia, incluso varias veces en el mismo enlace o control. No obstante, esto puede subsanarse fácilmente a partir de la versión 2014.1 o posterior. Ve al diálogo Formateado de documentos, desmarca la casilla "Anunciar se puede hacer clic" y pulsa Aceptar. Recuerda guardar tu configuración.                  
+Durante la lectura de páginas web, podrías notar que NVDA dice "se puede hacer clic", a veces con demasiada frecuencia, incluso varias veces en el mismo enlace o control.                 
+
+No obstante, esto puede subsanarse fácilmente a partir de la versión 2014.1 o posterior. Ve al cuadro de diálogo Formateado de documentos, desmarca la casilla "Anunciar se puede hacer clic" y pulsa Aceptar. Recuerda guardar tu configuración.                  
 
 # La búsqueda no funciona en la web. #
-Mientras JAWS está cargado, la pulsación de ctrl+f en Internet Explorer o Firefox abre el diálogo Buscar de JAWS, en vez de activar la instrucción de búsqueda nativa del navegador. Esto es para permitirte buscar texto empleando el cursor virtual. La instrucción de búsqueda convencional buscará la siguiente coincidencia del texto introducido, pero no desplazará el cursor virtual a esa ubicación. Esto se debe a cómo los lectores de pantalla interaccionan con las páginas web.                 
+Mientras JAWS está cargado, la pulsación de ctrl+f en Internet Explorer o Firefox abre el cuadro de diálogo Buscar de JAWS, en vez de activar la instrucción de búsqueda nativa del navegador. Esto es para permitirte buscar texto empleando el cursor virtual. La instrucción de búsqueda convencional buscará la siguiente coincidencia del texto introducido, pero no desplazará el cursor virtual a esa ubicación. Esto se debe a cómo los lectores de pantalla interaccionan con las páginas web.                 
 
 NVDA tiene su propia orden para buscar en el modo exploración, pero no ha sido asociada a ctrl+f, de modo que al pulsar ese atajo de teclado se invoca la instrucción de búsqueda del navegador, por lo que la búsqueda no funcionará como se espera.                  
 
-Para abrir el diálogo buscar de NVDA, pulsa ctrl+NVDA+F. Escribe el texto que deseas encontrar y a continuación pulsa Intro.              
+Para abrir el cuadro de diálogo buscar de NVDA, pulsa ctrl+NVDA+F. Escribe el texto que deseas encontrar y a continuación pulsa Intro.              
 
 # ¿No hay órdenes para ver formularios y encabezados? #
 En JAWS, puedes pulsar JAWS+F5 para listar formularios, JAWS+F6 para listar encabezados y JAWS+F7 para listar enlaces. En NVDA, los dos últimos se han combinado en un diálogo de lista de elementos, y se puede acceder a él presionando NVDA+F7.                  
@@ -118,7 +120,7 @@ Los detalles acerca del "modo foco" se explican en la guía del usuario.
 # NVDA habla demasiado. #
 En ocasiones puede parecerte que NVDA es demasiado prolijo en sus verbalizaciones, particularmente en algunas listas de elementos. Esto sucede porque, en lo que a NVDA respecta, las listas de elementos son tablas. Por defecto NVDA está configurado para indicar los encabezados de cada fila o columna.                  
 
-Para desactivar esta opción, desmarca la casilla "Anunciar encabezados de fila/columna de tabla" en el diálogo "Formateado de documentos".                     
+Para desactivar esta opción, desmarca la casilla "Anunciar encabezados de fila/columna de tabla" en el cuadro de diálogo "Formateado de documentos".                     
 
 # Resolver comportamiento inesperado en diccionarios del habla. #
 NVDA siempre ha incluido una función para editar diccionarios del habla, que son similares a los archivos del asistente de diccionarios de JAWS.                
@@ -148,17 +150,17 @@ En 2015, Christopher Toth y Tyler Spivey lanzaron un complemento gratuito para p
 [http://www.nvdaremote.com.](http://www.nvdaremote.com)                  
 
 # Configuración de una aplicación en particular #
-Desde hace poco, las configuraciones de NVDA eran globales (aplicados en todas partes). A partir   de NVDA 2013.3, es  posible de configurar ciertas opciones que se aplicarán al utilizar un programa. Esto se hace creando un perfil de configuración para una aplicación en particular. Para crear un perfil de configuración para una aplicación en particular, abre el cuadro de diálogo Perfiles de Configuración mientras utilizas la aplicación en cuestión.                    
+Desde hace poco, las configuraciones de NVDA eran globales (aplicados en todas partes). A partir   de NVDA 2013.3, es  posible de configurar ciertas opciones que se aplicarán al utilizar un programa. Esto se hace creando un perfil de configuración para una aplicación en particular. Para crear un perfil de configuración para una aplicación en particular, abre el cuadro de diálogo Perfiles de Configuración mientras utilizas la aplicación en cuestión. Para abrir el cuadro de diálogo, pulsa NVDA, N, para que aparezca el menú NVDA. Flecha abajo hasta que oigas Perfiles de Configuración.         
 
-Cuando se abre el  cuadro de diálogo (menú NVDA/Perfiles de Configuración), selecciona Nuevo, y selecciona "aplicación actual" cuando se te pregunta cuándo utilizar este perfil.                        
+Cuando se abre el  cuadro de diálogo, selecciona Nuevo, y selecciona "Aplicación actual" cuando se te pregunta cuándo utilizar este perfil.                        
 
-# Alterna verbalizar todo #
-En versiones recientes de JAWS, puedes configurar un sintetizador de voz diferente para que se utilice cuando verbalizar todo  está activo. Puedes hacerlo en NVDA creando un perfil Verbalizar Todo en el menú de perfiles de configuración.                    
+# Alterna Verbalizar todo #
+En versiones recientes de JAWS, puedes configurar un sintetizador de voz diferente para que se utilice cuando Verbalizar todo  está activo. Puedes hacerlo en NVDA creando un perfil Verbalizar todo en el menú Perfiles de Configuración.                    
 
 Estos son los pasos.                  
 
-1. Abrir el Perfiles de Configuración en el menú principal de NVDA. Pulsa NVDA, N, luego flecha abajo hacia Perfiles de configuración.                
+1. Abrir Perfiles de Configuración en el menú principal de NVDA. Pulsa NVDA, N, luego flecha abajo hacia Perfiles de Configuración.                
 2. Crear un nuevo perfil haciendo tabulación hacia el botón *Nuevo* o pulsa alt, N.               
-3. Después puedes introducir un nombre para el perfil, Tab hacia los botones de opciones para usar este perfil. Flecha abajo hasta oír Verbalizar todo. Pulsando en *Aceptar* 
+3. Después de introducir el nombre de tu perfil, Tab hacia los botones de opciones para usar este perfil. Flecha abajo hasta oír Verbalizar todo. Pulsando en *Aceptar* 
 
 mientras que este perfil está activo, necesitas completar el proceso durante la configuración del sintetizador mientras que el perfil Verbalizar todo está activo.
