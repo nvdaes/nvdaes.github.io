@@ -15,7 +15,7 @@
       <h3>Artículos relacionados</h3>
       <ul>
       {% assign count = '0' %}
-      {% for post in site.posts reversed %}
+      {% for post in site.posts %}
       {% if post.series == page.series %}
           {% capture count %}{{ count | plus: '1' }}{% endcapture %}
           <li>Parte {{ count }} - 
