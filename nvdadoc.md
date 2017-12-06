@@ -19,6 +19,7 @@ Otra posibilidad es utilizar la lista de elementos, que puedes abrir pulsando <k
 
 * [Guía del usuario](/userGuide.html)
 * [¿Qué hay de nuevo?](/changes.html)
+* [Referencia rápida de órdenes](/commands.html)
 
 ### Descargar última versión ###
 
