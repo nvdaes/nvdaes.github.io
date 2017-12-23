@@ -1,6 +1,6 @@
 function setAriaCurrent() {
 	var title = document.title;
-	if title== "Comunidad hispanohablante de NVDA" {
+	if title== "Comunidad hispanohablante de NVDA " {
 		var id = "inicio"
 	}
 	document.getElementById(id).removeAttribute("accesskey");
