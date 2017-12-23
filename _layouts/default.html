@@ -8,7 +8,6 @@
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
@@ -38,8 +37,8 @@
 <div class="gcse-search"></div>
 </div>
           <nav>
-            <a accesskey="1" href="{{ site.baseurl }}/">Inicio</a>
-            <a accesskey="2" href="{{ site.baseurl }}/ayuda">Ayuda y descarga</a>
+            <a accesskey="1" id="inicio" href="{{ site.baseurl }}/">Inicio</a>
+            <a accesskey="2" id="ayuda" href="{{ site.baseurl }}/ayuda">Ayuda y descarga</a>
             <a accesskey="3" href="http://nvdaes.blogspot.com.es/">Comunidad hispanohablante en Blogger</a>
 			<a accesskey="4" href="https://es.groups.yahoo.com/neo/groups/nvdaespanol/info">Lista de correo de NVDA en español</a>
 			<a accesskey="5" href="http://www.twitter.com/nvda_es">Comunidad hispanohablante en Twitter</a>
@@ -63,7 +62,8 @@
         </footer>
       </div>
     </div>
-
+<script src="../scripts/ariaCurrent.js"></script>
+<script>setAriaCurrent();</script>
     {% include analytics.html %}
   </body>
 </html>
