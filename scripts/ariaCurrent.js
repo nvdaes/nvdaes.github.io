@@ -1,6 +1,6 @@
 function setAriaCurrent() {
 	var id = document.getElementById("inicio");
-	id.removeAttribute("accesskey");
+	id.innerText(document.title)
 }
 
 setAriaCurrent();
