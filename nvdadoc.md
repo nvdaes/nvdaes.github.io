@@ -65,3 +65,5 @@ Tu navegador no admite la reproducción de este podcast.
 [Descargar taller sobre NVDA](http://www.utlai.org/wp-content/uploads/2014/12/15_nvda.mp3)
 
 [Taller sobre NVDA en iVoox](https://www.ivoox.com/nvda-lector-pantallas-codigo-abierto-audios-mp3_rf_3912332_1.html)
+
+<script>document.getElementById("ayuda").setAttribute("aria-current", "page");</script>
