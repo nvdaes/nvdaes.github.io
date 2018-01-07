@@ -38,6 +38,19 @@ Para descargar la última versión estable de NVDA:
 
 ### Archivos multimedia
 
+
+#### Instalar complementos en NVDA (audio-video-tutorial con NVDA 2014.4)
+
+Este material fue creado con la intención de ayudar a todas las personas, sin importar su condición, a instalar complementos en el lector de pantallas NVDA. El material pretende ser de utilidad a personas ciegas que escuchan el audio, como también a personas con discapacidad visual o bien a personas sin ninguna discapacidad visual.
+
+Producción y locución: Felipe Ibarra
+
+Duración: 00:24:14
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/GRbu7vkpL6s">
+</iframe>
+
 #### Introducción a NVDA (Jornadas UTLAI 2016)
 
 Charla impartida por Jose Manuel delicado.
