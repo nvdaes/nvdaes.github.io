@@ -28,13 +28,11 @@ Compartimos un podcast donde se muestra el uso del cursor de revisión para copi
 
 Duración: 00:17:39
 
-<audio src="https://drive.google.com/uc?export=download&id=1hG4LzfaRdT7UmBhR2pcWhfEld-x8ECgE">Tu navegador no admite audio</audio>
-
 Ver audio, transcripción y comentarios en iVoox:
 
 <iframe id='audio_3770021' frameborder='0' allowfullscreen='' scrolling='no' height='200' style='border:1px solid #EEE; box-sizing:border-box; width:100%;' src="https://www.ivoox.com/player_ej_3770021_4_1.html?c1=ff6600"></iframe>
 
-[Descargar mp3](https://drive.google.com/uc?export=download&id=1hG4LzfaRdT7UmBhR2pcWhfEld-x8ECgE)
+[Descarga directa de mp3](https://drive.google.com/uc?export=download&id=1hG4LzfaRdT7UmBhR2pcWhfEld-x8ECgE)
 
 ### Complementos ###
 
@@ -49,8 +47,8 @@ Otro complemento útil puede ser [reviewCursorCopier](https://addons.nvda-projec
 
 ### Referencias ###
 
-- [Revisando texto (en la guía de NVDA)](https://nvdaes.github.io/userGuide.html#ReviewingText)
-- [Administrador de Complementos (en la guía de NVDA)](https://nvdaes.github.io/userGuide.html#toc101)
+- [Revisando texto (en la guía de NVDA)](/userGuide.html#ReviewingText)
+- [Administrador de Complementos (en la guía de NVDA)](/userGuide.html#toc101)
 - [Audio-video-tutorial sobre el administrador de complementos](https://www.youtube.com/watch?v=GRbu7vkpL6s)
 
 Esperamos que esta información sea útil, y recordamos que no sustituye a la documentación disponible en el menú Ayuda de NVDA o en la página "Ayuda y descarga" (accesible en el menú de navegación de esta web).
