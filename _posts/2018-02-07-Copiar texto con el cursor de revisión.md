@@ -28,9 +28,9 @@ Compartimos un podcast donde se muestra el uso del cursor de revisión para copi
 
 Duración: 00:17:39
 
-Ver audio, transcripción y comentarios en iVoox:
+<audio controls src="https://drive.google.com/uc?export=download&id=1hG4LzfaRdT7UmBhR2pcWhfEld-x8ECgE">Tu navegador no admite audio</audio>
 
-<iframe id='audio_3770021' frameborder='0' allowfullscreen='' scrolling='no' height='200' style='border:1px solid #EEE; box-sizing:border-box; width:100%;' src="https://www.ivoox.com/player_ej_3770021_4_1.html?c1=ff6600"></iframe>
+[Audio, transcripción y comentarios en iVoox](https://www.ivoox.com/audio_rf_3770021_1.html)
 
 [Descarga directa de mp3](https://drive.google.com/uc?export=download&id=1hG4LzfaRdT7UmBhR2pcWhfEld-x8ECgE)
 
