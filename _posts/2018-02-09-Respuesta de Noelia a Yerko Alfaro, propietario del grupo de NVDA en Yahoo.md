@@ -2,6 +2,7 @@
 title: Respuesta de Noelia a Yerko Alfaro, propietario del grupo de NVDA en Yahoo
 permalink: "/respuesta/"
 layout: post
+author: Noelia
 ---
 
 <footer>Viernes, 9 de febrero de 2018</footer>
