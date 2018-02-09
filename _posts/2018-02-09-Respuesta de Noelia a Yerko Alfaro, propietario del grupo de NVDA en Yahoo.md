@@ -4,6 +4,8 @@ permalink: "/respuesta/"
 layout: post
 ---
 
+<footer>Viernes, 9 de febrero de 2018</footer>
+
 Publico mi respuesta a Yerko Alfaro, propietario de la [lista de NVDA en Yahoo](https://es.groups.yahoo.com/neo/groups/nvdaespanol/info), ya que, al comprobar si aún se podía participar en ese grupo, he recibido la siguiente notificación:
 
 <Tu mensaje no ha sido entregado por enviarlo a un grupo informativo,
@@ -36,3 +38,8 @@ Realmente, son las comunidades las que construyen sus redes, y no al revés.
 ### Post incompleto ###
 
 Si es necesario, actualizaremos este post con referencias a mensajes enviados a la lista de Yahoo relativos a este debate. Este no es un post completo, sino abierto a más información o comentarios. Los debates solo se han interrumpido en la lista de Yahoo.
+
+### Referencias ###
+
+- [Tabla de mensajes de la lista de Yahoo](https://es.groups.yahoo.com/neo/groups/nvdaespanol/conversations/messages#yg-msg-list)
+
