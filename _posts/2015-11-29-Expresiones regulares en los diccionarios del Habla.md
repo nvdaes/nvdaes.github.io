@@ -223,7 +223,7 @@ Bueno, una versión que recuerda el aniversario de la toma de la Bastilla.
 
 Si prefiere que diga los números tal cuales con el punto incluido, podemos usar la siguiente entrada en el diccionario del habla:
 
-Patrón: "(\.)(?=\d)"
+Patrón: "(\\.)(?=\d)"
 
 Reemplazar: " punto ".
 
@@ -241,3 +241,7 @@ Una sugerencia que  quiero dejar  antes de concluir es no crear diccionarios del
 He visto algunos con más de 1500 espresiones regulares, demasiado grande y  puede ralentizar mucho el lector de pantalla.
 
 Además, no hay necesidad de corregir los errores de ortografía, o tratar de simular la pronunciación extranjera cuando el sintetizador no tiene los fonemas necesarios.
+
+Copyright © 2015-2018
+
+---
