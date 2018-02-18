@@ -1,4 +1,13 @@
+var months = ["enero", "febrero", "marzo",
+"abril", "mayo", "junio",
+"julio", "agosto", "septiembre",
+"octubre", "noviembre", "diciembre"];
+
 var footer = document.getElementById("footer");
 var div = document.createElement("DIV");
-div.innerHTML = "<p>ültima actualización: 18 de febrero de 2018</p>"
+var update = new Date(document.lastModified);
+var day = update.getDate();
+var month = update.getMonth();
+var year = update.getFullYear();
+div.innerHTML = "<p>ültima actualización: " + day + " de " + month + " de " year</p>"
 footer.appendChild(div);
