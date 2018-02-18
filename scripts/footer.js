@@ -9,5 +9,5 @@ var update = new Date(document.lastModified);
 var day = update.getDate();
 var month = update.getMonth();
 var year = update.getFullYear();
-div.innerHTML = "<p>ültima actualización: " + day + " de " + month + " de " year</p>"
+div.innerHTML = "<p>ültima actualización: " + day + " de " + month[months] + " de " + year + "</p>"
 footer.appendChild(div);
