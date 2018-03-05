@@ -16,7 +16,7 @@ Según se explica en este [artículo de NV Access sobre NVDA 2018.1rc2](https://
 - NVDA se actualizará correctamente al nuevo controlador braille Alva, sin que se tenga que abrir el diálogo de configuración Braille y elegir Alva otra vez. (#8051)
 - NVDA vuelve a admitir la Alva 640 Comfort.
 
-Si quieres descargar esta versión, ve a la [página para descargar NVDA 2018.1rc2](https://www.nvaccess.org/download?nvdaVersion=2018.1rc2), y utiliza el formulario de descarga como se explica en el [artículo sobre NVDA 2018.1rc1](https://nvdaes.github.io/nvda-2018-1rc2).
+Si quieres descargar esta versión, ve a la [página para descargar NVDA 2018.1rc2](https://www.nvaccess.org/download?nvdaVersion=2018.1rc2), y utiliza el formulario de descarga como se explica en el [artículo sobre NVDA 2018.1rc1](https://nvdaes.github.io/nvda-2018-1rc1).
 
 Deseamos que disfrutes de NVDA 2018.1rc2, y esperamos que esta entrada sirva para mostrar la importancia de probar las versiones candidatas de NVDA. 
 
