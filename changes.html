@@ -8,10 +8,145 @@
 <font size="4">
 </font></center>
 
+<h2>2018.1</h2>
+<p>
+Lo reseñable de esta versión incluye el soporte para gráficos en 
+Microsoft word y PowerPoint, el soporte para pantallas braille nuevas 
+incluyendo las Eurobraille y el conversor de protocolo de Optelec, 
+mejorado el soporte para las pantallas braille Hims y Optelec, mejoras 
+de rendimiento para Mozilla Firefox 58 y posteriores, y mucho más.
+</p>
+<h3>Nuevas Características</h3>
+<ul>
+<li>Ahora es posible interactuar con gráficos en Microsoft Word y 
+Microsoft PowerPoint, similar al soporte existente para gráficos en 
+Microsoft Excel. (<a href="https://github.com/nvaccess/nvda/issues/7046" target="_blank">#7046</a>)
+ <ul>
+ <li>En Microsoft Word: cuando se esté en modo exploración, pon el 
+cursor en un gráfico integrado y pulsa intro para interactuar con él.
+ </li><li>En Microsoft Powerpoint cuando se edite una diapositiva: 
+tabula a un objeto gráfico, y pulsa intro o espacio para interactuar con
+ el gráfico.
+ </li><li>Para detener la interacción con un gráfico, pulsa escape.
+ </li></ul>
+</li><li>Nuevo idioma: Kyrgyz.
+</li><li>Añadido el soporte para VitalSource Bookshelf. (<a href="https://github.com/nvaccess/nvda/issues/7155" target="_blank">#7155</a>)
+</li><li>Añadido el soporte para el protocolo conversor Optelec , un 
+dispositivo que te permite utilizar las pantallas Braille Voyager y 
+Satellite utilizando el protocolo de comunicación de las ALVA BC6. (<a href="https://github.com/nvaccess/nvda/issues/6731" target="_blank">#6731</a>)
+</li><li>Ahora es posible utilizar la entrada braille con una pantalla braille ALVA 640 Comfort. (<a href="https://github.com/nvaccess/nvda/issues/7733" target="_blank">#7733</a>) 
+ <ul>
+ <li>La funcionalidad de entrada braille de NVDA puede utilizarse tanto 
+con éstas como con otras pantallas BC6 con el firmware 3.0.0 y anterior.
+ </li></ul>
+</li><li>Soporte inicial para Google Sheets con el modo Braille habilitado. (<a href="https://github.com/nvaccess/nvda/issues/7935" target="_blank">#7935</a>)
+</li><li>Soporte para pantallas braille Eurobraille Esys, Esytime e Iris. (<a href="https://github.com/nvaccess/nvda/issues/7488" target="_blank">#7488</a>)
+</li></ul>
+
+<h3>Cambios</h3>
+<ul>
+<li>Se han reemplazado los controladores de pantallas braille HIMS 
+Braille Sense/Braille EDGE/Smart Beetle y Hims Sync por un único 
+controlador. El nuevo controlador se activará automáticamente para los 
+antiguos usuarios del controlador syncBraille. (<a href="https://github.com/nvaccess/nvda/issues/7459" target="_blank">#7459</a>) 
+ <ul>
+ <li>Algunas teclas, especialmente las teclas de desplazamiento, se han 
+reasignado para seguir las convenciones utilizadas por los productos de 
+Hims. Consulta la guía del usuario para más detalles.
+ </li></ul>
+</li><li>Al escribir con el teclado en pantalla a través de la 
+interacción táctil, por omisión ahora debes hacer doble tap en cada 
+tecla del mismo modo en que activarías cualquier otro control. (<a href="https://github.com/nvaccess/nvda/issues/7309" target="_blank">#7309</a>)
+ <ul>
+ <li>Para utilizar el modo de "escritura táctil" existente donde basta 
+con quitar el dedo de la tecla para activarla, habilita esta opción en 
+el nuevo diálogo Opciones de Interacción Táctil que se encuentra en el 
+menú Preferencias. (<a href="https://github.com/nvaccess/nvda/issues/7309" target="_blank">#7309</a>)
+ </li></ul>
+</li><li>Ya no es necesario que el braille siga explícitamente al foco o
+ a la revisión, ya que esto ocurrirá automáticamente por omisión. (<a href="https://github.com/nvaccess/nvda/issues/2385" target="_blank">#2385</a>) 
+ <ul>
+ <li>Ten en cuenta que el seguimiento automático a la revisión sólo 
+ocurirá al utilizar un cursor de revisión u orden de navegación de 
+objetos. El desplazamiento no activará este nuevo comportamiento.
+ </li></ul>
+</li></ul>
+
+<h3>Corrección de Fallos</h3>
+<ul>
+<li>Los mensajes explorables tales como mostrar el formato actual al 
+pulsar NVDA+f dos veces rápidamente, ya no fallan cuando NVDA se instala
+ en una ruta con caracteres no ASCII. (<a href="https://github.com/nvaccess/nvda/issues/7474" target="_blank">#7474</a>)
+</li><li>El foco ahora se restaura una vez más correctamente cuando se regresa a Spotify desde otra aplicación. (<a href="https://github.com/nvaccess/nvda/issues/7689" target="_blank">#7689</a>)
+</li><li>En la actualización Windows 10 Fall Creators, NVDA ya no falla 
+al actualizar cuando el acceso controlado a la carpeta está habilitado 
+desde Windows Defender Security Center. (<a href="https://github.com/nvaccess/nvda/issues/7696" target="_blank">#7696</a>)
+</li><li>La detección de las teclas de desplazamiento en las pantallas Hims Smart Beetle ya no es poco fiable. (<a href="https://github.com/nvaccess/nvda/issues/6086" target="_blank">#6086</a>)
+</li><li>Una ligera mejora en el rendimiento al procesar grandes cantidades de contenido en Mozilla Firefox 58 y posterior. (<a href="https://github.com/nvaccess/nvda/issues/7719" target="_blank">#7719</a>)
+</li><li>En Microsoft Outlook,  leer correos electrónicos que contengan tablas ya no causa errores. (<a href="https://github.com/nvaccess/nvda/issues/6827" target="_blank">#6827</a>)
+</li><li>Los gestos de las pantallas braille que emulan las teclas 
+modificadoras del teclado del sistema ahora pueden combinarse también 
+con otras teclas emuladas del teclado del sistema si uno o más de los 
+gestos involucrados son específicos del modelo. (<a href="https://github.com/nvaccess/nvda/issues/7783" target="_blank">#7783</a>)
+</li><li>En Mozilla Firefox, el modo exploración ahora funciona 
+correctamente en ventanas emergentes creadas por extensiones tales como 
+LastPass y bitwarden. (<a href="https://github.com/nvaccess/nvda/issues/7809" target="_blank">#7809</a>)
+</li><li>NVDA ya no se bloquea a veces en cada cambio del foco si 
+Firefox o Chrome han dejado de responder debido a una congelación o un 
+cuelgue. (<a href="https://github.com/nvaccess/nvda/issues/7818" target="_blank">#7818</a>)
+</li><li>En clientes de twitter tales como Chicken Nugget, NVDA ya no 
+ignorará los últimos 20 caracteres de tuits con 280 caracteres al 
+leerlos. (<a href="https://github.com/nvaccess/nvda/issues/7828" target="_blank">#7828</a>)
+</li><li>NVDA ahora utiliza el idioma correcto al anunciar los símbolos cuando se seleccione texto. (<a href="https://github.com/nvaccess/nvda/issues/7687" target="_blank">#7687</a>)
+</li><li>En versiones recientes de Office 365, es nuevamente posible navegar gráficos de Excel utilizando las teclas de flechas. (<a href="https://github.com/nvaccess/nvda/issues/7046" target="_blank">#7046</a>)
+</li><li>En salidas de voz y graille, los estados de los controles ahora
+ siempre se anuncian en el mismo orden, sin importar si son positivos o 
+negativos. Correcciones <a href="https://github.com/nvaccess/nvda/issues/7076" target="_blank">#7076</a>
+</li><li>En aplicaciones tales como Mail de Windows 10, NVDA ya no 
+fallará al anunciar los caracteres eliminados cuando se pulse retroceso.
+ (<a href="https://github.com/nvaccess/nvda/issues/7456" target="_blank">#7456</a>)
+</li><li>Ahora todas las teclas en las pantallas Hims Braille Sense Polaris funcionan como se espera. (<a href="https://github.com/nvaccess/nvda/issues/7865" target="_blank">#7865</a>)
+</li><li>NVDA ya no falla al arrancar en Windows 7 quejándose acerca de 
+una dll api ms interna, cuando una versión particular del Visual Studio 
+2017 redistributable se haya instalado por otra aplicación. (<a href="https://github.com/nvaccess/nvda/issues/7975" target="_blank">#7975</a>)
+</li></ul>
+
+<h3>Cambios para Desarrolladores</h3>
+<ul>
+<li>Añadida una bandera booleana oculta a la sección braille en la configuración: "outputPass1Only". (<a href="https://github.com/nvaccess/nvda/issues/7301" target="_blank">#7301</a>, <a href="https://github.com/nvaccess/nvda/issues/7693" target="_blank">#7693</a>, <a href="https://github.com/nvaccess/nvda/issues/7702" target="_blank">#7702</a>) 
+ <ul>
+ <li>Esta bandera está predeterminada a true. Si es false, se utilizarán las reglas liblouis multi pass para la salida braille.
+ </li></ul>
+</li><li>Se ha añadido un nuevo diccionario (braille.RENAMED_DRIVERS) 
+para permitir una transición sin  problemas a los usuarios que utilizan 
+controladores que hayan sido substituidos por otros. (<a href="https://github.com/nvaccess/nvda/issues/7459" target="_blank">#7459</a>)
+</li><li>Actualizado el paquete comtypes a 1.1.3. (<a href="https://github.com/nvaccess/nvda/issues/7831" target="_blank">#7831</a>)
+</li><li>Implementado un sistema genérico en 
+braille.BrailleDisplayDriver para tratar con las pantallas que envían 
+paquetes de confirmación/acuse de recibo. Consulta el controlador de las
+ pantallas braille handyTech como un ejemplo. (<a href="https://github.com/nvaccess/nvda/issues/7590" target="_blank">#7590</a>, <a href="https://github.com/nvaccess/nvda/issues/7721" target="_blank">#7721</a>)
+</li><li>Se puede utilizar una nueva variable "isAppX" en el módulo 
+config para detectar si NVDA se está ejecutando como una aplicación 
+Windows Desktop Bridge Store. (<a href="https://github.com/nvaccess/nvda/issues/7851" target="_blank">#7851</a>)
+</li><li>Para implementaciones de documento tales como NVDAObjects o 
+browseMode que tengan un textInfo, ahora hay una nueva clase 
+documentBase.documentWithTableNavigation que puede heredarse para 
+obtener scripts de navegación estándar de tabla. Por favor consulta esta
+ clase para ver qué métodos helper deben proporcionarse para tu 
+implementación para que funcione la navegación de tabla. (<a href="https://github.com/nvaccess/nvda/issues/7849" target="_blank">#7849</a>)
+</li><li>El fichero por lotes scons ahora se maneja mejor cuando Python 3
+ también está instalado, haciendo el uso del lanzador para lanzar 
+específicamente a python 2.7 de 32 bit. (<a href="https://github.com/nvaccess/nvda/issues/7541" target="_blank">#7541</a>)
+</li><li>hwIo.Hid ahora toma un parámetro adicional exclusivo, el cual 
+por omisión es True. Si se configura a False, se permite a otras 
+aplicaciones comunicarse con un dispositivo mientras esté conectado a 
+NVDA. (<a href="https://github.com/nvaccess/nvda/issues/7859" target="_blank">#7859</a>)
+</li></ul>
+
 <h2>2017.4</h2>
 <p>
-Lo reseñable de esta versión incluyde muchas correcciones y mejoras para
- el soporte web incluyendo el modo exploración para diálogos web por 
+Lo reseñable de esta versión incluye muchas correcciones y mejoras para 
+el soporte web incluyendo el modo exploración para diálogos web por 
 defecto, mejor anunciado de las etiquetas de los grupos de campos en 
 modo exploración, el soporte para tecnologías nuevas de Windows 10 tales
  como la aplicación Windows Defender Guard y Windows 10 en ARM64, y el 
@@ -78,9 +213,13 @@ encontrar esta orden en la categoría Modo exploración del diálogo Gestos
 </li><li>Las modificaciones de los ficheros versionados (configuración 
 del usuario, diccionarios del habla) ya no se guardan cuando NVDA se 
 ejecuta desde el lanzador. (<a href="https://github.com/nvaccess/nvda/issues/7688" target="_blank">#7688</a>)
+</li><li>Las pantallas braille Braillino, Bookworm y Modular (con 
+firmware antiguo) de Handy Tech ya no se soportan al sacarlas de la 
+caja. Instala el controlador universal de Handy Tech y el complemento de
+ NVDA para utilizar las pantallas. (<a href="https://github.com/nvaccess/nvda/issues/7590" target="_blank">#7590</a>)
 </li></ul>
 
-<h3>Corrección de Errores</h3>
+<h3>Corrección de Fallos</h3>
 <ul>
 <li>Los enlaces ahora se indican en braille en aplicaciones tales como Microsoft Word. (<a href="https://github.com/nvaccess/nvda/issues/6780" target="_blank">#6780</a>)
 </li><li>NVDA ya no se vuelve notablemente más lento cuando estén abiertas muchas pestañas en los navegadores web Firefox o Chrome. (<a href="https://github.com/nvaccess/nvda/issues/3138" target="_blank">#3138</a>)
@@ -108,10 +247,6 @@ nada si el navegador de objetos ha desaparecido. (<a href="https://github.com/nv
 </li><li>La funcionalidad desplazamiento hacia atrás se ha corregido 
 para pantallas de freedom Scientific que contengan un balancín 
 izquierdo. (<a href="https://github.com/nvaccess/nvda/issues/7713" target="_blank">#7713</a>)
-</li><li>Las pantallas braille Braillino, Bookworm y Modular (con 
-firmware antiguo) de Handy Tech ya no se soportan al sacarlas de la 
-caja. Instala el controlador universal de Handy Tech y el complemento de
- NVDA para utilizar las pantallas. (<a href="https://github.com/nvaccess/nvda/issues/7590" target="_blank">#7590</a>)
 </li></ul>
 
 <h3>Cambios para Desarrolladores</h3>
@@ -264,7 +399,7 @@ sólido púrpura. Esto se asegura de que será visible en cualquier color
 de fondo, y utilizará el color púrpura del logo de NV Access. (<a href="https://github.com/nvaccess/nvda/issues/7446" target="_blank">#7446</a>)
 </li></ul>
 
-<h3>Corrección de Errores</h3>
+<h3>Corrección de Fallos</h3>
 <ul>
 <li>Los elementos div editables en Chrome ya no tienen su etiqueta anunciada como su valor mientras se esté en modo exploración. (<a href="https://github.com/nvaccess/nvda/issues/7153" target="_blank">#7153</a>)
 </li><li>Pulsar fin mientras se esté en modo exploración de un documento
@@ -1158,7 +1293,7 @@ recomendado y de que NVDA debería desinstalarse completamente antes de
 proceder. (<a href="https://github.com/nvaccess/nvda/issues/5037" target="_blank">#5037</a>)
 </li></ul>
 
-<h3>Corrección de Errores</h3>
+<h3>Corrección de Fallos</h3>
 <ul>
 <li>En modo exploración para  Internet Explorer y otros controles 
 MSHTML, la navegación rápida por campos ya no incluye incorrectamente 
@@ -1371,7 +1506,7 @@ https y el hash del fichero se verifica tras su descarga.) (<a href="https://git
 </li><li>Se ha actualizado eSpeak a la versión 1.48.04 (<a href="https://github.com/nvaccess/nvda/issues/4325" target="_blank">#4325</a>)
 </li></ul>
 
-<h3>Corrección de Errores</h3>
+<h3>Corrección de Fallos</h3>
 <ul>
 <li>En Microsoft Excel, se maneja el caso cuando las celdas de 
 encabezado de fila y columna se fusionan. Ej.: si A1 y B1 se fusionan, 
@@ -2229,7 +2364,7 @@ se configuraba para utilizar el idioma irlandés, así como incluye
 actualizaciones para traducciones y algunas otras correcciones de 
 errores.
 </p>
-<h3>Corrección de Errores</h3>
+<h3>Corrección de Fallos</h3>
 <ul>
 <li>Se producen caracteres correctos cuando se teclean en la propia 
 interfaz de NVDA mientras se utiliza  un método de entrada Coreano o 
@@ -2259,7 +2394,7 @@ La nueva distribución utiliza las teclas de cursor en combinación con la
 <p>
 Por favor ten en cuenta los siguientes  cambios para órdenes comúnmente utilizadas:
 </p>
-<table cellpadding="4" border="1">
+<table border="1" cellpadding="4">
 <tbody><tr>
 <th>Nombre</th>
 <th>Tecla</th>
@@ -2286,7 +2421,7 @@ Por favor ten en cuenta los siguientes  cambios para órdenes comúnmente utiliz
 Además, entre otros cambios, han variado las órdenes para toda la 
 navegación de objetos, revisión de texto, clic del ratón y grupos de 
 opciones del sintetizador.
-Por favor mira el documento <a href="file:///C:/Program%20Files%20%28x86%29/NVDA/documentation/es/keyCommands.html" target="_blank">Referencia Rápida de Órdenes</a> para las nuevas teclas.
+Por favor mira el documento <a href="file:///C:/Program%20Files%20(x86)/NVDA/documentation/es/keyCommands.html" target="_blank">Referencia Rápida de Órdenes</a> para las nuevas teclas.
 </p>
 <h3>Nuevas Características</h3>
 <ul>
