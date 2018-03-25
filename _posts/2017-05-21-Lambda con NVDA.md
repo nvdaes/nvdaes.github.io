@@ -25,11 +25,11 @@ Por Salva Doménech Miguel
 
 ### Podcast sobre Lambda 
 
- <audio controls src="https://s.juventudelatina.com/juvenube/index.php/s/KtyR7zeybfI7uRL/download">
+ <audio controls src="https://nvda.es/wp-content/uploads/Podcast-Lambda-esp.mp3">
 Tu navegador no admite la reproducción de este podcast.
 </audio>
 
-[Descargar podcast](https://s.juventudelatina.com/juvenube/index.php/s/KtyR7zeybfI7uRL/download)
+[Descargar podcast](https://nvda.es/wp-content/uploads/Podcast-Lambda-esp.mp3)
 
 ### Referencias
 
