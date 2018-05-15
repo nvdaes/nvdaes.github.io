@@ -17,5 +17,4 @@ Mediante el enlace del menú de navegación relativo a evaluación de ePUB (disp
 
 - [Evaluación de Kindle con NVDA traducida a español](https://nvdaes.github.io/epub-accessibility-tests/kindlenvda/)
 - [Evaluación de Kindle con NVDA en epubtest.org](http://epubtest.org/evaluation/456/)
-- [Kindle en la guía de NVDA](https://nvdaes.github.io/userGuide.html#Kindle)
 
