@@ -13,7 +13,7 @@ Las versiones "release candidate" (rc) se publican para que las personas usuaria
 
 Para descargar NVDA 2018.2rc1:
 
-1. Accede a la [página para descargar NVDA 2018.1rc1](https://www.nvaccess.org/download?nvdaVersion=2018.2rc1).
+1. Accede a la [página para descargar NVDA 2018.2rc1](https://www.nvaccess.org/download?nvdaVersion=2018.2rc1).
 2. Elige la cantidad que quieras donar a NV Access, o, para no donar esta vez, "Skip donation this time", entre los botones de opción disponibles.
 3. Indica tu dirección de correo electrónico en el cuadro de edición "Email address:".
 4. Pulsa el botón "DOWNLOAD".
