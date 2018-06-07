@@ -13,4 +13,6 @@ function showLastVersion() {
 	};
 	xhttp.open("GET", "userGuide.html", true);
 	xhttp.send();
-	
+};
+
+showLastVersion();
