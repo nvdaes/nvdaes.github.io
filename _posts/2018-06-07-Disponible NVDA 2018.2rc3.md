@@ -5,7 +5,7 @@ layout: post
 author: Noelia
 ---
 
-<footer>Jueves, 7 de junio de 2017</footer>
+<footer>Jueves, 7 de junio de 2018</footer>
 
 Se ha publicado NVDA 2018.2rc3, la tercera versión candidata previa a NVDA 2018.2.
 
