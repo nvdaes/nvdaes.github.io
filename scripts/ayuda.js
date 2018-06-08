@@ -15,7 +15,7 @@ function prueba() {
 			aside.appendChild(div);
 		}
 	};
-	xhttp.open("GET", "../userGuide.html", true);
+	xhttp.open("GET", "https://nvdaes.github.io/userGuide.html", true);
 	xhttp.send();
 }
 
