@@ -14,7 +14,7 @@ $(document).ready(function () {
 	$("#button").click(function () {
 		$.getJSON("https://api.github.com/repos/nvdaes/placeMarkers", function(json) {
 			var name = json.name;
-			$("#div".html("<p>" + name +"</p>");
+			$("#div").html("<p>" + name +"</p>");
 		});
 	});
 });
