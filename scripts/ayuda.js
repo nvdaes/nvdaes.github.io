@@ -10,7 +10,8 @@ function showLastVersion() {
 			var version = docTitle.substring(versionPos);
 			t = document.createTextNode(version);
 			p.appendChild(t);
-			document.querySelector("div.entry").insertBefore(p);
+			// document.querySelector("div.entry").insertBefore(p);
+			alert("hola");
 		}
 	};
 	xhttp.open("GET", "userGuide.html", true);
