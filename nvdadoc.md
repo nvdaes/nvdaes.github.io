@@ -47,7 +47,7 @@ Producción y locución: Felipe Ibarra
 
 Duración: 00:24:14
 
-<aside id="complementario">Más información: [Administrador de complementos en la guía de NVDA](userGuide.html#AddonsManager)</aside>
+<aside id="complementario">Más información: <a href="/userGuide.html#AddonsManager">Administrador de complementos en la guía de NVDA</a></aside>
 <iframe width="420" height="315"
 src="https://www.youtube.com/embed/GRbu7vkpL6s">
 </iframe>
