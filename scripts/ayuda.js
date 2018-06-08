@@ -22,10 +22,7 @@ function showAddonInfo(addon) {
 }
 
 function showPlaceMarkersInfo() {
-	try:
-		showAddonInfo("placeMarkers");
-	finally:
-		alert("hecho");
+	alert("hecho");
 }
 
 button.addEventListener("click", showPlaceMarkersInfo, true);
