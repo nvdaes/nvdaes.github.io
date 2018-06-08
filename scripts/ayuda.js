@@ -15,7 +15,7 @@ function prueba() {
 			aside.appendChild(div);
 		}
 	};
-	xhttp.open("GET", "https://api.github.com/repos/nvdaes/repos/placeMarkers/releases/latest", true);
+	xhttp.open("GET", "../userGuide.html", true);
 	xhttp.send();
 }
 
