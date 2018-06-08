@@ -8,15 +8,8 @@ aside.appendChild(button);
 var div = document.createElement("DIV");
 
 function prueba() {
-	var xhttp = new XMLHttpRequest();
-	xhttp.onreadystatechange = function() {
-		if (this.readyState == 4 && this.status == 200) {
-			div.innerHTML(this.responseText);
-			aside.appendChild(div);
-		}
-	};
-	xhttp.open("GET", "https://api.github.com/repos/nvdaes/repo/placeMarkers/releases/latest", true);
-	xhttp.send();
+	var json = "https://github.com/repos/nvdaes/placeMarkers/releases/latest";
+	alert(typeof(json));
 }
 
 button.addEventListener("click", prueba, true);
