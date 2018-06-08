@@ -4,9 +4,9 @@ function prueba() {
 	alert("prueba");
 }
 
-var aside = document.querySelector("aside");
+var aside = document.getElementById("complementario");
 var button = document.createElement("BUTTON");
 text = document.createTextNode("Prueba");
 button.appendChild(text);
-// aside.appendChild(button);
+aside.appendChild(button);
 button.onclick = "prueba";
