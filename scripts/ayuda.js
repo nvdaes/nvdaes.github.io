@@ -12,9 +12,6 @@ aside.appendChild(div)
 
 $(document).ready(function () {
 	$("#button").click(function () {
-		$.getJSON("https://api.github.com/repos/nvdaes/repos/placeMarkers/releases/latest", function(json) {
-			$("#div").text(json.name);
-		};
+		alert("prueba");
 	});
 });
-
