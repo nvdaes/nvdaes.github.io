@@ -8,7 +8,7 @@ function showLastVersion() {
 			var docTitle = this.responseXML.title;
 			//var versionPos =docTitle.search("NVDA");
 			//var version = docTitle.substring(versionPos);
-			t = document.createTextNode(title);
+			t = document.createTextNode(docTitle);
 			p.appendChild(t);
 			document.querySelector("div.entry").insertBefore(p);
 		}
