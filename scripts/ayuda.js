@@ -12,6 +12,9 @@ aside.appendChild(div)
 
 $(document).ready(function () {
 	$("#button").click(function () {
-		alert("prueba");
+		$.getJSON("https://api.github.com/repos/nvdaes/placeMarkers", function(json) {
+			var name = json.name;
+			$("#div").html("<p>" + name + "</p>");
+		}
 	});
 });
