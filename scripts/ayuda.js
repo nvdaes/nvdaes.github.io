@@ -1,12 +1,7 @@
 document.getElementById("ayuda").setAttribute("aria-current", "page");
-var aside = document.getElementById("complementario");
-var button = document.createElement("BUTTON");
-var text = document.createTextNode("Prueba");
-button.appendChild(text);
-aside.appendChild(button);
-button.addEventListener("click", prueba, true);
 
 function prueba() {
+	aside = document.getElementById("complementario");
 	var xhttp = new XMLHttpRequest();
 	alert("prueba");
 	xhttp.onreadystatechange = function() {
@@ -20,3 +15,8 @@ function prueba() {
 	xhttp.send();
 }
 
+var button = document.createElement("BUTTON");
+var text = document.createTextNode("Prueba");
+button.appendChild(text);
+aside.appendChild(button);
+button.addEventListener("click", prueba, true);
