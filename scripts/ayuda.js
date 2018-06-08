@@ -5,13 +5,12 @@ var button = document.createElement("BUTTON");
 var text = document.createTextNode("Información sobre placeMarkers");
 button.appendChild(text);
 aside.appendChild(button);
-var div = document.createElement("DIV");
 
 function showAddonInfo(addon) {
 		var xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
-			var div.createElement("DIV");
+			var div = document.createElement("DIV");
 			var json = JSON.parse(xhttp.responseText);
 			div.innerHTML = json.name;
 		}
