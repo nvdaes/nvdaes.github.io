@@ -15,7 +15,7 @@ function prueba() {
 			alert("hecho");
 		}
 	};
-	xhttp.open("GET", "ajax_info.txt", true);
+	xhttp.open("GET", "https://api.github.com/repos/nvdaes/placeMarkers/releases/latest", true);
 	xhttp.send();
 }
 
