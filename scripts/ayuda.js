@@ -9,7 +9,7 @@ var div = document.createElement("DIV");
 
 function prueba() {
 	var json = "https://github.com/repos/nvdaes/placeMarkers/releases/latest";
-	alert(typeof(json));
+	alert("Variable creada");
 }
 
 button.addEventListener("click", prueba, true);
