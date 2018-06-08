@@ -81,5 +81,6 @@ Tu navegador no admite la reproducción de este podcast.
 
 [Taller sobre NVDA en iVoox](https://www.ivoox.com/nvda-lector-pantallas-codigo-abierto-audios-mp3_rf_3912332_1.html)
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="../scripts/ayuda.js"></script>
 

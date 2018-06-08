@@ -2,29 +2,20 @@ document.getElementById("ayuda").setAttribute("aria-current", "page");
 
 var aside = document.getElementById("complementario");
 var div = document.createElement("DIV");
+div.setAttribute("id", "div");
 var button = document.createElement("BUTTON");
 var text = document.createTextNode("Información sobre placeMarkers");
 button.appendChild(text);
 aside.appendChild(button);
 
-function showAddonInfo(addon) {
-		var xhttp = new XMLHttpRequest();
-	xhttp.onreadystatechange = function() {
-		if (this.readyState == 4 && this.status == 200) {
-			var responseText = xhttp.responseText;
-			var json = JSON.parse(responseText.substring(responseText.search("{")));
-			var name = json.name;
-			alert (typeof(name));
-			// var info = document.createTextNode(addon + name);
-			// div.appendChild(info);
-		}
-	};
-	xhttp.open("GET", "https://api.github.com/repos/nvdaes/" + addon + "/releases/latest", true);
-	xhttp.send();
-}
+$(document).ready(function () {
+	getPlaceMarkersInfo();
+});
 
-function showPlaceMarkersInfo() {
-	//showAddonInfo("placeMarkers");
+function getPlaceMarkersInfo() {
+	$.getJSON("https://api.github.com/repos/nvdaes/placeMarkers/tags").done(function (json) {
+		var release = json[0];
+		var name = release.name;
+		$("#div").innerHTML(name);
+	});    
 }
-
-button.addEventListener("click", showPlaceMarkersInfo, true);
