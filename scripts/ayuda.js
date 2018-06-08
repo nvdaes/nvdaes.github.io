@@ -8,5 +8,5 @@ var aside = document.querySelector("aside");
 var button = document.createElement("BUTTON");
 text = document.createTextNode("Prueba");
 button.appendChild(text);
-aside.appendChild(button);
+// aside.appendChild(button);
 button.onclick = "prueba";
