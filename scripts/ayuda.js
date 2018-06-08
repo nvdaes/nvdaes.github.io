@@ -10,7 +10,7 @@ function showLastVersion() {
 			//var version = docTitle.substring(versionPos);
 			t = document.createTextNode(docTitle);
 			p.appendChild(t);
-			document.querySelector("div.entry").insertBefore(p);
+			document.body.appendChild(p);
 		}
 	};
 	xhttp.open("GET", "https://nvdaes.github.io/userGuide.html", true);
