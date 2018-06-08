@@ -11,10 +11,11 @@ function showAddonInfo(addon) {
 		var xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
-			var json = JSON.parse(xhttp.responseText);
+			var responseText = xhttp.responseText;
+			var json = JSON.parse(responseText.substring(responseText.search("{")));
 			var name = json.name;
-			var text = document.createTextNode(addon + name);
-			div.appendChild(text);
+			var info = document.createTextNode(addon + name);
+			div.appendChild(info);
 		}
 	};
 	xhttp.open("GET", "https://api.github.com/repos/nvdaes/" + addon + "/releases/latest", true);
@@ -22,7 +23,7 @@ function showAddonInfo(addon) {
 }
 
 function showPlaceMarkersInfo() {
-	alert("hecho");
+	showAddonInfo("placeMarkers");
 }
 
 button.addEventListener("click", showPlaceMarkersInfo, true);
