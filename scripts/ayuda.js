@@ -9,5 +9,4 @@ var button = document.createElement("BUTTON");
 var text = document.createTextNode("Prueba");
 button.appendChild(text);
 aside.appendChild(button);
-aside.setAttribute("aria-label", "prueba");
-// button.onclick = "prueba";
+button.addEventListener("click", "prueba");
