@@ -6,7 +6,8 @@ function prueba() {
 
 var aside = document.getElementById("complementario");
 var button = document.createElement("BUTTON");
-text = document.createTextNode("Prueba");
+var text = document.createTextNode("Prueba");
 button.appendChild(text);
 aside.appendChild(button);
-button.onclick = "prueba";
+aside.setAttribute("aria-label", "prueba");
+// button.onclick = "prueba";
