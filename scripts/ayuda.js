@@ -14,7 +14,7 @@ function showLastVersion() {
 			alert("hola");
 		}
 	};
-	xhttp.open("GET", "userGuide.html", true);
+	xhttp.open("GET", "https://nvdaes.github.io/userGuide.html", true);
 	xhttp.send();
 }
 
