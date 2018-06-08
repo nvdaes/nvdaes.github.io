@@ -9,4 +9,4 @@ var button = document.createElement("BUTTON");
 var text = document.createTextNode("Prueba");
 button.appendChild(text);
 aside.appendChild(button);
-button.addEventListener("click", prueba());
+button.addEventListener("click", prueba);
