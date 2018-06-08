@@ -47,10 +47,12 @@ Producción y locución: Felipe Ibarra
 
 Duración: 00:24:14
 
-Más información: [Administrador de complementos en la guía de NVDA](userGuide.html#toc101)
+Más información: [Administrador de complementos en la guía de NVDA](userGuide.html#AddonsManager)
 <iframe width="420" height="315"
 src="https://www.youtube.com/embed/GRbu7vkpL6s">
 </iframe>
+
+<aside></aside>
 
 #### Introducción a NVDA (Jornadas UTLAI 2016)
 
