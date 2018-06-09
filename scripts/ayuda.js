@@ -27,14 +27,13 @@ $(document).ready(function () {
 			summary.appendChild(t);
 			details.appendChild(summary);
 			$.getJSON("https://api.github.com/repos/nvdaes/" + addons[i] + "/releases/latest", function(json) {
-				this.name = json.name;
+				name = json.name;
 			});
 			var p = document.createElement("P");
 			var t = document.createTextNode(name);
 			p.appendChild(t);
 			details.appendChild(p);
 			aside.appendChild(details); 
-			aside.appendChild(p);
 		}
 	});
 });
