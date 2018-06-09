@@ -26,12 +26,12 @@ $(document).ready(function () {
 			var t = document.createTextNode(addons[i]);
 			summary.appendChild(t);
 			details.appendChild(summary);
-			var p = document.createElement("P");
 			$.getJSON("https://api.github.com/repos/nvdaes/" + addons[i] + "/releases/latest", function(json) {
+				var p = document.createElement("P");
 				var t = document.createTextNode(json.name);
 				p.appendChild(t);
+				details.appendChild(p);
 			});
-			details.appendChild(p);
 			aside.appendChild(details); 
 		}
 	});
