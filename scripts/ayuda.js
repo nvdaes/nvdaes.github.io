@@ -27,6 +27,10 @@ $(document).ready(function () {
 			summary.appendChild(t);
 			details.appendChild(summary);
 			//$.getJSON("https://api.github.com/repos/nvdaes/" + addons[i] + "/releases/latest", function(json) {
+			var p = document.createElement("P");
+			var t = document.createTextNode("Información adicional");
+			p.appendChild(t);
+			details.appendChild(p);
 			aside.appendChild(details); 
 		}
 	});
