@@ -6,7 +6,7 @@ var form = document.createElement("FORM");
 var p = document.createElement("P");
 var label = document.createElement("LABEL");
 label.setAttribute ("for", "repo");
-t = document.createTextNode("cuenta/repositorio de GitHub")
+t = document.createTextNode("cuenta/repositorio de GitHub");
 label.appendChild(t);
 var input = document.createElement("INPUT");
 input.setAttribute("type", "text");
@@ -19,6 +19,7 @@ label.appendChild(input);
 p.appendChild(label);
 form.appendChild(p);
 form.appendChild(submit);
+aside.appendChild(form);
 /*
 $(document).ready(function () {
 	
