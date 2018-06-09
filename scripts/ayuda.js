@@ -30,7 +30,7 @@ $(document).ready(function () {
 				var p = document.createElement("P");
 				var t = document.createTextNode(json.name);
 				p.appendChild(t);
-				details.appendChild(p);
+				this.details.appendChild(p);
 			});
 			aside.appendChild(details); 
 		}
