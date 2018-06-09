@@ -18,7 +18,7 @@ addons = [
 var addonsLength = addons.length;
 
 $(document).ready(function () {
-	$("#addonsButton").click(function () {
+	/*$("#addonsButton").click(function () {
 		for (var i = 0; i < addonsLength; i++) {
 			var details = document.createElement("DETAILS");
 			var summary = document.createElement("SUMMARY");
@@ -36,5 +36,5 @@ $(document).ready(function () {
 				aside.appendChild(details);
 			});
 		}
-	});
+	});*/
 });
