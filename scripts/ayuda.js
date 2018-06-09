@@ -19,19 +19,20 @@ addons = [
 $(document).ready(function () {
 	$("#addonsButton").click(function () {
 		for (var i=0; i < addons.length; i++) {
+			$.getJSON("https://api.github.com/repos/nvdaes/" + addons[i] + "/releases/latest", function(json) {
+				name = json.name);
+			});
 			var details = document.createElement("DETAILS");
 			var summary = document.createElement("SUMMARY");
 			var t = document.createTextNode(addons[i]);
 			summary.appendChild(t);
 			var details.appendChild(summary);
-			$.getJSON("https://api.github.com/repos/nvdaes/" + addons[i] + "/releases/latest", function(json) {
-				name = json.name);
-			});
 			var p = document.createElement("P");
-			var t = document.createTextNode(name);
+			t = document.createTextNode(name);
 			p.appendChild(t);
-			details.appendChild(p);
-			aside.appendChild(details); 
+			details.apendChild(p);
+			aside.appendChild(details);
+
 		}
 	});
 });
