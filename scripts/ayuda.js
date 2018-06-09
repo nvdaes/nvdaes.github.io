@@ -31,7 +31,7 @@ $(document).ready(function () {
 			});
 			var ul = document.createElement("UL");
 			var li = document.createElement("LI");
-			var t = document.createTextNode(name);
+			var t = document.createTextNode("name");
 			li.appendChild(t);
 			ul.appendChild(li);")
 			details.appendChild(ul);
