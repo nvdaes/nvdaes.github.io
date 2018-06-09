@@ -17,7 +17,7 @@ submit.setAttribute("type", "submit");
 submit.setAttribute("id", "submit");
 p.appendChild(label);
 form.appendChild(p);
-//form.appendChild(submit);
+form.appendChild(submit);
 aside.appendChild(form);
 /*
 $(document).ready(function () {
