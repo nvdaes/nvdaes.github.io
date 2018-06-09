@@ -21,6 +21,8 @@ submit.appendChild(t);
 p.appendChild(label);
 form.appendChild(p);
 form.appendChild(submit);
+aside.appendChild(form);
+
 /*
 $(document).ready(function () {
 	$("#submit").click(function () {
