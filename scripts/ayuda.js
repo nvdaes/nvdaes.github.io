@@ -27,7 +27,7 @@ $(document).ready(function () {
 	$("details").click(function () {
 		$.getJSON("https://api.github.com/repos/nvdaes/" + "placeMarkers" + "/releases/latest", function(json) {
 			var name = json.name;
-			this.innerText(name);
+			this.innerHTML("<p>"+name+"</p>");
 		});
 	});
 });
