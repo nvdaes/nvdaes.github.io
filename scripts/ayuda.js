@@ -12,6 +12,7 @@ var input = document.createElement("INPUT");
 input.setAttribute("type", "text");
 input.setAttribute("id", "repo");
 input.setAttribute("name", "repo");
+form.appendChild(input);
 var submit = document.createElement("INPUT");
 submit.setAttribute("type", "submit");
 submit.setAttribute("id", "submit");
