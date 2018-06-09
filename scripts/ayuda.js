@@ -20,18 +20,15 @@ p.appendChild(label);
 form.appendChild(p);
 form.appendChild(submit);
 aside.appendChild(form);
-/*
+
 $(document).ready(function () {
-	
-	$"#complementario").append(form);
 	$("#submit").click(function () {
 		$.getJSON("https://api.github.com/repos/" + $("#repo").val() + "/releases/latest", function(json) {
 			var name = json.name);
 			var p = document.createElement("P");
 			var t = document.createTextNode(name);
 			p.appendChild(t);
-			$("#complementario").append(p);
+			aside.appendChild(p);
 		});
 	});
 });
-*/
