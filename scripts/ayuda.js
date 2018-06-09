@@ -24,12 +24,8 @@ aside.appendChild(form);
 /*
 $(document).ready(function () {
 	$("#submit").click(function () {
-		$.getJSON("https://api.github.com/repos/" + $("#repo").val() + "/releases/latest", function(json) {
+		$.getJSON("https://api.github.com/repos/releases/latest", function(json) {
 			var name = json.name);
-			var p = document.createElement("P");
-			var t = document.createTextNode(name);
-			p.appendChild(t);
-			aside.appendChild(p);
 		});
 	});
 });
