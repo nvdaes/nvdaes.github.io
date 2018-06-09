@@ -34,6 +34,7 @@ $(document).ready(function () {
 			p.appendChild(t);
 			details.appendChild(p);
 			aside.appendChild(details); 
+			aside.appendChild(p);
 		}
 	});
 });
