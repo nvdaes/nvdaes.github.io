@@ -31,6 +31,10 @@ $(document).ready(function () {
 	$("#submit").click(function () {
 		$.getJSON("https://api.github.com/repos/" + input.value + "/releases/latest", function(json) {
 			var assetName = json.assets[0].name;
+			if typeof(name) == undefined) {
+				alert("Repositorio no encontrado");
+				return
+				}
 			var downloadCount = json.assets[0].download_count;
 			alert(assetName + " " + downloadCount);
 		});
