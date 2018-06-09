@@ -1,8 +1,7 @@
 document.getElementById("ayuda").setAttribute("aria-current", "page");
 
 var aside = document.getElementById("complementario");
-var details = document.createElement("DETAILS");
-var summary = document.createElement("SUMMARY");
+
 
 addons = [
 	"clipContentsDesigner",
@@ -15,6 +14,8 @@ addons = [
 
 var addonsLength = addons.length;
 for (var i = 0; i < addonsLength; i++) {
+	var details = document.createElement("DETAILS");
+	var summary = document.createElement("SUMMARY");
 	details.setAttribute("id", addons[i]);
 	var t = document.createTextNode(addons[i]);
 	summary.appendChild(t);
