@@ -25,11 +25,14 @@ $(document).ready(function () {
 			var summary = document.createElement("SUMMARY");
 			var t = document.createTextNode(addons[i]);
 			summary.appendChild(t);
-			// details.appendChild(summary);
+			details.appendChild(summary);
 			$.getJSON("https://api.github.com/repos/nvdaes/" + addons[i] + "/releases/latest", function(json) {
-				var t = document.createTextNode(json.name);
-				this.details.appendChild(this.summary);
+				this.name = json.name;
 			});
+			var p = document.createElement("P");
+			var t = document.createTextNode(name);
+			p.appendChild(t);
+			details.appendChild(p);
 			aside.appendChild(details); 
 		}
 	});
