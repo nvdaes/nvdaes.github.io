@@ -28,6 +28,7 @@ $(document).ready(function () {
 		$.getJSON("https://api.github.com/repos/nvdaes/" + $(this).attr("id") + "/releases/latest", function(json) {
 			var name = json.name;
 			$(this).text(name);
+			alert($(this).attr("id"));
 		});
 	});
 });
