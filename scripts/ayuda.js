@@ -26,8 +26,8 @@ for (var i = 0; i < addonsLength; i++) {
 $(document).ready(function () {
 	$("details").click(function () {
 		// $.getJSON("https://api.github.com/repos/nvdaes/" + $(this).attr("id") + "/releases/latest", function(json) {
-			// var name = json.name;
+		// var name = json.name;
 		alert($(this).attr("id"));
-		});
+		// });
 	});
 });
