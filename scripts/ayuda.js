@@ -29,7 +29,7 @@ $(document).ready(function () {
 			//var name = json.name;
 			//alert(name);
 		//});
-		alert("prueba");
+		alert(input.value);
 	});
 });
 
