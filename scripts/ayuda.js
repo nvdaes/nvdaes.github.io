@@ -25,7 +25,7 @@ aside.appendChild(form);
 $(document).ready(function () {
 	$("#submit").click(function () {
 		$.getJSON("https://api.github.com/repos/releases/latest", function(json) {
-			var name = json.name);
+			var name = json.name;
 		});
 	});
 });
