@@ -25,11 +25,10 @@ aside.appendChild(form);
 
 $(document).ready(function () {
 	$("#submit").click(function () {
-		//$.getJSON("https://api.github.com/repos/" + input.value + "releases/latest", function(json) {
-			//var name = json.name;
-			//alert(name);
-		//});
-		alert(input.value);
+		$.getJSON("https://api.github.com/repos/" + input.value + "releases/latest", function(json) {
+			var name = json.name;
+			alert(name);
+		});
 	});
 });
 
