@@ -13,9 +13,10 @@ addons = [
 	"reportSymbols",
 ]
 
-for (addon in addons) {
-	details.setAttribute("id", addon);
-	var t = document.createTextNode(addon);
+var addonsLength = addons.length;
+for (var i = 0; i < addonsLength; i++) {
+	details.setAttribute("id", addons[i]);
+	var t = document.createTextNode(addons[i]);
 	summary.appendChild(t);
 	details.appendChild(summary);
 	aside.appendChild(details);
