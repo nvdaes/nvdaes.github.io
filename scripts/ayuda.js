@@ -30,14 +30,9 @@ aside.appendChild(form);
 $(document).ready(function () {
 	$("#submit").click(function () {
 		$.getJSON("https://api.github.com/repos/" + input.value + "/releases/latest", function(json) {
-			try {
-				var assetName = json.assets[0].name;
-				var downloadCount = json.assets[0].download_count;
-				alert(assetName + " " + downloadCount);
-			}
-			catch (err) {
-				alert("Repositorio no encontrado");
-			}
+			var assetName = json.assets[0].name;
+			var downloadCount = json.assets[0].download_count;
+			alert(assetName + " " + downloadCount);
 		});
 	});
 });
