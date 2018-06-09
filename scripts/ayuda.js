@@ -1,38 +1,31 @@
 document.getElementById("ayuda").setAttribute("aria-current", "page");
 
-var aside = document.getElementById("complementario");
-var button = document.createElement("BUTTON");
-button.setAttribute("id", "addonsButton");
-var buttonText = document.createTextNode("Información sobre complementos de nvdaes");
-button.appendChild(buttonText);
-aside.appendChild(button);
-
-addons = [
-	"clipContentsDesigner",
-	"emoticons",
-	"eMule",
-	"placeMarkers",
-	"readFeeds",
-	"reportSymbols",
-]
-
 $(document).ready(function () {
-	$("#addonsButton").click(function () {
-		for (var i=0; i < addons.length; i++) {
-			$.getJSON("https://api.github.com/repos/nvdaes/" + addons[i] + "/releases/latest", function(json) {
-				name = json.name);
-			});
-			var details = document.createElement("DETAILS");
-			var summary = document.createElement("SUMMARY");
-			var t = document.createTextNode(addons[i]);
-			summary.appendChild(t);
-			var details.appendChild(summary);
+	var form = document.createElement("FORM");
+	var p = document.createElement("P");
+	var label = document.createElement("LABEL");
+	label.setAttribute ("for", "repo");
+	t = document.createTextNode("cuenta:repositorio de GitHub")
+	label.appendChild(t);
+	var input = document.createElement("INPUT");
+	input.setAttribute("type", "text");
+	input.setAttribute("id", "repo");
+	input.setAttribute("name", "repo");
+	var submit = document.createElement("INPUT");
+	submit.setAttribute("type", "submit");
+	submit.setAttribute("id", "submit");
+	label.appendChild(input);
+	p.appendChild(label);
+	form.appendChild(p);
+	form.appendChild(submit);
+	$"#complementario").append(form);
+	$("#submit").click(function () {
+		$.getJSON("https://api.github.com/repos/" + $("#repo").val() + "/releases/latest", function(json) {
+			var name = json.name);
 			var p = document.createElement("P");
-			t = document.createTextNode(name);
+			var t = document.createTextNode(name);
 			p.appendChild(t);
-			details.apendChild(p);
-			aside.appendChild(details);
-
-		}
+			$("#complementario").append(p);
+		});
 	});
 });
