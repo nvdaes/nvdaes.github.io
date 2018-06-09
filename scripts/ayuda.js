@@ -36,8 +36,8 @@ $(document).ready(function () {
 				alert(assetName + " " + downloadCount);
 			}
 			catch (err) {
-				alert(err.message);
-				}
+				alert("Repositorio no encontrado");
+			}
 		});
 	});
 });
