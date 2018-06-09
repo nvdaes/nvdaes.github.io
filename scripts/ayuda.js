@@ -7,20 +7,18 @@ var buttonText = document.createTextNode("Información sobre complementos de nvd
 button.appendChild(buttonText);
 aside.appendChild(button);
 
-addons = [
-	"clipContentsDesigner",
-	"emoticons",
-	"eMule",
-	"placeMarkers",
-	"readFeeds",
-	"reportSymbols",
-]
-
-var addonsLength = addons.length;
+addons = {
+	"clipContentsDesigner": {},
+	"emoticons": {},
+	"eMule": {},
+	"placeMarkers": {},
+	"readFeeds": {},
+	"reportSymbols": {},
+}}
 
 $(document).ready(function () {
 	$("#addonsButton").click(function () {
-		for (var i = 0; i < addonsLength; i++) {
+		for (var i in addons) {
 			var details = document.createElement("DETAILS");
 			var summary = document.createElement("SUMMARY");
 			var t = document.createTextNode(addons[i]);
