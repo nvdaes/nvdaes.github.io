@@ -8,14 +8,13 @@ var label = document.createElement("LABEL");
 label.setAttribute("for", "repo");
 t = document.createTextNode("cuenta/repositorio de GitHub");
 label.appendChild(t);
-/*var input = document.createElement("INPUT");
+var input = document.createElement("INPUT");
 input.setAttribute("type", "text");
 input.setAttribute("id", "repo");
 input.setAttribute("name", "repo");
 var submit = document.createElement("INPUT");
 submit.setAttribute("type", "submit");
 submit.setAttribute("id", "submit");
-label.appendChild(input);*/
 p.appendChild(label);
 form.appendChild(p);
 //form.appendChild(submit);
