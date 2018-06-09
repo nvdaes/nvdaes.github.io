@@ -27,10 +27,10 @@ $(document).ready(function () {
 			summary.appendChild(t);
 			var details.appendChild(summary);
 			$.getJSON("https://api.github.com/repos/nvdaes/" + addons[i] + "/releases/latest", function(json) {
-				addons[i] = json;
+				addons[i].json = json;
 			});
 			var p = document.createElement("P");
-			var t = document.createTextNode(addons[i].name);
+			var t = document.createTextNode(addons[i].json.name);
 			p.appendChild(t);
 			details.appendChild(p);
 			aside.appendChild(details); 
