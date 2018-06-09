@@ -5,6 +5,7 @@ var button = document.createElement("BUTTON");
 button.setAttribute("id", "button");
 var buttonText = document.createTextNode("Información sobre complementos de nvdaes");
 button.appendChild(buttonText);
+aside.appendChild(button);
 
 addons = [
 	"clipContentsDesigner",
