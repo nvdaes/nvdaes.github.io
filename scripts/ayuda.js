@@ -21,18 +21,18 @@ var addonsLength = addons.length;
 $(document).ready(function () {
 	$("#addonsButton").click(function () {
 		for (var i = 0; i < addonsLength; i++) {
-			details = document.createElement("DETAILS");
+			var details = document.createElement("DETAILS");
 			var summary = document.createElement("SUMMARY");
 			var t = document.createTextNode(addons[i]);
 			summary.appendChild(t);
-			details.appendChild(summary);
+			var details.appendChild(summary);
 			$.getJSON("https://api.github.com/repos/nvdaes/" + addons[i] + "/releases/latest", function(json) {
-				var name = json.name;
-				var p = document.createElement("P");
-				var t = document.createTextNode(name);
-				p.appendChild(t);
-				details.appendChild(p);
+				addons[i] = json;
 			});
+			var p = document.createElement("P");
+			var t = document.createTextNode(addons[i].name);
+			p.appendChild(t);
+			details.appendChild(p);
 			aside.appendChild(details); 
 		}
 	});
