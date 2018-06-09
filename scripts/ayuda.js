@@ -27,7 +27,8 @@ $(document).ready(function () {
 	$("#submit").click(function () {
 		$.getJSON("https://api.github.com/repos/" + input.value + "/releases/latest", function(json) {
 			var name = json.name;
-			alert(name);
+			var downloadCount = json.assets[0].download_count
+			alert(name + " " + downloadCount);
 		});
 	});
 });
