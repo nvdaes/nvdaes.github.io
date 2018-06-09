@@ -21,7 +21,7 @@ p.appendChild(label);
 form.appendChild(p);
 form.appendChild(submit);
 aside.appendChild(form);
-/*
+
 $(document).ready(function () {
 	$("#submit").click(function () {
 		$.getJSON("https://api.github.com/repos/releases/latest", function(json) {
