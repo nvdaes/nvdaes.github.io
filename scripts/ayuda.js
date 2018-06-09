@@ -1,10 +1,12 @@
 document.getElementById("ayuda").setAttribute("aria-current", "page");
 
 var aside = document.getElementById("complementario");
+/*
 var h5 = document.createElement("H5");
 var t = document.createTextNode("Formulario para obtener información sobre complementos en GitHub");
 h5.appendChild(t);
 aside.appendChild(h5);
+*/
 var form = document.createElement("FORM");
 form.setAttribute("role", "form");
 var p = document.createElement("P");
@@ -16,7 +18,7 @@ var input = document.createElement("INPUT");
 input.setAttribute("type", "text");
 input.setAttribute("id", "repo");
 input.setAttribute("name", "repo");
-input.setAttribute("placeholder", "example: nvdaes/emoticons")
+input.setAttribute("placeholder", "example: nvdaes/emoticons");
 label.appendChild(input);
 var submit = document.createElement("INPUT");
 submit.setAttribute("id", "submit");
