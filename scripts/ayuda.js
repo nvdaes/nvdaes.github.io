@@ -25,10 +25,10 @@ for (var i = 0; i < addonsLength; i++) {
 
 $(document).ready(function () {
 	$("details").click(function () {
-		$.getJSON("https://api.github.com/repos/nvdaes/" + $(this).attr("id") + "/releases/latest", function(json) {
+		$.getJSON("https://api.github.com/repos/nvdaes/" + this.id + "/releases/latest", function(json) {
 			var name = json.name;
-			$(this).text(name);
-			alert($(this).attr("id"));
+			this.text(name);
+			alert(this.id);
 		});
 	});
 });
