@@ -32,7 +32,7 @@ $(document).ready(function () {
 		$.getJSON("https://api.github.com/repos/" + input.value + "/releases/latest", function(json) {
 			if (json == null) {
 				alert("Repositorio no encontrado");
-			} else {}
+			} else {
 				var assetName = json.assets[0].name;
 				var downloadCount = json.assets[0].download_count;
 				alert(assetName + " " + downloadCount);
