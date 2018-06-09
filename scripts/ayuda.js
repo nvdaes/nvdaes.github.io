@@ -26,16 +26,14 @@ $(document).ready(function () {
 			var t = document.createTextNode(addons[i]);
 			summary.appendChild(t);
 			details.appendChild(summary);
-			/*$.getJSON("https://api.github.com/repos/nvdaes/" + addons[i] + "/releases/latest", function(json) {
-				var name = json.name;
-			});*/
+			//$.getJSON("https://api.github.com/repos/nvdaes/" + addons[i] + "/releases/latest", function(json) {
 			var ul = document.createElement("UL");
 			var li = document.createElement("LI");
 			var t = document.createTextNode("name");
 			li.appendChild(t);
 			ul.appendChild(li);")
 			details.appendChild(ul);
-			aside.appendChild(details); */
+			aside.appendChild(details); 
 		}
 	});
 });
