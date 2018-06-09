@@ -26,7 +26,7 @@ $(document).ready(function () {
 			var t = document.createTextNode(addons[i]);
 			summary.appendChild(t);
 			details.appendChild(summary);
-			$.getJSON("https://api.github.com/repos/nvdaes/" + addons[i] + "/releases/latest", function(json) {
+			/*$.getJSON("https://api.github.com/repos/nvdaes/" + addons[i] + "/releases/latest", function(json) {
 				var name = json.name;
 				var ul = document.createElement("UL");
 				var li = document.createElement("LI");
@@ -35,7 +35,7 @@ $(document).ready(function () {
 				ul.appendChild(li);")
 				details.appendChild(ul);
 				aside.appendChild(details);
-			});
+			});*/
 		}
 	});
 });
