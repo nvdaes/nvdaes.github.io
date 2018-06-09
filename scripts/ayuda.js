@@ -13,14 +13,16 @@ input.setAttribute("type", "text");
 input.setAttribute("id", "repo");
 input.setAttribute("name", "repo");
 label.appendChild(input);
+/*
 var submit = document.createElement("INPUT");
 submit.setAttribute("id", "submit");
 submit.setAttribute("type", "button");
 var t = document.createTextNode("Consultar descargas de última versión");
 submit.appendChild(t);
+*/
 p.appendChild(label);
 form.appendChild(p);
-form.appendChild(submit);
+//form.appendChild(submit);
 aside.appendChild(form);
 
 /*
