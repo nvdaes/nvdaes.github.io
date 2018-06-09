@@ -35,7 +35,7 @@ $(document).ready(function () {
 			li.appendChild(t);
 			ul.appendChild(li);")
 			details.appendChild(ul);
-			aside.appendChild(details);
+			aside.appendChild(details); */
 		}
 	});
 });
