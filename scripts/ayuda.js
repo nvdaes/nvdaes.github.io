@@ -15,12 +15,12 @@ input.setAttribute("name", "repo");
 label.appendChild(input);
 var submit = document.createElement("BUTTON");
 submit.setAttribute("id", "submit");
+submit.setAttribute("type", "button");
 var t = document.createTextNode("Consultar descargas de última versión");
 submit.appendChild(t);
 p.appendChild(label);
 form.appendChild(p);
-aside.appendChild(form);
-aside.appendChild(submit);
+form.appendChild(submit);
 
 $(document).ready(function () {
 	$("#submit").click(function () {
