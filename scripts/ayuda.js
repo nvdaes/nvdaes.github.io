@@ -2,7 +2,7 @@ document.getElementById("ayuda").setAttribute("aria-current", "page");
 
 var aside = document.getElementById("complementario");
 var button = document.createElement("BUTTON");
-button.setAttribute("id", "button");
+button.setAttribute("id", "addonsButton");
 var buttonText = document.createTextNode("Información sobre complementos de nvdaes");
 button.appendChild(buttonText);
 aside.appendChild(button);
@@ -19,7 +19,7 @@ addons = [
 var addonsLength = addons.length;
 
 $(document).ready(function () {
-	/*$("#addonsButton").click(function () {
+	$("#addonsButton").click(function () {
 		for (var i = 0; i < addonsLength; i++) {
 			var details = document.createElement("DETAILS");
 			var summary = document.createElement("SUMMARY");
@@ -37,5 +37,5 @@ $(document).ready(function () {
 				aside.appendChild(details);
 			});
 		}
-	});*/
+	});
 });
