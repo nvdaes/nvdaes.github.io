@@ -2,7 +2,7 @@ document.getElementById("ayuda").setAttribute("aria-current", "page");
 
 var aside = document.getElementById("complementario");
 var h5 = document.createElement("H5");
-var t = "Formulario para obtener información sobre complementos en GitHub";
+var t = document.createTextNode("Formulario para obtener información sobre complementos en GitHub");
 h5.appendChild(t);
 aside.appendChild(h5);
 var form = document.createElement("FORM");
