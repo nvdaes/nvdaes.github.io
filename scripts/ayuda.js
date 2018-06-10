@@ -68,17 +68,16 @@ $(document).ready(function () {
 			alert(assetName + " - " + downloadCount);
 		});
 	});
-	/*
+	
 	$("#submitId").click(function () {
 		$.getJSON("https://api.github.com/repos/" + inputRepo.value + "/releases", function(json) {
 			var message = "";
-			for (i=0; i < json.length; i++) {
-				var name = json[i].name;
-				var id = json[i].id;
-				var message += name + ": " + id +"\n";
+			for (release in json) {
+				var name = release.name;
+				var id = release.id;
+				message += name + ": " + id + "\n";
 			}
 			alert(message);
 		});
 	});
-	*/
 });
