@@ -74,7 +74,7 @@ $(document).ready(function () {
 			var message = "";
 			$.each(json, function(i, field){
 				message + = field.id.toString();
-			}
+			});
 			alert(message);
 			//alert (json[0].id.toString());
 		});
