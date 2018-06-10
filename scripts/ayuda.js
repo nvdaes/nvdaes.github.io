@@ -43,7 +43,7 @@ submitCount.setAttribute("type", "button");
 submitCount.setAttribute("value", "Consultar número de descargas");
 p.appendChild(submitCount);
 form.appendChild(p);
-/*
+
 var p = document.createElement("P");
 var submitId = document.createElement("INPUT");
 submitId.setAttribute("id", "submitId");
@@ -51,7 +51,7 @@ submitId.setAttribute("type", "button");
 submitId.setAttribute("value", "Consultar lista de versiones");
 p.appendChild(submitId);
 form.appendChild(p);
-*/
+
 aside.appendChild(form);
 
 $(document).ready(function () {
