@@ -68,7 +68,7 @@ $(document).ready(function () {
 			alert(assetName + " - " + downloadCount);
 		});
 	});
-	
+	/*
 	$("#submitId").click(function () {
 		$.getJSON("https://api.github.com/repos/" + inputRepo.value + "/releases", function(json) {
 			var message = "";
@@ -80,4 +80,5 @@ $(document).ready(function () {
 			alert(message);
 		});
 	});
+*/
 });
