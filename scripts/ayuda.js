@@ -74,7 +74,7 @@ $(document).ready(function () {
 			var i = 0;
 			var message = "";
 			for (i=0; i < json.length; i++) {
-				message += json[i].name + " - ";
+				message += json[i].name + " - " + json[i].id.toString() + "\n";
 			}
 			alert(message);
 			//alert (json[0].id.toString());
