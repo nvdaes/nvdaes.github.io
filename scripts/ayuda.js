@@ -71,7 +71,11 @@ $(document).ready(function () {
 	
 	$("#submitId").click(function () {
 		$.getJSON("https://api.github.com/repos/" + inputRepo.value + "/releases", function(json) {
-			alert(json[0].name);
+			var message = "";
+			for (release in json) {
+				message + = release.name;
+				}
+			alert(message);
 		});
 	});
 });
