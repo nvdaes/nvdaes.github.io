@@ -74,7 +74,7 @@ $(document).ready(function () {
 			var message = "";
 			for (release in json) {
 				message + = release.name;
-				}
+			}
 			alert(message);
 		});
 	});
