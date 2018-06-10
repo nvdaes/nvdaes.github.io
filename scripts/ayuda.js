@@ -37,16 +37,25 @@ p.appendChild(label);
 form.appendChild(p);
 
 var p = document.createElement("P");
-var submit = document.createElement("INPUT");
-submit.setAttribute("id", "submit");
-submit.setAttribute("type", "button");
-submit.setAttribute("value", "Consultar número de descargas");
-p.appendChild(submit);
+var submitCount = document.createElement("INPUT");
+submitCount.setAttribute("id", "submitCount");
+submitCount.setAttribute("type", "button");
+submitCount.setAttribute("value", "Consultar número de descargas");
+p.appendChild(submitCount);
 form.appendChild(p);
+
+var p = document.createElement("P");
+var submitId = document.createElement("INPUT");
+submitId.setAttribute("id", "submitId");
+submitId.setAttribute("type", "button");
+submitId.setAttribute("value", "Consultar lista de versiones");
+p.appendChild(submitId);
+form.appendChild(p);
+
 aside.appendChild(form);
 
 $(document).ready(function () {
-	$("#submit").click(function () {
+	$("#submitCount").click(function () {
 		var version;
 		if ($.trim(inputVersion.value).length === 0) {
 			version = "latest";
@@ -56,9 +65,19 @@ $(document).ready(function () {
 		$.getJSON("https://api.github.com/repos/" + inputRepo.value + "/releases/" + version, function(json) {
 			var assetName = json.assets[0].name;
 			var downloadCount = json.assets[0].download_count;
-			var id = json.id;
-			alert(assetName + " - " + downloadCount + " - " + id);
+			alert(assetName + " - " + downloadCount);
+		});
+	});
+	
+	$("#submitId").click(function () {
+		$.getJSON("https://api.github.com/repos/" + inputRepo.value + "/releases", function(json) {
+			var message = "";
+			for (i=0; i < json.length; i++) {
+				var name = json[i].name;
+				var id = json.id;
+				var message += name + ": " + id +"\n";
+			}
+			alert(message);
 		});
 	});
 });
-
