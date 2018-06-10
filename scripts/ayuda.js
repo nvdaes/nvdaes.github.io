@@ -71,7 +71,7 @@ $(document).ready(function () {
 	
 	$("#submitId").click(function () {
 		$.getJSON("https://api.github.com/repos/" + inputRepo.value + "/releases", function(json) {
-			$.each(result, function(i, field){
+			$.each(json, function(i, field){
 				message + = field.id.toString();
 			}
 		alert(message);
