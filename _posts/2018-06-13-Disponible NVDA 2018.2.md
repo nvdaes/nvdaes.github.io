@@ -12,7 +12,7 @@ Como se explica en esta [noticia de NV Access sobre NVDA 2018.2](https://www.nva
 
 Lo reseñable de esta versión incluye el soporte para tablas en Kindle para PC, el soporte para pantallas Humanware BrailleNote Touch y BI14 Braille, mejoras para sintetizadores de voz Onecore y Sapi5, mejoras en Microsoft Outlook y mucho más.
 
-Actualización: Una nueva versión menor (NVDA 2018.2.1) se ha publicado con traducciones actualizadas para algunos idiomas.
+Actualización: Se ha publicado una nueva versión menor (NVDA 2018.2.1) con traducciones actualizadas para algunos idiomas.
 
 Para más información sobre novedades de NVDA, consulta el documento [¿Qué hay de nuevo?](https://nvdaes.github.io/changes.html), también disponible en el menú Ayuda.
 
