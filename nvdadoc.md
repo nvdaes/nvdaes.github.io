@@ -60,7 +60,7 @@ Disponible en inglés (proyecto original) y español (gracias a @nvdaes).
 ##### Instalación #####
 
 - [Descarga el archivo zip en español](https://github.com/ABuffEr/NVDASnapshotDownloader/files/2342754/NVDASnapshotDownloader-1.0-es.zip).
-- Extrae el archivo y pon _NVDASnapshotDownloader.bat en una carpeta donde quieras (una ruta sin espacios es preferible).
+- Extrae el archivo y pon _NVDASnapshotDownloader.bat en una carpeta donde quieras (es preferible una ruta sin espacios).
 - Ejecuta y sigue el proceso paso a paso.
 
 Nota de traducción: En español se ha usado el tratamiento de tuteo, de acuerdo con el tono informal de los mensajes originales. El mensaje "Presione una tecla para continuar" corresponde a Windows, no al programa NVDASnapshotDownloader propiamente dicho.
