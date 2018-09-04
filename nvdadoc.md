@@ -34,6 +34,52 @@ Para descargar la última versión estable de NVDA:
 * Si quieres recibir las noticias de NV Access, indica tu dirección de correo electrónico en el cuadro de edición Email address.
 * Como se indica en la [página sobre privacidad de NV Access](https://www.nvaccess.org/privacy/) (en inglés), a veces sitios externos incluso ofrecen descargas de NVDA, y NV Access no es responsable del contenido o prácticas de privacidad de esos sitios.
 
+### Descargar versiones de prueba ###
+
+Para que las características que se van incorporando a NVDA funcionen correctamente, se publican versiones de prueba, mediante las cuales es posible detectar, reportar y ayudar a resolver posibles errores antes de la publicación de nuevas versiones estables.
+
+Atendiendo a su grado de calidad o estabilidad, podemos distinguir los siguientes tipos de versiones:
+
+- Versiones de prueba "alpha", generadas cuando se incorporan nuevas características que podrían incluirse en la próxima versión estable. Estas versiones han superado algunos test automáticos que pueden evitar ciertos errores, pero no han sido probadas por personas que hayan informado sobre su experiencia o fallos no detectables automáticamente. Desde estas versiones, NVDA podrá actualizarse a otra versión alpha.
+- Versiones de prueba beta, generadas a partir de versiones alpha anteriores, y publicadas unas semanas antes de la próxima versión estable. Las características de estas versiones han sido probadas durante algunas semanas, por lo que se espera que su estabilidad sea mayor que en las alpha. NVDA podrá actualizarse a versiones beta o a la próxima versión estable. Cuando NVDA se actualice a la siguiente estable, habrá que esperar varias semanas para poder descargar la siguiente beta.
+- Versiones RC (Release Candidate), publicadas una semana antes de la fecha prevista para la próxima versión estable, a fin de detectar y resolver posibles errores críticos. NVDA podrá actualizarse a otra versión RC o a la siguiente estable cuando esté disponible.
+- Versiones estables, publicadas aproximadamente cada tres meses. Desde estas versiones NVDA se puede actualizar a otra versión estable.
+
+Algunas versiones beta, RC y las estables pueden descargarse desde la página principal de NV Access.
+
+También existe una [página para descargar versiones de prueba](https://www.nvaccess.org/files/nvda/snapshots/) (en inglés).
+
+Para facilitar el procedimiento, Alberto Buffolino (@ABuffEr) ha creado un programa que hace posible la descarga de versiones de prueba sin necesidad de entrar a la web. Traducimos las instrucciones:
+
+#### NVDASnapshotDownloader ####
+
+Un sencillo archivo. bat para descargar las últimas versiones de prueba ("snapshots") de NVDA (alpha o beta).
+
+Disponible en inglés (proyecto original) y español (gracias a @nvdaes).
+
+##### Instalación #####
+
+- [Descarga el archivo zip en español](https://github.com/ABuffEr/NVDASnapshotDownloader/files/2342754/NVDASnapshotDownloader-1.0-es.zip).
+- Extrae el archivo y pon _NVDASnapshotDownloader.bat en una carpeta donde quieras (una ruta sin espacios es preferible).
+- Ejecuta y sigue el proceso paso a paso.
+
+Nota de traducción: En la traducción a español se ha usado el tratamiento de tuteo, de acuerdo con el tono informal de los mensajes originales. El mensaje "Presione una tecla para continuar" corresponde a Windows, no al programa NVDASnapshotDownloader propiamente dicho.
+
+##### Compatibilidad #####
+
+Probado en Windows 7 y 10, pero probablemente compatible con XP, Vista y Windows 8/8.1.
+
+##### Nota #####
+
+Requiere wget, curl o powershell instalado en la misma carpeta o en el PATH del sistema.
+
+Powershell debería estar presente en casi todos los sistemas a partir de XP.
+
+#### Referencias (en inglés) ####
+
+- [Proceso de publicación y desarrollo de NVDA](https://github.com/nvaccess/nvda/wiki/ReleaseProcess)
+- [Repositorio de NVDASnapshotDownloader](https://github.com/ABuffEr/NVDASnapshotDownloader)
+
 
 ### Archivos multimedia
 
@@ -66,7 +112,7 @@ Tu navegador no admite la reproducción de este podcast.
 
 [Introducción a NVDA en iVoox](http://www.ivoox.com/15036522)
 
-####  Taller NVDA: Un lector de pantalla de código abierto (Jornadas UTLAI 2014)
+#### Taller NVDA: Un lector de pantalla de código abierto (Jornadas UTLAI 2014)
 
 En esta charla, Juan Buño, Noelia Ruiz Martínez, Chris Leo y Ricardo Busto nos hablan de las posibilidades del lector de pantalla NVDA.
 
