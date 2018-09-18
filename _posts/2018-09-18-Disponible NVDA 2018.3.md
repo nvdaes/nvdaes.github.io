@@ -10,7 +10,7 @@ author: Noelia
 
 Como se explica en esta [noticia de NV Access sobre NVDA 2018.3](https://www.nvaccess.org/post/announcing-the-release-of-nvda-2018-3/) (en inglés), se ha publicado esta nueva versión estable de NVDA.
 
-Lo subrayable de esta versión incluye la detección automática de muchas pantallas Braille, la admisión para algunas características nuevas de Windows 10 incluyendo el panel de entrada de emojis de Windows 10, y muchas otras correcciones de fallos, incluyendo errores en la pronunciación de eSpeak-NG en español.
+Lo subrayable de esta versión incluye la detección automática de muchas pantallas Braille, la admisión para algunas características nuevas de Windows 10 incluyendo el panel de entrada de emojis de Windows 10, y muchas otras correcciones de fallos, como errores en la pronunciación de eSpeak-NG en español.
 
 En esta ocasión agradecemos especialmente el [trabajo de Chris para eSpeak-NG en nuestro idioma](https://github.com/Christianlm/SpanishOnEspeak-ng.git)
 
