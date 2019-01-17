@@ -12,6 +12,8 @@ Como se explica en esta [noticia de NV Access sobre NVDA 2018.4](https://www.nva
 
 Lo más destacado de esta versión incluye las mejoras en el rendimiento de las últimas versiones de Mozilla Firefox, el anunciado de emojis con todos los sintetizadores, el anunciado de las respuestas y envíos en Outlook, la información de la distancia del cursor al borde de una página de Microsoft Word y muchas correcciones de fallos.
 
+Actualización: Se ha publicado NVDA 2018.4.1, que corrige un fallo crítico evitando que NVDA se cuelgue al arrancar si el idioma de su interfaz es aragonés. Otros idiomas podrían estar afectados, pero esto no ha sido confirmado.
+
 Puedes descargar la última versión de NVDA desde la [página de descarga en el sitio de NV Access](http://www.nvaccess.org/download/).
 
 Para ayuda en español sobre NVDA o el procedimiento de descarga, consulta la [página Ayuda y descarga](https://nvdaes.github.io/ayuda/) disponible en esta web.
