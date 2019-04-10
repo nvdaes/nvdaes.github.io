@@ -22,7 +22,7 @@ Aquí presentamos un resumen de aplicaciones populares para leer ePUB. Estas res
 
 Los libros de la mayor tienda de libros electrónicos del mundo se leen mediante la app Kindle. La app está disponible en la mayoría de plataformas de ordenadores y teléfonos inteligentes, incluyendo las propias Fire Tablets de Amazon. Nuestros evaluadores han probado la app Kindle en iOS, Android, Windows y Fire.
 
-Lo que gustó a nuestros evaluadores: Las voces en las Fire Tablets tienen un sonido de calidad y natural. Puedes añadir fácilmente tus propios documentos a la app enviándolos por correo electrónico. Los ajustes visuales se admiten bien en todas las plataformas. La app tiene características útiles como la “word wise”, que explica las palabras más difíciles del libro. En algunos libros, es posible combinar el ebook y el audiolibro, para tener una experiencia de lectura sincronizada (es necesario comprarlos). En la tienda de libros Kindle, para cada título se indica si se admite o no el uso de lector de pantalla.
+Lo que gustó a nuestros evaluadores: Las voces en las Fire Tablets tienen un sonido de calidad y natural. Puedes añadir fácilmente tus propios documentos a la app enviándolos por correo electrónico. Los ajustes visuales se admiten bien en todas las plataformas. La app tiene características útiles como la “word wise”, que explica las palabras más difíciles del libro. En algunos libros, es posible combinar el ebook y el audiolibro para tener una experiencia de lectura sincronizada (es necesario comprarlos). En la tienda de libros Kindle, para cada título se indica si se admite o no el uso de lector de pantalla.
 
 Para tener en cuenta: La navegación por encabezados no está disponible para VoiceOver (iOS) ni para TalkBack (Android). La navegación en tablas es  deficiente. Las descripciones de imágenes no se indican en VoiceOver ni en TalkBack. La app para Android no incorpora función propia de lectura en voz alta, y en iOS, la función de verbalización de pantalla no enfatiza visualmente las palabras que se van leyendo. No es fácil que puedas cargar en la aplicación tus propias obras en formato ePUB.
 
@@ -64,7 +64,7 @@ La versión de Kurzweil 3000 basada en la web ofrece una gran ayuda para estudia
 
 Lo que gustó a nuestros evaluadores: Las características familiares en Kurzweil para ficheros ePUB, incluidos modos flexibles de lectura en voz alta, con voces de alta calidad, diccionario, diccionario de imágenes, tesaurus, traducciones y función de resaltados para estudiar. Se ofrecen varios colores de fondo. La tabla de contenido se encuentra en el menú Marcadores.
 
-Para tener en cuenta: Si el editor proporciona navegación por páginas, esto no estará disponible. No es posible personalizar la fuente. El texto no se redimensiona como en lectores de ePUB convencionales. No se admiten algunas funciones de navegación como la activación de enlaces. Kurzweil 3000 es un servicio de pago por suscripción. Hay disponible una versión demo.
+Para tener en cuenta: Si el editor proporciona navegación por páginas, esto no estará disponible. No es posible personalizar la fuente. El texto no se redimensiona como en lectores de ePUB convencionales. No se admiten algunas funciones de navegación, como la activación de enlaces. Kurzweil 3000 es un servicio de pago por suscripción. Hay disponible una versión demo.
 
 #### [Play Books](https://play.google.com/store/apps/details?id=com.google.android.apps.books) ####
 
@@ -104,7 +104,7 @@ Esta app especializada, disponible para iOS y Android, está diseñada para prop
 
 Lo que gustó a nuestros evaluadores: Se proporcionan muchas funciones para personas con discapacidades de acceso a material impreso, incluidas varias opciones para ajustes visuales y lectura en voz alta, y posibilidad de usar lector de pantalla en iOS.
 
-Para tener en cuenta: La versión de iOS es más madura que la app de Android. Faltan algunas características importantes para lectores de material educativo, por ejemplo respecto a imágenes, tablas y enlaces. La compatibilidad con Talkback en Android es deficiente. Es una aplicación de pago tanto en iOS como en Android.
+Para tener en cuenta: La versión de iOS es más madura que la app de Android. Faltan algunas características importantes para lectores de material educativo, por ejemplo respecto a imágenes, tablas y enlaces. La compatibilidad con TalkBack en Android es deficiente. Es una aplicación de pago tanto en iOS como en Android.
 
 ### Cómo se evaluaron las características de accesibilidad ###
 
