@@ -20,7 +20,7 @@ Aquí presentamos un resumen de aplicaciones populares para leer ePUB. Estas res
 
 #### [Amazon Kindle](https://www.amazon.com/kindle-dbs/fd/kcp) ####
 
-Los libros de la mayor tienda de libros electrónicos del mundo se leen mediante la app Kindle. La app está disponible en la mayoría de plataformas de ordenadores y teléfonos inteligentes, incluyendo las propias Fire Tablets de Amazon. Nuestros evaluadores han probado la app Kindle en iOS, Android, Windows y Fire.
+Los libros de la mayor tienda de libros electrónicos del mundo se leen mediante la app Kindle. La app está disponible en la mayoría de plataformas para ordenadores y teléfonos inteligentes, incluyendo las propias Fire Tablets de Amazon. Nuestros evaluadores han probado la app Kindle en iOS, Android, Windows y Fire.
 
 Lo que gustó a nuestros evaluadores: Las voces en las Fire Tablets tienen un sonido de calidad y natural. Puedes añadir fácilmente tus propios documentos a la app enviándolos por correo electrónico. Los ajustes visuales se admiten bien en todas las plataformas. La app tiene características útiles como la “word wise”, que explica las palabras más difíciles del libro. En algunos libros, es posible combinar el ebook y el audiolibro para tener una experiencia de lectura sincronizada (es necesario comprarlos). En la tienda de libros Kindle, para cada título se indica si se admite o no el uso de lector de pantalla.
 
@@ -112,7 +112,7 @@ Los sistemas de lectura se evalúan mediante el protocolo publicado en epubtest.
 
 - La adaptación de la pantalla, por ejemplo, ajustando la fuente o la combinación de colores.
 - La lectura del texto con lector de pantalla o una función integrada de lectura en voz alta.
-- La lectura del texto en una pantalla braille efímero.
+- La lectura del texto en una pantalla de braille efímero.
 
 Las apps se evalúan utilizando distintas combinaciones, con y sin tecnología de apoyo. Todas las apps de lectura se prueban utilizando las mismas publicaciones con pruebas estandarizadas, para garantizar resultados consistentes. Los ficheros para pruebas están disponibles en <http://www.epubtest.org/testsuite/>
 
