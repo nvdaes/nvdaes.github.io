@@ -4,6 +4,7 @@ permalink: "/resumenEpub/"
 layout: page
 ---
 
+[Documento original en Inclusive Publishing](https://inclusivepublishing.org/rs-accessibility/)
 
 ### Nota: ###
 
@@ -41,7 +42,7 @@ Lo que gustó a nuestros evaluadores: Se proporcionan muchas funciones útiles p
 
 Para tener en cuenta: La lectura continua con lector de pantalla se detiene al cabo de unas pocas páginas, debido al modo en que la app muestra la obra. En Android, no siempre es posible activar los enlaces.
 
-#### [Edge](https://www.microsoft.com/en-us/windows/microsoft-edge)#
+#### [Edge](https://www.microsoft.com/en-us/windows/microsoft-edge) ####
 
 ¡El navegador web incluido en Windows 10 también es un lector de ePUB! Es posible leer libros de la Microsoft bookstore usando esta app, y también puedes leer libros electrónicos desprotegidos en formato ePUB.
 
@@ -89,7 +90,7 @@ Lo que gustó a nuestros evaluadores: Admite el uso de pantallas braille (inclui
 
 Para tener en cuenta: Los enlaces internos no se activan de forma consistente. La app no incorpora función de lectura en voz alta para personas que no usen lector de pantalla.
 
-#### [Vital Source Bookshelf](https://www.vitalsource.com/)#
+#### [Vital Source Bookshelf](https://www.vitalsource.com/) ###
 
 Vital Source es una plataforma para libros de texto y otras obras de carácter educativo. Las apps de lectura están disponibles para Windows, Mac, iOS, Android y mediante un navegador. También puedes importar en la app tus propios ficheros ePUB desprotegidos. 
 
@@ -97,7 +98,7 @@ Lo que gustó a nuestros evaluadores: Un conjunto de apps de lectura estables di
 
 Para tener en cuenta: La posibilidad de cambiar las fuentes y los colores en las apps de Bookshelf es limitada. Actualmente, la plataforma Bookshelf Online no dispone de función lectura en voz alta.
 
-#### [Voice Dream Reader](http://www.voicedream.com/reader/)#
+#### [Voice Dream Reader](http://www.voicedream.com/reader/) ####
 
 Esta app especializada, disponible para iOS y Android, está diseñada para proporcionar muchas funciones de las que disfrutan las personas con discapacidades de acceso a la lectura. Se admiten varios formatos de archivos, además de ePUB.
 
@@ -109,8 +110,8 @@ Para tener en cuenta: La versión de iOS es más madura que la app de Android. F
 
 Los sistemas de lectura se evalúan mediante el protocolo publicado en epubtest.org. Este protocolo para comprobar la accesibilidad se ha desarrollado en colaboración con personas con discapacidades de acceso a la lectura, expertos en accesibilidad y desarrolladores de sistemas de lectura. Se trata de un trabajo abierto, con el proceso de pruebas descrito en el sitio web, y más de 70 voluntarios con distintas discapacidades de acceso a la lectura colaboran en la tarea de las pruebas. Como fundamento de este abordaje, se asume que las apps deben admitir la lectura mediante los ojos, los oídos o los dedos. Los usuarios deberían poder leer el contenido mediante:
 
-- La adaptación de la pantalla, por ejemplo, ajustando la fuente o la combinación de colores;
-- La lectura del texto con lector de pantalla o una función integrada de lectura en voz alta;
+- La adaptación de la pantalla, por ejemplo, ajustando la fuente o la combinación de colores.
+- La lectura del texto con lector de pantalla o una función integrada de lectura en voz alta.
 - La lectura del texto en una pantalla braille efímero.
 
 Las apps se evalúan utilizando distintas combinaciones, con y sin tecnología de apoyo. Todas las apps de lectura se prueban utilizando las mismas publicaciones con pruebas estandarizadas, para garantizar resultados consistentes. Los ficheros para pruebas están disponibles en <http://www.epubtest.org/testsuite/>
