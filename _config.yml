@@ -42,9 +42,9 @@ kramdown:
     css_class: highlight
 sass:
   style: :expanded
-gems:
-- jekyll-sitemap
-- jekyll-feed
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
 exclude:
 - Gemfile.lock
 - LICENSE
