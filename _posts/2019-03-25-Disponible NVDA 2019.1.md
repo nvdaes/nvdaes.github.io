@@ -7,13 +7,12 @@ author: Noelia
 
 <footer>Lunes, 25 de marzo de 2019 (actualizado a 16 de abril)</footer>
 
-
 Como se explica en esta [noticia de NV Access sobre NVDA 2019.1](https://www.nvaccess.org/post/nvda-2019-1-now-available/) (en inglés), se ha publicado esta nueva versión estable de NVDA.
 
 Lo reseñable de esta versión incluye la realización de mejoras al acceder a Microsoft word y a Excel, mejoras de estabilidad y de seguridad tales como la admisión de complementos con información de compatibilidad de versión, y muchas otras correcciones de fallos. 
 Por favor ten en cuenta que a partir de esta versión de NVDA, los módulos de aplicación, los Plugins globales, los controladores de pantallas braille y los controladores de sintetizador personales ya no se cargarán automáticamente desde tu directorio de configuración de usuario de NVDA. En su lugar, estos deberían instalarse como parte de un complemento de NVDA. Para quienes desarrollen código para un complemento, el código para pruebas se puede colocar en un nuevo directorio scratchpad para desarrolladores en el directorio de configuración de usuarios de NVDA, si la opción de desarrollador scratchpad está activada en el nuevo panel Opciones Avanzadas de NVDA. Estos cambios son necesarios para garantizar una mejor compatibilidad del código personalizado, de modo que NVDA no se rompa cuando este código se vuelva incompatible con versiones más modernas.
 
-Actualización: Disponible NVDA 2019.1.1 (16 de abril de 2019):
+#### Actualización: Disponible NVDA 2019.1.1 (16 de abril de 2019) ####
 
 Como se explica en esta [noticia de NV Access sobre NVDA 2019.1.1](https://www.nvaccess.org/post/nvda-2019-1-1-update-available-for-download/), en esta actualización menor se corrigen varios errores encontrados en NVDA 2019.1:
 
