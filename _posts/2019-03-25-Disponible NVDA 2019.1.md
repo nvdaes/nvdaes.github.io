@@ -5,7 +5,7 @@ layout: post
 author: Noelia
 ---
 
-<footer>Lunes, 25 de marzo de 2019</footer>
+<footer>Lunes, 25 de marzo de 2019 (actualizado a 16 de abril)</footer>
 
 
 Como se explica en esta [noticia de NV Access sobre NVDA 2019.1](https://www.nvaccess.org/post/nvda-2019-1-now-available/) (en inglés), se ha publicado esta nueva versión estable de NVDA.
