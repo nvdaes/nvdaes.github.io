@@ -17,7 +17,7 @@ Actualización: Disponible NVDA 2019.1.1 (16 de abril de 2019):
 
 Como se explica en esta [noticia de NV Access sobre NVDA 2019.1.1](https://www.nvaccess.org/post/nvda-2019-1-1-update-available-for-download/), en esta actualización menor se corrigen varios errores encontrados en NVDA 2019.1:
 
-- NVDA ya no hará que Excel 2007 se cuelgue o que no indique si una celda tiene un formulario (#9431)
+- NVDA ya no hará que Excel 2007 se cuelgue o que no indique si una celda tiene una fórmula (#9431)
 - Google Chrome ya no se cuelga en la interacción con ciertos cuadros de lista (#9364)
 - Se ha corregido un error que impedía copiar la configuración de un usuario en el perfil de configuración del sistema (#9448)
 
