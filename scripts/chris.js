@@ -8,4 +8,5 @@ div.insertBefore(button, audio);
 
 function playChris() {
 	audio.currentTime = 952;
+	audio.play;
 }
