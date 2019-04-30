@@ -13,5 +13,5 @@ function addChrisButton() {
 function playChris() {
 	audio.currentTime = 952;
 	audio.play();
-	setTimeout(audio.pause(), 331000);
+	// setTimeout(audio.pause(), 331000);
 }
