@@ -1,5 +1,5 @@
 var audio = document.getElementById("chris");
-audio.addEventListener("canplaythrough", "addChrisButton()");
+audio.addEventListener("canplaythrough", addChrisButton);
 
 function addChrisButton() {
 	var div = document.getElementById("audioContainer");
