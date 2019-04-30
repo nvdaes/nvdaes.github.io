@@ -1,5 +1,6 @@
 var audio = document.getElementById("chris");
-audio.onended= function() {
-	// audio.currentTime = 952;
-	alert("audio");
+audio.ontimeupdate = function() {
+	if (audio.currentTime == 1293) {
+		audio.curentTime = 952;
+	}
 }
