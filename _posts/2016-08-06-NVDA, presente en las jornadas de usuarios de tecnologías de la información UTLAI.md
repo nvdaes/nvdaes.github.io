@@ -4,17 +4,23 @@ title: NVDA, presente en las jornadas de usuarios de tecnologías de la informac
 date: 2016-08-06 00:00:00 Z
 layout: post
 author: Noelia
+permalink: jt2016
 ---
 
-<footer>Sábado, 6 de agosto de 2016</footer>
+<footer>Sábado, 6 de agosto de 2016 (actualizado a 30 de abril de 2019)</footer>
 
 Una vez más, nuestro lector de pantalla estará presente en las jornadas de UTLAI (Usuarios de Tiflotecnología para el Libre Acceso a la Información).
 Como se explica en el [programa de las VI Jornadas de Usuarios de Tecnología para personas con diversidad funcional visual](http://www.utlai.org/programa-de-las-vi-jornadas-de-usuarios-de-tecnologia-para-personas-con-diversidad-funcional-visual/), en esta ocasión se celebrará el taller: “Introducción al uso de NVDA”, el 3 de diciembre de 2016, de 11:30 a 12:30, en la sede de la ONCE en Barcelona (sala 4).
 Agradecemos a UTLAI por dar espacio a NVDA en las jornadas de usuarios, y a las personas que participan para difundir, conocer y enriquecer la experiencia en el uso y desarrollo de este lector de pantalla.
 
-Como ejemplo de experiencia práctica (ciertamente ejemplar), compartimos el texto correspondiente a la intervención de nuestro compañero Chris, coautor de este blog, en las anteriores jornadas de UTLAI, dentro del taller [NVDA: Un lector de pantalla de código abierto](http://www.utlai.org/nvda-un-lector-de-pantallas-de-codigo-abierto/).
+Como ejemplo de experiencia práctica (ciertamente ejemplar), compartimos el audio y el texto correspondiente a la intervención de nuestro compañero Chris, coautor de este blog, en las anteriores jornadas de UTLAI, dentro del taller [NVDA: Un lector de pantalla de código abierto](http://www.utlai.org/nvda-un-lector-de-pantallas-de-codigo-abierto/).
 
 ### Accesibilidad en bibliotecas de Roma mediante NVDA ###
+
+<audio controls src="http://www.utlai.org/wp-content/uploads/2014/12/15_nvda.mp3#t00:15:51,00:21:23">
+Tu navegador no admite la reproducción de este podcast.
+</audio>
+
 > Hola, qué tal a todos, soy Chris.
 > En este espacio del taller sobre NVDA me gustaría contar una experiencia acerca de la accesibilidad a los ordenadores en las bibliotecas de Roma.
 > Es como un ejemplo práctico y real para difundir y para la propagación de herramientas de tiflotecnología Completas a bajo costo.
