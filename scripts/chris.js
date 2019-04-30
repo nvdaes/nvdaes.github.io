@@ -1,4 +1,4 @@
 var audio = document.getElementById("chris");
-audio.oncanplay= function() {
+audio.onended= function() {
 	audio.currentTime = 952
 }

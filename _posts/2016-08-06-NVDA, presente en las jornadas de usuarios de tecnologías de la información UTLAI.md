@@ -17,7 +17,7 @@ Como ejemplo de experiencia práctica (ciertamente ejemplar), compartimos el aud
 
 ### Accesibilidad en bibliotecas de Roma mediante NVDA ###
 
-<audio controls src="http://www.utlai.org/wp-content/uploads/2014/12/15_nvda.mp3#t=00:15:52,00:21:23">
+<audio id="chris" controls src="http://www.utlai.org/wp-content/uploads/2014/12/15_nvda.mp3#t=00:15:52,00:21:23">
 Tu navegador no admite la reproducción de este podcast.
 </audio>
 
