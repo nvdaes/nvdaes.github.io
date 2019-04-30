@@ -70,3 +70,5 @@ Chris
 * [Documentación y podcast sobre el taller NVDA: Un lector de pantalla de código abierto](http://www.utlai.org/tifloclub-utlai-podcast-especial-no-6-v-jornadas-a-coruna-2014/) (V Jornadas de usuarios UTLAI)
 
 Esperamos que esta información sea útil, y deseamos que las VI Jornadas UTLAI sirvan para seguir conociendo y mejorando nuestra experiencia con NVDA. 
+
+<script src="../../scripts/chris.js"></script>
