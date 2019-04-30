@@ -17,10 +17,11 @@ Como ejemplo de experiencia práctica (ciertamente ejemplar), compartimos el aud
 
 ### Accesibilidad en bibliotecas de Roma mediante NVDA ###
 
+<div id="audioContainer">
 <audio id="chris" controls src="http://www.utlai.org/wp-content/uploads/2014/12/15_nvda.mp3#t=00:15:52,00:21:23">
 Tu navegador no admite la reproducción de este podcast.
 </audio>
-
+</div>
 > Hola, qué tal a todos, soy Chris.
 > En este espacio del taller sobre NVDA me gustaría contar una experiencia acerca de la accesibilidad a los ordenadores en las bibliotecas de Roma.
 > Es como un ejemplo práctico y real para difundir y para la propagación de herramientas de tiflotecnología Completas a bajo costo.
