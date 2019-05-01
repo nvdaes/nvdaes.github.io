@@ -3,6 +3,7 @@ var audio = document.getElementById("chris");
 function pauseChris() {
 	if (audio.currentTime >= 331000) {
 		audio.pause();
+		alert(interval);
 	}
 }
 
@@ -10,7 +11,6 @@ function playChris() {
 	audio.currentTime = 952;
 	audio.play();
 	var interval = setInterval(pauseChris, 1000);
-	alert(interval);
 }
 
 function addChrisButton() {
