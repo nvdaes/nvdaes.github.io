@@ -4,6 +4,8 @@ var interval = setInterval(pauseChris, 1000);
 function pauseChris() {
 	if (audio.currentTime >= 331000) {
 		audio.pause();
+	} else {
+		audio.currentTime = 952;
 	}
 }
 
