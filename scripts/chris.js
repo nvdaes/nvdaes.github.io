@@ -4,7 +4,6 @@ function pauseChris() {
 	if (audio.currentTime >= 331000) {
 		audio.pause();
 		clearInterval(interval);
-		alert(interval);
 }
 
 function playChris() {
