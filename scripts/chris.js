@@ -19,3 +19,5 @@ function addChrisButton() {
 	div.insertBefore(button, audio);
 }
 
+
+addChrisButton();
