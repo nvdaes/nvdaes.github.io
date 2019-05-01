@@ -5,6 +5,7 @@ function pauseChris() {
 		audio.pause();
 	} else {
 		clearInterval(interval);
+		audio.currentTime = 0;
 	}
 }
 
