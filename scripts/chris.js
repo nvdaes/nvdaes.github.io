@@ -3,7 +3,7 @@ var audio = document.getElementById("chris");
 function pauseChris() {
 	if (audio.currentTime >= 331000) {
 		audio.pause();
-		clearInterval(interval)
+		clearInterval(interval);
 		alert(interval);
 }
 
