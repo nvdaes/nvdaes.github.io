@@ -9,8 +9,8 @@ function pauseChris() {
 function playChris() {
 	audio.currentTime = 952;
 	audio.play();
-	setInterval(pauseChris, 1000);
-	alert(audio.currentTime);
+	var interval = setInterval(pauseChris, 1000);
+	alert(interval);
 }
 
 function addChrisButton() {
