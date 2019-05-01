@@ -1,5 +1,6 @@
 var audio = document.getElementById("chris");
-audio.addEventListener("canplaythrough", addChrisButton);
+addChrisButton();
+playChris();
 
 function addChrisButton() {
 	var div = document.getElementById("audioContainer");
@@ -10,8 +11,13 @@ function addChrisButton() {
 	div.insertBefore(button, audio);
 }
 
+pauseChris() {
+	audio.pause();
+}
+
 function playChris() {
 	audio.currentTime = 952;
 	audio.play();
-	// setTimeout(audio.pause(), 331000);
+	setTimeout(pauseChris, 331000);
 }
+
