@@ -1,7 +1,7 @@
 var audio = document.getElementById("chris");
 
 function pauseChris() {
-	if (audio.currentTime >= 1283) {
+	if (952 > audio.currentTime || audio.currentTime >= 1283) {
 		audio.pause();
 		audio.currentTime = 952;
 	}
