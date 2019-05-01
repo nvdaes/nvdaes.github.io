@@ -1,9 +1,8 @@
 var audio = document.getElementById("chris");
 
 function pauseChris() {
-	if (audio.currentTime >= 331000) {
+	if (audio.currentTime >= 1283) {
 		audio.pause();
-		clearInterval(interval);
 }
 
 function playChris() {
