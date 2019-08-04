@@ -52,7 +52,7 @@ Sin embargo, es posible que, por cualquier motivo, ni Windows OneCore ni eSpeak 
 
 ### Eloquence ###
 
-Code Factory ha lanzado una versión de [eloquence como un complemento NVDA que puede adquirirse desde este enlace.](http://codefactoryglobal.com/app-store/voices-for-nvda/).  El precio también incluye una licencia para usar el sintetizador Vocalizer de Nuance.
+Code Factory ha lanzado una versión de [eloquence como un complemento NVDA que puede adquirirse desde este enlace](http://codefactoryglobal.com/app-store/voices-for-nvda/).  El precio también incluye una licencia para usar el sintetizador Vocalizer de Nuance.
 
 Consulta la sección titulada “Scripts” para obtener información sobre los complementos de NVDA.
 
