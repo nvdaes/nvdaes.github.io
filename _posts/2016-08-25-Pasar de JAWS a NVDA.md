@@ -20,11 +20,7 @@ No se propone reemplazar a la guía del usuario incorporada, sino más bien que 
 
 ## Fortalezas y debilidades ##
 
-La intención de esta guía no es hacer una comparativa entre JAWS y NVDA, pero es necesario mencionar algunas cosas que NVDA no admite actualmente o que necesitan mejoras, para que puedas efectuar una elección informada.
-
-El apoyo para funciones avanzadas de la suite ofimática Microsoft se ha añadido recientemente, por lo que podrías no encontrar una experiencia tan satisfactoria como en JAWS. No obstante, decir esto no implica menospreciar el trabajo que los programadores están realizando en este ámbito, que se halla en constante mejora.
-
-Dicho esto, en la mayoría de situaciones cotidianas, encontrarás que NVDA funciona tan bien como JAWS, e incluso mejor en algunos casos.
+La intención de esta guía no es hacer una comparativa entre JAWS y NVDA, pero es necesario mencionar algunas cosas que funcionan de forma diferente. En la mayoría de situaciones cotidianas, encontrarás que NVDA funciona tan bien como JAWS, e incluso mejor en algunos casos.
 
 ## Una breve nota sobre el teclado portátil de NVDA ##
 
