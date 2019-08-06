@@ -137,7 +137,7 @@ En JAWS, puedes pulsar JAWS+F5 para listar campos de formulario, JAWS+F6 para li
 
 ## Modo formularios ##
 
-Lo equivalente al Modo formularios, en NVDA es Modo foco y se comporta de una forma muy similar a JAWS, incluso cambiando automáticamente entre modos de navegación al desplazarte por una página web. Se reproducirá un sonido para informarte sobre el modo en el que te encuentras.
+Lo equivalente al Modo formularios, en NVDA es Modo foco y se comporta de una forma muy similar a JAWS, incluso cambiando automáticamente entre modos de navegación al desplazarte por una página web. Se reproducirá un sonido para informarte sobre el modo en el que te encuentras.  Si lo deseas, NVDA puede verbalizar el cambio de modo en lugar de usar un sonido.
 
 Los detalles acerca del "modo foco" se explican en la guía del usuario.
 
