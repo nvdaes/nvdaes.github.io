@@ -4,7 +4,7 @@ layout: post
 author: BlindHelp
 ---
 
-<footer>Jueves, 25 de agosto de 2016 (actualizado el 5 de agosto de 2019)</footer>
+<footer>Jueves, 25 de agosto de 2016 (actualizado el 6 de agosto de 2019)</footer>
 
 ### Guía Pasar de JAWS a NVDA ###
 Traducido Por Noelia Ruíz Martínez y Rémy Ruíz (BlindHelp). Si lo deseas, puedes consultar la versión original en inglés
@@ -31,7 +31,7 @@ Seleccionar la distribución de teclado portátil no establece automáticamente 
 Como sabrás, tanto JAWS como NVDA pueden utilizar la tecla insert como tecla modificadora. En ambos lectores de pantalla su comportamiento es ligeramente diferente, lo que podría llevar a cierta confusión si estás acostumbrado a uno u otro.
 
 Con JAWS cargado, la tecla insert es únicamente para su uso. Esto significa que, para utilizar la función original que se le ha asignado (como cambiar entre los modos insertar y sobrescribir en un editor de texto o procesador de texto), primero debes pulsar el atajo para enviar la siguiente pulsación de teclado al sistema.
-Por otra parte, NVDA te permite llevar a cabo la función original de la tecla insert presionándola dos veces rápidamente. Ten esto en cuenta la próxima vez que estés editando texto mientras usas NVDA y te encuentres sobreescribiendo texto.
+Por otra parte, NVDA te permite llevar a cabo la función original de la tecla insert presionándola dos veces rápidamente. Ten esto en cuenta la próxima vez que estés editando texto mientras usas NVDA y te encuentres sobreescribiendo texto.  Esto también funciona para la BloqMayus cuando se asigna como la tecla modificadora de NVDA (pulsar la tecla dos veces seguidas para alternar a BloqMayus).
 
 ## Sintetizadores alternativos ##
 
@@ -53,7 +53,7 @@ Consulta la sección titulada “Scripts” para obtener información sobre los 
 
 ### Aún más voces ###
 
-Si todavía no encuentras la voz perfecta para ti, consulta la [página de voces extra.](http://community.nvda-project.org/wiki/ExtraVoices). En esta página en inglés se enumeran otros sintetizadores de voz (tanto gratuitos como de pago).
+Si todavía no encuentras la voz perfecta para ti, consulta la [página de voces extra](http://community.nvda-project.org/wiki/ExtraVoices). En esta página en inglés se enumeran otros sintetizadores de voz (tanto gratuitos como de pago).
 
 ## Terminología ##
 
@@ -69,7 +69,7 @@ NVDA tiene varios cursores para ayudar en la navegación de Windows y aplicacion
 
 El cursor del PC, en la documentación de NVDA, es mencionado como "el foco del sistema" y "el cursor del sistema".
 
-Lo equivalente al cursor de JAWS es una combinación de navegación de objetos, el cursor de revisión, revisión de documentos y revisión de pantalla. La función de "revisión de pantalla" es quizá la más similar al cursor de JAWS, pero es conveniente familiarizarse con los tres modos de revisión. Encontrarás instrucciones para esto, ampliadas y más fáciles de entender, en la guía de usuario.
+Lo equivalente al cursor de JAWS es una combinación de navegación de objetos, el cursor de revisión, revisión de documentos y revisión de pantalla. La función de "revisión de pantalla" es quizá la más similar al cursor de JAWS, pero es conveniente familiarizarse con los tres modos de revisión. Encontrarás instrucciones para esto, ampliadas y más fáciles de entender, en la guía de usuario o el libro en inglés [Basic Training for NVDA](https://www.nvaccess.org/product/basic-training-for-nvda-ebook/) ($30 AUD).
 
 A diferencia de JAWS, no hay que cambiar entre los equivalentes al cursor del PC y de JAWS, pues el teclado numérico está reservado exclusivamente para trabajar con las funciones correspondientes al "cursor de JAWS".
 
@@ -139,7 +139,7 @@ En JAWS, puedes pulsar JAWS+F5 para listar campos de formulario, JAWS+F6 para li
 
 Lo equivalente al Modo formularios, en NVDA es Modo foco y se comporta de una forma muy similar a JAWS, incluso cambiando automáticamente entre modos de navegación al desplazarte por una página web. Se reproducirá un sonido para informarte sobre el modo en el que te encuentras.
 
-Los detalles acerca del “modo foco” se explican en la guía del usuario.
+Los detalles acerca del "modo foco" se explican en la guía del usuario.
 
 ## NVDA habla demasiado ##
 
@@ -161,7 +161,7 @@ Accede a los Diccionarios del habla con NVDA+n (para abrir el menú NVDA), luego
 
 ## Scripts ##
 
-Como en JAWS, es posible añadir scripts para mejorar la experiencia en otras aplicaciones, o para proporcionar características disponibles desde cualquier lugar. Estos paquetes de scripts se llaman "complementos de NVDA". Puedes encontrar complementos en el [sitio Web de complementos de la comunidad de NVDA.]([http://addons.nvda-project.org/)
+Como en JAWS, es posible añadir scripts para mejorar la experiencia en otras aplicaciones, o para proporcionar características disponibles desde cualquier lugar. Estos paquetes de scripts se llaman "complementos de NVDA". Puedes encontrar complementos en el [sitio Web de complementos de la comunidad de NVDA](http://addons.nvda-project.org/).
 
 Estos incluyen unos pocos que emulan características no incorporadas actualmente en NVDA, como una lista de iconos correspondientes a la bandeja del sistema, la función de "virtualizar ventana" o la posibilidad de añadir texto al portapapeles. También están disponibles scripts para aplicaciones populares tales como GoldWave. La guía del usuario contiene información sobre la instalación de complementos, y puedes leer documentación de ayuda que viene con cada complemento para aprender más sobre cómo utilizarlo.
 
@@ -169,8 +169,7 @@ El siguiente enlace lleva a la [Guía de desarrolladores de NVDA (en inglés)](h
 
 ## Acceso Remoto ##
 
-En 2015, Christopher Toth y Tyler Spivey lanzaron un complemento gratuito para permitir a los usuarios de NVDA proporcionar un apoyo a distancia similar al Tamdem de JAWS. Para aprender más sobre el complemento, por favor consulta:
-[La página de inicio de NVDA Remote.](http://www.nvdaremote.com)
+En 2015, Christopher Toth y Tyler Spivey lanzaron un complemento gratuito para permitir a los usuarios de NVDA proporcionar un apoyo a distancia similar al Tamdem de JAWS. Para aprender más sobre el complemento, por favor consulta [la página de inicio de NVDA Remote](http://www.nvdaremote.com).
 
 ## Configuración de una aplicación en particular ##
 
