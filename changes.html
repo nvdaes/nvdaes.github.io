@@ -8,6 +8,167 @@
 <font size="4">
 </font></center>
 
+<h2>2019.2</h2>
+<p>
+Lo reseñable de esta versión incluye la detección automática de 
+pantallas braille de Freedom Scientific, una opción experimental en el 
+panel Avanzado para detener el modo exploración desde el movimiento 
+automático del foco (lo cual podría proporcionar mejoras de 
+rendimiento), una opción de alzado brusco para el sintetizador Windows 
+OneCore para lograr velocidades muy rápidas, y muchas otras correcciones
+ de fallos.
+</p>
+<h3>Nuevas Características</h3>
+<ul>
+<li>El soporte de Miranda NG de NVDA funciona con las versiones más recientes del cliente. (<a href="https://github.com/nvaccess/nvda/issues/9053" target="_blank">#9053</a>) 
+</li><li>Ahora puedes desactivar el modo exploración de forma 
+predeterminada desactivando la nueva opción "Activar el modo exploración
+ al cargar la página" en la configuración del modo exploración de NVDA. (<a href="https://github.com/nvaccess/nvda/issues/8716" target="_blank">#8716</a>) 
+ <ul>
+ <li>Ten en cuenta que cuando esta opción esté desactivada, todavía 
+puedes activar el modo exploración manualmente pulsando NVDA+espacio.
+ </li></ul>
+</li><li>Ahora puedes filtrar símbolos en el cuadro de diálogo de 
+pronunciación de signos de puntuación, de forma similar a como funciona 
+el filtrado en la lista de elementos y en el cuadro de diálogo de gestos
+ de entrada. (<a href="https://github.com/nvaccess/nvda/issues/5761" target="_blank">#5761</a>)
+</li><li>Se ha añadido una orden para cambiar la resolución de la unidad
+ de texto del ratón (cuánto texto se verbalizará al moverse el ratón), 
+no se le ha asignado un gesto predeterminado. (<a href="https://github.com/nvaccess/nvda/issues/9056" target="_blank">#9056</a>)
+</li><li>El sintetizador OneCore de Windows tiene ahora una opción de 
+aumento de velocidad, que permite un habla significativamente más 
+rápida. (<a href="https://github.com/nvaccess/nvda/issues/7498" target="_blank">#7498</a>)
+</li><li>La opción Alzado Brusco es ahora configurable desde el anillo 
+de ajustes de sintetizador para sintetizadores de voz compatibles. 
+(Actualmente eSpeak-NG y Windows OneCore). (<a href="https://github.com/nvaccess/nvda/issues/8934" target="_blank">#8934</a>)
+</li><li>Los perfiles de configuración ahora se pueden activar manualmente con gestos. (<a href="https://github.com/nvaccess/nvda/issues/4209" target="_blank">#4209</a>)
+ <ul>
+ <li>El gesto se debe configurar en el cuadro de diálogo "Gestos de entrada".
+ </li></ul>
+</li><li>En Eclipse, se agregó soporte para el autocompletado en el editor de código. (<a href="https://github.com/nvaccess/nvda/issues/5667" target="_blank">#5667</a>)
+ <ul>
+ <li>Además, la información Javadoc puede leerse desde el editor cuando está presente utilizando NVDA+d.
+ </li></ul>
+</li><li>Se agregó una opción experimental al panel de Configuración 
+Avanzada que te permite detener el foco del sistema para que no siga al 
+cursor del modo exploración (Poner automáticamente el foco del sistema 
+en los elementos enfocables). (<a href="https://github.com/nvaccess/nvda/issues/2039" target="_blank">#2039</a>) Aunque puede no ser adecuado desactivar esto en todos los sitios web, ello podría arreglar: 
+ <ul>
+ <li>Efecto banda elástica: NVDA deshace esporádicamente la última 
+pulsación de tecla del modo exploración saltando a la ubicación 
+anterior.
+ </li><li>Los cuadros de edición quitan el foco del sistema cuando se mueva a través de ellos en algunos sitios web.
+ </li><li>Las pulsaciones de teclas del modo exploración son lentas de respuesta.
+ </li></ul>
+</li><li>Para los controladores de pantalla braille que lo admitan, 
+ahora se pueden cambiar las opciones del controlador desde la categoría 
+de opciones braille en el cuadro de diálogo de opciones de NVDA. (<a href="https://github.com/nvaccess/nvda/issues/7452" target="_blank">#7452</a>)
+</li><li>Ahora las pantallas braille de Freedom Scientific admiten la detección automática de pantallas braille. (<a href="https://github.com/nvaccess/nvda/issues/7727" target="_blank">#7727</a>)
+</li><li>Añadida una orden para mostrar el reemplazo del símbolo bajo el cursor de revisión. (<a href="https://github.com/nvaccess/nvda/issues/9286" target="_blank">#9286</a>)
+</li><li>Añadida una opción experimental al panel de Opciones avanzadas 
+que te permite probar una nueva reescritura en curso del soporte de NVDA
+ para la Consola de Windows utilizando la API Microsoft UI Automation. (<a href="https://github.com/nvaccess/nvda/issues/9614" target="_blank">#9614</a>)
+</li><li>En la Consola Python, el campo de entrada ahora admite el pegado de varias líneas desde el portapapeles. (<a href="https://github.com/nvaccess/nvda/issues/9776" target="_blank">#9776</a>)
+</li></ul>
+
+<h3>Cambios</h3>
+<ul>
+<li>El volumen del sintetizador aumenta y disminuye en 5 en lugar de en 10 cuando se utiliza el anillo de opciones. (<a href="https://github.com/nvaccess/nvda/issues/6754" target="_blank">#6754</a>)
+</li><li>Aclarado el texto en el administrador de complementos cuando se lanza NVDA con el indicador --disable-addons. (<a href="https://github.com/nvaccess/nvda/issues/9473" target="_blank">#9473</a>)
+</li><li>Actualizado Unicode Common Locale Data Repository anotaciones emoji a la versión 35.0. (<a href="https://github.com/nvaccess/nvda/issues/9445" target="_blank">#9445</a>)
+</li><li>En inglés, la tecla de acceso directo para el campo filtrar en la lista de elementos en modo exploración ha cambiado a alt+y. (<a href="https://github.com/nvaccess/nvda/issues/8728" target="_blank">#8728</a>)
+</li><li>Cuando una pantalla braille autodetectada se conecte a través 
+de Bluetooth, NVDA seguirá buscando pantallas USB compatibles con el 
+mismo controlador y cambiará a una conexión USB si está disponible. (<a href="https://github.com/nvaccess/nvda/issues/8853" target="_blank">#8853</a>)
+</li><li>Actualizado eSpeak-NG a commit 67324cc.
+</li><li>Actualizado el transcriptor braille liblouis a la versión 3.10.0. (<a href="https://github.com/nvaccess/nvda/issues/9439" target="_blank">#9439</a>, <a href="https://github.com/nvaccess/nvda/issues/9678" target="_blank">#9678</a>)
+</li><li>NVDA ahora anunciará la palabra 'seleccionado' después de anunciar el texto que un usuario acabe de seleccionar. (<a href="https://github.com/nvaccess/nvda/issues/9028" target="_blank">#9028</a>, <a href="https://github.com/nvaccess/nvda/issues/9909" target="_blank">#9909</a>))
+</li><li>En Microsoft Visual Studio Code, el modo exploración está desactivado por defecto. (<a href="https://github.com/nvaccess/nvda/issues/9828" target="_blank">#9828</a>)
+</li></ul>
+
+<h3>corrección de Fallos</h3>
+<ul>
+<li>NVDA ya no se bloquea cuando un directorio de complementos esté vacío. (<a href="https://github.com/nvaccess/nvda/issues/7686" target="_blank">#7686</a>)
+</li><li>Las marcas LTR y RTL ya no se anuncian en Braille o en voz por caracteres cuando se accede a la ventana de propiedades. (<a href="https://github.com/nvaccess/nvda/issues/8361" target="_blank">#8361</a>)
+</li><li>Cuando se salte a los campos de formulario con la navegación 
+rápida del modo Exploración, ahora se anuncia todo el campo de 
+formulario en lugar de sólo la primera línea. (<a href="https://github.com/nvaccess/nvda/issues/9388" target="_blank">#9388</a>)
+</li><li>NVDA ya no se silenciará después de salir de la aplicación Windows 10 Mail. (<a href="https://github.com/nvaccess/nvda/issues/9341" target="_blank">#9341</a>)
+</li><li>NVDA ya no falla al iniciarse cuando los ajustes regionales de 
+los usuarios se establezcan en una ubicación desconocida para NVDA, como
+ por ejemplo Inglés (Países Bajos). (<a href="https://github.com/nvaccess/nvda/issues/8726" target="_blank">#8726</a>)
+</li><li>Cuando el modo Exploración esté habilitado en Microsoft Excel y
+ se cambie a un navegador en modo foco o viceversa, el estado del modo 
+exploración ahora se notifica adecuadamente. (<a href="https://github.com/nvaccess/nvda/issues/8846" target="_blank">#8846</a>)
+</li><li>NVDA ahora anuncia correctamente la línea en el cursor del ratón en Notepad++ y otros editores basados en Scintilla. (<a href="https://github.com/nvaccess/nvda/issues/5450" target="_blank">#5450</a>)
+</li><li>En Google Docs (y otros editores basados en web), el braille ya
+ no muestra a veces de forma incorrecta "lst end" antes del cursor en 
+medio de un elemento de la lista. (<a href="https://github.com/nvaccess/nvda/issues/9477" target="_blank">#9477</a>)
+</li><li>En la actualización de Windows 10 de mayo de 2019, NVDA ya no 
+verbaliza muchas notificaciones de volumen si se cambia el volumen con 
+botones de hardware cuando el Explorador de archivos tenga el foco. (<a href="https://github.com/nvaccess/nvda/issues/9466" target="_blank">#9466</a>)
+</li><li>La carga del diálogo de pronunciación de signos de 
+puntuación/símbolos es ahora mucho más rápida cuando se utilicen 
+diccionarios de símbolos que contengan más de 1.000 entradas. (<a href="https://github.com/nvaccess/nvda/issues/8790" target="_blank">#8790</a>)
+</li><li>En los controles de Scintilla como Notepad++, NVDA puede leer la línea correcta cuando el ajuste de línea esté activado. (<a href="https://github.com/nvaccess/nvda/issues/9424" target="_blank">#9424</a>)
+</li><li>En Microsoft Excel, la ubicación de la celda se anuncia después
+ de que cambie debido a los gestos shift+intro o shift+intro del teclado
+ numérico. (<a href="https://github.com/nvaccess/nvda/issues/9499" target="_blank">#9499</a>)
+</li><li>Desde Visual Studio 2017 en adelante, en la ventana del 
+Explorador de objetos, el elemento seleccionado en el árbol de objetos o
+ en el árbol de miembros con categorías ahora se anuncia correctamente. (<a href="https://github.com/nvaccess/nvda/issues/9311" target="_blank">#9311</a>)
+</li><li>Los complementos con nombres que sólo difieran en las mayúsculas ya no se tratan como complementos separados. (<a href="https://github.com/nvaccess/nvda/issues/9334" target="_blank">#9334</a>)
+</li><li>En el caso de las voces de Windows OneCore, la velocidad 
+establecida en NVDA ya no se ve afectada por la velocidad establecida en
+ la configuración de voz de Windows 10. (<a href="https://github.com/nvaccess/nvda/issues/7498" target="_blank">#7498</a>)
+</li><li>El registro se puede abrir ahora con NVDA+F1 cuando no hay información del desarrollador para el objeto de navegador actual. (<a href="https://github.com/nvaccess/nvda/issues/8613" target="_blank">#8613</a>)
+</li><li>También es posible utilizar las órdenes de navegación de tabla de NVDA en Google Docs, en Firefox y en Chrome. (<a href="https://github.com/nvaccess/nvda/issues/9494" target="_blank">#9494</a>)
+</li><li>Las teclas frontales ahora funcionan correctamente en las pantallas braille de Freedom Scientific. (<a href="https://github.com/nvaccess/nvda/issues/8849" target="_blank">#8849</a>)
+</li><li>Al leer el primer carácter de un documento en Notepad++ 7.7 X64, NVDA ya no se congela durante un máximo de diez segundos. (<a href="https://github.com/nvaccess/nvda/issues/9609" target="_blank">#9609</a>)
+</li><li>HTCom ahora puede utilizarse con una pantalla braille Handy Tech en combinación con NVDA. (<a href="https://github.com/nvaccess/nvda/issues/9691" target="_blank">#9691</a>)
+</li><li>En Mozilla Firefox, las actualizaciones para una región activa 
+ya no se anuncian si la región activa está en una pestaña en segundo 
+plano. (<a href="https://github.com/nvaccess/nvda/issues/1318" target="_blank">#1318</a>)
+</li><li>El diálogo buscar del modo exploración de NVDA ya no deja de 
+funcionar si el diálogo Acerca de... de NVDA está actualmente abierto en
+ segundo plano. (<a href="https://github.com/nvaccess/nvda/issues/8566" target="_blank">#8566</a>)
+</li></ul>
+
+<h3>Cambios para Desarrolladores</h3>
+<ul>
+<li>Ahora puedes configurar la propiedad "disableBrowseModeByDefault" en
+ los módulos de la aplicación para que deje el modo Exploración 
+desactivado por defecto. (<a href="https://github.com/nvaccess/nvda/issues/8846" target="_blank">#8846</a>)
+</li><li>El estilo extendido de ventana de una ventana  ahora se expone 
+utilizando la propiedad `extendedWindowStyle` en objetos ventana y sus 
+derivados. (<a href="https://github.com/nvaccess/nvda/issues/9136" target="_blank">#9136</a>)
+</li><li>Actualizado el paquete comtypes a 1.1.7. (<a href="https://github.com/nvaccess/nvda/issues/9440" target="_blank">#9440</a>, <a href="https://github.com/nvaccess/nvda/issues/8522" target="_blank">#8522</a>)
+</li><li>Al utilizar la orden report module info, el orden de la información se ha cambiado para presentar el módulo primero. (<a href="https://github.com/nvaccess/nvda/issues/7338" target="_blank">#7338</a>)
+</li><li>Añadido un ejemplo para demostrar el uso de nvdaControllerClient.dll desde C#. (<a href="https://github.com/nvaccess/nvda/issues/9600" target="_blank">#9600</a>)
+</li><li>Añadida una nueva función isWin10 al módulo winVersion que 
+devuelve si esta copia de NVDA se está ejecutando en (al menos) la 
+versión suministrada de Windows 10 (tal como la 1903). (<a href="https://github.com/nvaccess/nvda/issues/9761" target="_blank">#9761</a>)
+</li><li>La consola pytnon de NVDA ahora contiene módulos más útiles en 
+su namespace (tales como appModules, globalPlugins, config y textInfos).
+ (<a href="https://github.com/nvaccess/nvda/issues/9789" target="_blank">#9789</a>)
+</li><li>El resultado de la última orden ejecutada en la consola Python de NVDA ahora es accesible desde la variable _ (line). (<a href="https://github.com/nvaccess/nvda/issues/9782" target="_blank">#9782</a>)
+ <ul>
+ <li>Ten en cuenta que esto oculta la función de traducción gettext 
+también llamada "_". Para acceder a la función de traducción: del _
+ </li></ul>
+</li></ul>
+
+<h2>2019.1.1</h2>
+<p>
+Esta versión corrige los siguientes fallos:
+</p>
+<ul>
+<li>NVDA ya no hace que Excel 2007 se bloquee o se niegue a anunciar si una celda tiene una fórmula. (<a href="https://github.com/nvaccess/nvda/issues/9431" target="_blank">#9431</a>)
+</li><li>Google Chrome ya no se bloquea al interactuar con determinados cuadros de lista. (<a href="https://github.com/nvaccess/nvda/issues/9364" target="_blank">#9364</a>)
+</li><li>Se ha solucionado un problema que impedía copiar la configuración de un usuario en el perfil de configuración del sistema. (<a href="https://github.com/nvaccess/nvda/issues/9448" target="_blank">#9448</a>)
+</li><li>En Microsoft Excel, NVDA utiliza nuevamente el mensaje localizado cuando anuncia la ubicación de las celdas combinadas. (<a href="https://github.com/nvaccess/nvda/issues/9471" target="_blank">#9471</a>)
+</li></ul>
+
 <h2>2019.1</h2>
 <p>
 Lo reseñable de esta versión incluye la realización de mejoras al 
@@ -180,8 +341,7 @@ contenga comentarios y/o listas desplegables de validación. (<a href="https://g
 </li><li>Ya no debería ser necesario desactivar la edición en la celda 
 en las opciones de Microsoft Excel para acceder al control de edición de
  celdas con NVDA en Excel 2016/365. (<a href="https://github.com/nvaccess/nvda/issues/8146" target="_blank">#8146</a>).
-</li><li>Corregido un cuelgue en Firefox a veces visto al navegar por 
-puntos de referencia, si está en uso el complemento Enhanced Aria. (<a href="https://github.com/nvaccess/nvda/issues/8980" target="_blank">#8980</a>)
+</li><li>Corregido un cuelgue en Firefox visto a veces al navegar por regiones, si está en uso el complemento Enhanced Aria. (<a href="https://github.com/nvaccess/nvda/issues/8980" target="_blank">#8980</a>)
 </li></ul>
 
 <h3>Cambios para Desarrolladores</h3>
@@ -749,9 +909,9 @@ XP o Windows Vista. Los requisitos mínimos para NVDA ahora son windows 7
 </p>
 <h3>Nuevas Características</h3>
 <ul>
-<li>En modo exploración, ahora es posible saltar al inicio de los puntos
- de referencia utilizando las órdenes saltar al final o al principio del
- contenedor (coma/shift+coma). (<a href="https://github.com/nvaccess/nvda/issues/5482" target="_blank">#5482</a>)
+<li>En modo exploración, ahora es posible saltar al inicio de las 
+regiones utilizando las órdenes saltar al final o al principio del 
+contenedor (coma/shift+coma). (<a href="https://github.com/nvaccess/nvda/issues/5482" target="_blank">#5482</a>)
 </li><li>En Firefox, Chrome e Internet Explorer, la navegación rápida 
 por campos de edición y campos de formulario ahora incluye contenido de 
 texto enriquecido editable (ej.: contentEditable). (<a href="https://github.com/nvaccess/nvda/issues/5534" target="_blank">#5534</a>)
@@ -965,9 +1125,9 @@ demanda. Puedes encontrarla en la categoría Miscelánea del diálogo
 Gestos de entrada. (<a href="https://github.com/nvaccess/nvda/issues/6396" target="_blank">#6396</a>)
 </li><li>La distribución de teclado ahora puede configurarse desde el diálogo Bienvenida de NVDA. (<a href="https://github.com/nvaccess/nvda/issues/6863" target="_blank">#6863</a>)
 </li><li>Se han abreviado muchos más tipos de controles y estados en 
-braille. Los puntos de referencia también se han abreviado. Porfavor 
-consulta "Tipo de Control, estado y Abreviaturas de Puntos de 
-Referencia" en Braille en la Guía del Usuario para una lista completa. (<a href="https://github.com/nvaccess/nvda/issues/7188" target="_blank">#7188</a>, <a href="https://github.com/nvaccess/nvda/issues/3975" target="_blank">#3975</a>)
+braille. Las regiones también se han abreviado. Porfavor consulta "Tipo 
+de Control, estado y Abreviaturas de regiones" en Braille en la Guía del
+ Usuario para una lista completa. (<a href="https://github.com/nvaccess/nvda/issues/7188" target="_blank">#7188</a>, <a href="https://github.com/nvaccess/nvda/issues/3975" target="_blank">#3975</a>)
 </li><li>Actualizado Espeak-ng a 1.49.1 (<a href="https://github.com/nvaccess/nvda/issues/7280" target="_blank">#7280</a>).
 </li><li>Las listas de tablas de entrada y de salida en el diálogo Opciones de Braille ahora se ordenan alfabéticamente. (<a href="https://github.com/nvaccess/nvda/issues/6113" target="_blank">#6113</a>)
 </li><li>Actualizado el transcriptor braille liblouis a 3.2.0. (<a href="https://github.com/nvaccess/nvda/issues/6935" target="_blank">#6935</a>)
@@ -1031,7 +1191,7 @@ después de una búsqueda ya no se produce que NVDA anuncie buscar texto. (<a hr
 </li><li>En Microsoft Edge, la navegación en modo exploración ya no se 
 salta secciones largas de ciertas páginas web tales como el tema 
 Wordpress 2015. (<a href="https://github.com/nvaccess/nvda/issues/7143" target="_blank">#7143</a>)
-</li><li>En Microsoft Edge, los puntos de referencia se localizan correctamente en otros idiomas diferentes al inglés. (<a href="https://github.com/nvaccess/nvda/issues/7328" target="_blank">#7328</a>)
+</li><li>En Microsoft Edge, las regiones se localizan correctamente en otros idiomas diferentes al inglés. (<a href="https://github.com/nvaccess/nvda/issues/7328" target="_blank">#7328</a>)
 </li><li>El braille ahora sigue correctamente la selección al 
 seleccionar texto más allá del ancho de la pantalla. Por ejemplo, si 
 seleccionas varias líneas con shift+flecha abajo, el braille ahora 
@@ -2483,10 +2643,8 @@ pantalla. (<a href="https://github.com/nvaccess/nvda/issues/770" target="_blank"
 información de posición para botones de opción y otros controles que 
 expongan información de grupo. (<a href="https://github.com/nvaccess/nvda/issues/3754" target="_blank">#3754</a>)
 </li><li>En aplicaciones Java accesibles, ahora se anuncian los atajos de teclado para controles que los tengan. (<a href="https://github.com/nvaccess/nvda/issues/3881" target="_blank">#3881</a>)
-</li><li>En modo exploración, las etiquetas  en los puntos de referencia
- ahora se anuncian. También se incluyen en el diálogo Lista de 
-Elementos. (<a href="https://github.com/nvaccess/nvda/issues/1195" target="_blank">#1195</a>)
-</li><li>En modo exploración, las regiones etiquetadas ahora se tratan como puntos de referencia. (<a href="https://github.com/nvaccess/nvda/issues/3741" target="_blank">#3741</a>)
+</li><li>En modo exploración, las etiquetas  en las regiones ahora se anuncian. También se incluyen en el diálogo Lista de Elementos. (<a href="https://github.com/nvaccess/nvda/issues/1195" target="_blank">#1195</a>)
+</li><li>En modo exploración, las regiones etiquetadas ahora se tratan como regiones. (<a href="https://github.com/nvaccess/nvda/issues/3741" target="_blank">#3741</a>)
 </li><li>En documentos y aplicaciones en Internet Explorer, las regiones
  activas (parte del W3c ARIA standard) ahora se soportan, permitiendo 
 así a los autores web  marcar contenido particular para que se verbalice
@@ -2535,10 +2693,10 @@ de órdenes de navegación rápida para moverse al botón o al ccampo de
 edición siguiente o anterior ahora incluye botones conmutables como se 
 esperaba. (<a href="https://github.com/nvaccess/nvda/issues/4098" target="_blank">#4098</a>)
 </li><li>El contenido de alertas en aplicaciones Mozilla ya no se anuncia dos veces. (<a href="https://github.com/nvaccess/nvda/issues/3481" target="_blank">#3481</a>)
-</li><li>En modo exploración, los contenedores  y puntos de referencia 
-ya no se repiten inapropiadamente mientras se navega dentro de ellos al 
-mismo tiempo que el contenido de la página está cambiando (por ejemplo 
-al navegar por los sitios web de Facebook y Twitter). (<a href="https://github.com/nvaccess/nvda/issues/2199" target="_blank">#2199</a>)
+</li><li>En modo exploración, los contenedores  y las regiones ya no se 
+repiten inapropiadamente mientras se navegue dentro de ellos al mismo 
+tiempo que el contenido de la página esté cambiando (por ejemplo al 
+navegar por los sitios web de Facebook y Twitter). (<a href="https://github.com/nvaccess/nvda/issues/2199" target="_blank">#2199</a>)
 </li><li>NVDA se recupera en más casos al cambiar desde las aplicaciones que dejan de responder. (<a href="https://github.com/nvaccess/nvda/issues/3825" target="_blank">#3825</a>)
 </li><li>El cursor (punto de inserción) se actualiza correctamente de 
 nuevo cuando se da una orden VerbalizarTodo mientras se está en texto 
@@ -3012,7 +3170,7 @@ Por favor ten en cuenta los siguientes  cambios para órdenes comúnmente utiliz
 Además, entre otros cambios, han variado las órdenes para toda la 
 navegación de objetos, revisión de texto, clic del ratón y grupos de 
 opciones del sintetizador.
-Por favor mira el documento <a href="file:///C:/Users/User/Downloads/NVDA/documentation/es/keyCommands.html" target="_blank">Referencia Rápida de Órdenes</a> para las nuevas teclas.
+Por favor mira el documento <a href="file:///C:/Program%20Files%20(x86)/NVDA/documentation/es/keyCommands.html" target="_blank">Referencia Rápida de Órdenes</a> para las nuevas teclas.
 </p>
 <h3>Nuevas Características</h3>
 <ul>
@@ -3126,7 +3284,7 @@ extraños. (<a href="https://github.com/nvaccess/nvda/issues/2959" target="_blan
 </li><li>En aplicaciones que utilicen el Java Access Bridge, ahora las 
 pantallas braille se actualizan correctamente cuando el cursor se mueva 
 en campos de texto editables . (<a href="https://github.com/nvaccess/nvda/issues/3107" target="_blank">#3107</a>)
-</li><li>Se soporta el punto de referencia en formulario en modo exploración en documentos que soporten puntos de referencia. (<a href="https://github.com/nvaccess/nvda/issues/2997" target="_blank">#2997</a>) 
+</li><li>Se soporta la región en formulario en modo exploración en documentos que soporten regiones. (<a href="https://github.com/nvaccess/nvda/issues/2997" target="_blank">#2997</a>) 
 </li><li>El controlador del sintetizador de voz eSpeak ahora maneja la 
 lectura por caracteres más apropiadamente (ej.: anuncia un nombre de 
 letra extrangero o un valor en lugar de sólo su sonido o nombre 
@@ -3265,9 +3423,8 @@ actual. (<a href="https://github.com/nvaccess/nvda/issues/2560" target="_blank">
  sido renombrado a Referencia Rápida de Órdenes, así ahora incluye tanto
  órdenes táctiles como órdenes de teclado.
 </li><li>La Lista de elementos en modo exploración ahora recordará el 
-último tipo de elemento mostrado (ej.: enlaces, encabezados o puntos de 
-referencia) cada vez que se muestre el diálogo dentro de la misma sesión
- de NVDA. (<a href="https://github.com/nvaccess/nvda/issues/365" target="_blank">#365</a>)
+último tipo de elemento mostrado (ej.: enlaces, encabezados o regiones) 
+cada vez que se muestre el diálogo dentro de la misma sesión de NVDA. (<a href="https://github.com/nvaccess/nvda/issues/365" target="_blank">#365</a>)
 </li><li>La mayoría de las aplicaciones Metro en Windows 8 (ej.: Mail, 
 Calendar) ya no activan el modo exploración para toda la aplicación.
 </li><li>Actualizado el Handy Tech BrailleDriver COM-Server a 1.4.2.0.
@@ -3523,9 +3680,9 @@ anuncia correctamente. (<a href="https://github.com/nvaccess/nvda/issues/1892" t
 14 y posterior (ej.: Firefox 14), ahora la navegación rápida funciona en
  bloques de citas y objetos integrados. (<a href="https://github.com/nvaccess/nvda/issues/2287" target="_blank">#2287</a>)
 </li><li>En Internet Explorer 9 NVDA ya no lee contenido indeseado 
-cuando el foco se mueve dentro de ciertos puntos de referencia o 
-elementos enfocables (específicamente un elemento div que es enfocable o
- que tiene un rol de punto de referencia ARIA). 
+cuando el foco se mueve dentro de ciertas regiones o elementos 
+enfocables (específicamente un elemento div que es enfocable o que tiene
+ un rol de región ARIA). 
 </li><li>Los iconos para los atajos para NVDA en el Escritorio y en el 
 Menú de Inicio ahora se muestran correctamente en ediciones de 64 bit de
  Windows. (<a href="https://github.com/nvaccess/nvda/issues/354" target="_blank">#354</a>)
@@ -4638,11 +4795,11 @@ significativas de estabilidad.
 <li>NVDA ya no falla al arrancar en un sistema sin dispositivos de 
 salida de audio. Obviamente, será necesario utilizar una pantalla 
 braille o el Display synthesiser para la salida en este caso. (<a href="https://github.com/nvaccess/nvda/issues/425" target="_blank">#425</a>)
-</li><li>Ha sido añadida una casilla de verificación Anunciar Puntos de 
-Referencia al diálogo de Opciones de formato de Documento que te permite
- configurar si NVDA debería anunciar puntos de referencia en documentos 
-web. Para compatibilidad con la versión anterior, la opción está 
-activada de forma predeterminada.
+</li><li>Ha sido añadida una casilla de verificación Anunciar regiones 
+al diálogo de Opciones de formato de Documento que te permite configurar
+ si NVDA debería anunciar regiones en documentos web. Para 
+compatibilidad con la versión anterior, la opción está activada de forma
+ predeterminada.
 </li><li>Si verbalizar teclas de órdenes está activada NVDA ahora 
 anunciará los nombres de las teclas multimedia (ex.: reproducir, 
 detener, página de inicio, etc.) cuando sean presionadas. (<a href="https://github.com/nvaccess/nvda/issues/472" target="_blank">#472</a>)

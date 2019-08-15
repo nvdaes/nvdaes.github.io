@@ -2,9 +2,9 @@
 <html><head>
 <meta name="generator" content="http://txt2tags.sf.net">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Guía del Usuario de NVDA 2019.1.1</title>
+<title>Guía del Usuario de NVDA 2019.2</title>
 </head><body text="black" bgcolor="white">
-<p align="center"></p><center><h1>Guía del Usuario de NVDA 2019.1.1</h1>
+<p align="center"></p><center><h1>Guía del Usuario de NVDA 2019.2</h1>
 <font size="4">
 </font></center>
 
@@ -75,7 +75,8 @@
     <ul>
     <li><a href="#SingleLetterNavigation">6.1. Navegación con una Sola Letra</a>
     </li><li><a href="#ElementsList">6.2. La Lista de Elementos</a>
-    </li><li><a href="#ImbeddedObjects">6.3. Objetos Integrados</a>
+    </li><li><a href="#SearchingForText">6.3. Buscar texto</a>
+    </li><li><a href="#ImbeddedObjects">6.4. Objetos Integrados</a>
     </li></ul>
   </li><li><a href="#ReadingMath">7. Leyendo Contenido Matemático</a>
     <ul>
@@ -83,7 +84,7 @@
     </li></ul>
   </li><li><a href="#Braille">8. Braille</a>
     <ul>
-    <li><a href="#BrailleAbbreviations">8.1. Abreviaturas de tipos de Control, estado y puntos de referencia</a>
+    <li><a href="#BrailleAbbreviations">8.1. Abreviaturas de tipos de Control, estado y regiones</a>
     </li><li><a href="#BrailleInput">8.2. Entrada Braille</a>
     </li></ul>
   </li><li><a href="#ContentRecognition">9. Reconocimiento de Contenidos</a>
@@ -154,6 +155,7 @@
       </li><li><a href="#ConfigProfileTriggers">11.4.4. Disparadores</a>
       </li><li><a href="#ConfigProfileEditing">11.4.5. Editando un Perfil</a>
       </li><li><a href="#ConfigProfileDisablingTriggers">11.4.6. Deshabilitar Temporalmente Disparadores</a>
+      </li><li><a href="#ConfigProfileGestures">11.4.7. Activar un perfil utilizando gestos de entrada</a>
       </li></ul>
     </li><li><a href="#LocationOfConfigurationFiles">11.5. Ubicación de los Ficheros de Configuración</a>
     </li></ul>
@@ -187,9 +189,9 @@
     </li><li><a href="#HedoMobilLine">14.8. hedo MobilLine USB</a>
     </li><li><a href="#HumanWareBrailliant">14.9. Series de la HumanWare Brailliant BI/B / BrailleNote Touch</a>
       <ul>
-      <li><a href="#toc129">14.9.1. Asignaciones de teclas para todos los modelos</a>
-      </li><li><a href="#toc130">14.9.2. Asignaciones de teclas para Brailliant BI 32, BI 40 y B 80</a>
-      </li><li><a href="#toc131">14.9.3. Asignaciones de teclas para Brailliant BI 14</a>
+      <li><a href="#toc131">14.9.1. Asignaciones de teclas para todos los modelos</a>
+      </li><li><a href="#toc132">14.9.2. Asignaciones de teclas para Brailliant BI 32, BI 40 y B 80</a>
+      </li><li><a href="#toc133">14.9.3. Asignaciones de teclas para Brailliant BI 14</a>
       </li></ul>
     </li><li><a href="#Hims">14.10. Series de las HIMS Braille Sense/Braille EDGE/Smart Beetle/Sync Braille</a>
     </li><li><a href="#Seika">14.11. Pantallas Braille Seika</a>
@@ -301,7 +303,7 @@ NVDA soporta códigos braille para muchos idiomas, incluyendo códigos braille c
 <a name="LicenseAndCopyright"></a>
 <h3>1.5. Licencia y Copyright</h3>
 <p>
-NVDA es propiedad intelectual de 2006-2018 por los colaboradores de NVDA.
+NVDA es propiedad intelectual de 2006-2019 por los colaboradores de NVDA.
 </p>
 <p>
 NVDA está cubierto por la GNU General Public License (Versión 2). 
@@ -1264,6 +1266,15 @@ posición actual del cursor de revisión. Después de pulsar esta tecla una
 cursor de revisión. Pulsando dos veces muestra la información en modo 
 exploración</td>
 </tr>
+<tr>
+<td>Anunciar reemplazo de símbolo actual</td>
+<td>No</td>
+<td>No</td>
+<td>no</td>
+<td>Verbaliza el símbolo donde esté colocado el cursor de revisión. 
+Pulsado dos veces, muestra el símbolo y el texto utilizado para 
+verbalizarlo en modo exploración.</td>
+</tr>
 </tbody></table>
 
 <p>
@@ -1473,13 +1484,24 @@ botón derecho y entonces mueve el ratón físicamente o utiliza una de las
 <a name="BrowseMode"></a>
 <h2>6. Modo Exploración</h2>
 <p>
-Los documentos complejos de sólo lectura, tales como páginas Web, son 
-representados en NVDA con un Modo Exploración. 
-Esto incluye documentos en Mozilla Firefox, Microsoft Internet Explorer,
- Mozilla Thunderbird, mensajes HTML en Microsoft Outlook, Google Chrome,
- Adobe Reader y Adobe Flash.
-El modo Exploración también está opcionalmente disponible para 
-documentos de Microsoft Word.
+Los documentos complejos de sólo lectura, tales como páginas Web, se representan en NVDA con un Modo Exploración. 
+Esto incluye documentos en las siguientes aplicaciones:
+</p>
+<ul>
+<li>Mozilla Firefox
+</li><li>Microsoft Internet Explorer
+</li><li>Mozilla Thunderbird
+</li><li>Mmensajes HTML en Microsoft Outlook
+</li><li>Google Chrome
+</li><li>Microsoft Edge
+</li><li>Adobe Reader
+</li><li>Foxit Reader
+</li><li>Adobe Flash.
+</li><li>Libros admitidos en Amazon Kindle for PC
+</li></ul>
+
+<p>
+El modo Exploración también está opcionalmente disponible para documentos de Microsoft Word.
 </p>
 <p>
 En el Modo Exploración, el contenido del documento está disponible 
@@ -1533,7 +1555,7 @@ Microsoft Word y Outlook.)</td>
 <tr>
 <td>Buscar</td>
 <td>NVDA+control+f</td>
-<td>Despliega un diálogo en el que puedes teclear algún texto a encontrar en el  documento actual</td>
+<td>Despliega un diálogo en el que puedes teclear algún texto a encontrar en el  documento actual. Consulta <a href="#SearchingForText">buscar texto</a> para más información.</td>
 </tr>
 <tr>
 <td>Buscar siguiente</td>
@@ -1583,7 +1605,7 @@ Las siguientes teclas por sí mismas saltan al siguiente campo, con la tecla shi
 </li><li>s: separador
 </li><li>m: marco
 </li><li>g: gráfico
-</li><li>d: punto de referencia
+</li><li>d: región
 </li><li>o: objeto integrado (reproductor de audio y vídeo, aplicación, diálogo, etc.)
 </li><li>1 a 6: encabezados de 1 a 6 respectivamente
 </li><li>a: anotación (comentario, revisión del editor, etc.)
@@ -1625,9 +1647,8 @@ documento actual, pulsa NVDA+shift+espacio.
 <p>
 La lista de elementos proporciona acceso a una lista de varios tipos de 
 elementos en el documento según sea apropiado para la aplicación.
-Por ejemplo, en navegadores web, la lista de elementos puede listar 
-enlaces, encabezados, campos de formulario, botones o puntos de 
-referencia.
+Por ejemplo, en navegadores web, la lista de elementos puede enumerar 
+enlaces, encabezados, campos de formulario, botones o regiones.
 Los botones de opción te permiten cambiar entre los diferentes tipos de 
 elementos.
 Se Proporciona también un campo de edición en el diálogo el cual te 
@@ -1649,8 +1670,44 @@ proporcionados en el diálogo para moverte a, o activar, ese elemento.
 </tr>
 </tbody></table>
 
+<a name="SearchingForText"></a>
+<h3>6.3. Buscar texto</h3>
+<p>
+Este diálogo te permite buscar términos en el documento actual.
+En el campo "Teclea el texto que desees encontrar", puede introducirse 
+el texto a encontrar.
+La casilla de verificación "Sensible a las mayúsculas" hace que la 
+búsqueda considere letras en mayúsculas y en minúsculas de modo 
+diferente.
+Por ejemplo, con "Sensible a las mayúsculas" seleccionada puedes 
+encontrar "NV Access" pero no "nv access".
+Utiliza las siguientes teclas para realizar  búsquedas:
+</p>
+<table cellpadding="4" border="1">
+<tbody><tr>
+<th>Nombre</th>
+<th>Tecla</th>
+<th>Descripción</th>
+</tr>
+<tr>
+<td>Buscar texto</td>
+<td>NVDA+control+f</td>
+<td>Abre el diálogo buscar</td>
+</tr>
+<tr>
+<td>Buscar siguiente</td>
+<td>NVDA+f3</td>
+<td>Busca la siguiente ocurrencia del término buscado actual|</td>
+</tr>
+<tr>
+<td>Buscar anterior</td>
+<td>NVDA+shift+f3</td>
+<td>Busca la ocurrencia anterior del término buscado actual</td>
+</tr>
+</tbody></table>
+
 <a name="ImbeddedObjects"></a>
-<h3>6.3. Objetos Integrados</h3>
+<h3>6.4. Objetos Integrados</h3>
 <p>
 Las páginas pueden incluir contenido enriquecido utilizando tecnologías 
 tales como Adobe Flash, Oracle Java y HTML5, así como aplicaciones y 
@@ -1765,12 +1822,11 @@ de NVDA.
 Puedes configurar el braille utilizando la <a href="#BrailleSettings">categoría Opciones de Braille</a> del diálogo <a href="#NVDASettings">Opciones de NVDA</a>.
 </p>
 <a name="BrailleAbbreviations"></a>
-<h3>8.1. Abreviaturas de tipos de Control, estado y puntos de referencia</h3>
+<h3>8.1. Abreviaturas de tipos de Control, estado y regiones</h3>
 <p>
 Con el fin de tener la mayor cantidad de información posible en una 
 pantalla braille, se han definido las siguientes abreviaturas para 
-indicar el tipo de control y el estado así como los puntos de 
-referencia.
+indicar el tipo de control y el estado así como las regiones.
 </p>
 <table cellpadding="4" border="1">
 <tbody><tr>
@@ -1858,8 +1914,8 @@ referencia.
 <td>globo de ayuda</td>
 </tr>
 <tr>
-<td>pdr</td>
-<td>punto de referencia</td>
+<td>reg</td>
+<td>región</td>
 </tr>
 <tr>
 <td>enl</td>
@@ -2066,12 +2122,12 @@ Los siguientes indicadores de estado  también están definidos:
 </tbody></table>
 
 <p>
-Finalmente, se definieron las siguientes abreviaturas para puntos de referencia:
+Finalmente, se definieron las siguientes abreviaturas para regiones:
 </p>
 <table cellpadding="4" border="1">
 <tbody><tr>
 <th>Abreviatura</th>
-<th>Punto de referencia</th>
+<th>Región</th>
 </tr>
 <tr>
 <td>tlo</td>
@@ -3409,6 +3465,9 @@ muevas, esta opción te permite elegir exactamente cuánto texto será
 verbalizado. 
 Las opciones son carácter, palabra, línea y párrafo.
 </p>
+<p>
+Para cambiar la unidad de resolución de texto desde cualquier lugar, por favor asigna un gesto personalizado utilizando el <a href="#InputGestures">Diálogo Gestos de entrada</a>.
+</p>
 <a name="MouseSettingsRole"></a>
 <h5>Anunciar rol cuando el ratón entra en los Objetos</h5>
 <p>
@@ -3736,9 +3795,24 @@ Tecla: NVDA+v
 Esta opción te permite especificar si el contenido en el modo 
 Exploración debería colocar cosas tales como enlaces y otros campos cada
  uno en su propia línea, o si debería conservarlos en el flujo de texto 
-según sea mostrado visualmente. Si la opción está activada, entonces las
- cosas permanecerán según sean mostradas visualmente, pero si está 
-desactivada, entonces los campos serán colocados en su propia línea.
+según sea mostrado visualmente.
+Si la opción está activada, entonces las cosas permanecerán según sean 
+mostradas visualmente, pero si está desactivada, entonces los campos 
+serán colocados en su propia línea.
+</p>
+<a name="BrowseModeSettingsEnableOnPageLoad"></a>
+<h5>Habilitar modo Exploración al cargar Página</h5>
+<p>
+Esta casilla de verificación conmuta si se debería habilitar 
+automáticamente el modo exploración al cargar una página.
+Cuando esta opción esté deshabilitada, el modo exploración todavía puede
+ activarse manualmente en páginas o en documentos donde se admita el 
+modo exploración.
+Consulta la <a href="#BrowseMode">Sección modo Exploración</a> para una 
+lista de las aplicaciones admitidas por el modo Exploración.
+Ten en cuenta que esta opción no se aplica a situaciones donde el modo 
+exploración sea siempre opcional, por ejemplo, en Microsoft Word.
+Esta opción está habilitada por defecto.
 </p>
 <a name="BrowseModeSettingsAutoSayAll"></a>
 <h5>Verbalizar Todo Automáticamente al Cargar la Página</h5>
@@ -3853,7 +3927,7 @@ Puedes configurar el anunciado de:
  </li><li>Enlaces
  </li><li>Listas
  </li><li>Citas
- </li><li>Puntos de referencia
+ </li><li>Regiones
  </li><li>Marcos
  </li><li>Cliqueable
  </li></ul>
@@ -3985,6 +4059,51 @@ Todavía no recomendamos que la mayoría de los usuarios activen esta
 opción de forma predeterminada, aunque invitamos a los usuarios de 
 Office 2016/365 a que prueben esta función y nos envíen sus comentarios.
 </p>
+<a name="AdvancedSettingsConsoleUIA"></a>
+<h5>Utilizar UI Automation para acceder a la Consola de Windows cuando esté disponible</h5>
+<p>
+Cuando esta opción esté activada, NVDA utilizará una versión nueva de 
+trabajo en curso de su soporte para la Consola de Windows que aprovecha 
+las ventajas de las <a href="https://devblogs.microsoft.com/commandline/whats-new-in-windows-console-in-windows-10-fall-creators-update/">mejoras de accesibilidad hechas por Microsoft</a>.
+ Esta característica es altamente experimental y todavía incompleta, así
+ que su uso aún no está recomendado. Sin embargo, una vez completado, se
+ prevé que este nuevo soporte se convierta  en el predeterminado, 
+mejorando el rendimiento y la estabilidad de NVDA en las consolas de 
+órdenes de Windows.
+</p>
+<a name="AdvancedSettingsWinConsoleSpeakPasswords"></a>
+<h5>Verbalizar contraseñas en consolas UIA</h5>
+<p>
+Esta opción controla si se verbalizan los caracteres por <a href="#KeyboardSettingsSpeakTypedCharacters">verbalizar caracteres al escribir</a> o <a href="#KeyboardSettingsSpeakTypedWords">verbalizar palabras al escribir</a>
+ en situaciones donde la pantalla no se actualice (tales como entrada de
+ contraseña) en la Consola de Windows con el soporte UI automation 
+activado. Por razones de seguridad, esta opción debería dejarse 
+deshabilitada. Sin embargo, es posible que desees habilitarla si 
+experimentas problemas de rendimiento o de inestabilidad con el anuncio 
+de caracteres y/o palabras al escribir mientras utilizas el nuevo 
+soporte experimental de NVDA para la Consola.
+</p>
+<a name="BrowseModeSettingsAutoFocusFocusableElements"></a>
+<h5>Poner Automáticamente el Foco del Sistema en los Elementos enfocables en Modo Exploración</h5>
+<p>
+Tecla: NVDA+8
+</p>
+<p>
+Habilitada por omisión, esta opción te permite elegir si el foco del 
+sistema debería ponerse automáticamente en los elementos que puedan 
+tenerlo (enlaces, campos de formulario, etc.) cuando se navegue por el 
+contenido con el cursor del modo exploración.
+Si se habilita, esto representa el comportamiento predeterminado de NVDA
+ como la versión 2019.1 y anteriores.
+Deshabilitando esta opción no se enfocarán automáticamente los elementos
+ enfocables cuando se seleccionen con el cursor del modo exploración.
+Esto podría resultar en una mejor experiencia de navegación y una mejor 
+respuesta en el modo exploración.
+El foco todavía se actualizará al elemento en particular cuando 
+interactúes con él (por ejemplo, pulsando un botón, marcando una casilla
+ de verificación).
+Esta funcionalidad es experimental a partir de NVDA 2019.2.
+</p>
 <a name="AdvancedSettingsCaretMoveTimeout"></a>
 <h5>Tiempo de espera para el movimiento del cursor (en MS)</h5>
 <p>
@@ -4102,6 +4221,7 @@ de la voz al procesar símbolos y caracteres" que se encuentra en la <a href="#S
 </p>
 <p>
 Para cambiar un símbolo, primero selecciónalo en la lísta de Símbolos.
+Puedes filtrar los símbolos introduciendo el símbolo o una parte de su sustitución en el cuadro de edición Filtrar por.
 </p>
 <ul>
 <li>El campo Reemplazar te permite cambiar el texto que debería verbalizarse en lugar de este símbolo.
@@ -4239,8 +4359,10 @@ configuración con excepción de aquellas que estén en la categoría
 General del cuadro de diálogo <a href="#NVDASettings">Opciones de NVDA</a> , las cuales se aplican a la totalidad de NVDA.
 </p>
 <p>
-Los perfiles de configuración pueden ser activados manualmente.
-También se pueden activar de forma automática debido a disparadores tales como el cambio a una aplicación en particular.
+Los perfiles de configuración pueden ser activados manualmente, ya sea 
+desde un cuadro de diálogo o utilizando gestos añadidos personalizados.
+También se pueden activar de forma automática debido a disparadores 
+tales como el cambio a una aplicación en particular.
 </p>
 <a name="ProfilesBasicManagement"></a>
 <h4>11.4.1. Manejo Básico</h4>
@@ -4364,6 +4486,16 @@ perfiles de configuración.
 <p>
 Para activar o desactivar los disparadores desde cualquier lugar, por favor asigna un gesto personalizado utilizando el <a href="#InputGestures">Diálogo Gestos de Entrada</a>.
 </p>
+<a name="ConfigProfileGestures"></a>
+<h4>11.4.7. Activar un perfil utilizando gestos de entrada</h4>
+<p>
+Para cada perfil que añadas, podrás asignar uno o más gestos de entrada para activarlo.
+Por defecto, los perfiles de configuración no tienen gestos de entrada asignados.
+Puedes añadir gestos para activar un perfil utilizando el <a href="#InputGestures">diálogo Gestos de Entrada</a>.
+Cada perfil tiene su propia entrada en la categoría perfiles de configuración.
+Cuando renombres un perfil, cualquier gesto que añadieras con anterioridad todavía estará disponible.
+Borrar un perfil eliminará automáticamente el gesto asociado con él.
+</p>
 <a name="LocationOfConfigurationFiles"></a>
 <h3>11.5. Ubicación de los Ficheros de Configuración</h3>
 <p>
@@ -4400,8 +4532,8 @@ seguras en la categoría General del diálogo <a href="#NVDASettings">Opciones d
 El visualizador del Registro, encontrado en Herramientas en el menú 
 NVDA, te permite ver toda la salida que haya ocurrido hasta ahora desde 
 cuando iniciaste NVDA por última vez.
-</p>
-<p>
+Utilizando NVDA+F1 se abrirá el visualizador del registro y se mostrará 
+la información del desarrollador sobre el navegador de objetos actual.
 Además de leer el contenido, también puedes guardar una copia del 
 fichero de registro, o refrescar el visualizador tal que se muestre la 
 salida más reciente desde que el visualizador de registro fue abierto.
@@ -4700,11 +4832,6 @@ Si no los tienes todavía, puedes obtenerlos desde <a href="https://www2.freedom
 Aunque esta página sólo mencione la pantalla Focus 40 Blue, el 
 controlador es compatible con todas las pantallas Focus y Pacmate de 
 Freedom Scientific.
-Si tu sistema ejecuta un Windows de 64 bit y los controladores ya se 
-instalaron por otro lector de pantalla, posiblemente todavía necesitarás
- instalar los controladores desde este enlace, puesto que los ficheros 
-que requiere NVDA posiblemente no fueran instalados por el otro lector 
-de pantalla.
 </p>
 <p>
 De manera predeterminada, NVDA puede detectar automáticamente y 
@@ -4715,9 +4842,8 @@ de conexión a utilizar.
 Esto podría ser útil si quieres conectar la pantalla focus a NVDA 
 utilizando bluetooth, y todavía podrías cargarla utilizando la energía 
 del USB desde tu ordenador.
-</p>
-<p>
-Estas pantallas todavía no admiten la funcionalidad de detección automática de NVDA.
+La detección automática de pantallas braille de NVDA también reconocerá 
+la pantalla en USB o en Bluetooth.
 </p>
 <p>
 Seguidamente van las asociaciones de teclas para esta pantalla con NVDA.
@@ -5436,7 +5562,7 @@ También se admite la BrailleNote Touch, y no requiere instalar ningún controla
 Seguidamente van las asignaciones de teclas para las pantallas Brailliant BI/B y BrailleNote touch con NVDA.
 Por favor conhsulta la documentación de la pantalla para descripciones de dónde pueden encontrarse estas teclas.
 </p>
-<a name="toc129"></a>
+<a name="toc131"></a>
 <h4>14.9.1. Asignaciones de teclas para todos los modelos</h4>
 <table cellpadding="4" border="1">
 <tbody><tr>
@@ -5525,7 +5651,7 @@ Por favor conhsulta la documentación de la pantalla para descripciones de dónd
 </tr>
 </tbody></table>
 
-<a name="toc130"></a>
+<a name="toc132"></a>
 <h4>14.9.2. Asignaciones de teclas para Brailliant BI 32, BI 40 y B 80</h4>
 <table cellpadding="4" border="1">
 <tbody><tr>
@@ -5546,7 +5672,7 @@ Por favor conhsulta la documentación de la pantalla para descripciones de dónd
 </tr>
 </tbody></table>
 
-<a name="toc131"></a>
+<a name="toc133"></a>
 <h4>14.9.3. Asignaciones de teclas para Brailliant BI 14</h4>
 <table cellpadding="4" border="1">
 <tbody><tr>
@@ -6417,7 +6543,7 @@ Se admiten los siguientes modelos:
 
 <p></p>
 <p>
-Para el BrailleNote Touch, por favor consulta la sección <a href="file:///C:/Users/User/Downloads/NVDA/documentation/es/HumanWareBrailliant">series de las Brailliant BI / BrailleNote Touch</a>.
+Para el BrailleNote Touch, por favor consulta la sección <a href="file:///C:/Program%20Files%20(x86)/NVDA/documentation/es/HumanWareBrailliant">series de las Brailliant BI / BrailleNote Touch</a>.
 </p>
 <p>
 Excepto para el BrailleNote PK, se admiten ambos teclados braille (BT) y QWERTY (QT).
