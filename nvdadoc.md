@@ -53,13 +53,13 @@ Para facilitar el procedimiento, Alberto Buffolino (@ABuffEr) ha creado un progr
 
 #### NVDASnapshotDownloader ####
 
-Un sencillo archivo. bat para descargar las últimas versiones de prueba ("snapshots") de NVDA (alpha o beta).
+Un sencillo archivo. bat para descargar las últimas versiones de prueba ("snapshots") de NVDA de cada rama (tipo) disponible: rc, alpha, etc.
 
 Disponible en inglés (proyecto original) y español (gracias a @nvdaes).
 
 ##### Instalación #####
 
-- [Descarga el archivo zip en español](https://github.com/ABuffEr/NVDASnapshotDownloader/files/2342754/NVDASnapshotDownloader-1.0-es.zip).
+- [Descarga el archivo zip en español](https://github.com/ABuffEr/NVDASnapshotDownloader/files/3539618/NVDASnapshotDownloader-2.0-es.zip).
 - Extrae el archivo y pon _NVDASnapshotDownloader.bat en una carpeta donde quieras (es preferible una ruta sin espacios).
 - Ejecuta y sigue el proceso paso a paso.
 
