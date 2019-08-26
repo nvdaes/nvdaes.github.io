@@ -13,7 +13,7 @@ Compartimos las instrucciones y el enlace directo para descargar este sencillo p
 
 ### NVDASnapshotDownloader
 
-Un sencillo archivo. bat para descargar las últimas versiones de prueba (“snapshots”) de NVDA, de cada rama (tipo) disponible: rc, alpha, etc.
+Un sencillo archivo .bat para descargar las últimas versiones de prueba (“snapshots”) de NVDA, de cada rama (tipo) disponible: rc, alpha, etc.
 
 Disponible en inglés (proyecto original) y español (gracias a @nvdaes).
 
