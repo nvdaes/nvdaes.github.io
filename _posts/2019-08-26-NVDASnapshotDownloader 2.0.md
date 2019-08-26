@@ -13,7 +13,7 @@ Compartimos las instrucciones y el enlace directo para descargar este sencillo p
 
 ### NVDASnapshotDownloader
 
-Un sencillo archivo. bat para descargar las últimas versiones de prueba (“snapshots”) de NVDA de cada rama (tipo) disponible: rc, alpha, etc.
+Un sencillo archivo. bat para descargar las últimas versiones de prueba (“snapshots”) de NVDA, de cada rama (tipo) disponible: rc, alpha, etc.
 
 Disponible en inglés (proyecto original) y español (gracias a @nvdaes).
 
@@ -39,7 +39,7 @@ Powershell debería estar presente en casi todos los sistemas a partir de XP.
 
 - [Proceso de publicación y desarrollo de NVDA](https://github.com/nvaccess/nvda/wiki/ReleaseProcess)
 - [Repositorio de NVDASnapshotDownloader](https://github.com/ABuffEr/NVDASnapshotDownloader)
-- conversación con Alberto sobre NVDASnapshotDownloader](https://github.com/ABuffEr/NVDASnapshotDownloader/pull/1) (en inglés)
+- [Conversación con Alberto sobre NVDASnapshotDownloader](https://github.com/ABuffEr/NVDASnapshotDownloader/pull/1) (en inglés)
 
 @ABuffEr, <span lang="it">grazie mille</span>. :)
 
