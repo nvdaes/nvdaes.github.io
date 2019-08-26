@@ -1,6 +1,6 @@
 ---
 title: NVDASnapshotDownloader 2.0, gracias a Alberto Buffolino
-permalink: "/nvdaSnapshotDownloader-2.0"
+permalink: "/nvdaSnapshotDownloader2.0"
 layout: post
 author: Noelia
 ---
