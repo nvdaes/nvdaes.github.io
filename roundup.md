@@ -36,7 +36,7 @@ El software de lectura de Adobe es ampliamente usado para leer ficheros pdf, per
 
 Lo que gustó a nuestros evaluadores: Resulta oportuno poder leer pdf y EPUB en la misma app.
 
-Para tener en cuenta: Nuestros evaluadores encontraron que Digital Editions es inestable en Windows y tiene dificultad con los libros más grandes. También se informa de problemas de fiabilidad en iOS y Android. La navegación por la tabla de contenido con lector de pantalla no fue satisfactoria. No hay ninguna función para cambiar los colores de la pantalla ni la fuente, y no dispone de lectura en voz alta propia, por lo que es menos atractivo para personas con diferencias de aprendizaje como la dislexia.
+Para tener en cuenta: Nuestros evaluadores encontraron que Digital Editions es inestable en Windows y hubo dificultad con los libros más grandes. También se informa de problemas de fiabilidad en iOS y Android. La navegación por la tabla de contenido con lector de pantalla no fue satisfactoria. No hay ninguna función para cambiar los colores de la pantalla ni la fuente, y no dispone de lectura en voz alta propia, por lo que es menos atractivo para personas con diferencias de aprendizaje como la dislexia.
 
 #### [Dolphin EasyReader](https://yourdolphin.com/easyreader) ####
 
@@ -72,7 +72,7 @@ Para tener en cuenta: Si el editor proporciona navegación por páginas, esto no
 
 #### [Play Books](https://play.google.com/store/apps/details?id=com.google.android.apps.books) ####
 
-Los libros electrónicos adquiridos desde la app de la tienda de libros de Google se leen en su app Play Books. Habitualmente, esta app ya está instalada en teléfonos y tabletas Android, y se puede descargar para dispositivos iOS desde la App Store de Apple. Los libros también pueden leerse mediante un navegador web en ordenadores con Windows, Mac y Chromebook. Puedes subir tus propias obras EPUB a tu biblioteca a través de la app o mediante el sitio web de Play Books. 
+Los libros electrónicos adquiridos desde la app de la tienda de libros de Google se leen en su app Play Books. Habitualmente esta app ya está instalada en teléfonos y tabletas Android, y se puede descargar para dispositivos iOS desde la App Store de Apple. Los libros también pueden leerse mediante un navegador web en ordenadores con Windows, Mac y Chromebook. Puedes subir tus propias obras EPUB a tu biblioteca a través de la app o mediante el sitio web de Play Books. 
 
 Lo que gustó a nuestros evaluadores: Es posible leer con la misma app tanto libros electrónicos como audiolibros. El sencillo diccionario incorporado (solo resalta una palabra) puede ser especialmente útil para personas con discapacidades específicas de aprendizaje.
 
