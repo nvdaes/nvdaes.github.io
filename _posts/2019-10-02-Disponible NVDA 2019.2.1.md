@@ -9,7 +9,7 @@ author: Noelia
 
 Como se explica en esta [noticia de NV Access sobre NVDA 2019.2.1](https://www.nvaccess.org/post/nvda-2019-2-1-released/) (en inglés), se ha publicado esta nueva versión estable de NVDA.
 
-Se trata de una importante actualización de la versión anterior (NVDA 2019.2) en la que se corrigen varios fallos críticos
+Se trata de una importante actualización de la versión anterior (NVDA 2019.2) en la que se corrigen varios fallos críticos.
 
 NV Access recuerda que es aconsejable cerrar todas las aplicaciones, incluidos navegadores web, antes de actualizar NVDA.
 
@@ -24,4 +24,4 @@ Puedes descargar la última versión de NVDA desde la [página de descarga en el
 
 Para ayuda en español sobre NVDA o el procedimiento de descarga, consulta la [página Ayuda y descarga](https://nvdaes.github.io/ayuda/) disponible en esta web.
  
-Te deseamos una buena experiencia con NVDA 2019.2, y esperamos contar contigo para seguir construyendo nuestra comunidad.
+Te deseamos una buena experiencia con NVDA 2019.2.1, y esperamos contar contigo para seguir construyendo nuestra comunidad.
