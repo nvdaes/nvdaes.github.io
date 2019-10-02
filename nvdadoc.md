@@ -4,6 +4,8 @@ permalink: "/ayuda/"
 layout: page
 ---
 
+Última versión estable: 2019.2.1
+
 ### Documentación sobre NVDA
 
 A continuación podrás encontrar una lista de documentos disponibles en el menú Ayuda de NVDA, al que puedes acceder pulsando la combinación de teclas <kbd>NVDA+n</kbd> o haciendo clic con el botón derecho del ratón sobre el icono correspondiente en la bandeja del sistema:
@@ -28,11 +30,6 @@ Para descargar la última versión estable de NVDA:
 1. Accede a la [página de descarga en el sitio de NV Access](https://www.nvaccess.org/download/).
 2. Elige la cantidad que quieras donar a NV Access, o, para no donar esta vez, "Skip donation this time", entre los botones de opción disponibles.
 3. Pulsa el botón "DOWNLOAD".
-
-#### Notas ####
-
-* Si quieres recibir las noticias de NV Access, indica tu dirección de correo electrónico en el cuadro de edición Email address.
-* Como se indica en la [página sobre privacidad de NV Access](https://www.nvaccess.org/privacy/) (en inglés), a veces sitios externos incluso ofrecen descargas de NVDA, y NV Access no es responsable del contenido o prácticas de privacidad de esos sitios.
 
 ### Descargar versiones de prueba ###
 
