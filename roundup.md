@@ -18,7 +18,7 @@ A un libro digital se accede mediante una app de lectura, que se emplea para abr
 
 Aquí presentamos un resumen de aplicaciones populares que pueden utilizarse con el formato de publicación más accesible del mundo, EPUB. Estas reseñas resumidas se basan en evaluaciones detalladas de accesibilidad, llevadas a cabo mediante un protocolo desarrollado por y con personas con discapacidades de acceso a material impreso. Al final de este artículo se proporciona más información sobre este protocolo organizado.
 
-Los resultados de las evaluaciones eran correctos en el momento de su publicación, pero podrían no reflejar todas las experiencias personales, que pueden verse afectadas por la versión de los sistemas de lectura, tecnologías de apoyo o por la publicación que se esté leyendo. Las apps están en constante cambio, y los desarrolladores mejoran las características basándose en el resultado de nuestros test. Siempre puedes leer las últimas revisiones en <http://epubtest.org/
+Los resultados de las evaluaciones eran correctos en el momento de su publicación, pero podrían no reflejar todas las experiencias personales, que pueden verse afectadas por la versión de los sistemas de lectura, tecnologías de apoyo o por la publicación que se esté leyendo. Las apps están en constante cambio, y los desarrolladores mejoran las características basándose en el resultado de nuestros test. Siempre puedes leer las últimas revisiones en <http://epubtest.org/>
 
 ### Resumen de aplicaciones de lectura
 
