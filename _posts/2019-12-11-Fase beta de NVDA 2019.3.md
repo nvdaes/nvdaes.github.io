@@ -11,7 +11,7 @@ El lunes pasado (9 de diciembre) se publicó NVDA 2019.3beta1. Las versiones bet
 
 [Descarga NVDA 2019.3beta1](https://ci.appveyor.com/api/buildjobs/ra7vb4b94dlutb9l/artifacts/output/nvda_2019.3beta1.exe)
 
-La próxima versión estable de NVDA, que posiblemente se publique a principios de 2020, tiene cambios importantes que mejoran su seguridad y lo preparan  para su desarrollo futuro. Destacan:
+La próxima versión estable de NVDA, que posiblemente se publique a principios de 2020, tiene cambios importantes que mejoran su seguridad y lo preparan para su desarrollo futuro. Destacan:
 
 - El cambio de versión del principal lenguaje de programación con el que se desarrolla el lector de pantalla. Lo mismo que los programas, documentos, etc., se actualizan y se publican en distintas versiones, también los lenguajes de programación, Python en este caso, tienen versiones diferentes, y NVDA ha pasado de Python 2 a Python 3.
 - Un importante cambio en el subsistema responsable de la lectura en voz alta ("speech"). Por ejemplo, ahora es posible insertar comandos como la reproducción de tonos, cambios de parámetros de voz, etc., en secuencias de texto leído. Esto podría facilitar la incorporación de opciones como la indicación de ciertos elementos (por ejemplo, enlaces de una web) en un tono distinto, emitir un sonido para distinguir entre la palabra "coma" y el signo de puntuación correspondiente (,), etc.
@@ -24,7 +24,7 @@ Otros cambios disponibles en NVDA 2019.3beta1, previstos para la próxima versi�
 
 - Incluye Java Access Bridge, para proporcionar accesibilidad a Java sin necesidad de activar esta característica.
 - Opciones para cambiar la apariencia visual: posibilidad de resaltar el foco, cortina de pantalla para facilitar la privacidad, etc.
-- Visualizador braille, útil para mostrar cómo se presenta el braille en NVDA a personas videntes o con resto visual.
+- Visualizador braille, útil para mostrar a personas videntes o con resto visual cómo se presenta el braille en NVDA.
 - Se admiten más dispositivos braille.
 - Mejoras en la web.
 - Y mucho más.
