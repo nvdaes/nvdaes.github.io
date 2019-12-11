@@ -7,7 +7,7 @@ author: Noelia
 
 <footer>Miércoles, 11 de diciembre de 2019</footer>
 
-El lunes pasado (9 de diciembre) se publicó NVDA 2019.3beta1. Las versiones beta incluyen características que han superado tanto test automáticos como pruebas de personas que han descargado versiones previas (alpha) con las mismas características, por lo que este tipo de versiones (beta) pueden considerarse bastante estables y es importante probarlas, aunque no se recomiendan para "entornos de producción" como el puesto de trabajo o similares.
+El lunes pasado (9 de diciembre) se publicó NVDA 2019.3beta1. Las versiones beta incluyen características que han superado tanto test automáticos como pruebas de personas que han descargado versiones previas (alpha) con las mismas características, por lo que las versiones beta pueden considerarse bastante estables y es importante probarlas, aunque no se recomiendan para "entornos de producción" como el puesto de trabajo o similares.
 
 [Descarga NVDA 2019.3beta1](https://ci.appveyor.com/api/buildjobs/ra7vb4b94dlutb9l/artifacts/output/nvda_2019.3beta1.exe)
 
