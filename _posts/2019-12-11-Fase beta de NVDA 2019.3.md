@@ -38,6 +38,8 @@ Además, hoy Joseph Lee, revisor, autor y creador de la lista internacional de c
 - Nos centremos en la estabilidad y compatibilidad de los complementos con NVDA 2019.3 y, si es necesario, también con versiones anteriores.
 - Informemos sobre errores (haciendo pruebas con betas de NVDA 2019.3) a las personas adecuadas, por ejemplo, autores de complementos.
 
+Aquí está el [mensaje de Joseph publicado en la lista de desarrollo de NVDA](https://groups.io/g/nvda-devel/message/44632).
+
 Joseph seguirá atento para actualizar la [lista de complementos compatibles con NVDA 2019.3](https://addons.nvda-project.org/addons/nvdapy3.es.html)
 
 
