@@ -40,6 +40,6 @@ Además, hoy Joseph Lee, revisor, autor y creador de la lista internacional de c
 
 Aquí está el [mensaje de Joseph publicado en la lista de desarrollo de NVDA](https://groups.io/g/nvda-devel/message/44632).
 
-Joseph seguirá atento para actualizar la [lista de complementos compatibles con NVDA 2019.3](https://addons.nvda-project.org/addons/nvdapy3.es.html)
+Joseph seguirá atento para actualizar la [lista de complementos compatibles con NVDA 2019.3](https://addons.nvda-project.org/addons/nvdapy3.es.html).
 
 
