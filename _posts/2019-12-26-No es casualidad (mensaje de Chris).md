@@ -5,7 +5,7 @@ layout: post
 author: Noelia
 ---
 
-<footer>Jueves, 24 de diciembre de 2019</footer>
+<footer>Jueves, 26 de diciembre de 2019</footer>
 
 Mi último post para este año es un mensaje, ante todo, de cariño. Aunque también de gratitud. No es casualidad.
 
@@ -31,5 +31,6 @@ Estos requisitos son abiertos y sujetos a diálogo, como también se explica en 
 Termino con una canción dedicada a Chris. Y para todo el mundo, buen y feliz año 2020.
 
 [Letra de la canción](https://www.letras.com/joaquin-sabina/330186/)
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uPZekf4PPks" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
