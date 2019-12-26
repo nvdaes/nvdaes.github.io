@@ -15,7 +15,7 @@ Aquí está la [respuesta de Chris a insinuaciones falsas sobre la revisión de 
 
 En el hilo donde aparece el mensaje de Chris, también se mencionan los requisitos para obtener acceso a un repositorio usado para que funcionen los enlaces de la web de complementos de NVDA, traducida a distintos idiomas.
 
-Se trata de cuatro condiciones debatidas públicamente en la lista internacional de complementos, recogidas en un [Documento sobre repositorios y traducciones](https://github.com/nvdaaddons/nvdaaddons.github.io/wiki/MakeAddonsTranslatable).
+Se trata de cuatro condiciones debatidas públicamente en la lista internacional de complementos, recogidas en un [documento sobre repositorios y traducciones](https://github.com/nvdaaddons/nvdaaddons.github.io/wiki/MakeAddonsTranslatable).
 
 Estas condiciones se refieren a que, para obtener acceso a este repositorio (llamado addonFiles), se debe haber hecho al menos una revisión de complementos, y a que la persona debe ser conocida por ser confiable en cuanto a la autoría, revisión, mantenimiento y promoción de complementos; comunicación respecto a usuarios y otros desarrolladores; y tener conocimientos sobre el desarrollo de NVDA.
 
