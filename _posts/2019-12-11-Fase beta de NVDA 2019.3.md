@@ -13,7 +13,7 @@ El lunes pasado (9 de diciembre) se publicó NVDA 2019.3beta1. Las versiones bet
 
 Ayer (miércoles, 15 de enero de 2020) se publicó NVDA 2019.2beta2 con los siguientes cambios respecto a la beta anterior:
 
-- El uso de UI Automation para acceder a la consola de Windows cuando esté disponible se encuentra desactivado por defecto, ya que aún no está listo para entornos estables de trabajo, aunque esta opción se puede cambiar desde el menú de NVDA (<kbd>NVDA+n</kbd>), submenú Preferencias, diálogo Opciones, categoría Avanzadas.
+- El uso de UI Automation para acceder a la consola de Windows cuando esté disponible se encuentra desactivado por defecto, ya que aún no está listo para entornos de producción, aunque esta opción se puede cambiar desde el menú de NVDA (<kbd>NVDA+n</kbd>), submenú Preferencias, diálogo Opciones, categoría Avanzadas.
 - NVDA ya no se atasca en la nueva versión de Microsoft Edge, basada en Chromium.
 - Se añade la opción de reproducir un sonido corto cuando se cambia el estado de la cortina de pantalla (al activarla o desactivarla).
 - Se ha resuelto un problema al actualizar la configuración desde versiones alpha recientes.
@@ -23,7 +23,7 @@ Ayer (miércoles, 15 de enero de 2020) se publicó NVDA 2019.2beta2 con los sigu
 
 Además, según se explica en el [post del blog In-Process (de NV Access) publicado hoy](https://www.nvaccess.org/post/in-process-16th-january/):
 
-- Las versiones alpha y beta reproducen un sonido cuando NVDA registra errores para facilitar su detección. A menudo se producen errores, pero NVDA sigue funcionando y no se perciben problemas. Los sonidos de error pueden o no coincidir con problemas percibidos. Al informar sobre incidencias, hay que asegurarse de que se trata realmente de un fallo que afecta a los usuarios y no solo de un sonido de error. Todos los errores deben resolverse, pero se priorizan los que afectan a los usuarios. Además, se debe comprobar si también se producen en la última versión estable para saber si la causa está en novedades de las versiones alpha o beta.
+- Las versiones alpha y beta reproducen un sonido cuando NVDA registra errores para facilitar su detección. A menudo se producen errores, pero NVDA sigue funcionando y no se perciben problemas. Los sonidos de error pueden o no coincidir con problemas percibidos. Al informar sobre incidencias, hay que asegurarse de que se trata realmente de un fallo que afecta a los usuarios, y no solo de un sonido de error. Todos los errores deben resolverse, pero se priorizan los que afectan a los usuarios. Además, se debe comprobar si también se producen en la última versión estable para saber si la causa está en novedades de las versiones alpha o beta.
 - Aunque se intenta que las versiones de desarrollo (alpha o beta) funcionen bien, los cambios en estas versiones pueden producir consecuencias imprevistas. Se recomienda usar estas versiones en modo temporal o portable y tener a mano la versión estable, por si acaso.
 - La instalación sí está recomendada para versiones rc (release candidate), que son posteriores a la beta y previas a la estable o versión final.
 - Reef (de NV Access) ayer propuso cambios (pull requests) para resolver la mayoría de los problemas de compatibilidad con NVDA 2019.3 del complemento [NVDA Remote](https://nvdaremote.com/).
