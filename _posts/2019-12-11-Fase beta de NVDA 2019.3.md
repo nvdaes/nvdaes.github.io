@@ -17,7 +17,7 @@ Ayer (miércoles, 15 de enero de 2020) se publicó NVDA 2019.2beta2 con los sigu
 - NVDA ya no se atasca en la nueva versión de Microsoft Edge, basada en Chromium.
 - Se añade la opción de reproducir un sonido corto cuando se cambia el estado de la cortina de pantalla (al activarla o desactivarla).
 - Se ha resuelto un problema al actualizar la configuración desde versiones alpha recientes.
-- Se ha resuelto un problema con la navegación por listas mediante comandos de navegación de tablas (<kbd>NVDA+alt+flechas</kbd>).
+- Se ha resuelto un problema con la navegación por listas mediante comandos de navegación de tablas (<kbd>control+alt+flechas</kbd>).
 
 [Descarga NVDA 2019.3beta2](https://ci.appveyor.com/api/buildjobs/g1i3dmwdutrvxlk7/artifacts/output/nvda_2019.3beta2.exe)
 
@@ -28,6 +28,12 @@ Además, según se explica en el [post del blog In-Process (de NV Access) public
 - La instalación sí está recomendada para versiones rc (release candidate), que son posteriores a la beta y previas a la estable o versión final.
 - Reef (de NV Access) ayer propuso cambios (pull requests) para resolver la mayoría de los problemas de compatibilidad con NVDA 2019.3 del complemento [NVDA Remote](https://nvdaremote.com/).
 - Aunque muchos complementos son compatibles con NVDA 2019.3, es conveniente probarlos en la versión beta, para pedir a los autores que los actualicen antes de que se publique la próxima versión estable de NVDA en caso de que se detecte que algún complemento no es compatible.
+
+
+#### Para saber más ####
+
+- [Artículo Lector de pantalla en Wikipedia, con información sobre UI Automation](https://es.wikipedia.org/wiki/Lector_de_pantalla)
+- [Git - Participando en Proyectos, con información sobre pull requests](https://git-scm.com/book/es/v2/GitHub-Participando-en-Proyectos)
 
 La próxima versión estable de NVDA, que posiblemente se publique a principios de 2020, tiene cambios importantes que mejoran su seguridad y lo preparan para su desarrollo futuro. Destacan:
 
