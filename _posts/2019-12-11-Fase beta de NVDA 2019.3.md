@@ -13,7 +13,7 @@ El lunes pasado (9 de diciembre) se publicó NVDA 2019.3beta1. Las versiones bet
 
 Ayer (miércoles, 15 de enero de 2020) se publicó NVDA 2019.2beta2 con los siguientes cambios respecto a la beta anterior:
 
-- El uso de UI Automation para acceder a la consola de Windows cuando esté disponible se encuentra desactivado por defecto, ya que aún no está listo para entornos de producción, aunque esta opción se puede cambiar desde el menú de NVDA (<kbd>NVDA+n</kbd>), submenú Preferencias, diálogo Opciones, categoría Avanzadas.
+- El uso de UI Automation para acceder a la consola de Windows cuando esté disponible se encuentra desactivado por defecto, ya que aún no está listo para entornos de producción, aunque esta opción se puede cambiar desde el menú de NVDA (<kbd>NVDA+n</kbd>), submenú Preferencias, diálogo Opciones, categoría Avanzado.
 - NVDA ya no se atasca en la nueva versión de Microsoft Edge, basada en Chromium.
 - Se añade la opción de reproducir un sonido corto cuando se cambia el estado de la cortina de pantalla (al activarla o desactivarla).
 - Se ha resuelto un problema al actualizar la configuración desde versiones alpha recientes.
