@@ -11,7 +11,7 @@ El lunes pasado (9 de diciembre) se publicó NVDA 2019.3beta1. Las versiones bet
 
 ### Actualización ###
 
-Ayer (miércoles, 15 de enero de 2020) se publicó NVDA 2019.2beta2 con los siguientes cambios respecto a la beta anterior:
+Ayer (miércoles, 15 de enero de 2020) se publicó NVDA 2019.3beta2 con los siguientes cambios respecto a la beta anterior:
 
 - El uso de UI Automation para acceder a la consola de Windows cuando esté disponible se encuentra desactivado por defecto, ya que aún no está listo para entornos de producción, aunque esta opción se puede cambiar desde el menú de NVDA (<kbd>NVDA+n</kbd>), submenú Preferencias, diálogo Opciones, categoría Avanzado.
 - NVDA ya no se atasca en la nueva versión de Microsoft Edge, basada en Chromium.
