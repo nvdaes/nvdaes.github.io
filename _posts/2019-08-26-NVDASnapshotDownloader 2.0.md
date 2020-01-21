@@ -1,5 +1,5 @@
 ---
-title: NVDASnapshotDownloader 2.0, gracias a Alberto Buffolino
+title: NVDASnapshotDownloader, gracias a Alberto Buffolino (actualizado a 21 de enero de 2020)
 permalink: "/nvdaSnapshotDownloader-2"
 layout: post
 author: Noelia
@@ -15,11 +15,11 @@ Compartimos las instrucciones y el enlace directo para descargar este sencillo p
 
 Un sencillo archivo .bat para descargar las últimas versiones de prueba (“snapshots”) de NVDA, de cada rama (tipo) disponible: rc, alpha, etc.
 
-Disponible en inglés (proyecto original) y español (gracias a @nvdaes).
+Disponible en inglés (proyecto original), español (gracias a @nvdaes), francés (gracias a @blindhelp) e italiano (gracias a @christianlm).
 
 #### Instalación
 
-- [Descarga el archivo zip en español](https://github.com/ABuffEr/NVDASnapshotDownloader/files/3539618/NVDASnapshotDownloader-2.0-es.zip).
+- [Descarga el archivo zip en español](https://github.com/ABuffEr/NVDASnapshotDownloader/files/4091197/NVDASnapshotDownloader-3.0-es.zip).
 - Extrae el archivo y pon _NVDASnapshotDownloader.bat en una carpeta donde quieras (es preferible una ruta sin espacios).
 - Ejecuta y sigue el proceso paso a paso.
 
@@ -40,6 +40,8 @@ Powershell debería estar presente en casi todos los sistemas a partir de XP.
 - [Proceso de publicación y desarrollo de NVDA](https://github.com/nvaccess/nvda/wiki/ReleaseProcess)
 - [Repositorio de NVDASnapshotDownloader](https://github.com/ABuffEr/NVDASnapshotDownloader)
 - [Conversación con Alberto sobre NVDASnapshotDownloader](https://github.com/ABuffEr/NVDASnapshotDownloader/pull/1)
+- [Mensaje de Chris sobre versión 3.0](https://nvdaes.groups.io/g/lista/message/1198)
+
 
 @ABuffEr, <span lang="it">grazie mille</span>. :)
 
