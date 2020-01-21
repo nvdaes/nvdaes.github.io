@@ -35,8 +35,7 @@ Requiere wget, curl o powershell instalado en la misma carpeta o en el PATH del 
 
 Powershell debería estar presente en casi todos los sistemas a partir de XP.
 
-### Referencias (en inglés)
-
+### Referencias ###
 - [Proceso de publicación y desarrollo de NVDA](https://github.com/nvaccess/nvda/wiki/ReleaseProcess)
 - [Repositorio de NVDASnapshotDownloader](https://github.com/ABuffEr/NVDASnapshotDownloader)
 - [Conversación con Alberto sobre NVDASnapshotDownloader](https://github.com/ABuffEr/NVDASnapshotDownloader/pull/1)
