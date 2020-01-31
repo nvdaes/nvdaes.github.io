@@ -1,5 +1,5 @@
 ---
-title: Fase beta de NVDA 2019.3 (actualizado a 16 de enero de 2020)
+title: Fase beta de NVDA 2019.3 (actualizado a 31 de enero de 2020)
 permalink: "/nvda-2019-3-beta/"
 layout: post
 author: Noelia
@@ -9,7 +9,30 @@ author: Noelia
 
 El lunes pasado (9 de diciembre) se publicó NVDA 2019.3beta1. Las versiones beta incluyen características que han superado tanto test automáticos como pruebas de personas que han descargado versiones previas (alpha) con las mismas características, por lo que las versiones beta pueden considerarse bastante estables y es importante probarlas, aunque no se recomiendan para "entornos de producción" como el puesto de trabajo o similares.
 
-### Actualización ###
+
+### Actualización (2) ###
+
+Ayer (jueves, 30 de enero de 2020) NV Access publicó [información sobre NVda 2019.3beta3](https://www.nvaccess.org/post/nvda-2019-3beta3-now-available-for-testing/). Se incluyen los siguientes cambios:
+
+- Se deja de usar código específico de MS Edge en campos de edición de Internet Explorer.
+- Correcciones en el panel de opciones de Visión.
+- Se corrige un error cuando se encuentra un punto de referencia de navegación en contenido HTML de Edge.
+- Correcciones para la cortina de pantalla: ahora se puede activar después de que la activación haya fallado porque el magnificador estuviera activo; también es posible la activación "permanente" de la cortina aunque se haya elegido que no se muestre diálogo de confirmación. Agradecemos a los compañeros de nuestra lista de correo por su [información sobre la cortina de pantalla en NVDA 2019.3beta2 (sin diálogo de confirmación)](https://nvdaes.groups.io/g/lista/topic/69987451#1207).
+- Añadida introducción sobre aspectos destacados en el documento Qué hay de nuevo.
+- Actualizada la descripción del parámetro de línea de comandos `-s` y corregidas pequeñas erratas
+
+[Descarga NVDA 2019.3beta3](https://ci.appveyor.com/api/buildjobs/y8udr7f10njtrlc7/artifacts/output/nvda_2019.3beta3.exe)
+
+A partir del tuit de NV Access sobre esta versión de NVDA, se produjo un [debate sobre el número de versión](https://twitter.com/NVAccess/status/1222683538631225345).
+
+Aunque podría haberse cambiado a 2020.1 debido a la fecha real de publicación (como defendía uno de los participantes), NV Access explicó los motivos para mantener el número de versión 2019.3 en su [post publicado el 16 de enero](https://www.nvaccess.org/post/in-process-16th-january/):
+
+- El nombre (o número) de versión 2019.3 ha sido usado en muchos sitios.
+- Ahora los complementos pueden mostrar la versión mínima de NVDA que requieren y la última con la que han sido probados. Debido a grandes cambios en NVDA, ha sido necesario actualizarlos indicando que han sido probados con la versión 2019.3. Aunque usar 2020.1 no haría necesario actualizar los complementos para su compatibilidad con la nueva versión de NVDA, sería confuso ver que un complemento requiere o ha sido probado con una versión que nunca ha existido.
+
+La confusión podría evitarse si los autores actualizan de nuevo los complementos cambiando el número de versión requerida o probada, pero parece más razonable que dediquemos nuestra creatividad a cuestiones más productivas. Por ello apoyo la decisión de mantener NVDA 2019.3 como número para la próxima versión estable (o final) de NVDA.
+
+### Actualización ##
 
 Ayer (miércoles, 15 de enero de 2020) se publicó NVDA 2019.3beta2 con los siguientes cambios respecto a la beta anterior:
 
