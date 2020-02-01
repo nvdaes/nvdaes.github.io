@@ -8,3 +8,6 @@ layout: page
 * [GitHub](https://github.com/nvdaes)
 * [Correo electrónico](mailto:nrm1977@gmail.com)
 
+### Manifiestos firmados ###
+* [El Manifiesto Pos-Meritocracia](https://postmeritocracy.org/es/)
+
