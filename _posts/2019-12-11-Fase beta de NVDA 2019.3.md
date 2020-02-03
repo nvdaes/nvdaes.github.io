@@ -14,11 +14,11 @@ El lunes pasado (9 de diciembre) se publicó NVDA 2019.3beta1. Las versiones bet
 
 Hoy (viernes, 31 de enero de 2020) NV Access publicó en [GitHub](https://github.com/nvaccess/nvda/releases/tag/release-2019.3beta4) NVDA 2019.3beta4 con los siguientes cambios respecto a la beta anterior:
 
-### Corregidos ###
+#### Corregidos ####
 
 - Error al establecer encabezados de fila / columna en Word.
-- Controles ocultos en los elementos de lista en las pantallas de baja resolución.
-- Se deja de usar leer todo con OneCore o Sapi5.
+- Controles ocultos en la lista de elementos en pantallas de baja resolución.
+- Interrupción de leer todo con OneCore o Sapi5.
 
 [Descarga NVDA 2019.3beta4](https://ci.appveyor.com/api/buildjobs/ywxp3j5g698wdxq6/artifacts/output/nvda_2019.3beta4.exe)
 
