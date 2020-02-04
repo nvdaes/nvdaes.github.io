@@ -1,5 +1,5 @@
 ---
-title: Disponible NVDA 2019.2rc1
+title: Disponible NVDA 2019.3rc2
 permalink: "/nvda-2019-3rc2/"
 layout: post
 author: Noelia
