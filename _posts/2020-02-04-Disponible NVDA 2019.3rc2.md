@@ -5,9 +5,17 @@ layout: post
 author: Noelia
 ---
 
-<footer>Martes, 4 de febrero de 2020</footer>
+<footer>Martes, 4 de febrero de 2020 (actualizado a 5 de febrero)</footer>
 
 Como se explica en este [artículo de NV Access sobre NVDA 2019.3rc2](https://www.nvaccess.org/post/nvda-2019-3rc2-now-available-for-testing/), se ha publicado esta versión candidata de NVDA.
+
+### Actualización ###
+
+Hoy (5 de febrero de 2020) se ha publicado NVDA 2019.3rc3, con traducciones actualizadas para muchos idiomas.
+
+[Descarga NVDA 2019.3rc3](https://www.nvaccess.org/files/nvda/releases/2019.3rc3/nvda_2019.3rc3.exe)
+
+[Post de NV Access sobre NVDA 2019.3rc3](https://www.nvaccess.org/post/nvda-2019-3rc3-now-available-for-testing/)
 
 Las versiones rc ("release candidate") son un último paso antes de una versión estable (también llamada final) de NVDA. Estas versiones (rc) se publican para que se informe de posibles errores críticos que deberían ser resueltos antes de la próxima versión estable. Se espera que las versiones rc sean probadas (incluso instaladas) por el mayor número posible de personas, como se comenta en este [post de NV Access](https://www.nvaccess.org/post/in-process-16th-january/).
 
