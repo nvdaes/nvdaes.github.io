@@ -7,7 +7,7 @@ author: Noelia
 
 <footer>Viernes, 14 de febrero de 2020</footer>
 
-Hace unos días, Mesar Hameed, desarrollador que creó un sistema usado por el equipo de traducción de NVDA, autor de la primera versión del proceso de revisión de complementos, etc., me sugirió promover el día del amor por el software libre en la comunidad hispanohablante de NVDA.
+Hace unos días, Mesar Hameed, desarrollador que creó un sistema usado por el equipo de traducción de NVDA, autor de la primera versión del proceso de revisión de complementos, etc., me sugirió promover el día del amor por el software libre en nuestra comunidad.
 
 Traduzco algunas ideas del mensaje que me reenvió:
 
