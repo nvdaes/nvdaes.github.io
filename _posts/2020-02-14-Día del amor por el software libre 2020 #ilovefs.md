@@ -1,5 +1,5 @@
 ---
-title: Día del amor por el software libre 2020 #ILoveFS
+title: Día del amor por el software libre 2020
 permalink: "/ilovefs2020/"
 layout: post
 author: Noelia
@@ -29,5 +29,6 @@ En esta ocasión, mi agradecimiento va especialmente para Mesar.
 
 Para ti, por ser una excelente persona y un gran desarrollador.
 
-[Página web de Mesar](mesarhameed.info)
+[Página web de Mesar](https://mesarhameed.info)
+
 Twitter: @MesarHameed
