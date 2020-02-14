@@ -29,6 +29,7 @@ En esta ocasión, mi agradecimiento va especialmente para Mesar.
 
 Para ti, por ser una excelente persona y un gran desarrollador.
 
-[Página web de Mesar](https://mesarhameed.info)
+
+Página web: mesarhameed.info
 
 Twitter: @MesarHameed
