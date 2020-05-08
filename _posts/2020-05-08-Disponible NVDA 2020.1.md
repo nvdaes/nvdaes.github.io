@@ -13,7 +13,7 @@ NV Access recuerda que es buena idea reiniciar el PC después de actualizar cual
 
 <blockquote cite="https://nvdaes.github.io/nvda-2020-1rc1/"><p>En esta versión se admiten nuevos dispositivos braille de HumanWare y APH, y se corrigen muchos errores importantes. Por ejemplo, vuelve a ser posible leer matemáticas en Word mediante MathPlayer/MathType.</p></blockquote>
 
-Para descargarla, visita la [página de descarga de NVDA 2020.1 en NV Access](https://www.nvaccess.org/download?nvdaVersion=2020.1) y pulsa el botón *DOWNLOAD*.
+Para descargarla, visita la [página de descarga de NVDA 2020.1](https://www.nvaccess.org/download?nvdaVersion=2020.1) y pulsa el botón *DOWNLOAD*.
 
 Puedes consultar:
 
