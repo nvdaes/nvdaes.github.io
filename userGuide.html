@@ -2,9 +2,9 @@
 <html><head>
 <meta name="generator" content="http://txt2tags.sf.net">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Guía del Usuario de NVDA 2019.3.1</title>
+<title>Guía del Usuario de NVDA 2020.1</title>
 </head><body text="black" bgcolor="white">
-<p align="center"></p><center><h1>Guía del Usuario de NVDA 2019.3.1</h1>
+<p align="center"></p><center><h1>Guía del Usuario de NVDA 2020.1</h1>
 <font size="4">
 </font></center>
 
@@ -117,14 +117,13 @@
     </li><li><a href="#Foobar2000">11.4. foobar2000</a>
     </li><li><a href="#MirandaIM">11.5. Miranda IM</a>
     </li><li><a href="#Poedit">11.6. Poedit</a>
-    </li><li><a href="#Skype">11.7. Skype</a>
-    </li><li><a href="#Kindle">11.8. Kindle para PC</a>
+    </li><li><a href="#Kindle">11.7. Kindle para PC</a>
       <ul>
-      <li><a href="#KindleTextSelection">11.8.1. Selección de Texto</a>
-      </li><li><a href="#KindleUserNotes">11.8.2. Notas de Usuario</a>
+      <li><a href="#KindleTextSelection">11.7.1. Selección de Texto</a>
+      </li><li><a href="#KindleUserNotes">11.7.2. Notas de Usuario</a>
       </li></ul>
-    </li><li><a href="#Azardi">11.9. Azardi</a>
-    </li><li><a href="#WinConsole">11.10. Consola de Windows</a>
+    </li><li><a href="#Azardi">11.8. Azardi</a>
+    </li><li><a href="#WinConsole">11.9. Consola de Windows</a>
     </li></ul>
   </li><li><a href="#ConfiguringNVDA">12. Configurando NVDA</a>
     <ul>
@@ -172,10 +171,14 @@
     <li><a href="#LogViewer">13.1. Visualizador del Registro</a>
     </li><li><a href="#SpeechViewer">13.2. Visualizador de Voz</a>
     </li><li><a href="#BrailleViewer">13.3. Visualizador Braille</a>
-    </li><li><a href="#AddonsManager">13.4. Administrador de Complementos</a>
-    </li><li><a href="#incompatibleAddonsManager">13.5. Administrador de Complementos Incompatibles</a>
-    </li><li><a href="#PythonConsole">13.6. Consola de Python</a>
-    </li><li><a href="#ReloadPlugins">13.7. Recargar plugins</a>
+    </li><li><a href="#PythonConsole">13.4. Consola de Python</a>
+    </li><li><a href="#AddonsManager">13.5. Administrador de Complementos</a>
+      <ul>
+      <li><a href="#incompatibleAddonsManager">13.5.1. Administrador de Complementos Incompatibles</a>
+      </li></ul>
+    </li><li><a href="#CreatePortableCopy">13.6. Crear copia portable</a>
+    </li><li><a href="#RunCOMRegistrationFixingTool">13.7. Ejecutar la herramienta COM registration fixing...</a>
+    </li><li><a href="#ReloadPlugins">13.8. Recargar plugins</a>
     </li></ul>
   </li><li><a href="#SupportedSpeechSynths">14. Sintetizadores de Voz Admitidos</a>
     <ul>
@@ -197,9 +200,9 @@
     </li><li><a href="#HedoMobilLine">15.8. hedo MobilLine USB</a>
     </li><li><a href="#HumanWareBrailliant">15.9. Series de la HumanWare Brailliant BI/B / BrailleNote Touch</a>
       <ul>
-      <li><a href="#toc137">15.9.1. Asignaciones de teclas para todos los modelos</a>
-      </li><li><a href="#toc138">15.9.2. Asignaciones de teclas para Brailliant BI 32, BI 40 y B 80</a>
-      </li><li><a href="#toc139">15.9.3. Asignaciones de teclas para Brailliant BI 14</a>
+      <li><a href="#toc138">15.9.1. Asignaciones de teclas para todos los modelos</a>
+      </li><li><a href="#toc139">15.9.2. Asignaciones de teclas para Brailliant BI 32, BI 40 y B 80</a>
+      </li><li><a href="#toc140">15.9.3. Asignaciones de teclas para Brailliant BI 14</a>
       </li></ul>
     </li><li><a href="#Hims">15.10. Series de las HIMS Braille Sense/Braille EDGE/Smart Beetle/Sync Braille</a>
     </li><li><a href="#Seika">15.11. Pantallas Braille Seika</a>
@@ -311,7 +314,7 @@ NVDA soporta códigos braille para muchos idiomas, incluyendo códigos braille c
 <a name="LicenseAndCopyright"></a>
 <h3>1.5. Licencia y Copyright</h3>
 <p>
-NVDA es propiedad intelectual de 2006-2019 por los colaboradores de NVDA.
+NVDA es propiedad intelectual de 2006-2020 por los colaboradores de NVDA.
 </p>
 <p>
 NVDA está cubierto por la GNU General Public License (Versión 2). 
@@ -1463,58 +1466,63 @@ Si deseas sacar partido de ellas, puedes configurarlas desde la categoría <a hr
 </p>
 <p>
 Si bien un ratón físico o un trackpad se podrían utilizar para navegar 
-con el ratón, NVDA tiene unas pocas teclas de órdenes relacionadas con 
-el ratón:
+con el ratón, NVDA proporciona algunas órdenes relacionadas con él:
 </p>
 <table cellpadding="4" border="1">
 <tbody><tr>
 <th>Nombre</th>
 <th>Tecla Escritorio</th>
 <th>Tecla Portátil</th>
+<th>Táctil</th>
 <th>Descripción</th>
 </tr>
 <tr>
 <td>Clic botón izquierdo del ratón</td>
 <td>Dividir teclado numérico</td>
 <td>NVDA+` (acento grave)</td>
-<td>Hace clic en el botón izquierdo del ratón una vez. El común doble 
-clic puede llevarse a cabo pulsando esta tecla dos veces en rápida 
-sucesión</td>
+<td>no</td>
+<td>Hace clic en el botón izquierdo del ratón una vez. El típipo doble 
+clic puede realizarse pulsando esta tecla dos veces en sucesión rápida</td>
 </tr>
 <tr>
 <td>Bloquear botón izquierdo del ratón</td>
 <td>shift+Dividir teclado numérico</td>
 <td>NVDA+control+` (acento grave)</td>
+<td>no</td>
 <td>Mantiene pulsado el botón izquierdo del ratón. Púlsalo de nuevo para
  liberarlo. Para arrastrar el ratón,  pulsa esta tecla para bloquear el 
 botón izquierdo y entonces mueve el ratón físicamente o utiliza una de 
-las otras órdenes de enrutamiento del ratón</td>
+las otras órdenes de movimiento del ratón</td>
 </tr>
 <tr>
 <td>Clic botón derecho del ratón</td>
 <td>Multiplicar teclado numérico</td>
 <td>NVDA++ (signo más)</td>
-<td>Hace Clic en el botón derecho del ratón una vez.</td>
+<td>Tap y mantener</td>
+<td>Hace Clic en el botón derecho del ratón una vez, principalmente útil para abrir un menú de contexto en la posición del ratón.</td>
 </tr>
 <tr>
 <td>Bloquear botón derecho del ratón</td>
 <td>shift+Multiplicar teclado numérico</td>
 <td>NVDA+control++ (signo más)</td>
+<td>No</td>
 <td>Mantiene pulsado el botón derecho del ratón. Pulsa otra vez para 
 liberarlo. Para arrastrar el ratón,  pulsa esta tecla  para bloquear el 
 botón derecho y entonces mueve el ratón físicamente o utiliza una de las
- otras órdenes de enrutamiento del ratón</td>
+ otras órdenes de movimiento del ratón</td>
 </tr>
 <tr>
 <td>Mover ratón a navegador de objetos actual</td>
 <td>NVDA+Dividir teclado numérico</td>
 <td>NVDA+shift+m</td>
+<td>No</td>
 <td>Mueve el ratón a la posición del navegador de objetos actual y cursor de revisión</td>
 </tr>
 <tr>
 <td>navegar al objeto bajo el ratón</td>
 <td>NVDA+Multiplicar teclado numérico</td>
 <td>NVDA+shift+n</td>
+<td>No</td>
 <td>Pone el navegador de objetos en el objeto localizado en la posición del ratón</td>
 </tr>
 </tbody></table>
@@ -2607,28 +2615,8 @@ reciente.</td>
 </tr>
 </tbody></table>
 
-<a name="Skype"></a>
-<h3>11.7. Skype</h3>
-<p>
-Cuando se está en una conversación:
-</p>
-<table cellpadding="4" border="1">
-<tbody><tr>
-<th>Nombre</th>
-<th>Tecla</th>
-<th>Descripción</th>
-</tr>
-<tr>
-<td>Revisar mensaje</td>
-<td>NVDA+control+1-0</td>
-<td>Anuncia y mueve el cursor de revisión a un mensaje reciente, 
-dependiendo del número pulsado; por por ejemplo: NVDA+control+2 lee el 
-segundo mensaje más reciente.</td>
-</tr>
-</tbody></table>
-
 <a name="Kindle"></a>
-<h3>11.8. Kindle para PC</h3>
+<h3>11.7. Kindle para PC</h3>
 <p>
 NVDA es compatible con la lectura y la navegación de libros en Amazon 
 Kindle para PC.
@@ -2653,7 +2641,7 @@ accesibles.
 Por favor consulta la sección <a href="#ReadingMath">Leyendo Contenido Matemático</a> para información adicional.
 </p>
 <a name="KindleTextSelection"></a>
-<h4>11.8.1. Selección de Texto</h4>
+<h4>11.7.1. Selección de Texto</h4>
 <p>
 Kindle te permite realizar varias funciones en el texto seleccionado, 
 incluyendo obtener una definición de diccionario, añadir notas y hacer 
@@ -2667,7 +2655,7 @@ Si haces esto sin texto seleccionado, las opciones que se mostrarán
 serán para la palabra en el cursor.
 </p>
 <a name="KindleUserNotes"></a>
-<h4>11.8.2. Notas de Usuario</h4>
+<h4>11.7.2. Notas de Usuario</h4>
 <p>
 Puedes añadir una nota con respecto a una palabra o a un pasaje de texto.
 Para ello, primero selecciona el texto pertinente y accede a las opciones de la selección según se describió anteriormente.
@@ -2687,7 +2675,7 @@ Para ver, editar o eliminar una nota:
 
 <p></p>
 <a name="Azardi"></a>
-<h3>11.9. Azardi</h3>
+<h3>11.8. Azardi</h3>
 <p>
 Cuando se esté en la tabla de vista de libros añadidos:
 </p>
@@ -2710,7 +2698,7 @@ Cuando se esté en la tabla de vista de libros añadidos:
 </tbody></table>
 
 <a name="WinConsole"></a>
-<h3>11.10. Consola de Windows</h3>
+<h3>11.9. Consola de Windows</h3>
 <p>
 NVDA proporciona compatibilidad para la consola de órdenes de Windows 
 utilizada por el indicativo del sistema, PowerShell, y el  subsistema 
@@ -2868,23 +2856,28 @@ braille y de los teclados, así como la salida de la voz y del braille.
  entrada/salida, se registrarán mensajes de depuración adicionales.
  <ul>
  <li>Al igual que con la Entrada/salida, si te preocupa la privacidad, no deberías configurar el nivel de registro en esta opción.
--
- <p></p>
-==== Arrancar automáticamente NVDA después de Iniciar sesión en Windows ====[GeneralSettingsStartAfterLogOn]
+ </li></ul>
+</li></ul>
+
+<p></p>
+<a name="GeneralSettingsStartAfterLogOn"></a>
+<h5>Arrancar automáticamente NVDA después de Iniciar sesión en Windows</h5>
+<p>
 Si esta opción está activada, NVDA arrancará automáticamente tan pronto como inicies sesión en Windows. 
 Esta opción sólo está disponible para copias instaladas de NVDA.
- <p></p>
-==== Utilizar NVDA en la pantalla de inicio de sesión de Windows 
-(requiere privilegios de administrador) 
-====[GeneralSettingsStartOnLogOnScreen]
+</p>
+<a name="GeneralSettingsStartOnLogOnScreen"></a>
+<h5>Utilizar NVDA en la pantalla de inicio de sesión de Windows (requiere privilegios de administrador)</h5>
+<p>
 Si inicias sesión en Windows proporcionando un nombre de usuario y una 
 contraseña, entonces activando esta opción hará que NVDA se inicie 
 automáticamente en la pantalla de inicio de sesión cuando Windows 
 arranque. 
 Esta opción sólo está disponible para copias instaladas de NVDA.
- <p></p>
-==== Utilizar Opciones guardadas actualmente en el inicio de sesión y 
-otras pantallas seguras ====[GeneralSettingsCopySettings]
+</p>
+<a name="GeneralSettingsCopySettings"></a>
+<h5>Utilizar Opciones guardadas actualmente en el inicio de sesión y otras pantallas seguras</h5>
+<p>
 Pulsando este botón copias tu configuración de usuario de NVDA 
 actualmente guardada al directorio de sistema de configuración de NVDA, 
 tal que NVDA lo utilizará cuando se ejecute en el inicio de sesión, 
@@ -2894,9 +2887,10 @@ Para estar seguro de que todas tus opciones se transfieren, asegúrate de
  guardar primeramente tu configuración con control+NVDA+c o guarda la 
 configuración en el menú NVDA.
 Esta opción sólo está disponible para copias instaladas de NVDA.
- <p></p>
-==== Buscar actualizaciones para NVDA automáticamente 
-====[GeneralSettingsCheckForUpdates]
+</p>
+<a name="GeneralSettingsCheckForUpdates"></a>
+<h5>Buscar actualizaciones para NVDA automáticamente</h5>
+<p>
 Si esto está activado, NVDA buscará automáticamente versiones 
 actualizadas y te informará cuando una actualización esté disponible.
 También puedes buscar actualizaciones manualmente seleccionando Buscar 
@@ -2905,8 +2899,9 @@ Cuando se busquen actualizaciones manual o automáticamente, es necesario
  para NVDA enviar alguna información al servidor de actualizaciones para
  recibir la actualización correcta para tu sistema.
 Se envía siempre la siguiente información: 
- </li></ul>
-</li><li>Versión actual de NVDA
+</p>
+<ul>
+<li>Versión actual de NVDA
 </li><li>Versión del Sistema Operativo
 </li><li>Si el Sistema Operativo es de 64 o de 32 bits
 </li></ul>
@@ -3646,7 +3641,7 @@ ortografía está habilitado en el diálogo de NVDA <a href="#DocumentFormatting
 Esta opción permite al usuario controlar si la pulsación de las teclas 
 generada por aplicaciones tales como teclados en pantalla y por el 
 software de reconocimiento de voz debería procesarse por NVDA. 
-Esta opción está activada por defecto, aunque algunos usuarios pueden 
+Esta opción está activada por defecto aunque algunos usuarios pueden 
 necesitar deshabilitarla, como aquellos que escriban en vietnamita con 
 el programa de escritura Unikey ya que hará que la entrada de caracteres
  sea incorrecta.
@@ -4775,6 +4770,8 @@ NVDA, te permite ver toda la salida que haya ocurrido hasta ahora desde
 cuando iniciaste NVDA por última vez.
 Utilizando NVDA+F1 se abrirá el visualizador del registro y se mostrará 
 la información del desarrollador sobre el navegador de objetos actual.
+</p>
+<p>
 Además de leer el contenido, también puedes guardar una copia del 
 fichero de registro, o refrescar el visualizador tal que se muestre la 
 salida más reciente desde que el visualizador de registro fue abierto.
@@ -4838,8 +4835,18 @@ Si esta opción está marcada, el Visualizador Braille se abrirá cuando se
 La ventana del Visualizador Braille siempre intentará volver a abrirse 
 con las mismas dimensiones y ubicación que cuando se cerró.
 </p>
+<a name="PythonConsole"></a>
+<h3>13.4. Consola de Python</h3>
+<p>
+La consola de Python de NVDA, encontrada en Herramientas en el menú 
+NVDA, es una herramienta de desarrollo que es útil para depuración, 
+inspección general del interior  de NVDA o inspeción de la jerarquía de 
+accesibilidad  de una aplicación.
+Para más información, por favor consulta la Guía del desarrollador 
+disponible en <a href="https://community.nvda-project.org/wiki/Development">la sección de Desarrollo de la página web de NVDA</a>.
+</p>
 <a name="AddonsManager"></a>
-<h3>13.4. Administrador de Complementos</h3>
+<h3>13.5. Administrador de Complementos</h3>
 <p>
 El Administrador de Complementos, al que se accede seleccionando 
 Gestionar Complementos en Herramientas en el menú NVDA, te permite 
@@ -4924,7 +4931,7 @@ Intentar instalar un complemento incompatible resultará en un error explicando 
 Para acceder al Administrador de Complementos desde cualquier lugar, por favor asigna un gesto personalizado utilizando el <a href="#InputGestures">diálogho Gestos de Entrada</a>.
 </p>
 <a name="incompatibleAddonsManager"></a>
-<h3>13.5. Administrador de Complementos Incompatibles</h3>
+<h4>13.5.1. Administrador de Complementos Incompatibles</h4>
 <p>
 El Administrador de Complementos Incompatibles, al que se puede acceder a
  través de los botones "ver complementos incompatibles" en el 
@@ -4954,18 +4961,61 @@ Esto abre lo que te permitirá conocer todos los detalles del
 complemento, lo cual es de ayuda cuando contactes con el autor del 
 complemento.
 </p>
-<a name="PythonConsole"></a>
-<h3>13.6. Consola de Python</h3>
+<a name="CreatePortableCopy"></a>
+<h3>13.6. Crear copia portable</h3>
 <p>
-La consola de Python de NVDA, encontrada en Herramientas en el menú 
-NVDA, es una herramienta de desarrollo que es útil para depuración, 
-inspección general del interior  de NVDA o inspeción de la jerarquía de 
-accesibilidad  de una aplicación.
-Para más información, por favor consulta la Guía del desarrollador 
-disponible en <a href="https://community.nvda-project.org/wiki/Development">la sección de Desarrollo de la página web de NVDA</a>.
+Esto abrirá un diálogo que te permite crear una copia portable de NVDA a
+ partir de la versión instalada.
+De cualquier modo, al ejecutar una copia portable de NVDA, en el submenú
+ Herramientas extra el elemento de menú se llamará "instalar NVDA en 
+este PC" en lugar de "crear copia portable).
 </p>
+<p>
+El diálogo para crear una copia portable de NVDA o para instalar NVDA en
+ este PC te indicará para seleccionar una ruta de la carpeta en la cual 
+debería crear la copia portable o en la que NVDA debería instalarse.
+</p>
+<p>
+En este diálogo puedes habilitar o deshabilitar lo siguiente:
+</p>
+<ul>
+<li>Copiar la configuración actual del usuario (esto incluye los 
+ficheros en %appdata%\roaming\NVDA o en la configuración de usuario de 
+tu copia portable y también incluye los complementos y otros módulos)
+</li><li>Arrancar la nueva copia portable después de la creación o 
+arrancar NVDA después de la instalación (inicia NVDA automáticamente 
+después de la creación de la copia portable o de la instalación)
+</li></ul>
+
+<p></p>
+<a name="RunCOMRegistrationFixingTool"></a>
+<h3>13.7. Ejecutar la herramienta COM registration fixing...</h3>
+<p>
+La instalación o desinstalación de programas en un ordenador puede, en 
+ciertos casos, provocar que los ficheros COM DLL no se registren.
+Dado que las COM Interfaces tales como IAccessible dependen de los 
+registros correctos de COM DLL, pueden aparecer problemas en caso de que
+ falte el registro correcto.
+</p>
+<p>
+Esto puede suceder, por ejemplo, después de instalar y desinstalar Adobe Reader, Math Player y otros programas.
+</p>
+<p>
+El registro faltante puede causar problemas en los navegadores, aplicaciones de escritorio, barra de tareas y otras interfaces.
+</p>
+<p>
+Específicamente, los siguientes problemas pueden resolverse ejecutando esta herramienta:
+</p>
+<ul>
+<li>NVDA anuncia "desconocido" al navegar con navegadores tales como Firefox, Thunderbird etc.
+</li><li>NVDA falla al cambiar entre modo foco y modo exploración
+</li><li>NVDA es muy lento al navegar con los navegadores mientras se utiliza el modo exploración
+</li><li>Y posiblemente otros fallos.
+</li></ul>
+
+<p></p>
 <a name="ReloadPlugins"></a>
-<h3>13.7. Recargar plugins</h3>
+<h3>13.8. Recargar plugins</h3>
 <p>
 Este elemento, una vez activado, recarga app modules y plugins globales 
 sin reiniciar a NVDA, lo cual es útil para desarrolladores.
@@ -5812,13 +5862,21 @@ Los controladores USB no se requieren si el protocolo se configura a
 OpenBraille.
 </p>
 <p>
-También se admite la BrailleNote Touch, y no requiere instalar ningún controlador.
+También se admiten los siguientes dispositivos extra (y no requieren ningún controlador en especial para ser instalados):
 </p>
+<ul>
+<li>APH Mantis Q40
+</li><li>APH Chameleon 20
+</li><li>Humanware BrailleOne
+</li><li>NLS eReader
+</li></ul>
+
+<p></p>
 <p>
 Seguidamente van las asignaciones de teclas para las pantallas Brailliant BI/B y BrailleNote touch con NVDA.
 Por favor conhsulta la documentación de la pantalla para descripciones de dónde pueden encontrarse estas teclas.
 </p>
-<a name="toc137"></a>
+<a name="toc138"></a>
 <h4>15.9.1. Asignaciones de teclas para todos los modelos</h4>
 <table cellpadding="4" border="1">
 <tbody><tr>
@@ -5907,7 +5965,7 @@ Por favor conhsulta la documentación de la pantalla para descripciones de dónd
 </tr>
 </tbody></table>
 
-<a name="toc138"></a>
+<a name="toc139"></a>
 <h4>15.9.2. Asignaciones de teclas para Brailliant BI 32, BI 40 y B 80</h4>
 <table cellpadding="4" border="1">
 <tbody><tr>
@@ -5928,7 +5986,7 @@ Por favor conhsulta la documentación de la pantalla para descripciones de dónd
 </tr>
 </tbody></table>
 
-<a name="toc139"></a>
+<a name="toc140"></a>
 <h4>15.9.3. Asignaciones de teclas para Brailliant BI 14</h4>
 <table cellpadding="4" border="1">
 <tbody><tr>

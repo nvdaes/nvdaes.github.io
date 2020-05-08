@@ -4,7 +4,7 @@ permalink: "/ayuda/"
 layout: page
 ---
 
-Última versión estable: 2019.2.1
+Última versión estable: 2020.1
 
 ### Documentación sobre NVDA
 
