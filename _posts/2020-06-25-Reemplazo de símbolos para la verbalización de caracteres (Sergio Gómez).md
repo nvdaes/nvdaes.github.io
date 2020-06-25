@@ -19,14 +19,19 @@ Probablemente te moleste que OneCore, por ejemplo, no te verbalice los
 acentos. Bien, esto hará que sí te los verbalice:
 
 1.      Ve a “Pronunciación de puntuación y símbolos” y pulsa “Añadir”.
+
 2.      Escribe el carácter (Mayúsculas y minúsculas por separado).
+
 3.      Una vez añadamos el carácter, pulsamos la tecla Tabulador para ir
 al cuadro donde tendremos que escribir el reemplazo.
+
 Por ejemplo: Si añadimos la “á minúscula” la podemos reemplazar por
 “a, con acento agudo”.
+
 4.      Una vez escrito el reemplazo, pulsamos Tabulador para ir donde
 seleccionamos el nivel de puntuación. Seleccionamos “Carácter”, abajo
 del todo / la última opción.
+
 5.      Pulsamos Tabulador una vez más para ir a “Enviar símbolo
 propiamente dicho al sintetizador” y marcamos “Sólo por debajo del
 nivel de los símbolos”, debajo del todo / la última opción.
@@ -34,6 +39,8 @@ nivel de los símbolos”, debajo del todo / la última opción.
 Si seguimos estos pasos, OneCore verbalizará los acentos debidamente.
 
 #### Demo en audio ####
+
+Duración: 00:01:54
 
 <audio controls src="https://drive.google.com/uc?export=download&id=1DLndfIioNTMM0879FYyXaIWX3VGqvxFX">Tu navegador no admite audio</audio>
 
