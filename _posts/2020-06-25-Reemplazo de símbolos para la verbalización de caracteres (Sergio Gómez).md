@@ -42,9 +42,9 @@ Si seguimos estos pasos, OneCore verbalizará los acentos debidamente.
 
 Duración: 00:01:54
 
-<audio controls src="https://drive.google.com/uc?export=download&id=1DLndfIioNTMM0879FYyXaIWX3VGqvxFX">Tu navegador no admite audio</audio>
+<audio controls src="https://drive.google.com/uc?export=download&id=1u0paKyphqgjFnTxgz2bSezq-zhGYVaK1">Tu navegador no admite audio</audio>
 
-[Descarga directa de mp3](https://drive.google.com/uc?export=download&id=1DLndfIioNTMM0879FYyXaIWX3VGqvxFX)
+[Descarga directa de mp3](https://drive.google.com/uc?export=download&id=1u0paKyphqgjFnTxgz2bSezq-zhGYVaK1)
 
 Muchas gracias, Sergio, por tu fantástico trabajo.
 
