@@ -1,5 +1,7 @@
+
+let opds = document.getElementById("opds");
+
 function copy() {
-	let opds = document.getElementById("opds");
 	opds.select()
 	opds.setSelectionRange(0, 99999); /*For mobile devices*/
 	document.execCommand("copy");
@@ -17,3 +19,4 @@ function addCopyButton() {
 
 
 addCopyButton();
+opds.blur()
