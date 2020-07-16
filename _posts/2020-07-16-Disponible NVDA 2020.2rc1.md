@@ -13,7 +13,7 @@ Las versiones "release candidate" (rc) se publican para que las personas usuaria
 
 Si no se encuentran problemas graves, esta versión será idéntica a la siguiente versión estable, 2020.2.
 
-En esta versión se admite un nuevo dispositivo braille de Nattiq, y se incluyen mejoras para trabajar con Esset Antivirus, Windows Terminal, 1Password y el sintetizador de voz Windows OneCore, además de otras mejoras y corrección de fallos.
+En esta versión se admite un nuevo dispositivo braille de Nattiq, y se incluyen mejoras para trabajar con Esset Antivirus, Windows Terminal, 1Password y el sintetizador de voz Windows OneCore, además de otras novedades y corrección de fallos.
 
 [Descarga directa de NVDA 2020.2rc1](https://www.nvaccess.org/files/nvda/releases/2020.2rc1/nvda_2020.2rc1.exe)
 
