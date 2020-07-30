@@ -16,8 +16,8 @@ Si ya usas NVDA, puedes configurarlo para *buscar las actualizaciones automátic
 Puedes consultar:
 
 - [qué hay de nuevo](https://nvdaes.github.io/changes.html)
-- la [guía de NVDA](https://nvdaes.github.io/userGuide.html)
-- [Procedimiento de descarga preferido por NV Access](https://groups.io/g/nvda-devel/message/45172) (en inglés)
+- [guía de NVDA](https://nvdaes.github.io/userGuide.html)
+- [procedimiento de descarga preferido por NV Access](https://groups.io/g/nvda-devel/message/45172) (en inglés)
 
 [Descarga directa de NVDA 2020.2 desde el servidor de NV Access](http://www.nvaccess.org/download/nvda/releases/2020.2/nvda_2020.2.exe)
 
