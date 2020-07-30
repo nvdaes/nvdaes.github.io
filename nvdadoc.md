@@ -1,10 +1,9 @@
 ---
-title: Ayuda y descarga
+title: Ayuda
 permalink: "/ayuda/"
 layout: page
 ---
 
-Última versión estable: 2020.1
 
 ### Documentación sobre NVDA
 
