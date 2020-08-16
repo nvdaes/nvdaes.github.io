@@ -7,31 +7,31 @@
         <a
           class="button solid-button plus-button post-comment-button"
           href="https://github.com/{{ issues_repo }}/issues/{{ issue_id }}"
-          >Comentario</a>
+          >Añadir comentario</a>
     </div>
     <div id="comments-wrapper">
-      Loading...
+      Cargando...
     </div>
 </section>
 
 <!-- Comments script -->
-<script></script>
 <script>
   const commentsSection = document.getElementById('comments');
   const commentsWrapper = commentsSection.querySelector('#comments-wrapper');
   const commentsCount = commentsSection.querySelector('#comments-count');
+
+
+    const commentsObserver = new IntersectionObserver(function (entries, self) {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            fetchComments(); // this is the important part
+            self.unobserve(entry.target);
+        }
+    });
+    }, { rootMargin: '200px 0px 0px 0px' });
+
+    commentsObserver.observe(commentsSection);
 </script>
-
-const commentsObserver = new IntersectionObserver(function (entries, self) {
-  entries.forEach(entry => {
-      if (entry.isIntersecting) {
-          fetchComments(); // this is the important part
-          self.unobserve(entry.target);
-      }
-  });
-}, { rootMargin: '200px 0px 0px 0px' });
-
-commentsObserver.observe(commentsSection);
 
 function fetchComments() {
   fetch(
