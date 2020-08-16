@@ -115,7 +115,7 @@ function renderComments(comments) {
     })
     .map(comment => {
       const user = comment.user;
-      const datePosted = comment.created_at;
+      const datePosted = convertDate(comment.created_at);
       const body = DOMPurify.sanitize(marked(comment.body));
       const postedByAuthor = comment.author_association === 'OWNER';
       const edited = comment.created_at !== comment.updated_at;
@@ -129,7 +129,6 @@ function renderComments(comments) {
                           >${user.login}</a
                       >
                       <div class="meta date-posted">Fecha de comentario: <time datetime="${comment.created_at}">${datePosted}</time></div>
-                      // ${postedByAuthor ? '<span class="meta tag author-badge">nvdaes</span>' : ''}
                       ${edited ? `<span class="meta comment-edited">Editado</span>` : ''}
                   </div>
                   <div class="comment-body">${body}</div>
@@ -139,5 +138,13 @@ function renderComments(comments) {
     
     commentsWrapper.innerHTML = '';
     commentsWrapper.appendChild(commentsList);
+}
+
+function convertDate(OriginalDate) {
+    let date = new Date(originalDate);
+	let day = date.getDate();
+	let month = date.getMonth();
+	let year = update.getFullYear();
+	return day + "/" + month + "/" + year;
 }
 </script>
