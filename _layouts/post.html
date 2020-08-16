@@ -11,5 +11,9 @@ comments: true
   </div>
 <div class="date"><address><a href="{{ author.web }}">{{ author.display_name }}</a></address></div>
   
+  {% if page.commentsId %}
+    {% include comments.html issue_id=page.commentsId %}
+    {% else %}
   {% include disqus.html %}
+  {% endif %}
 </article>
