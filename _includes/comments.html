@@ -1,9 +1,6 @@
 {% assign issues_repo = site.issues_repo %}
 {% assign issue_id = include.issue_id %}
 
-<script type="module">
-  import { Octokit } from "https://cdn.pika.dev/@octokit/rest";
-</script>
 
 <section id="comments">
     <div class="comment-actions">
@@ -16,15 +13,7 @@
 		  <form>
 		  
 		  <textarea name="text" id="text"></textarea>
-		  <button type="button" /*onclick = "function () { octokit.issues.createComment({
-  owner: "nvdaes",
-  repo: issues_repo,
-  issue_number: issue_id,
-  body: getElementById("text").value;
-});
-}"*/ onclick="alert("hola")";
-
-
+		  <button type="button" onclick = "createComment()";
 }">Enviar comentario</button>
 		  </form>
     </div>
@@ -165,5 +154,21 @@ function convertDate(originalDate) {
 	let month = date.getMonth() + 1;
 	let year = date.getFullYear();
 	return day + "/" + month + "/" + year;
+}
+
+function createComment() {
+const { Octokit } = require("@octokit/rest");
+const octokit = new Octokit({
+  auth: "secret123",
+  userAgent: 'myApp v1.2.3',
+octokit.issues.createComment({
+  owner: "nvdaes",
+  repo: issues_repo,
+  issue_number: issue_id,
+  body: getElementById("text").value;
+});
+}
+
+
 }
 </script>
