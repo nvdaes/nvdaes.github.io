@@ -10,7 +10,8 @@ comments: true
     {{ content }}
   </div>
 <div class="date"><address><a href="{{ author.web }}">{{ author.display_name }}</a></address></div>
-  
+
+  {% include share.html %}
   {% if page.commentsId %}
     {% include comments.html issue_id=page.commentsId %}
     {% else %}
