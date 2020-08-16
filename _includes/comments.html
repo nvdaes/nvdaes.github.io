@@ -16,14 +16,15 @@
 		  <form>
 		  
 		  <textarea name="text" id="text"></textarea>
-		  <button type="submit" onclick= () => { octokit.issues.createComment({
+		  <button type="button" onclick = " function () { octokit.issues.createComment({
   owner: "nvdaes",
   repo: issues_repo,
   issue_number: issue_id,
   body: getElementById("text").value;
 });
+}"
 
-}></button>
+}">Enviar comentario</button>
 		  </form>
     </div>
     <div id="comments-wrapper">
