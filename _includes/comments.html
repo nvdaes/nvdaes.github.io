@@ -19,7 +19,7 @@
   const commentsSection = document.getElementById('comments');
   const commentsWrapper = commentsSection.querySelector('#comments-wrapper');
   const commentsCount = commentsSection.querySelector('#comments-count');
-</script>
+
 
 const commentsObserver = new IntersectionObserver(function (entries, self) {
 entries.forEach(entry => {
@@ -140,3 +140,4 @@ function renderComments(comments) {
     commentsWrapper.innerHTML = '';
     commentsWrapper.appendChild(commentsList);
 }
+</script>
