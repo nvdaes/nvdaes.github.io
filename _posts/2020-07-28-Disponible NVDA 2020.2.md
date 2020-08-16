@@ -3,6 +3,7 @@ title: Disponible NVDA 2020.2
 permalink: "/nvda-2020-2/"
 layout: post
 author: Noelia
+commentsId: 2
 ---
 
 <footer>Martes, 28 de julio de 2020 (actualizado a 30 de julio)</footer>
