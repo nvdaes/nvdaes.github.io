@@ -45,10 +45,10 @@ function fetchComments() {
 }
 
 const commentScripts = {
-  moment: {
-    src: 'https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.26.0/moment.min.js',
-    loaded: false,
-  },
+  // moment: {
+    // src: 'https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.26.0/moment.min.js',
+    // loaded: false,
+  // },
   marked: {
     src: 'https://cdn.jsdelivr.net/npm/marked/marked.min.js',
     loaded: false,
@@ -129,7 +129,7 @@ function renderComments(comments) {
                           >${user.login}</a
                       >
                       <div class="meta date-posted">Fecha de comentario: <time datetime="${comment.created_at}">${datePosted}</time></div>
-                      ${postedByAuthor ? '<span class="meta tag author-badge">nvdaes</span>' : ''}
+                      // ${postedByAuthor ? '<span class="meta tag author-badge">nvdaes</span>' : ''}
                       ${edited ? `<span class="meta comment-edited">Editado</span>` : ''}
                   </div>
                   <div class="comment-body">${body}</div>
