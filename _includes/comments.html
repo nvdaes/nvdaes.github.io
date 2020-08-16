@@ -45,10 +45,10 @@ function fetchComments() {
 }
 
 const commentScripts = {
-  moment: {
-    src: 'https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/locale/es.min.js',
-    loaded: false,
-  },
+  //moment: {
+    // src: 'https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/locale/es.min.js',
+    // loaded: false,
+  //},
   marked: {
     src: 'https://cdn.jsdelivr.net/npm/marked/marked.min.js',
     loaded: false,
@@ -115,7 +115,7 @@ function renderComments(comments) {
     })
     .map(comment => {
       const user = comment.user;
-      const datePosted = moment(comment.created_at).fromNow();
+      const datePosted = comment.created_at;
       const body = DOMPurify.sanitize(marked(comment.body));
       const postedByAuthor = comment.author_association === 'OWNER';
       const edited = comment.created_at !== comment.updated_at;
