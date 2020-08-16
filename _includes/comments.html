@@ -9,13 +9,6 @@
           class="button solid-button plus-button post-comment-button"
           href="https://github.com/{{ issues_repo }}/issues/{{ issue_id }}"
           >Añadir comentario desde GitHub</a>
-		  
-		  <form>
-		  
-		  <textarea name="text" id="text"></textarea>
-		  <button type="button" onclick = "createComment()";
-}">Enviar comentario</button>
-		  </form>
     </div>
     <div id="comments-wrapper">
       Cargando...
@@ -156,21 +149,4 @@ function convertDate(originalDate) {
 	return day + "/" + month + "/" + year;
 }
 
-function createComment() {
-/*const { Octokit } = require("@octokit/rest");
-const octokit = new Octokit({
-  auth: "secret123",
-  userAgent: 'myApp v1.2.3',
-octokit.issues.createComment({
-  owner: "nvdaes",
-  repo: issues_repo,
-  issue_number: issue_id,
-  body: getElementById("text").value;
-});
-*/
-	alert("Hello");
-}
-
-
-}
 </script>
