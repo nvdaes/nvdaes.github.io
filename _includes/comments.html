@@ -108,7 +108,7 @@ function renderComments(comments) {
 
     const commentsList = document.createElement('ol');
     commentsList.className = 'comments-list';
-    commentsList.setAttribute('aria-label', 'Comentarios para este post');
+    // commentsList.setAttribute('aria-label', 'Comentarios para este post');
 
     commentsList.innerHTML = comments
     .sort((comment1, comment2) => {
@@ -129,7 +129,7 @@ function renderComments(comments) {
                           class="meta username"
                           >${user.login}</a
                       >
-                      <div class="meta date-posted">Fecha de comentario: <time datetime="${comment.created_at}">${datePosted}</time></div>
+                      <div class="meta date-posted"><time datetime="${comment.created_at}">${datePosted}</time></div>
                       ${edited ? `<span class="meta comment-edited">Editado</span>` : ''}
                   </div>
                   <div class="comment-body">${body}</div>
