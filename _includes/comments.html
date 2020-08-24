@@ -121,7 +121,7 @@ function renderComments(comments) {
       const postedByAuthor = comment.author_association === 'OWNER';
       const edited = comment.created_at !== comment.updated_at;
 
-      return `<li class="comment">
+      return `<li class="comment"><article>
                   <div class="commenter">
                       <img src="${user.avatar_url}" alt="" aria-hidden="true" class="meta avatar" />
                       <a
@@ -132,7 +132,7 @@ function renderComments(comments) {
                       <div class="meta date-posted"><time datetime="${comment.created_at}">${datePosted}</time></div>
                       ${edited ? `<span class="meta comment-edited">Editado</span>` : ''}
                   </div>
-                  <div class="comment-body">${body}</div>
+                  <div class="comment-body">${body}</div></article>
               </li>`;
     })
     .join('');
