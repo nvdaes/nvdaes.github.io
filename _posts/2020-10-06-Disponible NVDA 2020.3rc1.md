@@ -14,7 +14,7 @@ Las versiones "release candidate" (rc) se publican para que las personas usuaria
 
 Si no se encuentran problemas graves, esta versión será idéntica a la siguiente versión estable, 2020.3.
 
-En esta versión se hay grandes mejoras de estabilidad y rendimiento, concretamente en aplicaciones de Microsoft Office. Hay nuevas opciones para activar o desactivar la funcionalidad para pantalla táctil y la indicación de gráficos. Se puede recibir información sobre la existencia de contenido marcado (resaltado) en navegadores, y hay nuevas tablas braille para alemán.
+En esta versión hay grandes mejoras de estabilidad y rendimiento, concretamente en aplicaciones de Microsoft Office. Hay nuevas opciones para activar o desactivar la funcionalidad para pantalla táctil y la indicación de gráficos. Se puede recibir información sobre la existencia de contenido marcado (resaltado) en navegadores, y hay nuevas tablas braille para alemán.
 
 [Descarga directa de NVDA 2020.3rc1](https://www.nvaccess.org/files/nvda/releases/2020.3rc1/nvda_2020.3rc1.exe)
 
