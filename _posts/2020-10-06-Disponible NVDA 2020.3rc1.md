@@ -5,7 +5,7 @@ layout: post
 author: Noelia
 ---
 
-<footer>Martes, 7 de octubre de 2020</footer>
+<footer>Martes, 6 de octubre de 2020</footer>
 
 Como se explica en este [artículo de NV Access sobre NVDA 2020.3rc1](https://www.nvaccess.org/post/nvda-2020-3rc1/) (en inglés), se ha publicado esta versión candidata de NVDA.
 
