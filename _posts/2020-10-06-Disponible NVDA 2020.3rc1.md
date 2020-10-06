@@ -2,6 +2,7 @@
 title: Disponible NVDA 2020.3rc1
 permalink: "/nvda-2020-3rc1/"
 layout: post
+commentsId: 4
 author: Noelia
 ---
 
