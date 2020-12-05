@@ -3,6 +3,7 @@ title: Reemplazo de símbolos para la verbalización de caracteres (Sergio Góme
 permalink: "/reemplazo/"
 layout: post
 author: Noelia
+commentsId: 7
 ---
 
 <footer>Jueves, 25 de junio de 2020</footer>
