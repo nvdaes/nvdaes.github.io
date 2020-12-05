@@ -10,11 +10,16 @@ jobs:
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
+            if (!message.includes("Create issue: ")) { return }
             const message = context.payload.head_commit.message
+            const data = message.split("Create issue: ")[1]
+            const issueTitle = data.split(" | ")[0]
+            const prefix = "https://nvdaes.github.io/"
+            const issueBody = prefix + data.split(" | ")[1]
             github.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: message,
-              body: 'Test, this will be closed shortly!'
+              title: issueTitle,
+              body: issueBody
             })
 
