@@ -10,8 +10,9 @@ jobs:
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
-            if (!message.includes("Create issue: ")) { return }
             const message = context.payload.head_commit.message
+            if (!message.includes("Create issue: ")) { return }
+
             const data = message.split("Create issue: ")[1]
             const issueTitle = data.split(" | ")[0]
             const prefix = "https://nvdaes.github.io/"
