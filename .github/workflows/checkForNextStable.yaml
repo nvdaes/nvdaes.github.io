@@ -11,9 +11,9 @@ jobs:
     - name: Update release
       run: |
         import re
-        import urllib.request
+        import urllib
         url = "https://github.com/nvaccess/nvda/releases/latest"
-        response = urllib.request.urlopen(url)
+        response = urllib.urlopen(url)
         text = response.read()
         with open("_layouts/default.html", 'r+') as f:
           text = f.read()
