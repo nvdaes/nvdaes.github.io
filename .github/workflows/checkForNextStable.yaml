@@ -17,10 +17,9 @@ jobs:
           response = urllib.request.urlopen(url)
           text = response.read()
         except Exception:
-          response = None
-          text = ""
-        if "release-" not in text: return
-        with open("_layouts/default.html", 'r+') as f:
+          return
+
+                with open("_layouts/default.html", 'r+') as f:
           text = f.read()
           text = re.sub(".3", ".webTest", text)
           f.seek(0)
