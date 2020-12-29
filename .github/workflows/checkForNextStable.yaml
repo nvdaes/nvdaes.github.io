@@ -1,0 +1,36 @@
+name: Check for NVDA-2020.4
+
+on: push
+
+jobs:
+  update-release-link:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Update release
+      run: |
+        import re
+        import urllib.request
+        url = https://github.com/nvaccess/nvda/releases/latest
+        try:
+          response = urllib.request.urlopen(url)
+          text = response.read()
+        except Exception:
+          response = None
+          text = None
+        if "release-" not in text: return
+        with open("_layouts/default.html", 'r+') as f:
+          text = f.read()
+          text = re.sub(".3", ".webTest", text)
+          f.seek(0)
+          f.write(text)
+          f.truncate()
+      shell: python 
+    - name: Push changes
+      run: |
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git add .
+        git push
+        
