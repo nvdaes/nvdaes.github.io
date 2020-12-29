@@ -12,13 +12,13 @@ jobs:
       run: |
         import re
         import urllib.request
-        url = https://github.com/nvaccess/nvda/releases/latest
+        url = "https://github.com/nvaccess/nvda/releases/latest"
         try:
           response = urllib.request.urlopen(url)
           text = response.read()
         except Exception:
           response = None
-          text = None
+          text = ""
         if "release-" not in text: return
         with open("_layouts/default.html", 'r+') as f:
           text = f.read()
