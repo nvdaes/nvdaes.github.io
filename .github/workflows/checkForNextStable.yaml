@@ -2,9 +2,8 @@ name: Check for NVDA-2020.4
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '40/5 * * * *'
-  push:
-  
+    - cron:  '55/5 * * * *'
+
 jobs:
   update-release-link:
     runs-on: ubuntu-latest
@@ -20,7 +19,7 @@ jobs:
         text = response.read()
         with open("_layouts/default.html", 'r+') as f:
           text = f.read()
-          text = re.sub(".3", ".webTest", text)
+          text = re.sub(".webTest", ".3", text)
           f.seek(0)
           f.write(text)
           f.truncate()
