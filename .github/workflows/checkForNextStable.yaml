@@ -19,7 +19,7 @@ jobs:
         except Exception:
           return
 
-                with open("_layouts/default.html", 'r+') as f:
+        with open("_layouts/default.html", 'r+') as f:
           text = f.read()
           text = re.sub(".3", ".webTest", text)
           f.seek(0)
