@@ -13,12 +13,8 @@ jobs:
         import re
         import urllib.request
         url = "https://github.com/nvaccess/nvda/releases/latest"
-        try:
-          response = urllib.request.urlopen(url)
-          text = response.read()
-        except Exception:
-          return
-
+        response = urllib.request.urlopen(url)
+        text = response.read()
         with open("_layouts/default.html", 'r+') as f:
           text = f.read()
           text = re.sub(".3", ".webTest", text)
