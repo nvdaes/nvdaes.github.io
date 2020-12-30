@@ -54,7 +54,9 @@ jobs:
         ref: release-2020.3
         path: nvda
     - name: Prepare NVDA
-      run: scons source user_docs
+      run: |
+        cd nvda
+        scons source user_docs
       shell: cmd
 
     - name: Move documentation
