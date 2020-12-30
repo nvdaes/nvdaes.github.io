@@ -57,8 +57,6 @@ jobs:
     - name: Prepare NVDA
       run: scons source
       shell: cmd
-    - name: Build dist
-      run: scons dist
-      shell: cmd
+
     - name: Move documentation
-      run: Move-Item -Path dist\user_docs\es\*.html -Destination \.
+      run: Move-Item -Path source\user_docs\es\*.html -Destination \.
