@@ -51,7 +51,7 @@ jobs:
       with:
         repository: nvaccess/nvda
         submodules: true
-        ref: release-2020.3
+        #ref: release-2020.3
         path: nvda
     - name: Prepare NVDA
       run: |
