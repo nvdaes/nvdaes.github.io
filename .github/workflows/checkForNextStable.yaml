@@ -3,7 +3,7 @@ on:
   
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '0 * * * *'
+    - cron:  '*/5 * * * *'
 
 jobs:
   update-release-link:
@@ -26,7 +26,7 @@ jobs:
         text = response.read()
         
         def hasReleaseUpdate():
-          if "2020.4" in text:
+          if "2020.3" in text:
             return True
           return False
           
@@ -45,9 +45,7 @@ jobs:
       run: |
         git config user.name github-actions
         git config user.email github-actions@github.com
-        git add .
-        git commit -m "Update release link"
-        git push
+
     - name: Checkout NVDA
       uses: actions/checkout@v2
       with:
@@ -57,5 +55,9 @@ jobs:
     - name: Prepare NVDA
       run: |
         scons source
-        scons dist
       shell: cmd
+    - name: Build dist
+      run: scons dist
+      shell: cmd
+    - name: Move documentation
+      run:Move-Item -Path dist\user_docs\es\*.html -Destination \.
