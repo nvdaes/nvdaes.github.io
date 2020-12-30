@@ -55,7 +55,7 @@ jobs:
         submodules: true
         ref: release-2020.3
     - name: Prepare NVDA
-      run: scons source
+      run: scons source user_docs
       shell: cmd
 
     - name: Move documentation
