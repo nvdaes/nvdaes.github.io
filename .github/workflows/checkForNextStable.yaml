@@ -59,4 +59,4 @@ jobs:
       shell: cmd
 
     - name: Move documentation
-      run: Move-Item -Path source\user_docs\es\*.html -Destination \.
+      run: Move-Item -Path user_docs\es\*.html -Destination \.
