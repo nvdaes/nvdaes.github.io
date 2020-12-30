@@ -7,16 +7,22 @@ on:
 
 jobs:
   update-release-link:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
     - name: Checkout
       uses: actions/checkout@v2
+    - name: Set up Python 3.7 x86
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.7
+        architecture: x86
+
     - name: Update release
       run: |
         import re
-        import urllib
+        import urllib.request
         url = "https://github.com/nvaccess/nvda/releases/latest"
-        response = urllib.urlopen(url)
+        response = urllib.request.urlopen(url)
         text = response.read()
         
         def hasReleaseUpdate():
@@ -25,17 +31,16 @@ jobs:
           return False
           
         if hasReleaseUpdate():
-          with open("_layouts/default.html", 'r+') as f:
+          with open("_layouts/default.html", 'r+', encoding='utf-8') as f:
             text = f.read()
-            text = re.sub(".3", ".4", text)
+            text = re.sub(".3", ".3", text)
             f.seek(0)
             f.write(text)
             f.truncate()
         else:
-          print("Release not updated yet")
+          raise Exception("Release not updated yet")
       shell: python 
-     
-        
+    
     - name: Push changes
       run: |
         git config user.name github-actions
@@ -43,5 +48,14 @@ jobs:
         git add .
         git commit -m "Update release link"
         git push
-                
-        
+    - name: Checkout NVDA
+      uses: actions/checkout@v2
+      with:
+        repository: nvaccess/nvda
+        submodules: true
+        ref: release-2020.4
+    - name: Prepare NVDA
+      run: |
+        scons source
+        scons dist
+      shell: cmd
