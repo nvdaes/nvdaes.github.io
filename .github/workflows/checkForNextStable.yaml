@@ -30,14 +30,14 @@ jobs:
         text = str(response.read())
         
         def hasReleaseUpdate():
-          if "2020.3" in text:
+          if "2020.4" in text:
             return True
           return False
           
         if hasReleaseUpdate():
           with open("main/_layouts/default.html", 'r+', encoding='utf-8') as f:
             text = f.read()
-            text = re.sub(".3", ".3", text)
+            text = re.sub(".3", ".4", text)
             f.seek(0)
             f.write(text)
             f.truncate()
@@ -51,7 +51,7 @@ jobs:
       with:
         repository: nvaccess/nvda
         submodules: true
-        #ref: release-2020.3
+        ref: release-2020.4
         path: nvda
     - name: Prepare NVDA
       run: |
