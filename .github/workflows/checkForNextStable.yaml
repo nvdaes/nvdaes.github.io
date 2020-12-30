@@ -28,7 +28,7 @@ jobs:
         text = response.read()
         
         def hasReleaseUpdate():
-          if "2020.3" in text:
+          if text.find("2020.3") >= 0:
             return True
           return False
           
