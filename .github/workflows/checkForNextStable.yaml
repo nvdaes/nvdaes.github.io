@@ -1,6 +1,5 @@
 name: Check for NVDA-2020.4
 on:
-  push:
   
   schedule:
     # * is a special character in YAML so you have to quote this string
@@ -44,6 +43,5 @@ jobs:
         git add .
         git commit -m "Update release link"
         git push
-        
-        
+                
         
