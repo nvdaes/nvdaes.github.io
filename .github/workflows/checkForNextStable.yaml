@@ -13,6 +13,8 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
+      with:
+        path: main
     - name: Set up Python 3.7 x86
       uses: actions/setup-python@v2
       with:
@@ -33,7 +35,7 @@ jobs:
           return False
           
         if hasReleaseUpdate():
-          with open("_layouts/default.html", 'r+', encoding='utf-8') as f:
+          with open("main/_layouts/default.html", 'r+', encoding='utf-8') as f:
             text = f.read()
             text = re.sub(".3", ".3", text)
             f.seek(0)
@@ -50,23 +52,24 @@ jobs:
         repository: nvaccess/nvda
         submodules: true
         ref: release-2020.3
+        path: nvda
     - name: Prepare NVDA
       run: scons source user_docs
       shell: cmd
 
     - name: Move documentation
       run: |
-        Move-Item -Path user_docs\es\G*.html -Destination \.\userGuide.html -Force
-        Move-Item -Path user_docs\es\*Referencia*.html -Destination \.\commands.html -Force
-        Move-Item -Path user_docs\es\Qu*.html -Destination \.\changes.html -Force
+        Move-Item -Path nvda\user_docs\es\G*.html -Destination main\userGuide.html -Force
+        Move-Item -Path nvda\user_docs\es\*Referencia*.html -Destination main\commands.html -Force
+        Move-Item -Path nvda\user_docs\es\Qu*.html -Destination main\changes.html -Force
     - name: Push changes
       run: |
         git config user.name github-actions
         git config user.email github-actions@github.com
-        git add layouts/default.html
-        git add userGuide.html
-        git add commands.html
-        git add changes.html
+        git add main/_layouts/default.html
+        git add main/userGuide.html
+        git add main/commands.html
+        git add main/changes.html
         git commit -m "Update release link and docs"
         git push
         
