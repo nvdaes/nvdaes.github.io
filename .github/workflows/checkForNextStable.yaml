@@ -1,5 +1,7 @@
 name: Check for NVDA-2020.4
 on:
+
+  push:  
   
   schedule:
     # * is a special character in YAML so you have to quote this string
@@ -51,13 +53,12 @@ jobs:
       with:
         repository: nvaccess/nvda
         submodules: true
-        ref: release-2020.4
+        ref: release-2020.3
     - name: Prepare NVDA
-      run: |
-        scons source
+      run: scons source
       shell: cmd
     - name: Build dist
       run: scons dist
       shell: cmd
     - name: Move documentation
-      run:Move-Item -Path dist\user_docs\es\*.html -Destination \.
+      run: Move-Item -Path dist\user_docs\es\*.html -Destination \.
