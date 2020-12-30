@@ -25,10 +25,10 @@ jobs:
         import urllib.request
         url = "https://github.com/nvaccess/nvda/releases/latest"
         response = urllib.request.urlopen(url)
-        text = response.read()
+        text = str(response.read())
         
         def hasReleaseUpdate():
-          if text.find("2020.3") >= 0:
+          if "2020.3" in text:
             return True
           return False
           
