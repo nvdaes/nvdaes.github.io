@@ -1,8 +1,10 @@
 name: Check for NVDA-2020.4
 on:
+  push:
+  
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '55/5 * * * *'
+    - cron:  '0 * * * *'
 
 jobs:
   update-release-link:
@@ -14,16 +16,28 @@ jobs:
       run: |
         import re
         import urllib
+        import requests
         url = "https://github.com/nvaccess/nvda/releases/latest"
         response = urllib.urlopen(url)
         text = response.read()
-        with open("_layouts/default.html", 'r+') as f:
-          text = f.read()
-          text = re.sub(".webTest", ".3", text)
-          f.seek(0)
-          f.write(text)
-          f.truncate()
+        
+        def hasReleaseUpdate():
+          if "2020.4" in text:
+            return True
+          return False
+          
+        if hasReleaseUpdate():
+          with open("_layouts/default.html", 'r+') as f:
+            text = f.read()
+            text = re.sub(".3", ".4", text)
+            f.seek(0)
+            f.write(text)
+            f.truncate()
+        else:
+          print("Release not updated yet")
       shell: python 
+     
+        
     - name: Push changes
       run: |
         git config user.name github-actions
