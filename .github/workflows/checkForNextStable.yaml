@@ -69,10 +69,7 @@ jobs:
         cd main
         git config user.name github-actions
         git config user.email github-actions@github.com
-        git add main/_layouts/default.html
-        git add main/userGuide.html
-        git add main/commands.html
-        git add main/changes.html
+        git add .
         git commit -m "Update release link and docs"
         git push
         
