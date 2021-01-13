@@ -8,29 +8,38 @@ layout: page
 
 ### Nota: ###
 
-Este artículo se actualizó por última vez en agosto de 2020.
+Este artículo se actualizó por última vez en enero de 2021.
 
 ### Introducción ###
 
-A un libro digital se accede mediante una app de lectura, que se emplea para abrir, leer y navegar por el contenido. Hay muchas aplicaciones de lectura disponibles, de modo que ¿cómo averiguar la que ofrece las características de accesibilidad que necesitas? Tal vez necesites usarla con un lector de pantalla o cambiar el aspecto visual del contenido. Quizá necesites una función de lectura en voz alta o la posibilidad de ampliar las imágenes.
+A los libros digitales se accede mediante una app dispositivo o servicio de internet para abrir, leer y navegar por el contenido. Llamamos a esto sistemas de lectura.
+
+Habitualmente la gente usa apps para acceder a libros digitales, y hay distintas apps disponibles con con grandes ventajas de accesibilidad. Entre las funciones habituales se incluyen:
+
+- Modos flexibles de desplazarse por las publicaciones, mediante la tabla de contenido, números correspondientes a páginas impresas y marcadores.
+- La posibilidad de cambiar la apariencia visual para adecuarse a tus necesidades.
+- Una función incorporada de lectura en voz alta con resaltado visual, estilo karaoke.
+- Buen funcionamiento con lector de pantalla para respuesta de voz o braille.
+
+Con tantas opciones, ¿cómo puedes averiguar qué aplicación será mejor para ti?
 
 Aquí presentamos un resumen de aplicaciones populares que pueden utilizarse con obras en formato EPUB. Estas reseñas resumidas se basan en evaluaciones detalladas de accesibilidad llevadas a cabo por y con personas que tienen discapacidades de acceso a material impreso. Al final de este artículo se proporciona más información sobre este protocolo de evaluación organizado.
 
-Los resultados de las evaluaciones eran correctos en el momento de su publicación, pero podrían no reflejar todas las experiencias personales, que pueden verse afectadas por la versión de los sistemas de lectura, tecnologías de apoyo o por la publicación que se esté leyendo. Las apps están en constante cambio, y los desarrolladores mejoran sus características basándose en el resultado de nuestros test. Siempre puedes leer en detalle los últimos resultados de nuestros test en <http://epubtest.org/>.
+Los resultados de las evaluaciones eran correctos en el momento de su publicación, pero podrían no reflejar todas las experiencias personales, que pueden verse afectadas por la versión de los sistemas de lectura, tecnologías de apoyo o la publicación que se esté leyendo. Las apps están en constante cambio, y los desarrolladores mejoran sus características basándose en el resultado de nuestros test. Siempre puedes leer en detalle los últimos resultados de nuestros test en <http://epubtest.org/>.
 
 ### Resumen de aplicaciones de lectura
 
 #### [Amazon Kindle](https://www.amazon.com/kindle-dbs/fd/kcp) ####
 
-Los libros de la mayor tienda de libros electrónicos del mundo se leen mediante la app Kindle. La app está disponible en la mayoría de las plataformas para ordenadores y teléfonos inteligentes, incluidas las propias Fire Tablets de Amazon. Nuestros evaluadores han probado la app Kindle en iOS, Android, Windows y tabletas Fire.
+Los libros de la mayor tienda de libros electrónicos del mundo se leen mediante la app Kindle. La app está disponible en la mayoría de las plataformas para ordenadores y teléfonos inteligentes, incluidas las propias Fire Tablets de Amazon. Nuestros evaluadores han probado la app Kindle en iOS, Android, Windows y tabletas Fire. Las apps Kindle pueden ofrecer una estupenda experiencia al leer libros tales como novelas. Para obras más complejas que incluyan imágenes, tablas, ilustraciones y referencias, quizá sea mejor buscar otra cosa.
 
 Lo que gustó a nuestros evaluadores: los ajustes visuales se admiten bien en todas las plataformas. La app tiene características útiles como la “word wise”, que explica las palabras más difíciles del libro. Las voces de las tabletas Fire son especialmente buenas en cuanto a calidad y sonido natural. En algunos libros, es posible combinar el ebook y el audiolibro para tener una experiencia de lectura sincronizada (es necesario comprarlos). En la tienda de libros Kindle, para cada obra se indica si se admite o no el uso de lector de pantalla.
 
-Para tener en cuenta: la navegación por encabezados no está disponible para VoiceOver (iOS) ni para TalkBack (Android). La navegación en tablas es deficiente. Las descripciones de imágenes no se indican en VoiceOver ni en TalkBack. No está disponible la navegación por páginas impresas. La app para Android no incorpora función propia de lectura en voz alta, y en iOS, la función de verbalización de pantalla no enfatiza visualmente las palabras que se van leyendo. No es fácil que puedas cargar en la aplicación tus propias obras en formato EPUB. La app Kindle en Windows admite más características para lectores de pantalla que en otras plataformas. Las aplicaciones Kindle pueden proporcionar una gran experiencia al leer libros como novelas. Para obras más complejas que incorporen imágenes, tablas, ilustraciones o referencias, tal vez sea mejor que busques otra cosa.
+Para tener en cuenta: la navegación por encabezados no está disponible para VoiceOver (iOS) ni para TalkBack (Android). La navegación en tablas es deficiente. Las descripciones de imágenes no se indican en VoiceOver ni en TalkBack. No está disponible la navegación por páginas impresas. La app para Android no incorpora función propia de lectura en voz alta, y en iOS, la función de verbalización de pantalla no enfatiza visualmente las palabras que se van leyendo. No es fácil que puedas cargar en la aplicación tus propias obras en formato EPUB. La app Kindle en Windows admite más características para lectores de pantalla que en otras plataformas.
 
 #### [Apple Books](https://www.apple.com/apple-books/) ####
 
-La tienda de libros de Apple utiliza la app Apple Books, usualmente llamada iBooks. Si tienes un iPhone, iPad o Mac, ya estará instalada.
+La tienda de libros de Apple utiliza la app Apple Books, usualmente llamada iBooks. Si tienes un iPhone, iPad o Mac, ya estará instalada. Con su función integrada de compra, la app Books puede ofrecer una forma adecuada de leer libros tales como novelas.
 
 Lo que gustó a nuestros evaluadores: el aspecto visual de la obra se puede adaptar para adecuarse a las necesidades de los lectores. Algunas imágenes se amplían a pantalla completa al seleccionarlas, lo que resulta útil en las pantallas más pequeñas y para gente con baja visión. La función de verbalización de pantalla de iOS ofrece lectura en voz alta con distintas opciones de énfasis visual.
 
@@ -52,7 +61,7 @@ Para tener en cuenta: nuestros evaluadores encontraron que Digital Editions es i
 
 Esta app de lectura especializada, disponible para Windows, Android y iOS, está diseñada para proporcionar muchas funciones requeridas por personas con discapacidades de acceso a la lectura. Admite varios formatos de ficheros, además de EPUB. Próximamente estará disponible una versión para tabletas de Amazon (FireOS).
 
-Lo que gustó a nuestros evaluadores: se proporcionan muchas funciones útiles para personas con discapacidades de acceso a material impreso, incluida la posibilidad de utilizar lector de pantalla, varias opciones para ajustes visuales y lectura en voz alta. Puedes usar la app para abrir obras en tu dispositivo, y también se conecta directamente con servicios de bibliotecas especiales en muchos países (se necesita una cuenta). Es posible corregir la mala pronunciación de palabras al usar la función lectura en voz alta. El dispositivo BrailleNote Touch de Humanware incorpora una versión mejorada de la app.
+Lo que gustó a nuestros evaluadores: se proporcionan muchas funciones útiles para personas con discapacidades de acceso a material impreso, incluida la posibilidad de utilizar lector de pantalla, varias opciones para ajustes visuales y lectura en voz alta. Puedes usar la app para abrir obras en tu dispositivo, y también se conecta directamente con servicios de bibliotecas especiales en muchos países (se necesita una cuenta). Es posible corregir la mala pronunciación de palabras al usar la función lectura en voz alta. Respecto al contenido matemático, es posible la lectura en voz alta, pero no la navegación de una forma óptima. El dispositivo BrailleNote Touch de Humanware incorpora una versión mejorada de la app.
 
 Para tener en cuenta: la lectura continua con lector de pantalla se detiene al cabo de unas cuantas páginas, debido al modo en que la app muestra la obra. En Android y Windows, no es posible activar los enlaces cuando se usa lector de pantalla.
 
@@ -85,7 +94,7 @@ Más información:
 
 Puedes acceder a este lector electrónico instalado en la nube mediante tu navegador web preferido desde tu ordenador, tableta o teléfono. Se puede usar para leer libros de texto, novelas y obras de contenido general adquiridas en la tienda RedShelf.
 
-Lo que gustó a nuestros evaluadores: no es necesario instalar ningún software. Simplemente dirige tu navegador a la web de RedShelf. La función lectura en voz alta resalta el párrafo actual y también subraya cada palabra a medida que se va leyendo. Las definiciones de palabras están a un paso, y es fácil añadir puntos destacados y crear tarjetas flash, que se almacenan instantáneamente en la nube.
+Lo que gustó a nuestros evaluadores: no es necesario instalar ningún software. Simplemente dirige tu navegador favorito a la web de RedShelf. Es posible personalizar los colores, fuente, espaciado y márgenes. La función lectura en voz alta resalta el párrafo actual y también subraya cada palabra a medida que se va leyendo. Las definiciones de palabras están a un paso, y es fácil añadir puntos destacados y crear tarjetas flash, que se almacenan instantáneamente en la nube. RedShelf publica un plan de actuación sobre problemas de accesibilidad en los que están trabajando.
 
 Para tener en cuenta: debes crear una cuenta para acceder a obras en esta plataforma. No puedes importar tus propios ficheros EPUB.
 
@@ -105,7 +114,7 @@ Más información:
 
 Texthelp Read&Write ofrece ayuda para leer y escribir, en entornos escolares o en el lugar de trabajo. Sus funciones de alfabetización ayudan a gente que aprende inglés, y a personas con dificultades de aprendizaje o que necesiten herramientas para la dislexia. El lector de EPUB se usa mediante los navegadores Chrome o Microsoft Edge con la extensión Read&Write instalada. Puede utilizarse para abrir directamente ficheros EPUB desde Google Drive o desde el dispositivo local.
 
-Lo que gustó a nuestros evaluadores: es una aplicación de lectura fácil de usar que funciona en plataformas Windows, macOS y ChromeOS. Buena función de lectura en voz alta con resaltado visual y ajustes de colores. Los múltiples colores de resaltado pueden utilizarse para crear una guía de estudio, y tiene incorporados diccionarios de palabras e imágenes. Es posible traducir a otro idioma palabras individuales.
+Lo que gustó a nuestros evaluadores: es una aplicación de lectura fácil de usar que funciona en plataformas Windows, macOS y ChromeOS. Ofrece buena función de lectura en voz alta con resaltado visual y ajustes de colores. Los múltiples colores de resaltado pueden utilizarse para crear una guía de estudio, y tiene incorporados diccionarios de palabras e imágenes. Es posible traducir a otro idioma palabras individuales.
 
 Para tener en cuenta: algunas funciones solo están disponibles en la versión de pago (premium) de la aplicación.
 
@@ -113,9 +122,9 @@ Para tener en cuenta: algunas funciones solo están disponibles en la versión d
 
 Thorium Reader es una aplicación de escritorio disponible para Windows, macOS y Linux. Se desarrolla prestando atención a ofrecer buena compatibilidad con el estándar EPUB y una experiencia muy accesible para los usuarios. La aplicación es gratuita y no requiere cuenta de usuario.
 
-Lo que gustó a nuestros evaluadores: añadir libros a la biblioteca es muy sencillo, y la organización de los libros se facilita mediante etiquetas y posibilidad de búsqueda. Es posible mostrar varias obras una junto a otra para poder compararlas. Muchas funciones para ajustar las fuentes y el espaciado. Gran compatibilidad con lectores de pantalla, y función de lectura ordenada en voz alta que ofrece buen control y un par de opciones de visualización.
+Lo que gustó a nuestros evaluadores: Thorium ofrece muchas características y funciona bien para personas con y sin discapacidades de acceso a material impreso. Añadir libros a la biblioteca es muy sencillo, y la organización de los libros se facilita mediante etiquetas y posibilidad de búsqueda. Es posible mostrar varias obras una junto a otra para poder compararlas. Hay muchas funciones para adaptaciones visuales, como el ajuste de fuentes y espaciado. Gran compatibilidad con lectores de pantalla, y función de lectura ordenada en voz alta que ofrece buen control y un par de opciones de visualización.
 
-Para tener en cuenta: no tiene función de búsqueda dentro de un libro y solo se proporcionan tres diseños de colores.
+Para tener en cuenta: Solo se proporcionan tres diseños de colores.
 
 Más información:
 
@@ -123,11 +132,11 @@ Más información:
 
 #### [Vital Source Bookshelf](https://www.vitalsource.com/) ####
 
-Vital Source es una plataforma para libros de texto y otras obras de carácter educativo. Las apps de lectura están disponibles para Windows, Mac, iOS, Android y mediante un navegador. También puedes importar en la app tus propios ficheros EPUB desprotegidos. 
+Vital Source es una plataforma para libros de texto y otras obras de carácter educativo. Las apps de lectura están disponibles para Windows, Mac, iOS, Android y mediante un navegador. Además de las obras que descargas de VitalSource, puedes importar tus propios ficheros EPUB desprotegidos en la app.
 
-Lo que gustó a nuestros evaluadores: un conjunto de apps de lectura estables disponibles en muchas plataformas, con buen funcionamiento para usuarios de lector de pantalla y braille efímero. Las notas y resaltados se sincronizan entre distintos dispositivos en el caso de libros de la Tienda VitalSource. El lector Bookshelf ahora ofrece función de lectura en voz alta y la posibilidad de cambiar fuentes, colores, márgenes y altura de línea. 
+Lo que gustó a nuestros evaluadores: se trata de un conjunto de apps de lectura estables disponibles en muchas plataformas, con buen funcionamiento para usuarios de lector de pantalla y braille efímero. Las notas y resaltados se sincronizan entre distintos dispositivos en el caso de libros de la Tienda VitalSource. El lector Bookshelf ofrece función de lectura en voz alta y la posibilidad de cambiar fuentes, colores, márgenes y altura de línea. 
 
-Para tener en cuenta: en Windows, la versión actual es la 8, pero quienes usen lector de pantalla deberían utilizar la versión 7 a causa de problemas de accesibilidad en la nueva versión.
+Para tener en cuenta: en Windows, la versión actual es la 9, pero quienes usen lector de pantalla deberían utilizar la versión 7 a causa de problemas de accesibilidad en la nueva versión.
 
 Más información:
 
