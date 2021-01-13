@@ -1,8 +1,10 @@
 ---
-title: Resumen sobre características de accesibilidad en apps y programas para leer EPUB
+title: Resumen sobre características de accesibilidad en sistemas para leer EPUB
 permalink: "/resumenEpub/"
 layout: page
 ---
+
+
 
 [Documento original en Inclusive Publishing](https://inclusivepublishing.org/rs-accessibility/)
 
@@ -12,9 +14,9 @@ Este artículo se actualizó por última vez en enero de 2021.
 
 ### Introducción ###
 
-A los libros digitales se accede mediante una app dispositivo o servicio de internet para abrir, leer y navegar por el contenido. Llamamos a esto sistemas de lectura.
+A los libros digitales se accede mediante una app, dispositivo o servicio de internet para abrir, leer y navegar por el contenido. Llamamos a esto sistemas de lectura.
 
-Habitualmente la gente usa apps para acceder a libros digitales, y hay distintas apps disponibles con con grandes ventajas de accesibilidad. Entre las funciones habituales se incluyen:
+Habitualmente la gente usa apps para acceder a libros digitales, y hay distintas apps disponibles con grandes ventajas de accesibilidad. Entre las funciones habituales se incluyen:
 
 - Modos flexibles de desplazarse por las publicaciones, mediante la tabla de contenido, números correspondientes a páginas impresas y marcadores.
 - La posibilidad de cambiar la apariencia visual para adecuarse a tus necesidades.
@@ -61,7 +63,7 @@ Para tener en cuenta: nuestros evaluadores encontraron que Digital Editions es i
 
 Esta app de lectura especializada, disponible para Windows, Android y iOS, está diseñada para proporcionar muchas funciones requeridas por personas con discapacidades de acceso a la lectura. Admite varios formatos de ficheros, además de EPUB. Próximamente estará disponible una versión para tabletas de Amazon (FireOS).
 
-Lo que gustó a nuestros evaluadores: se proporcionan muchas funciones útiles para personas con discapacidades de acceso a material impreso, incluida la posibilidad de utilizar lector de pantalla, varias opciones para ajustes visuales y lectura en voz alta. Puedes usar la app para abrir obras en tu dispositivo, y también se conecta directamente con servicios de bibliotecas especiales en muchos países (se necesita una cuenta). Es posible corregir la mala pronunciación de palabras al usar la función lectura en voz alta. Respecto al contenido matemático, es posible la lectura en voz alta, pero no la navegación de una forma óptima. El dispositivo BrailleNote Touch de Humanware incorpora una versión mejorada de la app.
+Lo que gustó a nuestros evaluadores: se proporcionan muchas funciones útiles para personas con discapacidades de acceso a material impreso, incluida la posibilidad de utilizar lector de pantalla, varias opciones para ajustes visuales y lectura en voz alta. Puedes usar la app para abrir obras en tu dispositivo, y también se conecta directamente con servicios de bibliotecas especiales en muchos países (se necesita una cuenta). Es posible corregir la mala pronunciación de palabras al usar la función lectura en voz alta. Respecto al contenido matemático, es posible la lectura en voz alta, pero no una navegación óptima. El dispositivo BrailleNote Touch de Humanware incorpora una versión mejorada de la app.
 
 Para tener en cuenta: la lectura continua con lector de pantalla se detiene al cabo de unas cuantas páginas, debido al modo en que la app muestra la obra. En Android y Windows, no es posible activar los enlaces cuando se usa lector de pantalla.
 
@@ -168,3 +170,5 @@ Las apps se evalúan utilizando distintas combinaciones, con y sin tecnología d
 El protocolo de evaluación se puede usar libremente y cualquiera puede evaluar un sistema de lectura. Si eres un desarrollador de apps, puedes pedirnos que miremos tu app y te informaremos de los resultados. 
 
 Los últimos resultados en detalle para las apps de este resumen, y muchos más, están disponibles en <http://www.epubtest.org/results>.
+
+[Sugerir mejoras para esta traducción](https://github.com/nvdaes/nvdaes.github.io/edit/master/roundup.md)
