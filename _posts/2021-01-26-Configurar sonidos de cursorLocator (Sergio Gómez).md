@@ -3,7 +3,7 @@ title: Configurar sonidos de cursorLocator (audiotutorial de Sergio Gómez)
 permalink: "/cursorLocator/"
 layout: post
 author: Noelia
-commentsId: 6
+commentsId: 8
 ---
 
 <footer>Martes, 26 de enero de 2021</footer>
