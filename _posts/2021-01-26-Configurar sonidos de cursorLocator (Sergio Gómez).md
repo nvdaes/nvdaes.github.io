@@ -18,6 +18,11 @@ Se pueden proponer sugerencias y mejoras en el [repositorio de cursorLocator](ht
 
 A petición de Sergio Gómez, la versión de prueba 1.4-dev ofrece la posibilidad de configurar los sonidos del complemento (desde el menú de NVDA, submenú preferencias, diálogo Opciones, panel Cursor Locator).
 
+- Rango de tonos: 20-20000 Hz
+- Duración: 20-2000 ms
+
+[Descarga directa de cursorLocator 1.4-dev](https://github.com/nvdaes/cursorLocator/releases/download/1.4-dev/cursorLocator-1.4-dev.nvda-addon)
+
 ### [Petición de Sergio](https://nvdaes.groups.io/g/lista/message/1914) ###
 
 > Por cierto, una pequeña sugerencia: ¿Podrías poner en cursorLocator, por favor, que se pueda modificar el pitido de los avisos? Tono, longitud, y volumen del pitido si no sería mucho pedir... Es que, yo uso mi implante coclear vía Bluetooth al ordenador, pero no detecto auditivamente el pitido con la voz de NVDA por encima del pitido, y si se pudiese personalizar un poco, puede que me fuera útil. Me harías un grandísimo favor.
