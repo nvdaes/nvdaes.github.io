@@ -22,10 +22,6 @@ A petición de Sergio Gómez, la versión de prueba 1.4-dev ofrece la posibilida
 
 > Por cierto, una pequeña sugerencia: ¿Podrías poner en cursorLocator, por favor, que se pueda modificar el pitido de los avisos? Tono, longitud, y volumen del pitido si no sería mucho pedir... Es que, yo uso mi implante coclear vía Bluetooth al ordenador, pero no detecto auditivamente el pitido con la voz de NVDA por encima del pitido, y si se pudiese personalizar un poco, puede que me fuera útil. Me harías un grandísimo favor.
 
-> Gracias
-
-> Saludos
-
 Gracias, Sergio, por solicitar esta característica y por este audiotutorial.
 
 <audio controls src="https://drive.google.com/uc?export=download&id=10JkQL7oLFyGtxEsgpg1P4ZKS0sL_W1-J">Tu navegador no admite audio</audio>
