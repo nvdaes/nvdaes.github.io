@@ -18,8 +18,8 @@ Se pueden proponer sugerencias y mejoras en el [repositorio de cursorLocator](ht
 
 A petición de Sergio Gómez, la versión de prueba 1.4-dev ofrece la posibilidad de configurar los sonidos del complemento (desde el menú de NVDA, submenú preferencias, diálogo Opciones, panel Cursor Locator).
 
-- Rango de tonos: 20-20000 Hz
-- Duración: 20-2000 ms
+- rango de tonos: 20-20000 Hz
+- duración: 20-2000 ms
 
 [Descarga directa de cursorLocator 1.4-dev](https://github.com/nvdaes/cursorLocator/releases/download/1.4-dev/cursorLocator-1.4-dev.nvda-addon)
 
