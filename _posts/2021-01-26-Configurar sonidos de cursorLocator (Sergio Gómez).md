@@ -6,7 +6,7 @@ author: Noelia
 commentsId: 6
 ---
 
-<footer>Martes, 26 de enero de 2020</footer>
+<footer>Martes, 26 de enero de 2021</footer>
 
 Cursor Locator es un complemento de NVDA que ayuda a saber cuándo hemos llegado al principio o a un número especificado de caracteres de una línea, mediante un sonido más grave o más agudo al principio o al alcanzar la longitud de línea elegida. Esto puede ser útil para crear una línea nueva antes de que la actual sea demasiado larga. También es posible consultar la longitud de la línea actual en cualquier momento pulsando `NVDA+control+shift+l`, incluso si desactivamos los tonos del complemento, ya que en ese caso NVDA podrá indicarla mediante respuesta de voz o braille. La combinación de teclas anterior se puede cambiar desde el diálogo Gestos de entrada de NVDA.
 
