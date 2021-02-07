@@ -13,6 +13,7 @@ Fecha: 7/02/2021
 Escrito por: Sergio Gómez
 
 Categoría: Accesibilidad
+
 Título: Accesibilidad en WhatsApp Web con lectores de pantalla
 
 ¡Hola a todos y todas!
