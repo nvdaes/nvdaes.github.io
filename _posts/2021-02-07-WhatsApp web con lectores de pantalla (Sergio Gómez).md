@@ -9,7 +9,9 @@ commentsId: 9
 <footer>Domingo, 7 de febrero de 2021</footer>
 
 Fecha: 7/02/2021
+
 Escrito por: Sergio Gómez
+
 Categoría: Accesibilidad
 Título: Accesibilidad en WhatsApp Web con lectores de pantalla
 
@@ -32,6 +34,9 @@ Nota: Al menos, en WhatsApp Desktop, en el selector Tipo, al pulsar sobre enviar
 ¡Espero que haya sido útil!
 
 [Descargar archivo de texto](https://drive.google.com/uc?export=download&id=1Rpj0_yZSYlQGPqnZt9Ty80NRI-XgyQAF)
+
+### Audiotutorial ###
+
 <audio controls src="https://drive.google.com/uc?export=download&id=1HvSPasQj-Bp99eDaBErnTEudFsNgeN6N">Tu navegador no admite audio</audio>
 
 [Descarga directa de mp3](https://drive.google.com/uc?export=download&id=1HvSPasQj-Bp99eDaBErnTEudFsNgeN6N)
