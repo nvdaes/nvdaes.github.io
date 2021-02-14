@@ -3,7 +3,7 @@ title: Eclipse con NVDA
 permalink: "/eclipse/"
 layout: post
 commentsId: 11
-author: Ramón García
+author: Ramón
 ---
 
 <footer>Domingo, 14 de febrero de 2021</footer>
