@@ -1,5 +1,5 @@
 ---
-title: Ramón García
+title: Ramón
 permalink: "/rgmagadan/"
 layout: page
 ---
