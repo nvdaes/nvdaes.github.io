@@ -26,13 +26,13 @@ Aquí hay [Ayuda para descargar, instalar y configurar Git](https://docs.github.
 
 Clonar un repositorio significa descargar un conjunto de archivos con Git para trabajar cómodamente desde el PC o un dispositivo local.
 
-Antes de clonar repositorios, puede ser útil crear una carpeta para almacenarlos en un lugar conocido.
+Antes de clonar repositorios, puede ser útil crear una carpeta para almacenarlos en un lugar conocido. Mi carpeta de repositorios, por ejemplo, se llama "repos".
 
 Para clonar el repositorio de esta web:
 
 1. Vamos al símbolo del sistema: `Windos+r`, `cmd`
-1. Nos situamos en la carpeta de repositorios: `cd c:\carpeta`
-1. Desde el símbolo del sistema escribimos: `clone `https://github.com/nvdaes.github.io`
+1. Nos situamos en la carpeta de repositorios: `cd c:\repos`
+1. Desde el símbolo del sistema escribimos: `clone `https://github.com/nvdaes/nvdaes.github.io`
 
 NVDA irá informando sobre el progreso de la descarga.
 
@@ -56,7 +56,7 @@ Abre uno de los perfiles disponibles mediante un editor de texto y, a partir de 
 
 Para añadir los archivos nuevos o los que hayas modificado, desde el símbolo del sistema:
 
-1. Abre la carpeta de la web: `cd c:\carpeta\nvdaes.github.io`
+1. Abre la carpeta de la web: `cd c:\repos\nvdaes.github.io`
 1. (Opcional) Consulta el estado de los archivos: `git status`
 1. Añade el archivo modificado para que Git pueda observarlo: `git add perfil.md`
 1. Registra el archivo en el historial de Git para poder subirlo a GitHub: `git commit -m "Add my profile`"
@@ -73,7 +73,7 @@ La información anterior puede ser útil para empezar. Se puede seguir explorand
 
 Además, recomiendo este [libro sobre Git](https://git-scm.com/book/es/v2), especialmente, la introducción y los capítulos sobre fundamentos de Git y ramificación.
 
-También puede ser interesante esta [guía sobre Markdown(https://guides.github.com/features/mastering-markdown/).
+También puede ser interesante esta [guía sobre Markdown](https://guides.github.com/features/mastering-markdown/) (en inglés).
 
 Para cualquier duda o aclaración, nos vemos en nuestra lista de correo.
 
