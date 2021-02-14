@@ -32,7 +32,7 @@ Para clonar el repositorio de esta web:
 
 1. Vamos al símbolo del sistema: `Windos+r`, `cmd`
 1. Nos situamos en la carpeta de repositorios: `cd c:\repos`
-1. Desde el símbolo del sistema escribimos: `clone `https://github.com/nvdaes/nvdaes.github.io`
+1. Desde el símbolo del sistema escribimos: `git clone https://github.com/nvdaes/nvdaes.github.io`
 
 NVDA irá informando sobre el progreso de la descarga.
 
