@@ -6,4 +6,4 @@ layout: page
 
 ### Información de contacto ###
 * [GitHub](https://github.com/rgmagadan)
-* [Página personal](https//ramongarcia.net)
+* [Página personal](https://ramongarcia.net)
