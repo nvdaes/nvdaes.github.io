@@ -63,4 +63,8 @@ authors:
     name: BlindHelp
     display_name: BlindHelp
     web: https://nvdaes.github.io/blindhelp
+      Ramón:
+    name: Ramón
+    display_name: Ramón
+    web: https://nvdaes.github.io/rgmagadan
 issues_repo: nvdaes/nvdaes.github.io
