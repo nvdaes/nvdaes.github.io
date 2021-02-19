@@ -3,7 +3,7 @@ title: Disponible NVDA 2020.4
 permalink: "/nvda-2020-4/"
 layout: post
 author: Noelia
-commentsId: 12
+commentsId: 13
 ---
 
 <footer>Viernes, 19 de febrero de 2021</footer>
