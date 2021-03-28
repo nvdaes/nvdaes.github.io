@@ -36,7 +36,7 @@ La semana pasada publicaron este interesante vídeo:
 <!-- JavaScript -->
 <script src="../../ableplayer/build/ableplayer.min.js"></script>
 
-<video id="video1" data-able-player data-transcript-div data-skin="2020" data-youtube-id="CpDkMjQNOp0">
+<video id="video1" data-able-player data-transcript-div data-transcript-title="Transcripción" data-skin="2020" data-youtube-id="CpDkMjQNOp0">
 <a href"https://www.youtube.com/embed/CpDkMjQNOp0"
 </video>
 </div>
