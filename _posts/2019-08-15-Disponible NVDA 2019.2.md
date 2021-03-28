@@ -36,8 +36,8 @@ La semana pasada publicaron este interesante vídeo:
 <!-- JavaScript -->
 <script src="../../ableplayer/build/ableplayer.min.js"></script>
 
-<video id="video1" data-able-player data-skin="2020" preload="auto" data-youtube-id="CpDkMjQNOp0">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CpDkMjQNOp0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video id="video1" data-able-player=data-able-player" data-skin="2020" preload="auto" data-youtube-id="CpDkMjQNOp0">
+<a href"https://www.youtube.com/embed/CpDkMjQNOp0"
 </video>
 </div>
 
