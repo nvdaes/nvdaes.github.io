@@ -25,6 +25,20 @@ Hay más información (en inglés) en el [post de NV Access In-Process del 15 de
 
 La semana pasada publicaron este interesante vídeo:
 
+<div id="ableplayer">
+<!-- Dependencies -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="../../ableplayer/thirdparty/js.cookie.js"></script>
+
+<!-- CSS -->
+<link rel="stylesheet" href="../../ableplayer/build/ableplayer.min.css" type="text/css"/>
+
+<!-- JavaScript -->
+<script src="../../ableplayer/build/ableplayer.min.js"></script>
+
+<video id="video1" data-able-player data-skin="2020" preload="auto" data-youtube-id="CpDkMjQNOp0">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CpDkMjQNOp0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</video>
+</div>
 
 Te deseamos una buena experiencia con NVDA 2019.2, y esperamos contar contigo para seguir construyendo nuestra comunidad. 
