@@ -26,6 +26,7 @@ Hay más información (en inglés) en el [post de NV Access In-Process del 15 de
 La semana pasada publicaron este interesante vídeo:
 
 <div id="ableplayer">
+<h3>Reproductor multimedia</h3>
 <!-- Dependencies -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="../../ableplayer/thirdparty/js.cookie.js"></script>
@@ -36,7 +37,7 @@ La semana pasada publicaron este interesante vídeo:
 <!-- JavaScript -->
 <script src="../../ableplayer/build/ableplayer.min.js"></script>
 
-<video id="video1" data-able-player playsinline data-lyrics-mode data-transcript-div data-transcript-title="Transcripción" data-skin="2020" data-youtube-id="CpDkMjQNOp0">
+<video id="video1" data-able-player playsinline data-heading-level="0" data-lyrics-mode data-transcript-div data-transcript-title="Transcripción" data-skin="2020" data-youtube-id="CpDkMjQNOp0">
 <a href"https://www.youtube.com/embed/CpDkMjQNOp0"
 </video>
 </div>
