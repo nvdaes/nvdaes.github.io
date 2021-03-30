@@ -34,6 +34,14 @@ La semana pasada publicaron este interesante vídeo:
 <link rel="stylesheet" href="../../ableplayer/build/ableplayer.min.css" type="text/css"/>
 
 <!-- JavaScript -->
+<script>
+  var youTubeDataAPIKey = "AIzaSyCaykawbMmsuKOTxTIUCR50QfkXBQJsQfQ";
+  var googleApiReady = false;
+  function initGoogleClientApi() {
+    googleApiReady = true;
+  }
+</script>
+<script src="http://apis.google.com/js/client.js?onload=initGoogleClientApi"></script>
 <script src="../../ableplayer/build/ableplayer.min.js"></script>
 
 <video id="video1" data-able-player playsinline data-lyrics-mode data-transcript-title="Transcripción" data-skin="2020" data-youtube-id="CpDkMjQNOp0">
