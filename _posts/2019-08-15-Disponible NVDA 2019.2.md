@@ -38,16 +38,7 @@ La semana pasada publicaron este interesante vídeo:
 <link rel="stylesheet" href="../../ableplayer/build/ableplayer.min.css" type="text/css"/>
 
 <!-- JavaScript -->
-<script>
-  var youTubeDataAPIKey = "AIzaSyCaykawbMmsuKOTxTIUCR50QfkXBQJsQfQ";
-  var googleApiReady = false;
-  function initGoogleClientApi() {
-    googleApiReady = true;
-  }
-</script>
-<script src="http://apis.google.com/js/client.js?onload=initGoogleClientApi"></script>
 <script src="../../ableplayer/build/ableplayer.min.js"></script>
-
 </div>
 
 Te deseamos una buena experiencia con NVDA 2019.2, y esperamos contar contigo para seguir construyendo nuestra comunidad. 
