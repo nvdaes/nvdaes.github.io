@@ -27,6 +27,9 @@ La semana pasada publicaron este interesante vídeo:
 
 <div id="ableplayer">
 <h3>Reproductor multimedia</h3>
+<video id="video1" preload="metadata" data-heading-level="0" data-lyrics-mode data-transcript-title="Transcripción" data-skin="2020" data-youtube-id="CpDkMjQNOp0" data-youtube-nocookie="true" data-description-audible="false">
+<a href"https://www.youtube.com/embed/CpDkMjQNOp0"
+</video>
 <!-- Dependencies -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="../../ableplayer/thirdparty/js.cookie.js"></script>
@@ -44,9 +47,7 @@ La semana pasada publicaron este interesante vídeo:
 </script>
 <script src="http://apis.google.com/js/client.js?onload=initGoogleClientApi"></script>
 <script src="../../ableplayer/build/ableplayer.min.js"></script>
-<video id="video1" preload="auto" data-able-player playsinline data-heading-level="0" data-lyrics-mode data-transcript-title="Transcripción" data-skin="2020" data-youtube-id="CpDkMjQNOp0">
-<a href"https://www.youtube.com/embed/CpDkMjQNOp0"
-</video>
+
 </div>
 
 Te deseamos una buena experiencia con NVDA 2019.2, y esperamos contar contigo para seguir construyendo nuestra comunidad. 
