@@ -27,7 +27,7 @@ La semana pasada publicaron este interesante vídeo:
 
 <div id="ableplayer">
 <h3>Reproductor multimedia</h3>
-<video id="video1" preload="auto" data-heading-level="0" data-lyrics-mode data-transcript-title="Transcripción" data-skin="2020" data-youtube-id="CpDkMjQNOp0" data-youtube-nocookie="true" data-description-audible="false">
+<video id="video1" data-able-player preload="metadata" data-heading-level="0" data-lyrics-mode data-transcript-title="Transcripción" data-skin="2020" playsinline data-youtube-id="CpDkMjQNOp0" data-description-audible="false">
 <a href"https://www.youtube.com/embed/CpDkMjQNOp0"
 </video>
 <!-- Dependencies -->
