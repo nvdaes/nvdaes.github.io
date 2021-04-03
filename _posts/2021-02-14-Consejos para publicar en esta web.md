@@ -6,7 +6,7 @@ commentsId: 11
 author: Noelia
 ---
 
-<footer>Domingo, 14 de febrero de 2021</footer>
+<footer>Domingo, 14 de febrero de 2021 (actualizado el 3 de abril)</footer>
 
 Celebramos el [día del amor por el software libre](https://fsfe.org/activities/ilovefs/) 2021 ((#ilovefs), ) con un post para agradecer el trabajo de quienes quieren publicar información útil en esta web, como comentamos en este [hilo sobre el tutorial de WhatsApp](https://nvdaes.groups.io/g/lista/topic/80458647).
 
@@ -32,12 +32,17 @@ Para clonar el repositorio de esta web:
 
 1. Vamos al símbolo del sistema: `Windos+r`, `cmd`
 1. Nos situamos en la carpeta de repositorios: `cd c:\repos`
-1. Desde el símbolo del sistema escribimos: `git clone https://github.com/nvdaes/nvdaes.github.io`
+1. Desde el símbolo del sistema escribimos: `git clone --recursive https://github.com/nvdaes/nvdaes.github.io`
 
 NVDA irá informando sobre el progreso de la descarga.
 
+La opción `--recursive` sirve para que se descargue el submódulo (o subcarpeta) [ableplayer](https://github.com/ableplayer/ableplayer). Able Player es un reproductor compatible con navegadores HTML5 que permite, entre otras cosas, leer la transcripción de un vídeo generada a partir de su pista de subtítulos y sincronizar el audio con el fragmento de la transcripción que se active mediante el teclado.
+
+Si hemos clonado el repositorio de la web sin la opción `--recursive`, podemos ejecutar el comando: `git submodule update --init`
+
 Para actualizar el repositorio local descargando solo los últimos cambios publicados por otras personas, podemos escribir: `git pull`
 
+Para descargar los últimos cambios del repositorio Able Player: `git submodule update`
 #### Crear un archivo de perfil ####
 
 Al final de los posts aparece un enlace con el nombre de la persona que los publica para acceder a su perfil en esta web. Como ejemplo, puedes abrir mi perfil activando el enlace de mi nombre al final de este post.
@@ -74,6 +79,8 @@ La información anterior puede ser útil para empezar. Se puede seguir explorand
 Además, recomiendo este [libro sobre Git](https://git-scm.com/book/es/v2), especialmente, la introducción y los capítulos sobre fundamentos de Git y ramificación.
 
 También puede ser interesante esta [guía sobre Markdown](https://guides.github.com/features/mastering-markdown/) (en inglés).
+
+Para Ver cómo funciona y la forma de incluir archivos multimedia con Able Player, puedes consultar el [post sobre NVDA 2019.2](https://nvdaes.github.io/nvda-2019-2).
 
 Para cualquier duda o aclaración, nos vemos en nuestra lista de correo.
 
