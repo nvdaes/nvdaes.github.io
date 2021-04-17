@@ -10,7 +10,7 @@ layout: page
 
 ### Nota: ###
 
-Este artículo se actualizó por última vez en enero de 2021.
+Este artículo se actualizó por última vez en febrero de 2021.
 
 ### Introducción ###
 
@@ -19,16 +19,17 @@ A los libros digitales se accede mediante una app, dispositivo o servicio de int
 Habitualmente la gente usa apps para acceder a libros digitales, y hay distintas apps disponibles con grandes ventajas de accesibilidad. Entre las funciones habituales se incluyen:
 
 - Modos flexibles de desplazarse por las publicaciones, mediante la tabla de contenido, números correspondientes a páginas impresas y marcadores.
-- La posibilidad de cambiar la apariencia visual para adecuarse a tus necesidades.
+- La posibilidad de cambiar la apariencia visual del contenido para adecuarse a tus necesidades.
 - Una función incorporada de lectura en voz alta con resaltado visual, estilo karaoke.
 - Buen funcionamiento con lector de pantalla para respuesta de voz o braille.
 
 Con tantas opciones, ¿cómo puedes averiguar qué aplicación será mejor para ti?
 
-Aquí presentamos un resumen de aplicaciones populares que pueden utilizarse con obras en formato EPUB. Estas reseñas resumidas se basan en evaluaciones detalladas de accesibilidad llevadas a cabo por y con personas que tienen discapacidades de acceso a material impreso. Al final de este artículo se proporciona más información sobre este protocolo de evaluación organizado.
+Aquí presentamos un resumen de aplicaciones populares que pueden utilizarse con obras en formato EPUB. Estas reseñas resumidas se basan en evaluaciones detalladas de accesibilidad llevadas a cabo por y con personas que tienen discapacidades de acceso a material impreso. Al final de este artículo se proporciona más información sobre nuestro protocolo de evaluación organizado.
 
 Los resultados de las evaluaciones eran correctos en el momento de su publicación, pero podrían no reflejar todas las experiencias personales, que pueden verse afectadas por la versión de los sistemas de lectura, tecnologías de apoyo o la publicación que se esté leyendo. Las apps están en constante cambio, y los desarrolladores mejoran sus características basándose en el resultado de nuestros test. Siempre puedes leer en detalle los últimos resultados de nuestros test en <http://epubtest.org/>.
 
+Si estás desarrollando una aplicación, [te invitamos a participar](http://www.epubtest.org/participate) revisando los test y poniéndote en contacto con nosotros.
 ### Resumen de aplicaciones de lectura
 
 #### [Amazon Kindle](https://www.amazon.com/kindle-dbs/fd/kcp) ####
@@ -122,9 +123,9 @@ Para tener en cuenta: algunas funciones solo están disponibles en la versión d
 
 #### [Thorium Reader](https://www.edrlab.org/software/thorium-reader/) ####
 
-Thorium Reader es una aplicación de escritorio disponible para Windows, macOS y Linux. Se desarrolla prestando atención a ofrecer buena compatibilidad con el estándar EPUB y una experiencia muy accesible para los usuarios. La aplicación es gratuita y no requiere cuenta de usuario.
+Thorium Reader es una aplicación de escritorio disponible para Windows, macOS y Linux. Se desarrolla prestando atención a ofrecer buena compatibilidad con el estándar EPUB y una experiencia muy accesible para los usuarios. Thorium también admite publicaciones DAISY3 y PDF. La aplicación es gratuita y no requiere cuenta de usuario.
 
-Lo que gustó a nuestros evaluadores: Thorium ofrece muchas características y funciona bien para personas con y sin discapacidades de acceso a material impreso. Añadir libros a la biblioteca es muy sencillo, y la organización de los libros se facilita mediante etiquetas y posibilidad de búsqueda. Es posible mostrar varias obras una junto a otra para poder compararlas. Hay muchas funciones para adaptaciones visuales, como el ajuste de fuentes y espaciado. Gran compatibilidad con lectores de pantalla, y función de lectura ordenada en voz alta que ofrece buen control y un par de opciones de visualización.
+Lo que gustó a nuestros evaluadores: Thorium ofrece muchas características y funciona bien para personas con y sin discapacidades de acceso a material impreso. Añadir libros a la biblioteca es muy sencillo, y la organización de los libros se facilita mediante etiquetas y posibilidad de búsqueda. Es posible mostrar varias obras una junto a otra para poder compararlas. Hay muchas funciones para adaptaciones visuales, como el espaciado. Puedes elegir entre cualquiera de las fuentes instaladas en tu sistema. Gran compatibilidad con lectores de pantalla, y función de lectura ordenada en voz alta que ofrece buen control y un par de opciones de visualización.
 
 Para tener en cuenta: Solo se proporcionan tres diseños de colores.
 
