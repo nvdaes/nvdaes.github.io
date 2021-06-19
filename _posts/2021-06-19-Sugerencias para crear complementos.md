@@ -70,14 +70,14 @@ Mesar creó un sistema de traducción para NVDA y sus complementos, y fue la per
  
 ##### Oleksandr
  
-Oleksandr es autor de complementos como NVDA Unmute, Check Input Gestures y Diccionario rápido, disponibles en la web de complementos internacional.
+Oleksandr es autor de complementos como NVDA Unmute, Check Input Gestures y Diccionario rápido, disponibles en la web internacional de complementos.
  
 - [Oleksandr en GitHub](https://github.com/grisov)
 - [Pull request experimental con GitHub Actions](https://github.com/nvdaes/placemarkers/pull/26)
  
 #### Ayuda para colaborar
 
-Para mí es gratificante que mis proyectos públicos sean de interés y útiles, y trato de propiciar que la gente colabore en ellos de forma cómoda. Por otra parte, he cerrado alguna solicitud de cambios (pull request) porque no entendía el propósito de los cambios propuestos. Para facilitar la colaboración de otras personas, uso plantillas para incidencias (issues) y pull requests (solicitudes), y un documento donde doy algunas ideas sobre la forma de hacer aportes.
+Para mí es gratificante que mis proyectos públicos sean de interés y útiles, y trato de propiciar que la gente colabore en ellos de forma cómoda. Por otra parte, he cerrado alguna solicitud de cambios (pull request) porque no entendía el propósito de los cambios propuestos. Para facilitar la colaboración de otras personas, uso plantillas para incidencias (issues) y solicitudes (pull requests), y un documento donde doy algunas ideas sobre la forma de hacer aportes.
 
 También es posible que nos encontremos personas con quienes no queramos o no seamos capaces de colaborar debido a actitudes contrarias a valores que nos parecen fundamentales. Negarse a colaborar con alguien por este motivo no requiere un documento escrito. No obstante, determinadas expectativas, valores y actitudes con las que no vayamos a transigir se pueden reflejar, como hizo NV Access, en un documento llamado "código de conducta". Este documento no va a motivar la aceptación o rechazo a nadie, sino que refleja una realidad que de hecho existe: los proyectos están al servicio de las personas, y no se debe ni hay obligación de colaborar con gente contraria a ciertos principios.
 
