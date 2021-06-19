@@ -66,14 +66,14 @@ Agradezco a mesar Hameed y a Oleksandr Gryshchenko la ayuda que me han prestado,
 Mesar creó un sistema de traducción para NVDA y sus complementos, y fue la persona que me invitó a colaborar en el equipo de complementos internacional cuando estaba alojado en Bitbucket. Colaboró en NVDA y en complementos como Emoticons (de Chris y otros autores), readFeeds y teamViewer. Creó una primera versión de documentos como guideLines, ya mencionado, y el primer documento sobre el proceso de revisión de complementos.
  
 - [Mesar en GitHub](https://github.com/mhameed)
-- [Repositorio experimental con GitHub Actions](https://github.com/nvdaaddons/l10ntest/)
+- [repositorio experimental con GitHub Actions](https://github.com/nvdaaddons/l10ntest/)
  
 ##### Oleksandr
  
 Oleksandr es autor de complementos como NVDA Unmute, Check Input Gestures y Diccionario rápido, disponibles en la web internacional de complementos.
  
 - [Oleksandr en GitHub](https://github.com/grisov)
-- [Pull request experimental con GitHub Actions](https://github.com/nvdaes/placemarkers/pull/26)
+- [pull request experimental con GitHub Actions](https://github.com/nvdaes/placemarkers/pull/26)
  
 #### Ayuda para colaborar
 
