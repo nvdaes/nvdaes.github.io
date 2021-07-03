@@ -36,7 +36,7 @@ Compatibilidad con lectores de pantalla: todos los lectores de la etapa de Windo
 
 ##### Shell (escritorio, menú Inicio, etc.):
 
-- En el menú Inicio, para abrir Todas las aplicaciones hay que pulsar la tecla <kbd>tab</kbd< hasta que el foco se sitúe en el botón "Todas las aplicaciones" y luego activarlo. A continuación puedes pulsar la primera letra del nombre de una aplicación para desplazarte a la primera aplicación que empiece con la letra correspondiente.
+- En el menú Inicio, para abrir Todas las aplicaciones hay que pulsar la tecla <kbd>tab</kbd> hasta que el foco se sitúe en el botón "Todas las aplicaciones" y luego activarlo. A continuación puedes pulsar la primera letra del nombre de una aplicación para desplazarte a la primera aplicación que empiece con la letra correspondiente.
 - Widgets (<kbd>Windows+W</kbd>): es similar a un documento web. Si has encontrado noticias e información de interés, será muy parecido.
 - Centro de notificaciones (<kbd>Windows+N</kbd>) y Centro de control (<kbd>Windows+a</kbd>). Antes Centro de actividades, se divide en notificaciones y opciones de configuración rápidas.
 - Centro de control (<kbd>Windows+A</kbd>): aquí tenemos las anteriores opciones de configuración del Centro de actividades, junto a un calendario en vista mensual.
@@ -57,7 +57,7 @@ Joseph
 
 ### Enlaces de interés
 
-- [Actualiza a la nueva versión del SO Windows 11 | Microsoft](https://www.microsoft.com/es-es/windows/windows-11)
+- [Actualiza a la nueva versión del SO Windows 11: Microsoft](https://www.microsoft.com/es-es/windows/windows-11)
 - [Complemento Windows App Essentials en la web internacional](https://addons.nvda-project.org/addons/wintenApps)
 - [Solicitud sobre Windows 10 App Essentials 21.06.1](https://github.com/nvaccess/addonFiles/pull/113)
 - [Foro sobre Windows con lectores de pantalla](https://win10.groups.io/g/win10) (en inglés)
