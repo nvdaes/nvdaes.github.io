@@ -1,0 +1,44 @@
+name: Create post
+
+on:
+  issues:
+    types: 
+      - opened
+      - reopened
+      - edited
+
+jobs:
+  add-post:
+    name: Add post
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Get issue
+      uses: actions/github-script@v4
+      id: get-issue
+      with:
+        script: |
+          console.log(context)
+          const body = context.payload.issue.body
+          return body
+        result-encoding: string
+    - name: Create pr
+      run: |
+        mkdir test
+        echo "${{steps.get-issue.outputs.result}}" > test/result.txt
+    - name: Push changes
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      run: |
+        git config --global user.name github-actions
+        git config --global user.email github-actions@github.com
+        git add .
+        git commit -m "add test"
+        git checkout -b testIssue
+        git push --set-upstream origin testIssue
+        git pull
