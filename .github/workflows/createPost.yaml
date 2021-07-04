@@ -28,9 +28,13 @@ jobs:
           return body
         result-encoding: string
     - name: Create pr
+      env:
+        TITLE: ${{ github.event.issue.title }}
+        BODY: ${{ github.event.issue.body }}
+        NAME: "issue-" + ${{ github.event.issue.title }}
       run: |
-        mkdir test
-        echo "${{steps.get-issue.outputs.result}}" > test/result.txt
+        # echo "${{steps.get-issue.outputs.result}}" > test/result.txt
+        echo "$BODY" > POST.TXT
     - name: Push changes
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
