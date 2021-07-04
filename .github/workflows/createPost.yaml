@@ -28,7 +28,7 @@ jobs:
           return body
         result-encoding: string
     - name: Create pr
-      env: 
+      env:
         TITLE: ${{ github.event.issue.title }}
         BODY: ${{ github.event.issue.body }}
         NAME: "issue-" + $TITLE
