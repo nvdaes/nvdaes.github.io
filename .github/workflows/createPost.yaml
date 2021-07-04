@@ -28,7 +28,7 @@ jobs:
           return body
         result-encoding: string
     - name: Create pr
-      env:
+      env: |
         TITLE: ${{ github.event.issue.title }}
         BODY: ${{ github.event.issue.body }}
         NAME: "issue-" + ${{ github.event.issue.title }}
@@ -37,7 +37,7 @@ jobs:
         echo "$BODY" > POST.TXT
     - name: Push changes
       env:
-        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        GITHU   B_TOKEN: ${{secrets.GITHUB_TOKEN}}
       run: |
         git config --global user.name github-actions
         git config --global user.email github-actions@github.com
