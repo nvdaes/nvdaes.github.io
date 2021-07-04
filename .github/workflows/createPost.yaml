@@ -21,3 +21,4 @@ jobs:
     - name: Create pr
       env:
         TITLE: ${{ github.event.issues.title }}
+      run: echo "$TITLE"
