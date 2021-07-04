@@ -29,8 +29,8 @@ jobs:
         result-encoding: string
     - name: Create pr
       env:
-        TITLE: ${{ github.event.issue.title }}
-        BODY: ${{ github.event.issue.body }}
+        TITLE: ${{ github.event.issues.title }}
+        BODY: ${{ github.event.issues.body }}
         NAME: "issue-" + $TITLE
       run: |
         # echo "${{steps.get-issue.outputs.result}}" > test/result.txt
