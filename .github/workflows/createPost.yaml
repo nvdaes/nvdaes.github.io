@@ -42,11 +42,9 @@ jobs:
       run: |
         git config --global user.name github-actions
         git config --global user.email github-actions@github.com
-        git checkout -t ${{steps.get-data.outputs.branch}}
+        git checkout -b ${{steps.get-data.outputs.branch}}
         echo "${{steps.get-data.outputs.body}}" > ${{steps.get-data.outputs.filename}}
         git add .
         git commit -m "Add post"
-        git pull
-        git push
-        gh pr create --title "Add post" --body "Fixes ${{steps.get-data.number}}" --reviewer nvdaes
+        gh pr create --head --title "Add post" --body "Fixes ${{steps.get-data.number}}" --reviewer nvdaes
         
