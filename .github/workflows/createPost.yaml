@@ -37,6 +37,8 @@ jobs:
           core.setOutput('body', header + body)
           console.log(author)
     - name: Create PR
+      env:
+        token: ${{ secrets.GitHub_TOKEN }}
       run: |
         git config --global user.name github-actions
         git config --global user.email github-actions@github.com
@@ -44,6 +46,8 @@ jobs:
         echo "${{steps.get-data.outputs.body}}" > ${{steps.get-data.outputs.filename}}
         git add .
         git commit -m "Add post"
+        git push --set-upstream origin ${{steps.get-data.branch}}
+        git pull
         git push origin ${{steps.get-data.branch}}
         gh pr create --title "Add post" --body "Fixes ${{steps.get-data.number}}" --reviewer nvdaes
         
