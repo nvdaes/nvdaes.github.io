@@ -47,6 +47,6 @@ jobs:
         delete-branch: true
         body: |
           Post by ${{steps.get-data.outputs.author}}
-          - Title: ${{}steps.get-data.outputs.title}
-          - Closes issue ${{steps.get-data.outputs.number}}
+          - Title: ${{steps.get-data.outputs.title}}
+          - Closes ${{steps.get-data.outputs.number}}
         reviewers: nvdaes
