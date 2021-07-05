@@ -23,7 +23,7 @@ jobs:
           core.setOutput('number', "#" + number)
           core.setOutput('branch', "issue" + number)
           const title = context.payload.issue.title
-          core.setOutput('filename', "_posts/" + title + .md)
+          core.setOutput('filename', "_posts/" + title + ".md")
           const author = context.payload.issue.user.login
           const body = context.payload.issue.body   
           const header = `---
