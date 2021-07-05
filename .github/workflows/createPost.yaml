@@ -48,6 +48,6 @@ jobs:
         git commit -m "Add post"
         git push --set-upstream origin ${{steps.get-data.branch}}
         git pull
-        git push origin ${{steps.get-data.branch}}
+        git push
         gh pr create --title "Add post" --body "Fixes ${{steps.get-data.number}}" --reviewer nvdaes
         
