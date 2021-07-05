@@ -30,4 +30,4 @@ jobs:
     - name: Create PR
       env:
         BRANCH = format("issue{0}", "${{steps.get-data.outputs.number}}")
-        run: echo branch
+        run: echo "$BRANCH"
