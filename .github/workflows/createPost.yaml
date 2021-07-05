@@ -14,11 +14,16 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
-    - name: Set up Python 3.8
-      uses: actions/setup-python@v2
+    - name: Get data
+      id: get-data
+      uses: actions/github-script@v4
       with:
-        python-version: 3.8
-    - name: Create pr
-      env:
-        TITLE: ${{ github.event.issues.title }}
-      run: echo "$TITLE"
+        script: |
+          const number = context.payload.issue.number
+          core.setOutput('number', number)
+          const title = context.payload.issue.title
+          core.setOutput('title', title)
+          const body = context.payload.issue.body
+          core.setOutput('body', body)
+          const author = context.payload.issue.user.login
+          core.setOutput('body', body)
