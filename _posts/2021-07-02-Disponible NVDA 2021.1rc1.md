@@ -6,7 +6,10 @@ commentsId: 16
 author: Noelia
 ---
 
-<footer>Viernes, 2 de julio de 2021</footer>
+<footer>Viernes, 2 de julio de 2021 (actualizado a 5 de julio)</footer>
+
+
+
 
 Como se explica en este [artículo de NV Access sobre NVDA 2021.1rc1](https://www.nvaccess.org/post/nvda-2021-1rc1/) (en inglés), se ha publicado esta versión candidata de NVDA.
 
@@ -22,6 +25,13 @@ Chromium. Hay correcciones para varios idiomas y para acceder a enlaces en brail
 - Si se actualiza desde beta3 o beta4, esta versión debe instalarse de forma manual.
 - NVDA 2021.1rc1 no es compatible con complementos que no hayan sido actualizados para funcionar con esta versión.
 - También se elimina la compatibilidad con Adobe Flash.
+
+### Actualización (5 de julio de 2021)
+
+Se ha publicado NVDA 2021.1rc2 con traducciones actualizadas.
+
+[Descarga directa de NVDA 2021.1rc2](https://www.nvaccess.org/files/nvda/releases/2021.1rc2/nvda_2021.1rc2.exe)
+[Post sobre NVDA 2021.1rc2](https://www.nvaccess.org/post/nvda-2021-1rc2/)
 
 [Descarga directa de NVDA 2021.1rc1](https://www.nvaccess.org/files/nvda/releases/2021.1rc1/nvda_2021.1rc1.exe)
 
