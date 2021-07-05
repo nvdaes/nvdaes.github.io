@@ -20,7 +20,7 @@ jobs:
       with:
         script: |
           const number = context.payload.issue.number
-          core.setOutput('number', number)
+          core.setOutput('branch', "issue" + number)
           const title = context.payload.issue.title
           core.setOutput('title', title)
           const body = context.payload.issue.body
@@ -28,6 +28,4 @@ jobs:
           const author = context.payload.issue.user.login
           core.setOutput('author', author)
     - name: Create PR
-      env:
-        BRANCH = format("issue{0}", "${{steps.get-data.outputs.number}}")
-      run: echo "$BRANCH"
+      run: echo "${{steps.get-data.outputs.branch}}"
