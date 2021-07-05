@@ -19,13 +19,22 @@ jobs:
       uses: actions/github-script@v4
       with:
         script: |
-          const number = context.payload.issue.number
+          const number = context.payload.issue.number.toString()
           core.setOutput('branch', "issue" + number)
           const title = context.payload.issue.title
-          core.setOutput('title', title)
-          const body = context.payload.issue.body
-          core.setOutput('body', body)
+          core.setOutput('filename', "_posts/" + title)
           const author = context.payload.issue.user.login
-          core.setOutput('author', author)
+          const body = context.payload.issue.body   
+          const header = `---
+          title: 
+          permalink: "/x/"
+          layout: post
+          commentsId: 0
+          author: 
+          ---`
+          core.setOutput('body', header + body)
+          console.log(author)
     - name: Create PR
-      run: echo "${{steps.get-data.outputs.branch}}"
+      run: |
+        git checkout -b ${{steps.get-data.outputs.branch}}
+        echo "${{steps.get-data.outputs.body}}" > ${{steps.get-data.outputs.filename}}
