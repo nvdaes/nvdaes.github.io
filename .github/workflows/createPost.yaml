@@ -38,13 +38,15 @@ jobs:
           console.log(author)
     - name: Commit changes
       run: |
-        git config --global user.name github-actions
-        git config --global user.email github-actions@github.com
         echo "${{steps.get-data.outputs.body}}" > ${{steps.get-data.outputs.filename}}
         git add .
-        git commit -m "Add post"
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3
       with:
+        branch: ${{steps.get-data.outputs.branch}}
         delete-branch: true
+        body: |
+          ### Post by ${{steps.get-data.outputs.author}}
+          - Title: ${{}steps.get-data.outputs.title}
+          - Closes issue ${{steps.get-data.outputs.number}}
         reviewers: nvdaes
