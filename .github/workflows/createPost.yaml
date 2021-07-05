@@ -20,9 +20,10 @@ jobs:
       with:
         script: |
           const number = context.payload.issue.number.toString()
+          core.setOutput('number', "#" + number)
           core.setOutput('branch', "issue" + number)
           const title = context.payload.issue.title
-          core.setOutput('filename', "_posts/" + title)
+          core.setOutput('filename', "_posts/" + title + .md)
           const author = context.payload.issue.user.login
           const body = context.payload.issue.body   
           const header = `---
@@ -31,10 +32,18 @@ jobs:
           layout: post
           commentsId: 0
           author: 
-          ---`
+          ---
+          `
           core.setOutput('body', header + body)
           console.log(author)
     - name: Create PR
       run: |
+        git config --global user.name github-actions
+        git config --global user.email github-actions@github.com
         git checkout -b ${{steps.get-data.outputs.branch}}
         echo "${{steps.get-data.outputs.body}}" > ${{steps.get-data.outputs.filename}}
+        git add .
+        git commit -m "Add post"
+        git push origin ${{steps.get-data.branch}}
+        gh pr create --title "Add post" --body "Fixes ${{steps.get-data.number}}" --reviewer nvdaes
+        
