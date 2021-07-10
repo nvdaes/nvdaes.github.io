@@ -20,7 +20,6 @@ jobs:
       with:
         script: |
           const number = context.payload.issue.number.toString()
-          core.setOutput('number', "#" + number)
           core.setOutput('branch', "issue" + number)
           const title = context.payload.issue.title
           core.setOutput('filename', "_posts/" + title + ".md")
@@ -36,6 +35,7 @@ jobs:
           `
           core.setOutput('body', header + body)
           console.log(author)
+          core.setOutput('commitMessage', "Closes #" + number)
     - name: Commit changes
       run: |
         echo "${{steps.get-data.outputs.body}}" > ${{steps.get-data.outputs.filename}}
@@ -43,10 +43,7 @@ jobs:
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3
       with:
+        commit-message: ${{steps.get-data.outputs.commitMessage}}
         branch: ${{steps.get-data.outputs.branch}}
         delete-branch: true
-        body: |
-          Post by "${{steps.get-data.outputs.author}}"
-          - Title: "${{steps.get-data.outputs.title}}"
-          - Closes "${{steps.get-data.outputs.number}}"
         reviewers: nvdaes
