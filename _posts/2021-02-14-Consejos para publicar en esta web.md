@@ -19,7 +19,7 @@ Para ello puedes seguir los siguientes procedimientos:
 #### Crear una incidencia sin pedir una invitación al repositorio ####
 
 En este caso no dispondrás de perfil propio para esta web (el enlace que se muestra al final de cada artículo), y recibiré una petición para revisar tu post antes de que pueda ser publicado. Tendré que editarlo un poco para que el título, el enlace permanente y el enlace para crear comentarios se muestren correctamente. También podríamos poner entre paréntesis tu nombre de autor al lado del título o hacer pequeños cambios sin afectar al contenido principal.
-Al crear la incidencia, rellena los campos etiquetados como "Título" y "Texto del post". No cambies el texto del campo llamado "Title", ya que su contenido preestablecido sirve para que GitHub pueda crear una solicitud de cambios, en la que el texto del post que envíes se incluirá automáticamente en la carpeta "_posts", dentro de un fichero que se llamará como el título que indiques y con la extensión ".md". Por ejemplo, la ruta podría ser: "_posts/Nuevo post.md".
+Al crear la incidencia, rellena los campos etiquetados como "Título" y "Texto del post". No cambies el texto del campo llamado "Title", ya que su contenido preestablecido sirve para que GitHub pueda crear una solicitud de cambios, en la que el texto del post que envíes se incluirá automáticamente dentro de la carpeta "_posts", en un fichero que se llamará como el título que indiques y con la extensión ".md". Por ejemplo, la ruta podría ser: "_posts/Nuevo post.md".
 
 Después de editarlo tendré que subir estos cambios a la rama principal del repositorio para que queden publicados.
 
@@ -55,7 +55,7 @@ Para actualizar el repositorio local descargando solo los últimos cambios publi
 
 Para descargar los últimos cambios del repositorio Able Player: `git submodule update`
 
-#### Crear un archivo de perfil ####
+##### Crear un archivo de perfil #####
 
 Al final de los posts aparece un enlace con el nombre de la persona que los publica para acceder a su perfil en esta web. Como ejemplo, puedes abrir mi perfil activando el enlace de mi nombre al final de este post.
 
@@ -83,7 +83,7 @@ Una vez que tu cuenta de GitHub haya sido autorizada a colaborar con el reposito
 
 Al cabo de unos minutos, tus cambios quedarán publicados en la web.
 
-### Seguir aprendiendo
+### Seguir aprendiendo ###
 
 La información anterior puede ser útil para empezar. Se puede seguir explorando la subcarpeta _posts y algunos de sus archivos para publicar un post. En otras carpetas hay archivos responsables de otros componentes de la web.
 

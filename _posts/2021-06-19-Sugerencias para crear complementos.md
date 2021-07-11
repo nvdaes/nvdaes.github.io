@@ -6,7 +6,7 @@ author: Noelia
 commentsId: 15
 ---
 
-<footer>Sábado, 19 de junio de 2021</footer>
+<footer>Sábado, 19 de junio de 2021 (actualizado el 11 de julio)</footer>
 
 Nuestro compañero Ramón, coautor de este blog, tuvo la estupenda idea de crear un post con sugerencias útiles para crear complementos, como se puede ver en este [mensaje enviado a nuestra lista de correo](https://nvdaes.groups.io/g/lista/message/2161).
 
