@@ -1,6 +1,6 @@
 name: Post
 description: Escribir un nuevo post para la web
-title: [Post]: 
+title: '[Post]: '
 labels: [enhancement]
 assignees: 
 - nvdaes
