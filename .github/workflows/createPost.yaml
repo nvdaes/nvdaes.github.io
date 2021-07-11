@@ -10,6 +10,7 @@ on:
 jobs:
   add-post:
     name: Add post
+    if: ${{ github.event.label.name == 'improvement' }}
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
@@ -23,7 +24,6 @@ jobs:
           core.setOutput('branch', "issue" + number)
           const title = context.payload.issue.title
           core.setOutput('filename', "_posts/" + title + ".md")
-          const author = context.payload.issue.user.login
           const body = context.payload.issue.body   
           const header = `---
           title: 
@@ -34,7 +34,6 @@ jobs:
           ---
           `
           core.setOutput('body', header + body)
-          console.log(author)
           core.setOutput('commitMessage', "Closes #" + number)
     - name: Commit changes
       run: |
