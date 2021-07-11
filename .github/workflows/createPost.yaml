@@ -22,7 +22,7 @@ jobs:
         script: |
           const number = context.payload.issue.number.toString()
           core.setOutput('branch', "issue" + number)
-          const title = context.payload.issue.title
+          const title = context.payload.issue.body.split("# Title")[1].split("#")[0].trim()
           core.setOutput('filename', "_posts/" + title + ".md")
           const body = context.payload.issue.body   
           const header = `---
