@@ -7,8 +7,15 @@ body:
 - type: markdown
   attributes:
     value: |
-      Indica un título para el post y su cuerpo principal.
+      Indica un título para el post y su cuerpo principal en los campos correspondientes. No cambies el título de la incidencia.
 - type: input
+  id: postTitle
+  attributes:
+    label: Título
+    description: Título del post.
+  validations:
+    required: true
+- type: textarea
   id: postBody
   attributes:
     label: Texto del post

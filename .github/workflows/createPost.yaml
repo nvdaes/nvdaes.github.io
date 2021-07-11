@@ -10,7 +10,7 @@ on:
 jobs:
   add-post:
     name: Add post
-    if: ${{ github.event.label.name == 'enhancement' }}
+    if: "contains(github.event.title, '[Post]: ')"
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
