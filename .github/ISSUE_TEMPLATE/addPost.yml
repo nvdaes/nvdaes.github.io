@@ -1,6 +1,5 @@
 name: Post
-description: Escribir un nuevo post para nvdaes.github.io
-title: 
+description: Escribir un nuevo post para la web
 labels: [enhancement]
 assignees: 
 - nvdaes
