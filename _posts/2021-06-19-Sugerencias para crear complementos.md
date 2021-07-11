@@ -96,6 +96,24 @@ Allí también podrás:
 - pedir ayuda para crear o mejorar tus complementos.
 - Compartir tu experiencia sobre complementos de otras personas, especialmente cuando pidan que su trabajo sea revisado.
 
+Puedes suscribirte enviando un correo a o mediante este formulario de suscripción
+
+<div class="unstyledtemplate template" style="display: block;">
+  <div id="groupsio_unstyled_embed_signup">
+  <form action="https://nvda-addons.groups.io/g/nvda-addons/signup?u=5352868322104703671" method="post" id="groupsio-embedded-subscribe-form" name="groupsio-embedded-subscribe-form" target="_blank">
+    <div id="groupsio_unstyled_embed_signup_scroll">
+      <label for="email" id="unstyletemplateformtitle">Suscríbete a la lista internacional de complementos de NvDA</label><br>
+      <input type="email" value="" name="email" class="email" id="email" placeholder="Tu dirección de correo electrónico" required="">
+      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5352868322104703671" tabindex="-1" value=""></div>
+      <div id="templatearchives"></div>
+      <input type="submit" value="Subscribe" name="subscribe" id="groupsio-embedded-subscribe" class="button">
+    </div>
+  </form>
+  </div>
+</div>
+
+
 Cuando tu complemento haya sido aceptado, podrás crear una solicitud (pull request) en el [repositorio addonFiles](https://github.com/nvaccess/addonFiles) para que NV Access, previa revisión y aprobación por parte de Joseph Lee o mía, que en este momento estamos a cargo de esta tarea (llamada triaje), lo incluya en el sitio web de la comunidad.
 Joseph Lee es el creador de la lista de correo internacional de complementos.
 
