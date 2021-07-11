@@ -96,7 +96,7 @@ Allí también podrás:
 - Pedir ayuda para crear o mejorar tus complementos.
 - Compartir tu experiencia sobre complementos de otras personas, especialmente cuando pidan que su trabajo sea revisado.
 
-Puedes suscribirte enviando un correo a <address>nvda-addons+subscribe@nvda-addons.groups.io</address> o mediante este formulario de suscripción
+Puedes suscribirte enviando un correo a `nvda-addons+subscribe@nvda-addons.groups.io` o mediante este formulario de suscripción
 
 <div role="form" class="unstyledtemplate template" style="display: block;">
   <div id="groupsio_unstyled_embed_signup">
