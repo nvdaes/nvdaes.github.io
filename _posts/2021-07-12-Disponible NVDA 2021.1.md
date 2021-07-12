@@ -21,7 +21,7 @@ En esta versión se incorpora soporte experimental para UIA en Excel y navegador
 ### Observaciones ###
 
 - Si se actualiza desde beta3 o beta4, esta versión debe instalarse de forma manual.
-- NVDA 2021.1rc1 no es compatible con complementos que no hayan sido actualizados para funcionar con esta versión.
+- NVDA 2021.1 no es compatible con complementos que no hayan sido actualizados para funcionar con esta versión.
 - También se elimina la compatibilidad con Adobe Flash.
 
 Puedes consultar:
