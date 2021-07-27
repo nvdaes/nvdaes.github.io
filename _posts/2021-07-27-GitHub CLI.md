@@ -155,9 +155,9 @@ Usa las flechas para moverte, pulsa para filtrar.
 `First copy your one-time code:`    
 `Press Enter to open github.com in your browser...`    
 
-Luego, selecciona el código único que te dará, este es un código de dos veces cuatro caracteres alfanuméricos...    
+Luego, seleccionas el código único que te dará, este es un código de dos veces cuatro caracteres alfanuméricos...    
 
-Para las personas que tienen el lector de pantalla [NVDA](https://www.nvaccess.org/), si no estoy equivocado, pulsar Ctrl + M para mostrar el contenido de esta ventana para seleccionar y copiar al portapapeles este código único que se te da utilizando las órdenes específicas de teclado de  Windows.
+Para las personas que tienen el lector de pantalla [NVDA](https://www.nvaccess.org/), si no estoy equivocado, pulsar Ctrl + M para mostrar el contenido de esta ventana para seleccionar y copiar al portapapeles este código único que se te dará utilizando las órdenes específicas de teclado de  Windows.
 
 Extracto de la Guía del Usuario de NVDA 2021.1
 
@@ -205,14 +205,14 @@ Los siguientes métodos abreviados de teclado incorporados en la Consola de Wind
 Una vez que hayas copiado el código de dos veces cuatro caracteres alfanuméricos al Portapapeles...    
 Pulsar Intro para abrir github.com  en tu navegador...    
 y pegarlo en la nueva pestaña que se abre en tu navegador.    
-Se te abrirás una página en inglés como nombre:    
+Se te abrirá una página en inglés como nombre:    
 
 `Device Activation`    
 
 Tendrás que ingresar el código para que la sesión se inicie en tu terminal. Para hacer esto, coloca el cursor en el primer campo de edición. Al pulsar Ctrl + V, esta acción pegará automáticamente el código de dos veces cuatro caracteres alfanuméricos en los dos primeros campos de edición.
 
 Luego, deberás pulsar en el botón "Continue" después de los campos de edición.    
-Si el código se introduce correctamente, se te abrirás otra página web en inglés. De lo contrario, recibirás un mensaje de error que el código es incorrecto.    
+Si el código se introduce correctamente, se te abrirá otra página web en inglés. De lo contrario, recibirás un mensaje de error que el código es incorrecto.    
 En la nueva página que se te abre, hacer clic en Authorize GitHub CLI e ingresa tu contraseña en la siguiente pantalla.    
 Después de hacer esto, otra página web se te abrirá con el siguiente mensaje en inglés:    
 `Congratulations, you're all set!`    
@@ -235,7 +235,7 @@ Nota: Como elegí la primera alternativa, no puedo saber qué hacer en esta part
 
 [Creating a personal access token - GitHub Docs](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 
-Luego tendrás una tercera pantalla donde  GitHub CLI te preguntarás con un mensaje en inglés ¿Cuál es tu protocolo preferido para las operaciones con git?
+Luego tendrás una tercera pantalla donde  GitHub CLI te preguntará con un mensaje en inglés ¿Cuál es tu protocolo preferido para las operaciones con git?
 
 Usa las flechas para moverte, pulsa para filtrar.
 
@@ -251,9 +251,9 @@ A través de GitHub CLI, puedes interactuar con diferentes secciones del sitio: 
 
 # Obteniendo un recapitulativo de órdenes para GitHub CLI.
 
-Considero que sabe cómo abrir un símbolo del sistema o PowerShell en Windows, es decir, debe estar en la ventana para la consola de órdenes de Windows.
+Considero que sabes cómo abrir un símbolo del sistema o PowerShell en Windows, es decir, debes estar en la ventana para la consola de órdenes de Windows.
 
-Cuando ingresa el siguiente comando:
+Cuando ingresas el siguiente comando:
 
 `gh help`    
 
@@ -267,7 +267,7 @@ Para crear un Pull Request, puedes seguir estos pasos. Supongo que has instalado
 
 A saber, que los comandos utilizados a continuación hay una mezcla entre los comandos Git y GitHub CLI.
 
-En resumen, si desea contribuir a un proyecto, la forma más sencilla es:    
+En resumen, si deseas contribuir a un proyecto, la forma más sencilla es:    
 1. Encuentra un proyecto en el que deseas contribuir en GitHub.    
 2. Símbolo del sistema en Windows, utilizando el lector de pantalla NVDA, ingresas el siguiente comando:    
 `gh repo fork https://github.com/usuario/repositorio.git --clone`    
@@ -297,7 +297,7 @@ luego pulsas Intro.
 7. Luego creas una nueva rama idéntica a la rama master del repositorio clonado y te vas a esa nueva rama para empezar a hacer cambios, ingresando el siguiente comando:    
 `git checkout -b byNewBranch`    
 luego pulsas Intro.    
-Nota: El nombre byNewBranch es un simple nombre falso, puedes poner cualquier otro nombre en esta nueva rama en relación   con tus modificaciones, por ejemplo, si es una traducción en español la sintaxis es, podría ser el nombre de la nueva rama, aunque puedes poner otros nombres.    
+Nota: El nombre byNewBranch es un simple nombre falso, puedes poner cualquier otro nombre en esta nueva rama en relación   con tus modificaciones, por ejemplo, si es una traducción en español es, podría ser el nombre de la nueva rama, aunque puedes poner otros nombres.    
 8. Usando el Explorador de Windows, accedes a la carpeta del repositorio y modificas correctamente los archivos, por ejemplo, el readme.md, buildVars.py y así sucesivamente.    
 9. Pruebas tus cambios y cuando ellos son convenientes para ti, ingresas el siguiente comando:    
 `git add .`    
@@ -318,9 +318,7 @@ Así es como se ha creado una rama llamada es en tu repositorio.
 luego pulsas Intro.    
 Nota: `-w` significa que deseas abrir el navegador.    
 Una vez que hayas ingresado este comando, se te abrirá la página web del repositorio para crear el Pull Request sin necesidad de buscarla entre los enlaces del  repositorio de GitHub. El foco seguramente se situará en el título. Pulsas  la tecla de Tabulación para ir al cuadro de edición multilínea, haces el comentario que quieras o rellenas el template (plantilla) que se proporcione si disponible (en inglés), por ejemplo, en el repositorio de Noelia esta plantilla tiene signos de almoadilla que indican la información que se pide.    
-
 Exploras con el cursor y debajo de los encabezados, que comienzan con dos `##`, scribes los datos en inglés:    
-
 `Link to issue number:`    
 `None`    
 `## Summary of the issue:`    
@@ -333,11 +331,8 @@ Exploras con el cursor y debajo de los encabezados, que comienzan con dos `##`, 
 `None`    
 `## Change log entry:`    
 `None`    
-
-E inmediatamente que hayas terminado, le das al botón Create pull request, y se realizarán pruebas automáticas para superar sin problemas. Después de lo cual puedes leer el estado del  pull request enviado, siempre en inglés, luego puedes cerrar la página web con Alt+F4.    
-
+E inmediatamente que hayas terminado, le das al botón Create pull request, y se realizarán pruebas automáticas que son superadas sin problemas. Después de lo cual puedes leer el estado del  pull request enviado, siempre en inglés, luego puedes cerrar la página web con Alt+F4.    
 Espera hasta que se tenga en cuenta ;-)    
-
 Y ese, básicamente, es el proceso de creación de una PR. Si creamos una PR sobre la rama master, es importante tener en cuenta que hasta que no se acepte o cierre todos los commits que mandemos a nuestra rama master se incluirán en la pr automáticamente, incluso si los mandamos después de abrirla.
 
 Más abajo encontrarás un enlace  con más información en inglés sobre la creación de una PR con GitHub CLI:
