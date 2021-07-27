@@ -171,7 +171,7 @@ La ventana de la consola es de tamaño fijo, normalmente mucho más pequeña que
 A medida que se escribe un nuevo texto, el contenido se desplaza hacia arriba y el texto anterior ya no es visible.
 El texto que no se muestra visiblemente en la ventana no es accesible con los comandos de revisión de texto de NVDA.
 Por lo tanto, es necesario desplazarse por la ventana de la consola para leer el texto anterior.
-Los siguientes métodos abreviados de teclado incorporados en la Consola de Windows pueden ser útiles al <A HREF="./userGuide.html#ReviewingText">revisar texto</A> con NVDA:
+Los siguientes métodos abreviados de teclado incorporados en la Consola de Windows pueden ser útiles al <A HREF="../userGuide.html#ReviewingText">revisar texto</A> con NVDA:
 </P>
 <tabLE>
 <TR>
