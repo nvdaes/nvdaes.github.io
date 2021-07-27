@@ -4,6 +4,7 @@ title: GitHub CLI - cómo instalarlo y usarlo desde la línea de comandos
 permalink: "/GitHub-CLI/"
 layout: post
 author: BlindHelp
+commentsId: 28
 ---
 
 
@@ -11,11 +12,11 @@ author: BlindHelp
 
 Hoy día, te presentamos una aplicación llamada GitHub CLI, esta aplicación es ideal para crear  Pull Requests e incluso para hacer  Forks ya que conociendo los comandos puede ser más fácil que manejar la interfaz web de GitHub.
 
-# GitHub CLI (Command Line Interface)
+### GitHub CLI (Command Line Interface)
 
 GitHub CLI es una herramienta de línea de comandos que lleva pull requests, problemas, acciones de GitHub y otras características de GitHub a tu terminal para que puedas hacer todo tu trabajo en un solo lugar.
 
-# Acerca de GitHub CLI.
+### Acerca de GitHub CLI.
 
 GitHub CLI es una herramienta de código abierto para usar GitHub desde la línea de comandos de tu computadora. Cuando estás trabajando en la línea de comandos, puedes usar GitHub CLI para ahorrar tiempo y evitar cambiar el contexto.
 
@@ -30,19 +31,19 @@ GitHub CLI incluye características de GitHub, tales como:
 
 Para obtener más información sobre lo que puedes hacer con GitHub CLI, consulta [GitHub CLI Manual (en inglés).](https://cli.github.com/manual)
 
-# Instalar GitHub CLI.
+### Instalar GitHub CLI.
 
 Consulta las instrucciones de instalación de GitHub CLI para MacOS, Windows y Linux en la página en inglés [GitHub CLI.](https://cli.github.com/)
 
-Funciona para ambas cuentas. ya sea para GitHub.com y la versión Enterprise Server. disponible para Linux, macOS yt Windows, se instala fácilmente, especialmente a través de diferentes administradores de paquetes. Es de código abierto , bajo la licencia MIT. Todos los detalles en inglés se dan [aquí.](https://github.com/cli/cli#installation)
+Funciona para ambas cuentas. ya sea para GitHub.com y la versión Enterprise Server. disponible para Linux, macOS y Windows, se instala fácilmente, especialmente a través de diferentes administradores de paquetes. Es de código abierto , bajo la licencia MIT. Todos los detalles en inglés se dan [aquí.](https://github.com/cli/cli#installation)
 
-# ¿Cómo instalarlo y usarlo desde la línea de comandos?
+### ¿Cómo instalarlo y usarlo desde la línea de comandos?
 
 El procedimiento es simple y rápido. Por supuesto, para aprovechar toda la funcionalidad de la herramienta, será necesario que se instale y se configure GIT en tu máquina. Si tu eres un usuario de GitHub, es probable que sea tu caso.
 
 Si aún no has instalado Git, puedes visitar la página En inglés más abajo para descargarlo.
 
-# Descargar Git.
+### Descargar Git.
 
 <https://git-scm.com/downloads>
 
@@ -50,7 +51,7 @@ En esta página en inglés, debes buscar el archivo apropiado para tu sistema us
 
 En mi caso, como tengo un Windows 64 bits, así que tengo que descargar y instalar Git para Windows. A continuación, les dejo el enlace GIT para este sistema operativo.
 
-# Git para Windows.
+### Git para Windows.
 
 La aplicación oficial para Windows está disponible para descargar en el sitio web de Git. Yendo a <http://git-scm.com/download/win> y la descarga se iniciará automáticamente.
 
@@ -64,13 +65,13 @@ Fuente de la documentación en español:
 
 Sí, como dije inicialmente GitHub CLI, requiere que Git sea instalado en tu computadora, por lo que tendrás que instalar Git antes de continuar. Utiliza Git internamente para todas las funciones que también se pueden hacer con Git, como por ejemplo, clonar, empujar, fusionar, etc. Consulta el enlace de descarga indicado anteriormente.
 
-# Descargar GitHub CLI para Windows.
+### Descargar GitHub CLI para Windows.
 
 Durante la redacción de este post, el archivo disponible en su última versión es el siguiente:
 
 [gh_1.13.1_windows_amd64.msi](https://github.com/cli/cli/releases/download/v1.13.1/gh_1.13.1_windows_amd64.msi)
 
-# Instalación de GitHub CLI para Windows.
+### Instalación de GitHub CLI para Windows.
 
 Una vez que hayas descargado el archivo, debes ejecutarlo y luego hacer clic en cada cuadro de diálogo que aparece durante la instalación. Tan fácil como poder pasar a la autentificación de GitHub CLI.
 
@@ -100,9 +101,9 @@ Por favor, espera un momento.
 
 Una vez se haya completado la instalación, debes hacer clic en el botón Finish para cerrar el asistente de instalación. Ahora puedes pasar a la autentificación de GitHub CLI. Ver explicaciones detalladas más abajo.
 
-# Puesta en marcha de GitHub CLI para Windows.
+### Puesta en marcha de GitHub CLI para Windows.
 
-## Una configuración rápida, una herramienta ya completa.
+#### Una configuración rápida, una herramienta ya completa.
 
 La herramienta se usa con el Ejecutable gh, un nombre voluntariamente corto como git. El primer paso a seguir es la conexión a tu cuenta de GitHub. Puede pasar por el intercambio de un token de seguridad colocado en la variable de entorno (GITHUB_TOKEN) o tu navegador. Optamos por el segundo método. Ver explicaciones detalladas más abajo.
 
@@ -110,7 +111,7 @@ Te insto a que veas el manual GitHub CLI (página en inglés) más abajo para ob
 
 [See the manual for setup and usage instructions.](https://cli.github.com/manual/)
 
-# Autentificación.
+### Autentificación.
 
 Después de instalar GitHub CLI, necesitamos conectarlo e instalarlo con nuestra cuenta GitHub.
  
@@ -249,7 +250,7 @@ Después de elegir el protocolo de conexión (HTTPS o SSH), GitHub CLI será exp
 
 A través de GitHub CLI, puedes interactuar con diferentes secciones del sitio: issue, pull-requests (pr), release o todavía repo (los repositorios), así que crear un proyecto, clonarlo y bifurcarlo o simplemente mostrarlo. Algunas acciones por lo tanto serán redundantes con Git, pero funcionarán de forma simplificada.
 
-# Obteniendo un recapitulativo de órdenes para GitHub CLI.
+### Obteniendo un recapitulativo de órdenes para GitHub CLI.
 
 Considero que sabes cómo abrir un símbolo del sistema o PowerShell en Windows, es decir, debes estar en la ventana para la consola de órdenes de Windows.
 
@@ -261,7 +262,7 @@ Podrás obtener un recapitulativo de órdenes para GitHub CLI.
 
 Esta ventana símbolo del sistema contiene texto, puedes leerla usando el procedimiento indicado arriba.
 
-# ¿Cómo hacemos los Pull Requests (pr) con GitHub CLI?
+### ¿Cómo hacemos los Pull Requests (pr) con GitHub CLI?
 
 Para crear un Pull Request, puedes seguir estos pasos. Supongo que has instalado y configurado Git y GitHub CLI en tu sistema como se explico anteriormente.
 
@@ -318,7 +319,7 @@ Así es como se ha creado una rama llamada es en tu repositorio.
 luego pulsas Intro.    
 Nota: `-w` significa que deseas abrir el navegador.    
 Una vez que hayas ingresado este comando, se te abrirá la página web del repositorio para crear el Pull Request sin necesidad de buscarla entre los enlaces del  repositorio de GitHub. El foco seguramente se situará en el título. Pulsas  la tecla de Tabulación para ir al cuadro de edición multilínea, haces el comentario que quieras o rellenas el template (plantilla) que se proporcione si disponible (en inglés), por ejemplo, en el repositorio de Noelia esta plantilla tiene signos de almoadilla que indican la información que se pide.    
-Exploras con el cursor y debajo de los encabezados, que comienzan con dos `##`, scribes los datos en inglés:    
+Exploras con el cursor y debajo de los encabezados, que comienzan con dos `##`, escribes los datos en inglés:    
 `Link to issue number:`    
 `None`    
 `## Summary of the issue:`    
@@ -339,7 +340,7 @@ Más abajo encontrarás un enlace  con más información en inglés sobre la cre
 
 <https://cli.github.com/manual/gh_pr_create>
 
-# Consejos al vuelo.
+### Consejos al vuelo.
 
 1. Primer reflejo que siempre debes tener cuando estás en el repositorio que acabas de bifurcar y clonar.    
 Ingresas el siguiente comando:    
