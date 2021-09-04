@@ -18,7 +18,6 @@ El evento fue moderado por Carlos Eduardo Monge Salamanca, a quien agradezco la 
 <div id="ableplayer">
 <h3>Reproductor multimedia</h3>
 <video id="video1" data-able-player preload="metadata" data-heading-level="0" data-lyrics-mode data-transcript-title="Transcripción" data-skin="2020" playsinline data-youtube-id="mTgfMpY-fpU" data-description-audible="false" 
-data-transcript-div="transcript"
 >
 <a href"https://www.youtube.com/embed/mTgfMpY-fpU"
 <track kind="captions" src="https://nvdaes.github.io/linkedFiles/conversatiflo26.vtt" srclang="es" label="ponentes"/>
