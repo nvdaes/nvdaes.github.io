@@ -38,9 +38,9 @@ data-transcript-div="transcript"
 <h3>Descargar transcripciones generadas automáticamente</h3>
 <p>Estas transcripciones no han sido revisadas, y contendrán errores y omisiones tanto en su contenido como en la puntuación. Se incluyen únicamente como material orientativo, por no disponer del tiempo y de los medios para ofrecer un trabajo de calidad aceptable.</p>
 <ul>
-<li><a title="txt" href="https://nvdaes.github.io/linkedFiles/conversatiflo26.txt">Transcripción en txt</a></li>
-<li><a title="vtt" href="https://nvdaes.github.io/linkedFiles/conversatiflo26.vtt">Transcripción en vtt</a></li>
-<li><a title="srt" href="https://nvdaes.github.io/linkedFiles/conversatiflo26.srt">Transcripción en srt</a></li>
+<li><a download title="txt" href="https://nvdaes.github.io/linkedFiles/conversatiflo26.txt">Transcripción en txt</a></li>
+<li><a download title="vtt" href="https://nvdaes.github.io/linkedFiles/conversatiflo26.vtt">Transcripción en vtt</a></li>
+<li><a download title="srt" href="https://nvdaes.github.io/linkedFiles/conversatiflo26.srt">Transcripción en srt</a></li>
 </ul>
 </div>
 </div>
