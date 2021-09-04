@@ -21,7 +21,7 @@ El evento fue moderado por Carlos Eduardo Monge Salamanca, a quien agradezco la 
 data-transcript-div="transcript"
 >
 <a href"https://www.youtube.com/embed/mTgfMpY-fpU"
-<track kind="captions" src="https://nvdaes.github.io/linkedFiles/conversatiflo26.srt" lang="es" label="ponentes"/>
+<track kind="captions" src="https://nvdaes.github.io/linkedFiles/conversatiflo26.vtt" srclang="es" label="ponentes"/>
 </video>
 <!-- Dependencies -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
