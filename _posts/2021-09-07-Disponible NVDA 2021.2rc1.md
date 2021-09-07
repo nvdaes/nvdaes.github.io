@@ -2,7 +2,7 @@
 title: Disponible NVDA 2021.2rc1
 permalink: "/nvda-2021-2rc1/"
 layout: post
-commentsId: 29
+commentsId: 30
 author: Noelia
 ---
 
