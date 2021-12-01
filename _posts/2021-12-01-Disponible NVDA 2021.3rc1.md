@@ -1,6 +1,6 @@
 ---
 title: Disponible NVDA 2021.3rc1
-permalink: "/nvda-2021-2rc1/"
+permalink: "/nvda-2021-3rc1/"
 layout: post
 commentsId: 32
 author: Noelia
