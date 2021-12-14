@@ -16,7 +16,7 @@ Si no se encuentran problemas graves, esta versión será idéntica a la siguien
 
 ### Cambios desde 2021.3
 
-- La indicación de regiones como "principal", "navegación", etc. vuelve a aparecer abreviada en braille.
+- La indicación de regiones como "principal", "navegación", etc., vuelve a aparecer abreviada en braille.
 - Se corrige una autodetección inestable de pantallas braille Humanware Brailliant y APH Mantis Q40 al usar Bluetooth.
 
 ### Novedades destacadas
