@@ -34,114 +34,88 @@ entries.forEach(entry => {
 commentsObserver.observe(commentsSection);
 
 
-function fetchComments() {
-  fetch(
-    'https://api.github.com/repos/{{ issues_repo }}/issues/{{ issue_id }}/comments'
-  )
-    .then(blob => blob.json())
-    .then(initRenderComments)
-    .catch(e => {
-      commentsWrapper.innerHTML = `<p>No ha sido posible obtener los comentarios de este post. Inténtalo más tarde.</p>`;
-    });
+const fetchComments = async () => {
+  try {
+    const comments = await (await fetch(
+      'https://api.github.com/repos/{{ issues_repo }}/issues/{{ issue_id }}/comments'
+    )).json();
+    initRenderComments(comments);
+  } catch (e) {
+    commentsWrapper.innerHTML = `<p>Unable to retrieve the comments for this post.</p>`;
+  }
 }
 
-const commentScripts = {
-  //moment: {
-    // src: 'https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/locale/es.min.js',
-    // loaded: false,
-  //},
-  marked: {
-    src: 'https://cdn.jsdelivr.net/npm/marked/marked.min.js',
-    loaded: false,
-  },
-  purify: {
-    src: '../scripts/purify.min.js',
-    loaded: false,
-  },
-};
+const loadScript = (src) => {
+  const scriptElement = document.createElement('script');
+  document.body.appendChild(scriptElement);
 
-/**
-* @returns {Boolean} true if all comment script dependencies have loaded, and false otherwise
-*/
-function allCommentScriptsLoaded() {
-  return Object.keys(commentScripts).every(scriptName => commentScripts[scriptName].loaded);
+  return new Promise((resolve) => {
+    scriptElement.onload = resolve;
+
+    // Important to register onload before setting src
+    scriptElement.src = src;
+  });
 }
 
-/**
-* Called after the GitHub API request finishes.
-* @param {Array<Object>} comments - an array of objects representing GitHub comments
-*/
-function initRenderComments(comments) {
+const commentScripts = [
+  'https://unpkg.com/marked@0.3.6/marked.min.js',
+  'https://unpkg.com/dompurify@1.0.8/dist/purify.min.js',
+  // 'https://unpkg.com/dayjs@1.8.21/dayjs.min.js',
+  // 'https://unpkg.com/dayjs@1.7.8/plugin/relativeTime.js',
+];
+
+const initRenderComments = async (comments) => {
   if (!comments.length) {
     commentsWrapper.innerHTML = `<p>Aún no hay comentarios. ¡Publica tú el primero!</p>`;
     return;
   }
+  await Promise.all(commentScripts.map((script) => loadScript(script)));
+  renderComments(comments);
+}
+const renderComments = (comments) => {
+  // load the relativeTime plugin for dayjs so we can express dates relative to now
+  // dayjs.extend(dayjs_plugin_relativeTime);
 
-  // Load all comment script dependencies async
-  Object.keys(commentScripts).forEach(script =>
-    loadCommentScript(commentScripts[script], () => renderComments(comments))
-  );
+  commentsCount.innerText = `(${comments.length})`;
+
+  const commentsList = document.createElement('ol');
+  commentsList.className = 'comments-list';
+  commentsList.setAttribute('aria-label', 'Comentarios');
+
+  commentsList.innerHTML = comments
+  .sort((comment1, comment2) => {
+    return comment1.created_at < comment2.created_at ? 1 : -1;
+  })
+  .map(comment => {
+    const datePosted = convertDate(comment.created_at);
+    const user = comment.user;
+    const body = DOMPurify.sanitize(marked(comment.body));
+    const postedByAuthor = comment.author_association === 'OWNER';
+    const edited = comment.created_at !== comment.updated_at;
+
+    return `<li class="comment">
+                <div class="commenter">
+                    <img src="${user.avatar_url}" alt="" aria-hidden="true" class="meta avatar" />
+                    <a
+                        href="https://github.com/${user.login}"
+                        class="meta username"
+                        >${user.login}</a
+                    >
+                    <div class="meta date-posted">comentó <time datetime="${comment.created_at}">${datePosted}</time></div>
+                    ${postedByAuthor ? '<span class="meta tag author-badge">Author</span>' : ''}
+                    ${edited ? `<span class="meta comment-edited">Edited</span>` : ''}
+                </div>
+                <div class="comment-body">${body}</div>
+            </li>`;
+  })
+  .join('');
+
+  commentsWrapper.innerHTML = '';
+  commentsWrapper.appendChild(commentsList);
 }
 
-/**
-* @param {Object} script - the script to load async
-* @param {function} callback - a function to call once the script has loaded
-*/
-function loadCommentScript(script, callback) {
-  const scriptElement = document.createElement('script');
-  scriptElement.src = script.src;
-  document.body.appendChild(scriptElement);
 
-  scriptElement.onload = () => {
-      script.loaded = true;
-      callback();
-  };
-}
-
-/**
-* @param {Array<Object>} comments - an array of objects representing GitHub comments
-*/
-function renderComments(comments) {
-  if (!allCommentScriptsLoaded()) return;
-
-    commentsCount.innerText = `(${comments.length})`;
-
-    const commentsList = document.createElement('ol');
-    commentsList.className = 'comments-list';
-    // commentsList.setAttribute('aria-label', 'Comentarios para este post');
-
-    commentsList.innerHTML = comments
-    .sort((comment1, comment2) => {
-      return comment1.created_at < comment2.created_at ? 1 : -1;
-    })
-    .map(comment => {
-      const user = comment.user;
-      const datePosted = convertDate(comment.created_at);
-      const body = DOMPurify.sanitize(marked(comment.body));
-      const postedByAuthor = comment.author_association === 'OWNER';
-      const edited = comment.created_at !== comment.updated_at;
-
-      return `<li class="comment"><article>
-                  <div class="commenter">
-                      <img src="${user.avatar_url}" alt="" aria-hidden="true" class="meta avatar" />
-                      <a
-                          href="https://github.com/${user.login}"
-                          class="meta username"
-                          >${user.login}</a
-                      >
-                      <div class="meta date-posted"><time datetime="${comment.created_at}">${datePosted}</time></div>
-                      ${edited ? `<span class="meta comment-edited">Editado</span>` : ''}
-                  </div>
-                  <div class="comment-body">${body}</div></article>
-              </li>`;
-    })
-    .join('');
-    
-    commentsWrapper.innerHTML = '';
-    commentsWrapper.appendChild(commentsList);
-}
-
-function convertDate(originalDate) {
+const convertDate = (originalDate)=> {
     let date = new Date(originalDate);
 	let day = date.getDate();
 	let month = date.getMonth() + 1;
