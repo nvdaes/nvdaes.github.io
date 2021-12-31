@@ -10,59 +10,60 @@
 
   gtag('config', 'UA-71732871-2');
 </script>
-      <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
+	  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
 
-    {% include meta.html %}
+	{% include meta.html %}
 
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+	<!--[if lt IE 9]>
+	  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+	<link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+	<!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
   <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
+	<div class="wrapper-masthead">
+	  <div class="container">
+		<header class="masthead clearfix">
+		  <div class="site-info">
+			<h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+			<p class="site-description">{{ site.description }}</p>
 
-			<p><a id="directDownload" accesskey="0" href="http://www.nvaccess.org/download/nvda/releases/2021.3.1/nvda_2021.3.1.exe" title="Descarga NVDA desde el servidor de NV Access">Descarga directa de NVDA 2021.3.1</a></p>
-          </div>
+			<p id="directDownload">Generando enlace a la última versión de NVDA...</p>
+		  </div>
     <div role="search">
 <script async src="https://cse.google.com/cse.js?cx=3e55493782dd795d8"></script>
 <div class="gcse-search"></div>
 
 </div>
-          <nav>
-            <a accesskey="1" id="inicio" href="{{ site.baseurl }}/">Inicio</a>
-            <a accesskey="2" id="ayuda" href="{{ site.baseurl }}/ayuda">Ayuda</a>
+		  <nav>
+			<a accesskey="1" id="inicio" href="{{ site.baseurl }}/">Inicio</a>
+			<a accesskey="2" id="ayuda" href="{{ site.baseurl }}/ayuda">Ayuda</a>
 			<a accesskey="3" id="lista" href="/lista/">Lista de correo de NVDA en Groups.io</a>
 						<a accesskey="4" href="https://addons.nvda-project.org">Complementos de NVDA</a>
 			<a accesskey="5" href="https://nvaccess.org" hreflang="en">NV Access</a>
 			<a accesskey="6" href="https://certification.nvaccess.org" hreflang="en">Sistema de certificación de conocimientos sobre NVDA</a>
-          </nav>
-        </header>
-      </div>
-    </div>
+		  </nav>
+		</header>
+	  </div>
+	</div>
 
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
+	<div id="main" role="main" class="container">
+	  {{ content }}
+	</div>
 
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer id="footer" class="footer">
+	<div class="wrapper-footer">
+	  <div class="container">
+		<footer id="footer" class="footer">
 		<p>Web creada a partir del antiguo <a href="http://nvdaes.blogspot.com.es/">blog de la comunidad hispanohablante de NVDA</a></p>
-       {% include svg-icons.html %}
-        </footer>
-      </div>
-    </div>
+	   {% include svg-icons.html %}
+		</footer>
+	  </div>
+	</div>
 	<script src="../scripts/footer.js"></script>
+	<script src="../scripts/directDownload.js"></script>
   </body>
 </html>
 
