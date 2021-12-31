@@ -7,4 +7,5 @@ const getDownloadUrl = async () => {
 	}
 }
 
-document.getElementById("directDownload").innerText = `${getDownloadUrl()}`
+const releaseName = getDownloadUrl();
+document.getElementById("directDownload").innerText = `${releaseName}`;
