@@ -27,6 +27,8 @@ Para mí, los primeros documentos de referencia, que aportan una base sobre la q
 Descarga y mira el código fuente de NVDA y de otros complementos para encontrar sugerencias que te ayudarán a desarrollar los tuyos.
 
 - [repositorio de NVDA](https://github.com/nvaccess/nvda)
+- [Ejemplos de código (repositorio de Alberto Buffolino)](https://github.com/ABuffEr/nvdaExamples)
+- [Hilo iniciado por Alberto en la lista de correo de complementos sobre ejemplos de código](https://nvda-addons.groups.io/g/nvda-addons/topic/88033994)
 
 ### Consejos básicos ###
 
