@@ -116,7 +116,7 @@ Puedes suscribirte enviando un correo a `nvda-addons+subscribe@nvda-addons.group
 </div>
 
 
-Para que tu complemento se publique en la web de la comunidad internacional, crea una solicitud (pull request) en el [repositorio addonFiles](https://github.com/nvaccess/addonFiles) para que NV Access, previa revisión y aprobación por parte de Joseph Lee o mía, que en este momento estamos a cargo de esta tarea (llamada triaje), lo incluya en el sitio web de la comunidad.
+si quieres publicar tu complemento en la web de la comunidad internacional, crea una solicitud (pull request) en el [repositorio addonFiles](https://github.com/nvaccess/addonFiles) para que NV Access, previa revisión y aprobación por parte de Joseph Lee o mía, que en este momento estamos a cargo de esta tarea (llamada triaje), lo incluya en el sitio web de la comunidad.
 Joseph Lee es el creador de la lista de correo internacional de complementos.
 
 - [Joseph en GitHub](https://github.com/josephsl)
