@@ -6,7 +6,7 @@ author: Noelia
 commentsId: 15
 ---
 
-<footer>Sábado, 19 de junio de 2021 (actualizado a 1 de enero de 2022)</footer>
+<footer>Sábado, 19 de junio de 2021 (actualizado a 3 de enero de 2022)</footer>
 
 Nuestro compañero Ramón, coautor de este blog, tuvo la estupenda idea de crear un post con sugerencias útiles para crear complementos, como se puede ver en este [mensaje enviado a nuestra lista de correo](https://nvdaes.groups.io/g/lista/message/2161).
 
@@ -48,7 +48,7 @@ Para mantener complementos y crear el archivo binario (.nvda-addon), se recomien
 
 ### Mantenimiento en GitHub ##
  
-GitHub es la plataforma donde se desarrolla NVDA y, si en un futuro este proyecto se pone en marcha, podría ser necesaria (o al menos estar recomendada) para publicar complementos en este [repositorio de NV Access para compartir complementos](https://github.com/nvaccess/addon-store-submission). Se puede encontrar más información en el apartado "Too Long; Didn't Read for Addon authors".
+GitHub es la plataforma donde se desarrolla NVDA y, si en un futuro este proyecto se pone en marcha, podría ser necesaria (o al menos estar recomendada) para publicar complementos en este [repositorio de NV Access para compartir complementos](https://github.com/nvaccess/addon-datastore). Se puede encontrar más información en el apartado "Too Long; Didn't Read for Addon authors".
  
 #### GitHub Actions 
  
@@ -91,12 +91,12 @@ Estos son los [documentos de ayuda para mis proyectos](https://github.com/nvdaes
 
 En la web de complementos de la comunidad internacional se explica cómo pedir la inclusión de un complemento.
 
-Para ello, suscríbete a la [lista de correo de complementos](https://nvda-addons.groups.io/g/nvda-addons) y pide una revisión de los complementos que quieras compartir.
+Para ello, es aconsejable suscribirse a la [lista de correo de complementos](https://nvda-addons.groups.io/g/nvda-addons).
 
-Allí también podrás:
+Allí podrás:
 
-- Pedir ayuda para crear o mejorar tus complementos.
-- Compartir tu experiencia sobre complementos de otras personas, especialmente cuando pidan que su trabajo sea revisado.
+- Pedir y ofrecer ayuda para crear o mejorar complementos.
+- Compartir experiencias sobre tus complementos o los de otras personas.
 
 Puedes suscribirte enviando un correo a `nvda-addons+subscribe@nvda-addons.groups.io` o mediante este formulario de suscripción
 
@@ -116,7 +116,7 @@ Puedes suscribirte enviando un correo a `nvda-addons+subscribe@nvda-addons.group
 </div>
 
 
-Cuando tu complemento haya sido aceptado, podrás crear una solicitud (pull request) en el [repositorio addonFiles](https://github.com/nvaccess/addonFiles) para que NV Access, previa revisión y aprobación por parte de Joseph Lee o mía, que en este momento estamos a cargo de esta tarea (llamada triaje), lo incluya en el sitio web de la comunidad.
+Para que tu complemento se publique en la web de la comunidad internacional, crea una solicitud (pull request) en el [repositorio addonFiles](https://github.com/nvaccess/addonFiles) para que NV Access, previa revisión y aprobación por parte de Joseph Lee o mía, que en este momento estamos a cargo de esta tarea (llamada triaje), lo incluya en el sitio web de la comunidad.
 Joseph Lee es el creador de la lista de correo internacional de complementos.
 
 - [Joseph en GitHub](https://github.com/josephsl)
