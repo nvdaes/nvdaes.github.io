@@ -22,7 +22,7 @@ Si ya usas NVDA, puedes configurarlo para *buscar las actualizaciones automátic
 - El perfil del sistema público de NVDA podía alterarse con gestos de entrada inesperados o reemplazos en el diccionario. Para evitarlo, los diálogos Gestos de entrada, Diccionario predeterminado, Diccionario por voces y Diccionario temporal están desactivados en modo seguro.
 
 ### Más información sobre seguridad
-- Para saber más, puedes ponerte enn contacto con NV Access escribiendo a info@nvaccess.org
+- Para saber más, puedes ponerte en contacto con NV Access escribiendo a info@nvaccess.org
 - Aquí se publican [errores de seguridad resueltos en NVDA](https://github.com/nvaccess/nvda/security/advisories)
 
 Si encuentras algún fallo de seguridad en NVDA, en alguno de sus complementos o en otras aplicaciones, informa en privado a las personas responsables para que haya tiempo de debatir sobre el problema y solucionarlo sin dar pistas públicas. Una vez resuelto, podrá publicarse el error, como se menciona en la [documentación sobre seguridad en GitHub](https://docs.github.com/es/code-security/repository-security-advisories/about-github-security-advisories-for-repositories)
