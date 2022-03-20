@@ -6,7 +6,7 @@ author: Noelia
 commentsId: 15
 ---
 
-<footer>Sábado, 19 de junio de 2021 (actualizado a 3 de enero de 2022)</footer>
+<footer>Sábado, 19 de junio de 2021 (actualizado a 20 de marzo de 2022)</footer>
 
 Nuestro compañero Ramón, coautor de este blog, tuvo la estupenda idea de crear un post con sugerencias útiles para crear complementos, como se puede ver en este [mensaje enviado a nuestra lista de correo](https://nvdaes.groups.io/g/lista/message/2161).
 
@@ -57,12 +57,15 @@ Yo utilizo GitHub Actions para automatizar tareas como las siguientes:
 - Usar Flake8 para comprobar que el código fuente (sintaxis, longitud de líneas, etc.) cumple los estándares del propio NVDA. Así puedo detectar algunos errores cuando alguien (y sobre todo yo misma) propone cambios en pull requests o en la rama principal.
 - Generar un archivo binario (.nvda-addon) y un registro de NVDA cuando se inicia con el complemento descomprimido en la carpeta de configuración, y comprobar que todos los mensajes marcados con _() (para que se puedan traducir) tengan su correspondiente comentario, para facilitar el trabajo del equipo de traducción, requisito que también se comprueba en NVDA.
 - Incluir periódicamente los archivos enviados por el equipo de traducción, y generar versiones de prueba con el código disponible en la rama principal una vez a la semana y cuando hago cambios en esta rama.
-- Generar versiones estables o "prereleases" automáticamente (con su archivo .nvda-addon listo para ser descargado) cuando subo a GitHub etiquetas (tags).
+- Generar versiones estables o "prereleases", con su archivo .nvda-addon y un archivo de texto que contiene el SHA-256 para poder comprobar la integridad del complemento, esto es, que el archivo descargado coincide con el disponible en GitHub.
  
 Hace tiempo escribí este [Artículo sobre GitHub Actions](https://github.com/nvdaaddons/nvdaaddons.github.io/wiki/GitHubActions)] 
 
+
 Agradezco a mesar Hameed y a Oleksandr Gryshchenko la ayuda que me han prestado, entre otras cosas, con esta herramienta de GitHub.
- 
+
+Por su parte, Cyrille Bougot me comentó que un enlace del artículo sobre GitHub Actions no funcionaba, así que ayer actualicé el artículo. Ahora resultará más fácil mantener los ficheros .yaml, gracias a la posibilidad de [reutilizar flujos de trabajo en GitHub](https://docs.github.com/es/actions/using-workflows/reusing-workflows).
+
 ##### Mesar
  
 Mesar creó un sistema de traducción para NVDA y sus complementos, y fue la persona que me invitó a colaborar en el equipo de complementos internacional cuando estaba alojado en Bitbucket. Colaboró en NVDA y en complementos como Emoticons (de Chris y otros autores), readFeeds y teamViewer. Creó una primera versión de documentos como guideLines, ya mencionado, y el primer documento sobre el proceso de revisión de complementos.
@@ -76,7 +79,14 @@ Oleksandr es autor de complementos como NVDA Unmute, Check Input Gestures y Dicc
  
 - [Oleksandr en GitHub](https://github.com/grisov)
 - [pull request experimental con GitHub Actions](https://github.com/nvdaes/placemarkers/pull/26)
- 
+
+##### Cyrille
+
+Cyrille es autor de complementos como Outlook extended, Información del carácter y Lupa de Windows, también disponibles en la web internacional de complementos.
+
+- [Cyrille en GitHub](https://github.com/CyrilleB79)
+- [Hilo sobre cómo desactivar complementos en pantallas seguras](https://nvda-addons.groups.io/g/nvda-addons/message/18130), iniciado por Cyrille.
+
 #### Ayuda para colaborar
 
 Para mí es gratificante que mis proyectos públicos sean de interés y útiles, y trato de propiciar que la gente colabore en ellos de forma cómoda. Por otra parte, he cerrado alguna solicitud de cambios (pull request) porque no entendía el propósito de los cambios propuestos. Para facilitar la colaboración de otras personas, uso plantillas para incidencias (issues) y solicitudes (pull requests), y un documento donde doy algunas ideas sobre la forma de hacer aportes.
