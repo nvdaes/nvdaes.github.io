@@ -6,7 +6,7 @@ commentsId: 40
 author: Noelia
 ---
 
-<footer>Jueves, 12 de mayo de 2022 (actualizado el jueves, 20 de mayo)</footer>
+<footer>Jueves, 12 de mayo de 2022 (actualizado el jueves, 19 de mayo)</footer>
 
 Como se explica en este [artículo de NV Access sobre NVDA 2022.1rc1](https://www.nvaccess.org/post/nvda-2022-1rc1/) (en inglés), se ha publicado esta versión candidata de NVDA.
 
