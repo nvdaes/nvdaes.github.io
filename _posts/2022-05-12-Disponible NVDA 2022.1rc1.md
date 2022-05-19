@@ -1,14 +1,21 @@
 ---
-title: Disponible NVDA 2022.1rc1
+title: Disponible NVDA 2022.1rc1 y 2
 permalink: "/nvda-2022-1rc1/"
 layout: post
 commentsId: 40
 author: Noelia
 ---
 
-<footer>Jueves, 12 de mayo de 2022</footer>
+<footer>Jueves, 12 de mayo de 2022 (actualizado el jueves, 20 de mayo)</footer>
 
 Como se explica en este [artículo de NV Access sobre NVDA 2022.1rc1](https://www.nvaccess.org/post/nvda-2022-1rc1/) (en inglés), se ha publicado esta versión candidata de NVDA.
+
+###Actualización:
+
+El jueves, 19 de mayo, [se ha publicado la versión NVDA 2022.1rc2](https://www.nvaccess.org/post/nvda-2022-1rc2/]
+
+[Descarga directa de NVDA 2022.1rc2](https://www.nvaccess.org/files/nvda/releases/2022.1rc2/nvda_2022.1rc2.exe)
+
 
 Las versiones "release candidate" (rc) se publican para que las personas usuarias de NVDA colaboren informando sobre errores que deberían corregirse antes de la publicación de la próxima versión estable. Por eso es importante que probemos las versiones rc de NVDA.
 
