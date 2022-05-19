@@ -10,9 +10,9 @@ author: Noelia
 
 Como se explica en este [artículo de NV Access sobre NVDA 2022.1rc1](https://www.nvaccess.org/post/nvda-2022-1rc1/) (en inglés), se ha publicado esta versión candidata de NVDA.
 
-###Actualización:
+### Actualización:
 
-El jueves, 19 de mayo, [se ha publicado la versión NVDA 2022.1rc2](https://www.nvaccess.org/post/nvda-2022-1rc2/]
+El jueves, 19 de mayo, [se ha publicado la versión NVDA 2022.1rc2](https://www.nvaccess.org/post/nvda-2022-1rc2/)
 
 [Descarga directa de NVDA 2022.1rc2](https://www.nvaccess.org/files/nvda/releases/2022.1rc2/nvda_2022.1rc2.exe)
 
