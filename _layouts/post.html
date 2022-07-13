@@ -14,6 +14,8 @@ comments: true
   {% include share.html %}
   {% if page.commentsId %}
     {% include comments.html issue_id=page.commentsId %}
+    {% elsif page.giscus %}
+	{% include giscus.html %}
     {% else %}
   {% include disqus.html %}
   {% endif %}
