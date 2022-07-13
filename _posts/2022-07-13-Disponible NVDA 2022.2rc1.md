@@ -27,5 +27,3 @@ También puedes enviar tus comentarios a nuestra lista de correo.
 
 Salud
 
-<section class="gitcus"><h2>Comentarios</h2>
-</section>
