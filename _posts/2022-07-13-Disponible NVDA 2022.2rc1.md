@@ -26,3 +26,6 @@ Se han introducido nuevos comandos para navegar por tablas. Se ha actualizado Un
 También puedes enviar tus comentarios a nuestra lista de correo.
 
 Salud
+
+<section class="gitcus"><h2>Comentarios</h2>
+</section>
