@@ -1,0 +1,17 @@
+name: Send Telegram notification
+
+on:
+  page_build:
+  
+jobs:
+  
+  telegram-notification:
+    runs-on: ubuntu-latest
+      
+    steps:
+      
+      - name: send default message
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_TO }}
+          token: ${{ secrets.TELEGRAM_TOKEN }}
