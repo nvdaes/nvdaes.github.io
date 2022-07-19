@@ -8,7 +8,7 @@ author: Noelia
 
 <footer>Martes, 19 de julio de 2022</footer>
 
-Ayer publiqué la versión 21.1 del complemento placeMarkers](https://github.com/nvdaes/placeMarkers/releases/tag/21.1).
+Ayer publiqué la [versión 21.1 del complemento placeMarkers](https://github.com/nvdaes/placeMarkers/releases/tag/21.1).
 
 Es una buena ocasión para agradecer a Abdel su excelente disposición y sus aportaciones a la comunidad internacional de NVDA.
 
