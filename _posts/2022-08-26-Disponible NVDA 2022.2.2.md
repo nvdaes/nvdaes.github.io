@@ -14,7 +14,7 @@ En esta versión se corrige un error introducido en NVDA 2022.2.1 relativo a ges
 
 NVDA 2022.2.1 resolvió un fallo de seguridad por el que, en Windows 10 y 11, se podía leer el escritorio mediante navegación de objetos y acceder a la consola Python desde la pantalla de bloqueo (<kbd>Windows+l</kbd>).
  
-Si detectas algún fallo de seguridad en NVDA, informa en privado a NV Access escribiendo a <address>info@nvaccess.org</address>.
+Si detectas algún fallo de seguridad en NVDA, informa en privado a NV Access escribiendo a info@nvaccess.org.
 
 NV Access recuerda que es buena idea reiniciar el PC después de actualizar cualquier software, ya que las actualizaciones pueden modificar archivos en uso y esto puede ocasionar problemas que se resuelven al reiniciar.
 
