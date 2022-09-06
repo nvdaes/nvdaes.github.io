@@ -9,7 +9,7 @@ layout: page
 
 ### Nota: ###
 
-Este artículo se actualizó por última vez en enero de 2022.
+Este artículo se actualizó por última vez en julio de 2022.
 
 ### Introducción ###
 
@@ -86,7 +86,7 @@ Más información:
 
 La versión de Kurzweil 3000 de licencia web ofrece una potente ayuda a estudiantes con diferencias en el acceso a la lectura como la dislexia. Es posible subir contenido, incluidas obras en EPUB 3, a la ‘Universal Library’, desde el ordenador local, Google Drive o Bookshare. También se puede usar una extensión de Chrome y Firefox para añadir funciones de lectura en voz alta al navegador, que pueden funcionar al leer EPUB en algunas plataformas de bibliotecas. En agosto de 2021, Kurweil empezó a implementar la nueva experiencia de lectura de EPUB, en principio para la suscripción web del cliente para escritorio de Mac. Esto proporciona acceso a contenido redimensionable, navegación mejorada y compatibilidad con multimedia.
 
-Lo que gustó a nuestros evaluadores: las características familiares en Kurzweil están disponibles en los ficheros EPUB, incluidos modos flexibles de lectura en voz alta, con voces de alta calidad, diccionario, diccionario de imágenes, tesaurus, traducciones y función de resaltados para estudiar. Se ofrecen varios colores de fondo. La tabla de contenido se encuentra en el menú Marcadorees y en una lista desplegable..
+Lo que gustó a nuestros evaluadores: las características familiares en Kurzweil están disponibles en los ficheros EPUB, incluidos modos flexibles de lectura en voz alta, con voces de alta calidad, diccionario, diccionario de imágenes, tesaurus, traducciones y función de resaltados para estudiar. Se ofrecen varios colores de fondo. La tabla de contenido se encuentra en el menú Marcadores y en una lista desplegable.
 
 Para tener en cuenta: Kurzweil 3000 es un servicio de pago por suscripción. Hay disponible una versión demo. El cliente de escritorio para Mac proporciona la mejor experiencia de lectura de EPUB. En otras plataformas hay que tener en cuenta ciertos aspectos: si el editor proporciona navegación por páginas, esto no estará disponible. El texto no se redimensiona como en lectores de EPUB convencionales. No es posible personalizar la fuente. No se admiten algunas funciones de navegación como los enlaces. 
 
@@ -96,7 +96,7 @@ Los libros electrónicos adquiridos desde la app de la tienda de libros de Googl
 
 Lo que gustó a nuestros evaluadores: es posible leer con la misma app tanto libros electrónicos como audiolibros. Hay varias formas de personalizar el aspecto visual, como diseños de colores, longitud de línea y espaciado. El sencillo diccionario incorporado (solo resalta una palabra) puede ser especialmente útil para personas con discapacidades específicas de aprendizaje.
 
-Para tener en cuenta: no se admite la lectura continua con TalkBack en android, de modo que se limita a lectura por pantallas. En iOS no está disponible la función de lectura en voz alta. En Android, la función de lectura en voz alta podría funcionar mejor al hacer pausas entre encabezados y párrafos, y es difícil controlar a partir de dónde comienza.
+Para tener en cuenta: no se admite la lectura continua con TalkBack en android, de modo que se limita a lectura por pantallas. En iOS no está disponible la función de lectura en voz alta. En Android, la lectura en voz alta podría funcionar mejor al hacer pausas entre encabezados y párrafos, y es difícil controlar a partir de dónde comienza.
 
 Más información:
 
@@ -157,11 +157,11 @@ Más información:
 
 #### [Voice Dream Reader](http://www.voicedream.com/reader/) ####
 
-Esta app especializada, disponible en iOS y Android, está diseñada para proporcionar muchas funciones que disfrutan las personas con discapacidades de acceso a la lectura. Se admiten varios formatos de archivos, además de EPUB.
+Esta app especializada para iOS está diseñada para proporcionar muchas funciones que disfrutan las personas con discapacidades de acceso a la lectura. Se admiten varios formatos de archivos, además de EPUB.
 
-Lo que gustó a nuestros evaluadores: se proporcionan muchas funciones para personas con discapacidades de acceso a material impreso, incluidas varias opciones para ajustes visuales y lectura en voz alta, y posibilidad de usar lector de pantalla en iOS.
+Lo que gustó a nuestros evaluadores: se proporcionan muchas funciones para personas con discapacidades de acceso a material impreso, incluidas varias opciones para ajustes visuales y lectura en voz alta, y posibilidad de usar lector de pantalla.
 
-Para tener en cuenta: la versión de iOS es más madura que la app de Android. Faltan algunas características importantes para lectores de material educativo, por ejemplo respecto a imágenes, tablas y enlaces. La compatibilidad con TalkBack en Android es deficiente. Es una aplicación de pago tanto en iOS como en Android.
+Para tener en cuenta: Faltan algunas características importantes para lectores de material educativo, por ejemplo respecto a imágenes, tablas y enlaces. Es una aplicación de pago.
 
 Más información:
 
