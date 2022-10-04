@@ -10,6 +10,131 @@
 <FONT SIZE="4">
 </FONT></CENTER>
 
+<H2>2022.3</H2>
+<P>
+La comunidad de desarrolladores de NVDA ha contribuido en gran medida a esta versión.
+Esto incluye el retraso de las descripciones de los caracteres y la mejora del soporte de la Consola de Windows.
+</P>
+<P>
+Esta versión también incluye varias correcciones de fallos.
+En particular, las versiones actualizadas de Adobe Acrobat/Reader ya no se bloquean al leer un documento PDF.
+</P>
+<P>
+eSpeak se ha actualizado, lo cual introduce tres idiomas nuevos: Bielorruso, Luxemburgués y Totontepec Mixe.
+</P>
+<H3>Nuevas Características</H3>
+<UL>
+<LI>En la Consola de Windows se utiliza Host por el Símbolo del Sistema, por PowerShell y por el subsistema de Windows para Linux en Windows 11 versión 22H2 (Sun Valley 2) y posterior:
+  <UL>
+  <LI>Rendimiento y estabilidad muy mejorados. (<A HREF="https://github.com/nvaccess/nvda/issues/10964" target="_blank">#10964</A>)
+  <LI>Al pulsar <CODE>control+f</CODE> para buscar texto, la posición del cursor de revisión se actualiza para seguir al término encontrado. (<A HREF="https://github.com/nvaccess/nvda/issues/11172" target="_blank">#11172</A>)
+  <LI>El anunciado del texto escrito que no aparezca en la pantalla (tal como las contraseñas) se deshabilita predeterminadamente. 
+Puede volver a habilitarse en el panel Avanzado de los ajustes de NVDA. (<A HREF="https://github.com/nvaccess/nvda/issues/11554" target="_blank">#11554</A>)
+  <LI>El texto que se haya desplazado fuera de la pantalla se puede revisar sin desplazar la ventana de la consola. (<A HREF="https://github.com/nvaccess/nvda/issues/12669" target="_blank">#12669</A>)
+  <LI>Está disponible más información detallada de formato de texto. (<A HREF="https://github.com/microsoft/terminal/pull/10336" target="_blank">microsoft/terminal PR 10336</A>)
+  </UL>
+<LI>Se ha añadido una nueva opción de Voz para leer las descripciones de caracteres tras un retraso. (<A HREF="https://github.com/nvaccess/nvda/issues/13509" target="_blank">#13509</A>)
+<LI>Se ha añadido una nueva opción de Braille para determinar si el desplazamiento hacia adelante o hacia atrás de la pantalla debería interrumpir la voz. (<A HREF="https://github.com/nvaccess/nvda/issues/2124" target="_blank">#2124</A>)
+</UL>
+
+<P></P>
+<H3>Cambios</H3>
+<UL>
+<LI>eSpeak NG se ha actualizado a 1.52-dev commit <CODE>9de65fcb</CODE>. (<A HREF="https://github.com/nvaccess/nvda/issues/13295" target="_blank">#13295</A>)
+  <UL>
+  <LI>Idiomas añadidos:
+    <UL>
+    <LI>Bielorruso
+    <LI>Luxemburgués
+    <LI>Totontepec Mixe
+    </UL>
+  </UL>
+<LI>Al utilizar UI Automation para acceder a controles de hoja de cálculo de Microsoft Excel, NVDA ahora puede anunciar cuando una celda está fusionada. (<A HREF="https://github.com/nvaccess/nvda/issues/12843" target="_blank">#12843</A>)
+<LI>En lugar de anunciar "tiene detalles" se incluye el propósito de los detalles cuando sea posible, por ejemplo "tiene comentarios". (<A HREF="https://github.com/nvaccess/nvda/issues/13649" target="_blank">#13649</A>)
+<LI>El tamaño de instalación de NVDA ahora se muestra en la sección Programas y Características de Windows. (<A HREF="https://github.com/nvaccess/nvda/issues/13909" target="_blank">#13909</A>)
+</UL>
+
+<P></P>
+<H3>Corrección de Fallos</H3>
+<UL>
+<LI>Adobe Acrobat / Reader de 64 bits ya no se bloqueará al leer un documento PDF. (<A HREF="https://github.com/nvaccess/nvda/issues/12920" target="_blank">#12920</A>)
+  <UL>
+  <LI>Ten en cuenta que es necesaria también la versión más actualizada de Adobe Acrobat / Reader para evitar el bloqueo.
+  </UL>
+<LI>Las medidas de tamaño de fuente ahora son traducibles en NVDA. (<A HREF="https://github.com/nvaccess/nvda/issues/13573" target="_blank">#13573</A>)
+<LI>Se ignoran los eventos de Java Access Bridge en los que no se pueda encontrar un manejador de ventana para las aplicaciones Java. 
+Esto mejorará el rendimiento para algunas aplicaciones Java incluyendo IntelliJ IDEA. (<A HREF="https://github.com/nvaccess/nvda/issues/13039" target="_blank">#13039</A>)
+<LI>El anunciado de celdas seleccionadas para LibreOffice Calc es más eficaz y ya no da lugar a la congelación de Calc cuando se seleccionen muchas celdas. (<A HREF="https://github.com/nvaccess/nvda/issues/13232" target="_blank">#13232</A>)
+<LI>Cuando se ejecute en un usuario diferente, Microsoft Edge ya no es inaccesible. (<A HREF="https://github.com/nvaccess/nvda/issues/13032" target="_blank">#13032</A>)
+<LI>Cuando el aumento brusco de velocidad esté desactivado, la velocidad de eSpeak no desciende más entre velocidades del 99% y 100%. (<A HREF="https://github.com/nvaccess/nvda/issues/13876" target="_blank">#13876</A>)
+<LI>Se ha corregido un fallo que permitía que se abrieran 2 diálogos de Gestos de Entrada. (<A HREF="https://github.com/nvaccess/nvda/issues/13854" target="_blank">#13854</A>)
+</UL>
+
+<P></P>
+<H3>Cambios para Desarrolladores</H3>
+<UL>
+<LI>Actualizado Comtypes a la versión 1.1.11. (<A HREF="https://github.com/nvaccess/nvda/issues/12953" target="_blank">#12953</A>)
+<LI>En compilaciones de la Consola de Windows (<CODE>conhost.exe</CODE>) con un nivel 2 de la API de NVDA (<CODE>FORMATTED</CODE>) o más grandes, tal como aquellos incluídos con Windows 11 versión 22H2 (Sun Valley 2), UI Automation ahora se utiliza por defecto. (<A HREF="https://github.com/nvaccess/nvda/issues/10964" target="_blank">#10964</A>)
+  <UL>
+  <LI>Esto se puede anular cambiando la opción "Soporte de la Consola de Windows" en el panel Avanzado de la configuración de NVDA.
+  <LI>Para encontrar tu nivel de API de NVDA para la Consola de Windows, configura "Soporte de Consola de Windows" a "UIA cuando esté disponible", entonces verifica que el registro esté abierto con NVDA+F1 desde una instancia de Consola de Windows en ejecución.
+  </UL>
+<LI>El Búfer virtual de Chromium ahora se carga incluso cuando el objeto documento tenga el MSAA <CODE>STATE_SYSTEM_BUSY</CODE> expuesto a través de IA2. (<A HREF="https://github.com/nvaccess/nvda/issues/13306" target="_blank">#13306</A>)
+<LI>Se ha creado un tipo específico de configuración <CODE>featureFlag</CODE> para utilizar con características experimentales en NVDA. Consulta <CODE>devDocs/featureFlag.md</CODE> para más información. (<A HREF="https://github.com/nvaccess/nvda/issues/13859" target="_blank">#13859</A>)
+</UL>
+
+<P></P>
+<H4>Obsolescencias</H4>
+<P>
+No se proponen obsolescencias en 2022.3.
+</P>
+<H2>2022.2.3</H2>
+<P>
+Este es un parche liberado para corregir una ruptura accidental de la API introducida en 2022.2.1.
+</P>
+<H3>Corrección de Fallos</H3>
+<UL>
+<LI>Corregido un fallo donde NVDA no anunciaba "Escritorio Seguro" al entrar en un escritorio seguro.
+Esto provocaba que NVDA remote no reconociera los escritorios seguros. (<A HREF="https://github.com/nvaccess/nvda/issues/14094" target="_blank">#14094</A>)
+</UL>
+
+<P></P>
+<H2>2022.2.2</H2>
+<P>
+Este es un parche liberado para corregir un fallo introducido en 2022.2.1 con los gestos de entrada.
+</P>
+<H3>Corrección de Fallos</H3>
+<UL>
+<LI>Corregido un fallo donde los gestos de entrada no siempre funcionaban. (<A HREF="https://github.com/nvaccess/nvda/issues/14065" target="_blank">#14065</A>)
+</UL>
+
+<P></P>
+<H2>2022.2.1</H2>
+<P>
+Esta es una versión menor para corregir un problema de seguridad.
+Por favor, comunica responsablemente los fallos de seguridad a <A HREF="mailto:info@nvaccess.org" target="_blank">info@nvaccess.org</A>.
+</P>
+<H3>Correcciones de Seguridad</H3>
+<UL>
+<LI>Se ha corregido un fallo por el que era posible ejecutar una consola python desde la pantalla de bloqueo. (GHSA-rmq3-vvhq-gp32)
+<LI>Se ha corregido el fallo por el que era posible escapar de la pantalla de bloqueo utilizando la navegación de objetos. (GHSA-rmq3-vvhq-gp32)
+</UL>
+
+<P></P>
+<H3>Cambios para desarrolladores</H3>
+<H4>Obsolescencias</H4>
+<P>
+Estas obsolescencias no se han programado actualmente para su eliminación.
+Los alias obsoletos permanecerán hasta nuevo aviso.
+Por favor, prueba la nueva API y proporciona retroalimentación.
+Para autores de complementos, por favor abrid una incidencia en GitHub si estos cambios impiden que la API satisfaga vuestras necesidades.
+</P>
+<UL>
+<LI><CODE>appModules.lockapp.LockAppObject</CODE> debería reemplazarse con <CODE>NVDAObjects.lockscreen.LockScreenObject</CODE>. (GHSA-rmq3-vvhq-gp32)
+<LI><CODE>appModules.lockapp.AppModule.SAFE_SCRIPTS</CODE> debería reemplazarse con <CODE>utils.security.getSafeScripts()</CODE>. (GHSA-rmq3-vvhq-gp32)
+</UL>
+
+<P></P>
 <H2>2022.2</H2>
 <P>
 Esta versión incluye muchas correcciones de fallos.
@@ -66,7 +191,7 @@ Se ha actualizado LibLouis, lo que incluye una tabla braille alemana nueva .
   <LI>NVDA ahora identificará la ventana en una aplicación Java con varias ventanas. (<A HREF="https://github.com/nvaccess/nvda/issues/9184" target="_blank">#9184</A>)
   <LI>NVDA ahora anunciará información de la posición para controles de pestaña. (<A HREF="https://github.com/nvaccess/nvda/issues/13744" target="_blank">#13744</A>)
   </UL>
-<LI>Corecciones de braille:
+<LI>Correcciones de braille:
   <UL>
   <LI>Corregida la salida braille al navegar por cierto texto en conroles de edición enriquecidos de Mozilla, como redactar un mensaje en Thunderbird. (<A HREF="https://github.com/nvaccess/nvda/issues/12542" target="_blank">#12542</A>)
   <LI>Cuando se sigue al braille automáticamente y el ratón se mueve con el seguimiento del ratón habilitado,
@@ -89,7 +214,6 @@ Se ha actualizado LibLouis, lo que incluye una tabla braille alemana nueva .
 NVDA anunciará resultados cuando se pulsen más órdenes, tales como órdenes del modo científico. (<A HREF="https://github.com/nvaccess/nvda/issues/13386" target="_blank">#13386</A>)
 <LI>En Windows 11, es posible de nuevo navegar e interactuar con elementos de la interface de usuario 
 tales como Barra de tareas y visualizador de Tareas utilizando interacción de ratón y táctil. (<A HREF="https://github.com/nvaccess/nvda/issues/13508" target="_blank">#13508</A>)
-<LI>El texto oculto ya no se anuncia en Wordpad y otros controles <CODE>enriquecidos</CODE>. (<A HREF="https://github.com/nvaccess/nvda/issues/13618" target="_blank">#13618</A>)
 <LI>NVDA anunciará el contenido de la barra de estado en Notepad en Windows 11. (<A HREF="https://github.com/nvaccess/nvda/issues/13386" target="_blank">#13386</A>)
 <LI>El resaltado del navegador de objetos ahora aparece inmediatamente tras la activación de la característica. (<A HREF="https://github.com/nvaccess/nvda/issues/13641" target="_blank">#13641</A>)
 <LI>Se corrige la lectura de los elementos de la vista de lista de una sola columna. (<A HREF="https://github.com/nvaccess/nvda/issues/13659" target="_blank">#13659</A>, <A HREF="https://github.com/nvaccess/nvda/issues/13735" target="_blank">#13735</A>)
@@ -1094,7 +1218,7 @@ Lo reseñable de esta versión incluye el soporte de una nueva pantalla braille 
 <LI>NVDA ya no anuncia los mensajes "izquierda" y "derecha" al mover el cursor de revisión directamente al primer o último carácter del actual navegador de objetos con los scripts mover cursor de revisión a la izquierda o a la derecha respectivamente. (<A HREF="https://github.com/nvaccess/nvda/issues/9551" target="_blank">#9551</A>)
 </UL>
 
-<H3>Corección de Errores</H3>
+<H3>Corrección de Errores</H3>
 <UL>
 <LI>NVDA ahora arranca correctamente cuando el fichero de registro no se pueda crear. (<A HREF="https://github.com/nvaccess/nvda/issues/6330" target="_blank">#6330</A>)
 <LI>En versiones recientes de Microsoft Word 365, NVDA ya no anunciará "borrar palabra atrás" cuando se pulse Control+Retroceso mientras se edita un documento. (<A HREF="https://github.com/nvaccess/nvda/issues/10851" target="_blank">#10851</A>)
@@ -2599,7 +2723,7 @@ Lo reseñable de esta  versión incluye la capacidad de leer gráficos en  Micro
 
 <H2>2015.1</H2>
 <P>
-Lo reseñable en esta versión  incluye el modo exploración para documentos en Microsoft Word y Outlook; mejoras mayores al soporte para Skype para Escritorio; y corecciones significativas para Microsoft Internet Explorer.
+Lo reseñable en esta versión  incluye el modo exploración para documentos en Microsoft Word y Outlook; mejoras mayores al soporte para Skype para Escritorio; y correcciones significativas para Microsoft Internet Explorer.
 </P>
 <H3>Nuevas Características</H3>
 <UL>
