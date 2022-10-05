@@ -1,9 +1,9 @@
 const downloadParagraph = document.getElementById("downloadParagraph");
 const downloadLink = document.getElementById("directDownload");
 const button = document.createElement("button");
-button.textContent = "Copiar enlace de descarga";
+button.innerText = "Copiar enlace de descarga";
 
-button.addEventListener("click", copyUrl);
+// button.addEventListener("click", copyUrl);
 
 const copyUrl = () => {
 	try {
