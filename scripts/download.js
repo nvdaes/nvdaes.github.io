@@ -1,11 +1,11 @@
 const downloadParagraph = document.getElementById("downloadParagraph");
 const downloadLink = document.getElementById("directDownload");
 const button = document.createElement("button");
-button.innerText = "Copiar enlace de descarga";
+button.textContent = "Copiar enlace de descarga";
 
-// button.addEventListener("click", copyUrl);
+button.addEventListener("click", copyUrl);
 
-const copyUrl = () => {
+function copyUrl() {
 	try {
 		navigator.clipboard.writeText(downloadLink.getAttribute("href"));
 		alert("Enlace copiado");
