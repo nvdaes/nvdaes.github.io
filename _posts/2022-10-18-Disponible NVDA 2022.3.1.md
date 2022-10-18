@@ -20,7 +20,7 @@ Se han corregido los siguientes fallos:
 - Podía abrirse la consola Python de NVDA en la pantalla de bloqueo. Esto requería que la pantalla de bloqueo estuviera habilitada.
 - La salida del visualizador de voz permanecía accesible en la pantalla de bloqueo. Esto requería que la pantalla de bloqueo estuviera habilitada, y tener abierto el visualizador de voz al bloquear Windows.
 
-Al tratarse de una versión de mantenimiento, el documento Qué hay de nuevo no se ha traducido para esta versión. Por ello, al usar NVDA en idiomas distintos del inglés, en este documento, disponible en el submenú Ayuda del menú NVDA, la última versión reflejada será 2022.2.
+Al tratarse de una versión de mantenimiento, el documento Qué hay de nuevo no se ha traducido para esta versión. Por ello, al usar NVDA en idiomas distintos del inglés, en este documento, disponible en el submenú Ayuda del menú NVDA, la última versión reflejada será 2022.3.
 
 La versión actual correcta siempre puede obtenerse accediendo al diálogo Acerca de, disponible en el submenú Ayuda del menú NVDA.
 
@@ -33,4 +33,5 @@ Puedes consultar:
 - [qué hay de nuevo](https://nvdaes.github.io/changes.html)
 - [guía de NVDA](https://nvdaes.github.io/userGuide.html)
 - [Cómo deshabilitar la pantalla de bloqueo](https://github.com/nvaccess/nvda/security/advisories/GHSA-rmq3-vvhq-gp32) (en inglés)
+
 Salud
