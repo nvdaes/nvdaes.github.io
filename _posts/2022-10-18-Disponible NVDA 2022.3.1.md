@@ -32,5 +32,5 @@ Puedes consultar:
 
 - [qué hay de nuevo](https://nvdaes.github.io/changes.html)
 - [guía de NVDA](https://nvdaes.github.io/userGuide.html)
-
+- [Cómo deshabilitar la pantalla de bloqueo](https://github.com/nvaccess/nvda/security/advisories/GHSA-rmq3-vvhq-gp32) (en inglés)
 Salud
