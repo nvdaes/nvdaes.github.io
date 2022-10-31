@@ -4,7 +4,9 @@ const lastReleaseUrl = 'https://api.github.com/repos/nvaccess/nvda/releases/late
 const lastRelease = async () => {
   const response =await fetch(lastReleaseUrl);
   const json = await response.json();
-  await directDownload.setAttribute('title', 'test');
+  const releaseName = await json.name;
+  const version = await releaseName.substr(9);
+  await directDownload.setAttribute('ref', `https://www.nvaccess.org/download/nvda/releases/${version}/nvda_${version}.exe`);
 }
 
 
