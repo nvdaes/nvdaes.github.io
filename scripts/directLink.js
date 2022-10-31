@@ -5,7 +5,7 @@ const lastRelease = async () => {
   const response =await fetch(lastReleaseUrl);
   const json = await response.json();
   const version = await json.name.substr(9);
-  await directDownload.setAttribute('href', version());  
+  await directDownload.setAttribute('title', version());  
 }
 
 
