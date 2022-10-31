@@ -1,6 +1,6 @@
 const directDownload = document.getElementById('downloadParagraph');
 const lastReleaseUrl = 'https://api.github.com/repos/nvaccess/nvda/releases/latest';
-const options = {cache: 'no-store'}
+const options = {cache: 'no-store'};
 
 const lastRelease = async () => {
   const response =await fetch(lastReleaseUrl, options);
