@@ -10,6 +10,7 @@ const lastRelease = async () => {
   await directLink.setAttribute('ref', `https://www.nvaccess.org/download/nvda/releases/${version}/nvda_${version}.exe`);
   await directLink.setAttribute('accesskey', '0');
   await directLink.innerText(`Descargar NVDA ${version}`);
+  await directDownload.appendChild(directLink);
 }
 
 
