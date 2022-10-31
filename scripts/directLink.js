@@ -1,8 +1,9 @@
 const directDownload = document.getElementById('downloadParagraph');
 const lastReleaseUrl = 'https://api.github.com/repos/nvaccess/nvda/releases/latest';
+const options = {cache: 'no-store'}
 
 const lastRelease = async () => {
-  const response =await fetch(lastReleaseUrl);
+  const response =await fetch(lastReleaseUrl, options);
   const json = await response.json();
   const releaseName = await json.name;
   const version = await releaseName.substr(8);
