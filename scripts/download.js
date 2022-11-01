@@ -1,17 +1,10 @@
-const downloadParagraph = document.getElementById("downloadParagraph");
 const downloadLink = document.getElementById("directDownload");
-const button = document.createElement("button");
-button.textContent = "Copiar enlace de descarga";
+const lastReleaseUrl = 'https://api.github.com/repos/nvaccess/nvda/releases/latest';
 
-button.addEventListener("click", copyUrl);
-
-function copyUrl() {
-	try {
-		navigator.clipboard.writeText(downloadLink.getAttribute("href"));
-		alert("Enlace copiado");
-	} catch (err) {
-		alert("No se ha podido copiar el enlace");
-	}
+const lastRelease = async() => {
+	const response = await fetch(lastReleaseUrl);
+	const data = await response.json();
+	const tagName = data["tag_name"];
+	const releaseNameForUrl =tagName.substr(9);
+	console.log(releaseNameForUrl);
 }
-
-downloadParagraph.appendChild(button);
