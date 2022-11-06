@@ -43,6 +43,7 @@ Powershell debería estar presente en casi todos los sistemas a partir de XP.
 - [Repositorio de NVDAVersionDownloader](https://github.com/ABuffEr/NVDAVersionDownloader)
 - [Conversación con Alberto sobre NVDASnapshotDownloader](https://github.com/ABuffEr/NVDASnapshotDownloader/pull/1)
 - [Mensaje de Chris sobre versión 3.0](https://nvdaes.groups.io/g/lista/message/1198)
+- [Mensaje de Noelia sobre versión 4.1](https://nvdaes.groups.io/g/lista/message/3105)
 
 
 @ABuffEr, <span lang="it">grazie mille</span>. :)
