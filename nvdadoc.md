@@ -36,16 +36,16 @@ Para que las características que se van incorporando a NVDA funcionen correctam
 
 Atendiendo a su grado de calidad o estabilidad, podemos distinguir los siguientes tipos de versiones:
 
-- Versiones de prueba "alpha", generadas cuando se incorporan nuevas características que podrían incluirse en la próxima versión estable. Estas versiones han superado algunos test automáticos que pueden evitar ciertos errores, pero no han sido probadas por personas que hayan informado sobre su experiencia o fallos no detectables automáticamente. Desde estas versiones, NVDA podrá actualizarse a otra versión alpha.
-- Versiones de prueba "beta", generadas a partir de versiones alpha anteriores, y publicadas unas semanas antes de la próxima versión estable. Las características de estas versiones han sido probadas durante algunas semanas, por lo que se espera que su estabilidad sea mayor que en las alpha. NVDA podrá actualizarse a versiones beta o a la próxima versión estable. Cuando NVDA se actualice a la siguiente estable, habrá que esperar varias semanas para poder descargar la siguiente beta.
-- Versiones "RC" (Release Candidate), publicadas una semana antes de la fecha prevista para la próxima versión estable, a fin de detectar y resolver posibles errores críticos. NVDA podrá actualizarse a otra versión RC o a la siguiente estable cuando esté disponible.
+- Versiones de prueba "alpha", generadas cuando se incorporan nuevas características que podrían incluirse en la próxima versión estable. Estas versiones han superado algunos test automáticos que pueden evitar ciertos errores, pero posiblemente no han sido probadas por personas que hayan informado sobre su experiencia o fallos no detectables automáticamente. Desde estas versiones, NVDA podrá actualizarse a otra versión alpha.
+- Versiones de prueba "beta", generadas a partir de versiones alpha anteriores, y publicadas unas semanas antes de la próxima versión estable. Las características de estas versiones han sido probadas durante, al menos, una semana, por lo que se espera que su estabilidad sea mayor que en las alpha. NVDA podrá actualizarse a versiones beta o a la próxima versión estable. Cuando NVDA se actualice a la siguiente estable, habrá que esperar varias semanas para poder descargar la siguiente beta.
+- Versiones "RC" (Release Candidate), publicadas al menos una semana antes de la fecha prevista para la próxima versión estable, a fin de detectar y resolver posibles errores críticos. NVDA podrá actualizarse a otra versión RC o a la siguiente estable cuando esté disponible.
 - Versiones estables, publicadas aproximadamente cada tres meses. Desde estas versiones NVDA se puede actualizar a otra versión estable (también llamada versión final).
 
 Algunas versiones beta, RC y las estables pueden descargarse desde la página principal de NV Access.
 
 También existe una [página para descargar versiones de prueba](https://www.nvaccess.org/files/nvda/snapshots/) (en inglés).
 
-Para facilitar el procedimiento, Alberto Buffolino (@ABuffEr) ha creado un programa que hace posible la descarga de versiones de prueba sin necesidad de entrar a la web. Para más información y descargar este programa, [visita el post sobre NVDASnapshotDownloader](https://nvdaes.github.io/nvdaSnapshotDownloader-2).
+Para facilitar el procedimiento, Alberto Buffolino (@ABuffEr) ha creado un programa que hace posible la descarga sin necesidad de entrar a la web. Para más información y descargar este programa, [visita el post sobre NVDAVersionDownloader](https://nvdaes.github.io/nvdaSnapshotDownloader-2).
 
 ### Archivos multimedia
 
