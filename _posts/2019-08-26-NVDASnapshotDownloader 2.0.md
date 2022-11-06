@@ -8,7 +8,7 @@ author: Noelia
 
 <footer>Lunes, 26 de agosto de 2019</footer>
 
-Alberto Buffolino, colaborador de NVDA y autor de complementos como NoBeepsSpeechMode, ToolbarsExplorer, etc., ha publicado una nueva versión de NVDAVersionDownloaded, antes llamado NVDASnapshotDownloader, traducida a español, para facilitar la descarga de versiones de NVDA.
+Alberto Buffolino, colaborador de NVDA y autor de complementos como NoBeepsSpeechMode, ToolbarsExplorer, etc., ha publicado una nueva versión de NVDAVersionDownloader, antes llamado NVDASnapshotDownloader, traducida a español, para facilitar la descarga de versiones de NVDA.
 
 Compartimos las instrucciones y el enlace directo para descargar este sencillo programa, también disponibles desde la [página ayuda y descarga de esta web](https://nvdaes.github.io/ayuda).
 
@@ -40,7 +40,7 @@ Powershell debería estar presente en casi todos los sistemas a partir de XP.
 
 ### Referencias ###
 - [Proceso de publicación y desarrollo de NVDA](https://github.com/nvaccess/nvda/wiki/ReleaseProcess)
-- [Repositorio de NVDASnapshotDownloader](https://github.com/ABuffEr/NVDASnapshotDownloader)
+- [Repositorio de NVDAVersionDownloader](https://github.com/ABuffEr/NVDAVersionDownloader)
 - [Conversación con Alberto sobre NVDASnapshotDownloader](https://github.com/ABuffEr/NVDASnapshotDownloader/pull/1)
 - [Mensaje de Chris sobre versión 3.0](https://nvdaes.groups.io/g/lista/message/1198)
 
