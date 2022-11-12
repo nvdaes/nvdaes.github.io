@@ -20,9 +20,9 @@ Para informar de forma responsable sobre posibles fallos de seguridad, escribe a
 
 Se ha corregido el siguiente fallo:
 
-- Era posible alcanzar privilegios de administrador de forma ilegítima al usar NVDA sin haber iniciado sesión. [Información adicional sobreel fallo de seguridad](https://github.com/nvaccess/nvda/security/advisories/GHSA-3jj9-295f-h69w).
+- Era posible alcanzar privilegios de administrador de forma ilegítima al usar NVDA sin haber iniciado sesión. [Información adicional sobre el fallo de seguridad](https://github.com/nvaccess/nvda/security/advisories/GHSA-3jj9-295f-h69w).
 
-Al tratarse de una versión de mantenimiento, el documento Qué hay de nuevo no se ha traducido para esta versión. Por ello, al usar NVDA en idiomas distintos del inglés, en este documento, disponible en el submenú Ayuda del menú NVDA, la última versión reflejada será 2022.3.1.
+Al tratarse de una versión de mantenimiento, el documento Qué hay de nuevo no se ha traducido para esta versión. Por ello, al usar NVDA en idiomas distintos del inglés, en este documento, disponible en el submenú Ayuda del menú NVDA, la última versión reflejada será 2022.3.
 
 La versión actual correcta siempre puede obtenerse accediendo al diálogo Acerca de, disponible en el submenú Ayuda del menú NVDA.
 
