@@ -8,9 +8,9 @@ author: Noelia
 
 <footer>Domingo, 4 de diciembre de 2022</footer>
 
-Hace unas semanas, casi al mismo tiempo que las compañeras de AcciumRed, me registré en Mastodon.
+Hace unas semanas, casi al mismo tiempo que las compañeras de ACCIUMRed, me registré en Mastodon.
 
-Si quieres disfrutar de una accesibilidad auténtica, esmerada y humana, de valores éticos, feministas y anticapacitistas, [sigue a AcciumRed en Mastodon](https://xarxa.cloud@acciumRed).
+Si quieres disfrutar de una accesibilidad auténtica, esmerada y humana, de valores éticos, feministas y anticapacitistas, sigue a [ACCIUMRed en Mastodon](https://xarxa.cloud/@acciumred).
 
 Allí conocí a fedi.tips, quien comparte información y consejos muy útiles sobre esta red social de código abierto.
 
@@ -34,7 +34,7 @@ Allí encontrarás artículos como el relativo a [sugerencias sobre accesibilida
 
 Si quieres más información, visita la [web de Mastodon en español](https://joinmastodon.org/es).
 
-También puedes seguir a [fedi.tips en Mastodon](https://mastodon.social/@fedi.tips).
+También puedes seguir a [fedi.tips en Mastodon](https://mstdn.social/@feditips).
 
 ### Empieza a conocer Mastodon
 
