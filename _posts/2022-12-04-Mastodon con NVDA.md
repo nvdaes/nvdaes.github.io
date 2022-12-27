@@ -6,7 +6,7 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Domingo, 4 de diciembre de 2022</footer>
+<footer>Domingo, 4 de diciembre de 2022 (actualizado el 27 de diciembre)</footer>
 
 Hace unas semanas, casi al mismo tiempo que las compañeras de ACCIUMRed, me registré en Mastodon.
 
@@ -60,4 +60,4 @@ Se trata de una aplicación web ágil, de código abierto y centrada en la acces
 
 Para usar los atajos de teclado disponibles en Pinafore, podemos activar el modo foco con <kbd>NVDA+espacio</kbd>. Pulsando la letra <kbd>h</kbd> en modo foco, accederemos a la lista de atajos.
 
-Pinafore se encuentra en inglés. Ojalá en algún momento podamos contar con traducción a nuestro idioma, como hemos comentado en este [hilo sobre NVDA y Mastodon en nuestra lista de correo](https://nvdaes.groups.io/g/lista/topic/94987584).
+<del>Pinafore se encuentra en inglés. Ojalá en algún momento podamos contar con traducción a nuestro idioma, como hemos comentado en este [hilo sobre NVDA y Mastodon en nuestra lista de correo](https://nvdaes.groups.io/g/lista/topic/94987584).</del>
