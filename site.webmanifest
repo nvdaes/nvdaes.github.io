@@ -1,0 +1,22 @@
+{
+  "name": "nvdaes.github.io",
+  "short_name": "nvdaes",
+  "theme_color": "#2196f3",
+  "background_color": "#2196f3",
+  "display": "standalone",
+  "Scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "assets/images/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "images/jekyll-logo.png",
+      "sizes": "140x140",
+      "type": "image/png"
+    }
+  ],
+  "splash_pages": null
+}
