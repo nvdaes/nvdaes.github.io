@@ -1,0 +1,26 @@
+---
+title: Disponible NVDA 2022.4rc1
+permalink: "/nvda-2022-4rc1/"
+layout: post
+giscus: true
+author: Noelia
+---
+
+<footer>Miércoles, 28 de diciembre de 2022</footer>
+
+Como se explica en este [artículo de NV Access sobre NVDA 2022.4rc1](https://www.nvaccess.org/post/nvda-2022-4rc1/) (en inglés), se ha publicado esta versión candidata de NVDA.
+
+Las versiones "release candidate" (rc) se publican para que las personas usuarias de NVDA colaboren informando sobre errores que deberían corregirse antes de la publicación de la próxima versión estable. Por eso es importante que probemos las versiones rc de NVDA.
+
+### Novedades destacadas
+
+Esta versión incluye varios comandos nuevos, como los relativos a "leer todo en tablas". Se ha añadido una sección sobre cómo empezar con NVDA en la guía y se han corregido varios errores. eSpeak y LibLouis se han actualizado. Hay nuevas tablas braille para chino, sueco, Luganda y kinyarwanda.
+
+[Descarga directa de NVDA 2022.4rc1](https://www.nvaccess.org/files/nvda/releases/2022.4rc1/nvda_2022.4rc1.exe)
+
+[Informar de errores a NV Access](https://github.com/nvaccess/nvda/issues) (en inglés).
+
+También puedes enviar tus comentarios a nuestra lista de correo.
+
+Salud
+
