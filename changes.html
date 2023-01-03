@@ -10,6 +10,196 @@
 <FONT SIZE="4">
 </FONT></CENTER>
 
+<H2>2022.4</H2>
+<P>
+Esta versión incluye varias teclas de órdenes nuevas, incluyendo órdenes para leer toda la tabla.
+Se ha añadido una sección "Guía de Inicio Rápido" a la Guía del Usuario.
+También hay varias correcciones de fallos.
+</P>
+<P>
+Se han actualizado eSpeak y LibLouis.
+Hay nuevas tablas braille para Chino, sueco, Luganda y Kinyarwanda.
+</P>
+<H3>Nuevas Características</H3>
+<UL>
+<LI>Se añadió una sección "Guía de Inicio rápido" a la Guía del Usuario. (<A HREF="https://github.com/nvaccess/nvda/issues/13934" target="_blank">#13934</A>)
+<LI>Se introdujo una nueva orden para buscar el atajo de teclado del foco actual. (<A HREF="https://github.com/nvaccess/nvda/issues/13960" target="_blank">#13960</A>)
+  <UL>
+  <LI>Escritorio: <CODE>shift+2 del teclado numérico</CODE>.
+  <LI>Portátil: <CODE>NVDA+ctrl+shift+.</CODE>.
+  </UL>
+<LI>Se introdujeron nuevas órdenes para mover el cursor de revisión por páginas donde se admita por la aplicación. (<A HREF="https://github.com/nvaccess/nvda/issues/14021" target="_blank">#14021</A>)
+  <UL>
+  <LI>Mover a la página anterior:
+    <UL>
+    <LI>Escritorio: <CODE>NVDA+rePág</CODE>.
+    <LI>Portátil: <CODE>NVDA+shift+rePág</CODE>.
+    </UL>
+  <LI>Mover a la página siguiente:
+    <UL>
+    <LI>Escritorio: <CODE>NVDA+avPág</CODE>.
+    <LI>Portátil: <CODE>NVDA+shift+avPág</CODE>.
+    </UL>
+  </UL>
+<LI>Se añadieron las siguientes órdenes de tabla. (<A HREF="https://github.com/nvaccess/nvda/issues/14070" target="_blank">#14070</A>)
+  <UL>
+  <LI>Verbalizar todo en la columna: <CODE>NVDA+control+alt+flechaAbajo</CODE>
+  <LI>Verbalizar todo en la fila: <CODE>NVDA+control+alt+flechaDerecha</CODE>
+  <LI>Leer toda la columna:  <CODE>NVDA+control+alt+flechaArriba</CODE>
+  <LI>Leer toda la fila: <CODE>NVDA+control+alt+FlechaIzquierda</CODE>
+  </UL>
+<LI>Microsoft Excel a través de UI Automation: NVDA ahora anuncia cuando se salga de una tabla dentro de una hoja de cálculo. (<A HREF="https://github.com/nvaccess/nvda/issues/14165" target="_blank">#14165</A>)
+<LI>Anunciar cabeceras de tabla ahora puede configurarse separadamente por filas y columnas. (<A HREF="https://github.com/nvaccess/nvda/issues/14075" target="_blank">#14075</A>)
+</UL>
+
+<P></P>
+<H3>Cambios</H3>
+<UL>
+<LI>eSpeak NG se ha actualizado a 1.52-dev commit <CODE>735ecdb8</CODE>. (<A HREF="https://github.com/nvaccess/nvda/issues/14060" target="_blank">#14060</A>, <A HREF="https://github.com/nvaccess/nvda/issues/14079" target="_blank">#14079</A>, <A HREF="https://github.com/nvaccess/nvda/issues/14118" target="_blank">#14118</A>, <A HREF="https://github.com/nvaccess/nvda/issues/14203" target="_blank">#14203</A>)
+  <UL>
+  <LI>Corregido el anunciado de caracteres latinos al utilizar Mandarín. (<A HREF="https://github.com/nvaccess/nvda/issues/12952" target="_blank">#12952</A>, <A HREF="https://github.com/nvaccess/nvda/issues/13572" target="_blank">#13572</A>, <A HREF="https://github.com/nvaccess/nvda/issues/14197" target="_blank">#14197</A>)
+  </UL>
+<LI>Se actualizó el transcriptor braille LibLouis a <A HREF="https://github.com/liblouis/liblouis/releases/tag/v3.23.0" target="_blank">3.23.0</A>. (<A HREF="https://github.com/nvaccess/nvda/issues/14112" target="_blank">#14112</A>)
+  <UL>
+  <LI>Se añadieron tablas braille:
+    <UL>
+    <LI>Braille común chino (caracteres de chino simplificado)
+    <LI>Braille literario Kinyarwanda
+    <LI>Braille literario Luganda
+    <LI>Braille sueco sin contracción
+    <LI>Braille sueco parcialmente contraído
+    <LI>Braille sueco contraído
+    <LI>Chino (China, Mandarín) Sistema braille actual (sin tonos) (<A HREF="https://github.com/nvaccess/nvda/issues/14138" target="_blank">#14138</A>)
+    </UL>
+  </UL>
+<LI>NVDA ahora incluye la arquitectura del sistema operativo como parte del seguimiento de estadísticas de usuario. (<A HREF="https://github.com/nvaccess/nvda/issues/14019" target="_blank">#14019</A>)
+</UL>
+
+<P></P>
+<H3>Corrección de Fallos</H3>
+<UL>
+<LI>Al actualizar NVDA utilizando el Windows Package Manager CLI (aka winget), una versión liberada de NVDA ya no se trata siempre como una versión más moderna que cualquier versión alfa que esté instalada. (<A HREF="https://github.com/nvaccess/nvda/issues/12469" target="_blank">#12469</A>)
+<LI>NVDA ahora anunciará correctamente cuadros de grupo en aplicaciones Java. (<A HREF="https://github.com/nvaccess/nvda/issues/13962" target="_blank">#13962</A>)
+<LI>El cursor del sistema sigue apropiadamente el texto hablado durante "verbalizar todo" en aplicaciones tales como Bookworm, WordPad, o el visualizador del registro de NVDA. (<A HREF="https://github.com/nvaccess/nvda/issues/13420" target="_blank">#13420</A>, <A HREF="https://github.com/nvaccess/nvda/issues/9179" target="_blank">#9179</A>)
+<LI>En programas que utilicen UI Automation, las casillas de verificación parcialmente marcadas se anunciarán correctamente. (<A HREF="https://github.com/nvaccess/nvda/issues/13975" target="_blank">#13975</A>)
+<LI>Mejorado el rendimiento y la estabilidad en Microsoft Visual Studio, Windows Terminal y otras aplicaciones basadas en UI Automation. (<A HREF="https://github.com/nvaccess/nvda/issues/11077" target="_blank">#11077</A>, <A HREF="https://github.com/nvaccess/nvda/issues/11209" target="_blank">#11209</A>)
+  <UL>
+  <LI>Estas correcciones se aplican a Windows 11 Sun Valley 2 (versión 22H2) y posteriores.
+  <LI>El registro selectivo para eventos UI Automation y cambios de propiedad ahora se habilita por omisión.
+  </UL>
+<LI>El anunciado de texto, la salida Braille y la supresión de contraseñas ahora funcionan como se esperaba en el control integrado de la Terminal de Windows en Visual Studio 2022. (<A HREF="https://github.com/nvaccess/nvda/issues/14194" target="_blank">#14194</A>)
+<LI>NVDA ahora es consciente de los DPI cuando se utilicen varios monitores.
+Hay varias correcciones para utilizar una configuración de DPI superior a 100% o varios monitores.
+Todavía pueden seguir existiendo problemas con versiones de Windows más antiguas que Windows 10 1809.
+Para que funcionen estas correcciones, las aplicaciones con las que interactúe NVDA también tienen que ser conscientes de DPI.
+Ten en cuenta que todavía hay fallos conocidos con Chrome y Edge. (<A HREF="https://github.com/nvaccess/nvda/issues/13254" target="_blank">#13254</A>)
+  <UL>
+  <LI>Los marcos de resaltado visual ahora deberían colocarse correctamente en la mayoría de las aplicaciones. (<A HREF="https://github.com/nvaccess/nvda/issues/13370" target="_blank">#13370</A>, <A HREF="https://github.com/nvaccess/nvda/issues/3875" target="_blank">#3875</A>, <A HREF="https://github.com/nvaccess/nvda/issues/12070" target="_blank">#12070</A>)
+  <LI>La interacción con la pantalla táctil ahora debería ser precisa para la mayoría de las aplicaciones. (<A HREF="https://github.com/nvaccess/nvda/issues/7083" target="_blank">#7083</A>)
+  <LI>El seguimiento del ratón ahora debería funcionar para la mayoría de las aplicaciones. (<A HREF="https://github.com/nvaccess/nvda/issues/6722" target="_blank">#6722</A>)
+  </UL>
+<LI>Los cambios del estado de la orientación (apaisado o vertical) ahora se ignoran correctamente cuando no hay cambio (ej. cambios del monitor). (<A HREF="https://github.com/nvaccess/nvda/issues/14035" target="_blank">#14035</A>)
+<LI>NVDA anunciará elementos arrastrables en la pantalla en lugares tales como en la reorganización de los mosaicos del menú Inicio en Windows 10 y en los escritorios virtuales en Windows 11. (<A HREF="https://github.com/nvaccess/nvda/issues/12271" target="_blank">#12271</A>, <A HREF="https://github.com/nvaccess/nvda/issues/14081" target="_blank">#14081</A>)
+<LI>En las opciones avanzadas, la opción "reproducir un sonido para registro de errores" ahora se restaura correctamente a este valor predeterminado al pulsar el botón "Restaurar predeterminados". (<A HREF="https://github.com/nvaccess/nvda/issues/14149" target="_blank">#14149</A>)
+<LI>NVDA ahora puede seleccionar texto utilizando el atajo de teclado <CODE>NVDA+f10</CODE> en aplicaciones Java. (<A HREF="https://github.com/nvaccess/nvda/issues/14163" target="_blank">#14163</A>)
+<LI>NVDA ya no se atascará en un menú al subir y bajar con las flechas por un hilo de conversaciones en Microsoft Teams. (<A HREF="https://github.com/nvaccess/nvda/issues/14355" target="_blank">#14355</A>)
+</UL>
+
+<P></P>
+<H3>Cambios para Desarrolladores</H3>
+<P>
+Por favor consulta <A HREF="https://www.nvaccess.org/files/nvda/documentation/developerGuide.html#API" target="_blank">la guía del desarrollador</A> para obtener información sobre la obsolescencia de la API de NVDA y el proceso de eliminación.
+</P>
+<UL>
+<LI>Se creó la <A HREF="https://groups.google.com/a/nvaccess.org/g/nvda-api/about" target="_blank">lista de correo de Anuncios de la API de NVDA</A>. (<A HREF="https://github.com/nvaccess/nvda/issues/13999" target="_blank">#13999</A>)
+<LI>NVDA ya no procesa eventos <CODE>textChange</CODE> para la mayoría de las aplicaciones UI Automation debido al impacto de su extremo rendimiento negativo. (<A HREF="https://github.com/nvaccess/nvda/issues/11002" target="_blank">#11002</A>, <A HREF="https://github.com/nvaccess/nvda/issues/14067" target="_blank">#14067</A>)
+</UL>
+
+<P></P>
+<H4>Obsolescencias</H4>
+<UL>
+<LI><CODE>core.post_windowMessageReceipt</CODE> está obsoleto, utiliza <CODE>winAPI.messageWindow.pre_handleWindowMessage</CODE> en su lugar.
+<LI><CODE>winKernel.SYSTEM_POWER_STATUS</CODE> está obsoleto y se desaconseja su uso, esto se ha movido a <CODE>winAPI._powerTracking.SystemPowerStatus</CODE>.
+<LI>Las constantes <CODE>winUser.SM_*</CODE> están obsoletas, utiliza <CODE>winAPI.winUser.constants.SystemMetrics</CODE> en su lugar.
+</UL>
+
+<P></P>
+<H2>2022.3.3</H2>
+<P>
+Esta es una versión menor para corregir problemas con 2022.3.2, 2022.3.1 y 2022.3.
+Esto también aborda un problema de seguridad.
+</P>
+<H3>Correcciones de Seguridad</H3>
+<UL>
+<LI>Evita un posible acceso al sistema (por ejemplo: en la consola Python de NVDA) para usuarios no autenticados.
+(<A HREF="https://github.com/nvaccess/nvda/security/advisories/GHSA-fpwc-2gxx-j9v7" target="_blank">GHSA-fpwc-2gxx-j9v7</A>)
+</UL>
+
+<P></P>
+<H3>Corrección de Fallos</H3>
+<UL>
+<LI>Corregido un fallo en el que si NVDA se congela cuando se bloquea, NVDA permitirá acceder a los usuarios de escritorio mientras se esté en la pantalla de bloqueo de Windows. (<A HREF="https://github.com/nvaccess/nvda/issues/14416" target="_blank">#14416</A>)
+<LI>Corregido un fallo en el que si NVDA se congela cuando se bloquea, NVDA no se comportará correctamente, como si el dispositivo siguiera aún bloqueado. (<A HREF="https://github.com/nvaccess/nvda/issues/14416" target="_blank">#14416</A>)
+<LI>Corregidos problemas de accesibilidad con el proceso de Windows "olvidé mi PIN" y con la experiencia de actualizar o instalar Windows. (<A HREF="https://github.com/nvaccess/nvda/issues/14368" target="_blank">#14368</A>)
+<LI>Corregido un fallo al intentar instalar NVDA en algunos ambientes de Windows, por ejemplo en Windows Server. (<A HREF="https://github.com/nvaccess/nvda/issues/14379" target="_blank">#14379</A>)
+</UL>
+
+<P></P>
+<H3>Cambios para Desarrolladores</H3>
+<H4>Obsolescencias</H4>
+<UL>
+<LI><CODE>utils.security.isObjectAboveLockScreen(obj)</CODE> está obsoleto, en su lugar utiliza <CODE>obj.isBelowLockScreen</CODE>. (<A HREF="https://github.com/nvaccess/nvda/issues/14416" target="_blank">#14416</A>)
+<LI>Las siguientes funciones en <CODE>winAPI.sessionTracking</CODE> están obsoletas para su eliminación en 2023.1. (<A HREF="https://github.com/nvaccess/nvda/issues/14416" target="_blank">#14416</A>)
+  <UL>
+  <LI><CODE>isWindowsLocked</CODE>
+  <LI><CODE>handleSessionChange</CODE>
+  <LI><CODE>unregister</CODE>
+  <LI><CODE>register</CODE>
+  <LI><CODE>isLockStateSuccessfullyTracked</CODE>
+  </UL>
+</UL>
+
+<P></P>
+<H2>2022.3.2</H2>
+<P>
+Esta es una versión menor para corregir regresiones con 2022.3.1 y para abordar un problema de seguridad.
+</P>
+<H3>Correcciones de Seguridad</H3>
+<UL>
+<LI>Evita el posible acceso a nivel de sistema para usuarios no autentificados.
+(<A HREF="https://github.com/nvaccess/nvda/security/advisories/GHSA-3jj9-295f-h69w" target="_blank">GHSA-3jj9-295f-h69w</A>)
+</UL>
+
+<P></P>
+<H3>Corrección de Fallos</H3>
+<UL>
+<LI>Se corrige una regresión de 2022.3.1 donde ciertas funcionalidades se deshabilitaban en pantallas seguras. (<A HREF="https://github.com/nvaccess/nvda/issues/14286" target="_blank">#14286</A>)
+<LI>Se corrige una regresión de 2022.3.1 donde ciertas funcionalidades se deshabilitaban después de autentificarse si NVDA se iniciaba en la pantalla de bloqueo. (<A HREF="https://github.com/nvaccess/nvda/issues/14301" target="_blank">#14301</A>)
+</UL>
+
+<P></P>
+<H2>2022.3.1</H2>
+<P>
+Esta es una versión menor para corregir varios problemas de seguridad.
+Por favor comunica responsablemente los problemas de seguridad a <A HREF="mailto:info@nvaccess.org" target="_blank">info@nvaccess.org</A>.
+</P>
+<H3>Correcciones de Seguridad</H3>
+<UL>
+<LI>Se ha corregido el exploit por el que era posible elevar al usuario los privilegios de sistema 
+(<A HREF="https://github.com/nvaccess/nvda/security/advisories/GHSA-q7c2-pgqm-vvw5" target="_blank">GHSA-q7c2-pgqm-vvw5</A>)
+<LI>Se ha corregido un problema de seguridad que permitía el acceso a la consola de python en la pantalla de bloqueo a través de una condición race para el arranque de NVDA.
+(<A HREF="https://github.com/nvaccess/nvda/security/advisories/GHSA-72mj-mqhj-qh4w" target="_blank">GHSA-72mj-mqhj-qh4w</A>)
+<LI>Se ha corregido un problema por el que el texto del visualizador de voz se almacenaba en caché al bloquear Windows.
+(<A HREF="https://github.com/nvaccess/nvda/security/advisories/GHSA-grvr-j2h8-3qm4" target="_blank">GHSA-grvr-j2h8-3qm4</A>)
+</UL>
+
+<P></P>
+<H3>Corrección de Fallos</H3>
+<UL>
+<LI>Se evita que un usuario no autentificado actualice las opciones para los visualizadores de voz y Braille en la pantalla de bloqueo. (<A HREF="https://github.com/nvaccess/nvda/security/advisories/GHSA-grvr-j2h8-3qm4" target="_blank">GHSA-grvr-j2h8-3qm4</A>)
+</UL>
+
+<P></P>
 <H2>2022.3</H2>
 <P>
 La comunidad de desarrolladores de NVDA ha contribuido en gran medida a esta versión.
@@ -88,6 +278,17 @@ Esto mejorará el rendimiento para algunas aplicaciones Java incluyendo IntelliJ
 <P>
 No se proponen obsolescencias en 2022.3.
 </P>
+<H2>2022.2.4</H2>
+<P>
+Este es un parche liberado para corregir un fallo de seguridad.
+</P>
+<H3>Corrección de Fallos</H3>
+<UL>
+<LI>Se ha corregido un fallo por el que era posible abrir la consola python de NVDA a través del visualizador del registro en la pantalla de bloqueo.
+(<A HREF="https://github.com/nvaccess/nvda/security/advisories/GHSA-585m-rpvv-93qg" target="_blank">GHSA-585m-rpvv-93qg</A>)
+</UL>
+
+<P></P>
 <H2>2022.2.3</H2>
 <P>
 Este es un parche liberado para corregir una ruptura accidental de la API introducida en 2022.2.1.
