@@ -1,6 +1,6 @@
 ---
 title: Disponible NVDA 2023.1rc2
-permalink: "/nvda-2023-1rc1/"
+permalink: "/nvda-2023-1rc2/"
 layout: post
 giscus: true
 author: Noelia
