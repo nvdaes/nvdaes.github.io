@@ -36,7 +36,7 @@ Si ya usas NVDA, puedes configurarlo para *buscar las actualizaciones automátic
 
 Puedes consultar los siguientes documentos (enlaces a la web de NVAccess):
 
-- [qué hay de nuevo](https://www.nvaccess.org/files/nvda/releases/stable/documentation/es/keyCommands.html)
+- [qué hay de nuevo](https://www.nvaccess.org/files/nvda/releases/stable/documentation/es/changes.html)
 - [guía de NVDA](https://www.nvaccess.org/files/nvda/releases/stable/documentation/es/userGuide.html)
 
 Salud
