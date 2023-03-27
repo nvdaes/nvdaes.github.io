@@ -7,7 +7,7 @@ layout: page
 
 ### Documentación sobre NVDA
 
-A continuación podrás encontrar una lista de documentos disponibles en el menú Ayuda de NVDA, al que puedes acceder pulsando la combinación de teclas <kbd>NVDA+n</kbd> o haciendo clic con el botón derecho del ratón sobre el icono correspondiente en la bandeja del sistema:
+A continuación podrás encontrar una lista de documentos disponibles en el menú Ayuda de NVDA, al que puedes acceder pulsando la combinación de teclas <kbd>NVDA+n</kbd> o haciendo clic con el botón derecho del ratón sobre el icono correspondiente en la bandeja del sistema. Los enlaces abrirán documentación disponible en la web de NV Access:
 
 Si lees estos documentos con NVDA, puedes utilizar el modo exploración para desplazarte a las distintas secciones o buscar el texto en el que quieras situarte.
 
@@ -18,9 +18,9 @@ Para buscar texto en estos documentos, puedes abrir el diálogo Buscar pulsando 
 
 Otra posibilidad es utilizar la lista de elementos, que puedes abrir pulsando <kbd>NVDA+f7</kbd>. Desde este cuadro de diálogo podrás elegir ver una presentación en árbol con los encabezados de distintos niveles y desplazarte a uno de ellos, ver solo elementos que contengan el texto que especifiques, etc.
 
-* [Guía del usuario](/userGuide.html)
-* [¿Qué hay de nuevo?](/changes.html)
-* [Referencia rápida de órdenes](/commands.html)
+* [Guía del usuario](https://www.nvaccess.org/files/nvda/releases/stable/documentation/es/userGuide.html)
+* [¿Qué hay de nuevo?](https://www.nvaccess.org/files/nvda/releases/stable/documentation/es/changes.html)
+* [Referencia rápida de órdenes](https://www.nvaccess.org/files/nvda/releases/stable/documentation/es/keyCommands.html)
 
 ### Descargar última versión ###
 
