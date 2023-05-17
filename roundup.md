@@ -9,20 +9,20 @@ layout: page
 
 ### Nota: ###
 
-Este artículo se actualizó por última vez en julio de 2022.
+Este artículo se actualizó por última vez en mayo de 2023.
 
 ### Introducción ###
 
 A los libros digitales se accede mediante una app, dispositivo o servicio de internet para abrir, leer y navegar por el contenido. Llamamos a esto sistemas de lectura.
 
-Habitualmente la gente usa apps para acceder a libros digitales, y hay distintas apps disponibles con grandes ventajas de accesibilidad. Entre las funciones habituales se incluyen:
+Hay muy distintas apps disponibles con grandes ventajas de accesibilidad. Entre las funciones habituales se incluyen:
 
-- Modos flexibles de desplazarse por las publicaciones, mediante la tabla de contenido, números correspondientes a páginas impresas y marcadores.
-- La posibilidad de cambiar la apariencia visual del contenido para adecuarse a tus necesidades.
-- Una función incorporada de lectura en voz alta con resaltado visual, estilo karaoke.
-- Buen funcionamiento con lector de pantalla para respuesta de voz o braille.
+- Modos flexibles de desplazarse por las publicaciones: mediante la tabla de contenido, ir a un número de página impresa, volver a marcadores y utilizar la búsqueda.
+- La posibilidad de cambiar la apariencia visual del contenido para adecuarse a tus necesidades: personalizar el tamaño del texto, fuentes, colores, longitud de línea y espaciado.
+- Una función incorporada de lectura en voz alta: con reproducción y pausa, cambio de voz y velocidad, y resaltado visual, estilo karaoke.
+- Buen funcionamiento con lector de pantalla para respuesta de voz o braille: con posibilidad de iniciar sesión, explorar un estante, leyendo la publicación percibiendo los distintos elementos del contenido.
 
-Con tantas opciones, ¿cómo puedes averiguar qué aplicación será mejor para ti?
+Pero, con tantas opciones, ¿cómo puedes averiguar qué aplicación será mejor para ti?
 
 Aquí presentamos un resumen de aplicaciones populares que pueden utilizarse con obras en formato EPUB. Estas reseñas resumidas se basan en evaluaciones detalladas de accesibilidad llevadas a cabo por y con personas que tienen discapacidades de acceso a material impreso. Al final de este artículo se proporciona más información sobre nuestro protocolo de evaluación organizado.
 
@@ -130,11 +130,11 @@ Lo que gustó a nuestros evaluadores: es una aplicación de lectura fácil de us
 
 Para tener en cuenta: algunas funciones solo están disponibles en la versión de pago (premium) de la aplicación.
 
-#### [Thorium Reader](https://www.edrlab.org/software/thorium-reader/) ####
+#### [Thorium Reader](https://thorium.edrlab.org/) ####
 
 Thorium Reader es una aplicación de escritorio disponible para Windows, macOS y Linux. Se desarrolla prestando atención a ofrecer buena compatibilidad con el estándar EPUB y una experiencia muy accesible para los usuarios. Thorium también admite publicaciones DAISY3 y PDF. La aplicación es gratuita y no requiere cuenta de usuario.
 
-Lo que gustó a nuestros evaluadores: Thorium ofrece muchas características y funciona bien para personas con y sin discapacidades de acceso a material impreso. Añadir libros a la biblioteca es muy sencillo, y la organización de los libros se facilita mediante etiquetas y posibilidad de búsqueda. Es posible mostrar varias obras una junto a otra para poder compararlas. Hay muchas funciones para adaptaciones visuales, como espaciado y márgenes, y puedes elegir entre cualquiera de las fuentes instaladas en tu sistema. Thorium Reader tiene gran compatibilidad con lectores de pantalla, y la función de lectura ordenada en voz alta ofrece buen control y un par de modos de visualización al leer en voz alta.
+Lo que gustó a nuestros evaluadores: Thorium ofrece muchas características y funciona bien para personas con y sin discapacidades de acceso a material impreso. Añadir libros a la biblioteca es sencillo, y la organización de los libros se facilita añadiendo etiquetas y usando la función de búsqueda. Es posible mostrar varias obras una junto a otra para poder compararlas. Hay muchas funciones para adaptaciones visuales, como espaciado y márgenes, y puedes elegir entre cualquiera de las fuentes instaladas en tu sistema. Thorium Reader tiene gran compatibilidad con lectores de pantalla, y la función de lectura ordenada en voz alta ofrece buen control y un par de modos de visualización al leer en voz alta. La función de lectura en voz alta puede indicar texto alternativo y ecuaciones matemáticas.
 
 Para tener en cuenta: Solo se proporcionan tres diseños de colores.
 
