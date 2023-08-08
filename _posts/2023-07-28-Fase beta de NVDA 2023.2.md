@@ -18,7 +18,7 @@ Hay muchas correcciones de errores, concretamente para braille, Microsoft Office
 
 Se han actualizado eSpeak-NG, el traductor braille LibLouis y Unicode CLDR.
 
-## Actualización ###
+### Actualización ###
 
 Se ha publicado la versión 2023.2beta2, que incluye los siguientes cambios respecto a la versión anterior (2023.2beta1):
 
