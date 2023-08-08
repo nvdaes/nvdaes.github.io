@@ -6,7 +6,7 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Viernes, 28 de julio de 2023</footer>
+<footer>Viernes, 28 de julio de 2023, actualizado el 8 de agosto</footer>
 
 Ayer se publicó NVDA 2023.2beta1, para probar características que se incluirán en la próxima versión estable (2023.2).
 
@@ -18,11 +18,27 @@ Hay muchas correcciones de errores, concretamente para braille, Microsoft Office
 
 Se han actualizado eSpeak-NG, el traductor braille LibLouis y Unicode CLDR.
 
-[Descarga](https://www.nvaccess.org/files/nvda/releases/2023.2beta1/nvda_2023.2beta1.exe)
+## Actualización ###
+
+Se ha publicado la versión 2023.2beta2, que incluye los siguientes cambios respecto a la versión anterior (2023.2beta1):
+
+* Actualización de traducciones.
+* Correcciones menores a la tienda de complementos como las siguientes:
+	* Se ha añadido un diálogo de aviso al abrir la tienda por primera vez.
+	* Se ha mejorado el manejo de los complementos instalados desde fuentes externas.
+	* Se ha mejorado el manejo de la información traducida acerca de los complementos.
+* Corregido un error relativo a detección y comandos de dispositivos Eurobraille.
+* Corregido un error al mostrar el panel Braille en las preferencias de NVDA.
+* Corregido un error en el manejo de cambios del foco, en particular en Windows Mail.
+* Corregido un error en el visualizador braille.
+* Corregido un error en Eloquence, por el que las palabras en mayúsculas se deletreaban en vez de leerse directamente.
+* Correcciones menores en la guía, concretamente en la sección sobre restricciones de la copia temporal.
+
+[Descarga](https://www.nvaccess.org/files/nvda/releases/2023.2beta2/nvda_2023.2beta2.exe)
 
 [Novedades](https://www.nvaccess.org/files/nvda/releases/2023.2beta1/documentation/es/changes.html)
 
-
 ### Referencias ###
 
+* [Post de NV Access sobre NVDA 2023.2beta2](https://www.nvaccess.org/post/nvda-2023-2beta2)
 * [Post de NV Access sobre NVDA 2023.2beta1](https://www.nvaccess.org/post/nvda-2023-2beta1)
