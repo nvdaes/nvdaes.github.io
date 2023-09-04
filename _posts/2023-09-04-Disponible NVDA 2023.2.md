@@ -10,7 +10,7 @@ author: Noelia
 
 Como se explica en esta [noticia de NV Access sobre NVDA 2023.2](https://www.nvaccess.org/post/nvda-2023-2) (en inglés), se ha publicado esta nueva versión estable de NVDA.
 
-### Aspectos destacaddos
+### Aspectos destacados
 
 Esta versión incorpora la tienda de complementos, que sustituye al administrador de complementos. Con la tienda de complementos puedes explorar, buscar, instalar y actualizar complementos gratuitos (no comerciales) de la comunidad. Ahora es posible, si voluntariamente se decide asumir el riesgo que pueda implicar, ejecutar complementos incompatibles desactualizados.
 
