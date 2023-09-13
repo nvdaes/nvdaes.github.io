@@ -1,5 +1,5 @@
 ---
-title: Versiones beta de NVDA 2023.2
+title: Versiones beta de NVDA 2023.3
 permalink: "/nvda-2023-3beta/"
 layout: post
 giscus: true
