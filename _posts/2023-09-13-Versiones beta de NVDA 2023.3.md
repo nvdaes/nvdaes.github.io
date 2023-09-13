@@ -20,7 +20,7 @@ Esta versión incluye mejoras en el rendimiento, la respuesta y estabilidad de l
 
 Ahora NVDA puede refrescar periódicamente los resultados del OCR, y el nuevo texto se irá leyendo a medida que aparece. Esto se puede configurar desde el menú NVDA (NVDA+n), submenú Preferencias, Opciones, categoría OCR de Windows.
 
-Hay varias correcciones para braille y se ha mejorado la detección de dispositivos y el movimiento del cursor. Ahora es posible excluir controladores de la detección automática para mejorar el rendimiento de esta detección. También hay nuevos comandos para BRTTy.
+Hay varias correcciones para braille y se ha mejorado la detección de dispositivos y el movimiento del cursor. Ahora es posible excluir controladores de la detección automática para mejorar el rendimiento de esta detección. También hay nuevos comandos para BRLTTY.
 
 También se han corregido errores en la tienda de complementos, Microsoft Office, menús contextuales de Microsoft Edge y la calculadora de Windows.
 
