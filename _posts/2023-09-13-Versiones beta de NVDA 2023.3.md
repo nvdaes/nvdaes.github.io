@@ -6,9 +6,9 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Miércoles, 13 de septiembre de 2023</footer>
+<footer>Miércoles, 13 de septiembre de 2023, actualizado el 19 de septiembre</footer>
 
-Se ha publicado NVDA 2023.3beta1, para probar características que se incluirán en la próxima versión estable (2023.3).
+[Se ha publicado NVDA 2023.3beta1](https://www.nvaccess.org/post/nvda-2023-3beta1), para probar características que se incluirán en la próxima versión estable (2023.3).
 
 Al usar la versión beta, estarás eligiendo el canal beta/rc y solo recibirás notificaciones sobre actualizaciones disponibles para estos tipos de versiones.
 
@@ -24,10 +24,16 @@ Hay varias correcciones para braille y se ha mejorado la detección de dispositi
 
 También se han corregido errores en la tienda de complementos, Microsoft Office, menús contextuales de Microsoft Edge y la calculadora de Windows.
 
+### [Actualización 19 de septiembre de 2023](https://www.nvaccess.org/post/nvda-2023-3beta2)
+
+Se ha publicado NVDA 2023.3beta2 con los siguientes cambios:
+
+- Corregido un error por el que no era posible utilizar algunos complementos instalados desde fuentes externas.
+- Traducciones actualizadas.
+
 ### Enlaces
 
-- [Descargar NVDA 2023.3beta1](https://www.nvaccess.org/files/nvda/releases/2023.3beta1/nvda_2023.3beta1.exe).
-	- SHA256: D3BA5E43EEC165D65F8F1487AC1C28C3CD7BD59CF490A1D34E220A3CD310FB4C
-- [Novedades](https://www.nvaccess.org/files/nvda/releases/2023.3beta1/documentation/es/changes.html).
+- [Descargar NVDA 2023.3beta2](https://www.nvaccess.org/files/nvda/releases/2023.3beta2/nvda_2023.3beta2.exe).
+	- SHA256: 27d4f0360b402877d327df0f4ad0bfe6b2f57220ee2c7db8b054d539d74bef77
+- [Novedades](https://www.nvaccess.org/files/nvda/releases/2023.3beta2/documentation/es/changes.html).
 - Informar sobre errores mediante [incidencias en GitHub](https://github.com/nvaccess/nvda/issues).
-- [Post de NV Access sobre NVDA 2023.3beta1](https://www.nvaccess.org/post/nvda-2023-3beta1).
