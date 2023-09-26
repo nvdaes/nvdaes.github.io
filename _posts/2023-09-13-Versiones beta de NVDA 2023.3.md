@@ -6,7 +6,7 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Miércoles, 13 de septiembre de 2023, actualizado el 19 de septiembre</footer>
+<footer>Miércoles, 13 de septiembre de 2023, actualizado el 26 de septiembre</footer>
 
 [Se ha publicado NVDA 2023.3beta1](https://www.nvaccess.org/post/nvda-2023-3beta1), para probar características que se incluirán en la próxima versión estable (2023.3).
 
