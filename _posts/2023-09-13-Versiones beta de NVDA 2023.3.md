@@ -6,7 +6,7 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Miércoles, 13 de septiembre de 2023, actualizado el 26 de septiembre</footer>
+<footer>Miércoles, 13 de septiembre de 2023, actualizado el 3 de octubre</footer>
 
 [Se ha publicado NVDA 2023.3beta1](https://www.nvaccess.org/post/nvda-2023-3beta1), para probar características que se incluirán en la próxima versión estable (2023.3).
 
@@ -23,6 +23,14 @@ Ahora NVDA puede refrescar periódicamente los resultados del OCR, y el nuevo te
 Hay varias correcciones para braille y se ha mejorado la detección de dispositivos y el movimiento del cursor. Ahora es posible excluir controladores de la detección automática para mejorar el rendimiento de esta detección. También hay nuevos comandos para BRLTTY.
 
 También se han corregido errores en la tienda de complementos, Microsoft Office, menús contextuales de Microsoft Edge y la calculadora de Windows.
+
+### [Actualización 3 de octubre de 2023](https://www.nvaccess.org/post/nvda-2023-3beta4)
+
+- Corregido un error al ejecutar el instalador de versiones anteriores de NVDA después de haber instalado NVDA 2023.3beta3.
+- Se ha solucionado un problema de rendimiento del administrador de tareas de Windows y del monitor de confiabilidad.
+- Corregidos los comandos de indicación de formato en Excel.
+- Corregido un nuevo error que causaba problemas al trabajar con Windows 8 y versiones anteriores.
+- Actualización de traducciones.
 
 ### [Actualización 26 de septiembre de 2023](https://www.nvaccess.org/post/nvda-2023-3beta3)
 
@@ -47,7 +55,7 @@ Se ha publicado NVDA 2023.3beta2 con los siguientes cambios:
 
 ### Enlaces
 
-- [Descargar NVDA 2023.3beta3](https://www.nvaccess.org/files/nvda/releases/2023.3beta3/nvda_2023.3beta3.exe).
-	- SHA256: dc2440ca370b253fb26a44c7fd126618c5ff887ca288e3d3f82473e7118b5508 
-- [Novedades](https://www.nvaccess.org/files/nvda/releases/2023.3beta3/documentation/es/changes.html).
+- [Descargar NVDA 2023.3beta3](https://www.nvaccess.org/files/nvda/releases/2023.3beta4/nvda_2023.3beta4.exe).
+	- SHA256: ef50fd0afb0d2edef2d5af4ac67243e08d3318753aa15887a76bd9df74d50e8f
+- [Novedades](https://www.nvaccess.org/files/nvda/releases/2023.3beta4/documentation/es/changes.html).
 - Informar sobre errores mediante [incidencias en GitHub](https://github.com/nvaccess/nvda/issues).
