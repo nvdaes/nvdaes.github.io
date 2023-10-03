@@ -26,6 +26,8 @@ También se han corregido errores en la tienda de complementos, Microsoft Office
 
 ### [Actualización 3 de octubre de 2023](https://www.nvaccess.org/post/nvda-2023-3beta4)
 
+Se ha publicado NVDA 2023.3beta4 con los siguientes cambios:
+
 - Corregido un error al ejecutar el instalador de versiones anteriores de NVDA después de haber instalado NVDA 2023.3beta3.
 - Se ha solucionado un problema de rendimiento del administrador de tareas de Windows y del monitor de confiabilidad.
 - Corregidos los comandos de indicación de formato en Excel.
@@ -55,7 +57,7 @@ Se ha publicado NVDA 2023.3beta2 con los siguientes cambios:
 
 ### Enlaces
 
-- [Descargar NVDA 2023.3beta3](https://www.nvaccess.org/files/nvda/releases/2023.3beta4/nvda_2023.3beta4.exe).
+- [Descargar NVDA 2023.3beta4](https://www.nvaccess.org/files/nvda/releases/2023.3beta4/nvda_2023.3beta4.exe).
 	- SHA256: ef50fd0afb0d2edef2d5af4ac67243e08d3318753aa15887a76bd9df74d50e8f
 - [Novedades](https://www.nvaccess.org/files/nvda/releases/2023.3beta4/documentation/es/changes.html).
 - Informar sobre errores mediante [incidencias en GitHub](https://github.com/nvaccess/nvda/issues).
