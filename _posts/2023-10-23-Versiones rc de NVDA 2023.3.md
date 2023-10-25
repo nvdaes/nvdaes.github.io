@@ -26,11 +26,11 @@ Hay varias correcciones para braille y se ha mejorado la detección de dispositi
 
 También se han corregido errores en la tienda de complementos, Microsoft Office, menús contextuales de Microsoft Edge y la calculadora de Windows.
 
-### [Actualización [25de octubre de 2023](https://www.nvaccess.org/post/nvda-2023-3rc2)
+### [Actualización 25de octubre de 2023](https://www.nvaccess.org/post/nvda-2023-3rc2)
 
 Se ha publicado NVDA 2023.3rc2 con actualización de traducciones.
 
-[Descarga NVDA 2023.3rc3](https://www.nvaccess.org/files/nvda/releases/2023.3rc2/nvda_2023.3rc2.exe)
+[Descarga NVDA 2023.3rc2](https://www.nvaccess.org/files/nvda/releases/2023.3rc2/nvda_2023.3rc2.exe)
 
 SHA256: eeec88ab9ce26780c5cac19c000a347828416d1e6003b0f3bc7b71771c463d56
 
