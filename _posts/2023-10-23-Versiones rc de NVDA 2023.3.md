@@ -6,7 +6,7 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Lunes, 23 de octubre de 2023</footer>
+<footer>Lunes, 23 de octubre de 2023, actualizado el 25 de octubre</footer>
 
 Se ha publicado NVDA 2023.3rc1, para probar características que se incluirán en la próxima versión estable (2023.3). Se recomienda a todo el mundo descargar esta versión y enviar comentarios. Si no se encuentran errores críticos, esta versión será idéntica a NVDA 2023.3.
 
@@ -26,9 +26,13 @@ Hay varias correcciones para braille y se ha mejorado la detección de dispositi
 
 También se han corregido errores en la tienda de complementos, Microsoft Office, menús contextuales de Microsoft Edge y la calculadora de Windows.
 
-[Descarga NVDA 2023.3rc1](https://www.nvaccess.org/files/nvda/releases/2023.3rc1/nvda_2023.3rc1.exe)
+### [Actualización [25de octubre de 2023](https://www.nvaccess.org/post/nvda-2023-3rc2)
 
-SHA256: e5a2380fc7b9dfd37deab5781e62f7bacfaa5a951a494ada5a6936213f53a5e1
+Se ha publicado NVDA 2023.3rc2 con actualización de traducciones.
+
+[Descarga NVDA 2023.3rc3](https://www.nvaccess.org/files/nvda/releases/2023.3rc2/nvda_2023.3rc2.exe)
+
+SHA256: eeec88ab9ce26780c5cac19c000a347828416d1e6003b0f3bc7b71771c463d56
 
 Para comprobar que el fichero descargado no ha sido modificado, es decir, para verificar su integridad, puedes confirmar que el SHA256 coincide con el anterior. Desde el símbolo del sistema de Windows, puedes averiguar el SHA256 de un archivo descargado mediante el siguiente comando:
 
@@ -39,5 +43,5 @@ certutil -hashfile <RutaAlArchivoDescargado> SHA256
 ### Referencias ###
 
 * [Post de NV Access sobre NVDA 2023.3rc1](https://www.nvaccess.org/post/nvda-2023-3rc1)
-* [Novedades de NVDA 2023.3rc1](https://www.nvaccess.org/files/nvda/releases/2023.3rc1/documentation/es/changes.html)
+* [Novedades de NVDA 2023.3rc2](https://www.nvaccess.org/files/nvda/releases/2023.3rc2/documentation/es/changes.html)
 * [Explicación sobre SHA256](https://criptomundo.com/que-es-sha-256)
