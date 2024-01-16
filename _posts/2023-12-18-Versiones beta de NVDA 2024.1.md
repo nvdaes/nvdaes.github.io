@@ -6,7 +6,7 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Lunes, 18 de diciembre de 2023, actualizado el 27 de diciembre</footer>
+<footer>Lunes, 18 de diciembre de 2023, actualizado el 16 de enero</footer>
 
 [Se ha publicado NVDA 2024.1beta1](https://www.nvaccess.org/post/nvda-2024-1beta1), para probar características que se incluirán en la próxima versión estable (2024.1).
 
@@ -34,6 +34,24 @@ Nota importante:
 - Windows 8.1 es la mínima versión requerida. Windows 7 y 8 ya no se podrán usar a partir de esta versión de NVDA.
 
 
+### [Actualización 15 de enero de 2024](https://www.nvaccess.org/post/nvda-2024-1beta4)
+
+Se ha publicado NVDA 2024.1beta 4 con los siguientes cambios:
+
+- Corrección de seguridad de NVDA 2023.1.
+- NVDA ya no debería fallar intermitentemente al reiniciarse tras haber abierto y cerrado la tienda de complementos.
+- Corrección para la interacción en cuadros combinados de iTunes y navegadores web.
+- Cambios en la estructura de la documentación.
+- Actualización de traducciones.
+
+### [Actualización 8 de enero de 2024](https://www.nvaccess.org/post/nvda-2024-1beta3)
+
+Se ha publicado NVDA 2024.1beta3 con los siguientes cambios:
+
+- Correcciones en la opción Excluir modos de voz del comando que cambia cíclicamente el modo de voz de NVDA.
+- Mejora del mensaje que informa sobre el tiempo de batería para que los plurales de horas y minutos se indiquen correctamente.
+- Actualización de traducciones.
+
 ### [Actualización 27 de diciembre de 2023](https://www.nvaccess.org/post/nvda-2024-1beta2)
 
 Se ha publicado NVDA 2024.1beta2 con los siguientes cambios:
@@ -45,7 +63,7 @@ Se ha publicado NVDA 2024.1beta2 con los siguientes cambios:
 
 ### Enlaces
 
-- [Descargar NVDA 2024.1beta2](https://www.nvaccess.org/files/nvda/releases/2024.1beta2/nvda_2024.1beta2.exe).
-	- SHA256: 14401ce3e5022c1cb90730125f0f99d369a09e421178dc7fd9f9f756b71c58f1
-- [Novedades](https://www.nvaccess.org/files/nvda/releases/2024.1beta2/documentation/es/changes.html).
+- [Descargar NVDA 2024.1beta4](https://www.nvaccess.org/files/nvda/releases/2024.1beta4/nvda_2024.1beta4.exe).
+	- SHA256: cb690136f1b30ff2224998055e6bda52e7165c632c659c41cd04508f8235e426
+- [Novedades](https://www.nvaccess.org/files/nvda/releases/2024.1beta4/documentation/es/changes.html).
 - Informar sobre errores mediante [incidencias en GitHub](https://github.com/nvaccess/nvda/issues).
