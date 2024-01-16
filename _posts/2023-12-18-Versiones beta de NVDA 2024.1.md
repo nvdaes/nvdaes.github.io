@@ -6,7 +6,7 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Lunes, 18 de diciembre de 2023, actualizado el 16 de enero</footer>
+<footer>Lunes, 18 de diciembre de 2023, actualizado el 16 de enero de 2024</footer>
 
 [Se ha publicado NVDA 2024.1beta1](https://www.nvaccess.org/post/nvda-2024-1beta1), para probar características que se incluirán en la próxima versión estable (2024.1).
 
@@ -38,7 +38,7 @@ Nota importante:
 
 Se ha publicado NVDA 2024.1beta 4 con los siguientes cambios:
 
-- Corrección de seguridad de NVDA 2023.1.
+- Corrección de seguridad de NVDA 2023.3.1.
 - NVDA ya no debería fallar intermitentemente al reiniciarse tras haber abierto y cerrado la tienda de complementos.
 - Corrección para la interacción en cuadros combinados de iTunes y navegadores web.
 - Cambios en la estructura de la documentación.
