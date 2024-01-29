@@ -6,7 +6,7 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Lunes, 18 de diciembre de 2023, actualizado el 22 de enero de 2024</footer>
+<footer>Lunes, 18 de diciembre de 2023, actualizado el 29 de enero de 2024</footer>
 
 [Se ha publicado NVDA 2024.1beta1](https://www.nvaccess.org/post/nvda-2024-1beta1), para probar características que se incluirán en la próxima versión estable (2024.1).
 
@@ -33,6 +33,14 @@ Nota importante:
 - Esta versión no es compatible con complementos creados para NVDA 2023.3 o versiones anteriores.
 - Windows 8.1 es la mínima versión requerida. Windows 7 y 8 ya no se podrán usar a partir de esta versión de NVDA.
 
+
+### [Actualización 29 de enero de 2024](https://www.nvaccess.org/post/nvda-2024-1beta6)
+
+Se ha publicado NVDA 2024.1beta6 con los siguientes cambios:
+
+- Corrección de seguridad de NVDA 2023.3.3.
+- Mejoras en la documentación.
+- Actualización de traducciones.
 
 ### [Actualización 22 de enero de 2024](https://www.nvaccess.org/post/nvda-2024-1beta5)
 
@@ -72,7 +80,7 @@ Se ha publicado NVDA 2024.1beta2 con los siguientes cambios:
 
 ### Enlaces
 
-- [Descargar NVDA 2024.1beta5](https://www.nvaccess.org/files/nvda/releases/2024.1beta5/nvda_2024.1beta5.exe).
-	- SHA256: 03fdce5a148555fc1251f39d4efb830bd027dab003c29f6f9aabeef216b581b9
-- [Novedades](https://www.nvaccess.org/files/nvda/releases/2024.1beta5/documentation/es/changes.html).
+- [Descargar NVDA 2024.1beta6](https://www.nvaccess.org/files/nvda/releases/2024.1beta6/nvda_2024.1beta6.exe).
+	- SHA256: 50050389ec4eea22988ef153b4f2b75c52fc7238ad4b22ecfa3433a1e30b3c1c
+- [Novedades](https://www.nvaccess.org/files/nvda/releases/2024.1beta6/documentation/es/changes.html).
 - Informar sobre errores mediante [incidencias en GitHub](https://github.com/nvaccess/nvda/issues).
