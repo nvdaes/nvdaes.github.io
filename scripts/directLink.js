@@ -12,7 +12,7 @@ const lastRelease = async () => {
   const response =await fetch(lastReleaseUrl, options);
   const json = await response.json();
   const releaseName = await json.name;
-  const version = await releaseName.substr(8);
+  const version = await releaseName;
   const directLink = await document.createElement('a');
   await directLink.setAttribute('href', `https://www.nvaccess.org/download/nvda/releases/${version}/nvda_${version}.exe`);
   await directLink.setAttribute('accesskey', '0');
