@@ -33,6 +33,17 @@ Nota importante:
 - Esta versión no es compatible con complementos creados para NVDA 2023.3 o versiones anteriores.
 - Windows 8.1 es la mínima versión requerida. Windows 7 y 8 ya no se podrán usar a partir de esta versión de NVDA.
 
+### [Actualización 4 de marzo de 2024](https://www.nvaccess.org/post/nvda-2024-1beta11)
+
+Se ha publicado NVDA 2024.1beta 11 con los siguientes cambios:
+
+- Corrección de seguridad introducida en NVDA 2023.3.4.
+- Corrección para actualizar complementos incompatibles, garantizando que no desaparecen de la lista de la tienda al descargarlos.
+- Se ha restablecido la numeración de encabezados en las guías de usuario y de desarrollo.
+- Se ha añadido una tabla de contenido a la guía de comandos.
+- Corrección para usar dispositivos braille BAUM.
+- Actualización de traducciones.
+
 ### [Actualización 26 de febrero de 2024](https://www.nvaccess.org/post/nvda-2024-1beta10)
 
 
@@ -101,7 +112,7 @@ Se ha publicado NVDA 2024.1beta2 con los siguientes cambios:
 
 ### Enlaces
 
-- [Descargar NVDA 2024.1beta10](https://www.nvaccess.org/files/nvda/releases/2024.1beta10/nvda_2024.1beta10.exe).
-	- SHA256: f2450f065d1227ab2873d3f0ad63bb32a76e2215f4548792144c8de444cf1fde
-- [Novedades](https://www.nvaccess.org/files/nvda/releases/2024.1beta10/documentation/es/changes.html).
+- [Descargar NVDA 2024.1beta11](https://www.nvaccess.org/files/nvda/releases/2024.1beta11/nvda_2024.1beta11.exe).
+	- SHA256: 0613d78320476d37c2fff41728a0676bbbe217146d5b03a8b82b706678917dc2
+- [Novedades](https://www.nvaccess.org/files/nvda/releases/2024.1beta11/documentation/es/changes.html).
 - Informar sobre errores mediante [incidencias en GitHub](https://github.com/nvaccess/nvda/issues).
