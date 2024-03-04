@@ -6,7 +6,7 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Lunes, 18 de diciembre de 2023, actualizado el 26 de febrero de 2024</footer>
+<footer>Lunes, 18 de diciembre de 2023, actualizado el 4 de marzo de 2024</footer>
 
 [Se ha publicado NVDA 2024.1beta1](https://www.nvaccess.org/post/nvda-2024-1beta1), para probar características que se incluirán en la próxima versión estable (2024.1).
 
