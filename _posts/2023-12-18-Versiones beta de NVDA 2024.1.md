@@ -6,7 +6,7 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Lunes, 18 de diciembre de 2023, actualizado el 6 de marzo de 2024</footer>
+<footer>Lunes, 18 de diciembre de 2023, actualizado el 12 de marzo de 2024</footer>
 
 [Se ha publicado NVDA 2024.1beta1](https://www.nvaccess.org/post/nvda-2024-1beta1), para probar características que se incluirán en la próxima versión estable (2024.1).
 
@@ -33,6 +33,13 @@ Nota importante:
 - Esta versión no es compatible con complementos creados para NVDA 2023.3 o versiones anteriores.
 - Windows 8.1 es la mínima versión requerida. Windows 7 y 8 ya no se podrán usar a partir de esta versión de NVDA.
 
+
+### [Actualización 12 de marzo de 2024](https://www.nvaccess.org/post/nvda-2024-1beta13)
+
+Se ha publicado NVDA 2024.1beta13 con los siguientes cambios:
+
+- Corrección de un error para la interacción en ciertos controles de NVDA, como el diálogo de selección de sintetizador y elementos seleccionables en listas de casillas de verificación.
+- Actualización de traducciones.
 
 ### [Actualización 6 de marzo de 2024](https://www.nvaccess.org/post/nvda-2024-1beta12)
 
@@ -123,7 +130,7 @@ Se ha publicado NVDA 2024.1beta2 con los siguientes cambios:
 
 ### Enlaces
 
-- [Descargar NVDA 2024.1beta12](https://www.nvaccess.org/files/nvda/releases/2024.1beta12/nvda_2024.1beta12.exe).
-	- SHA256: ea9fc956e141054f54ad2d0093c98f33415559974af1e5113b584e59afc35d91
-- [Novedades](https://www.nvaccess.org/files/nvda/releases/2024.1beta12/documentation/es/changes.html).
+- [Descargar NVDA 2024.1beta13](https://www.nvaccess.org/files/nvda/releases/2024.1beta13/nvda_2024.1beta13.exe).
+	- SHA256: 46bbf6538b1afe8b3bc600df61c22c0d6767a12f8384a9dc5c56b5d9c9383d3e
+- [Novedades](https://www.nvaccess.org/files/nvda/releases/2024.1beta13/documentation/es/changes.html).
 - Informar sobre errores mediante [incidencias en GitHub](https://github.com/nvaccess/nvda/issues).
