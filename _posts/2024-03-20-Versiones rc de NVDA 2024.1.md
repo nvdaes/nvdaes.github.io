@@ -33,7 +33,7 @@ Nota importante:
 - Esta versión no es compatible con complementos creados para NVDA 2023.3 o versiones anteriores.
 - Windows 8.1 es la mínima versión requerida. Windows 7 y 8 ya no se podrán usar a partir de esta versión de NVDA.
 
-[Descarga NVDA 2024.1rc1](https://www.nvaccess.org/files/nvda/releases/2024.1rc1/nvda_2024.1rc1.exe)
+- [Descarga NVDA 2024.1rc1](https://www.nvaccess.org/files/nvda/releases/2024.1rc1/nvda_2024.1rc1.exe)
 	- SHA256: 47380091cab8e817cfa37aadbbd077d15a38c4713ca888cf6f674783a3210987
 
 Para comprobar que el fichero descargado no ha sido modificado, es decir, para verificar su integridad, puedes confirmar que el SHA256 coincide con el anterior. Desde el símbolo del sistema de Windows, puedes averiguar el SHA256 de un archivo descargado mediante el siguiente comando:
