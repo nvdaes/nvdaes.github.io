@@ -6,7 +6,7 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Lunes, 13 de mayo de 2024</footer>
+<footer>Martes, 14 de mayo de 2024</footer>
 
 [Se ha publicado NVDA 2024.1beta2](https://www.nvaccess.org/post/nvda-2024-2beta1).
 
