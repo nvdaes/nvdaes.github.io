@@ -6,20 +6,28 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Martes, 14 de mayo de 2024</footer>
+<footer>Martes, 14 de mayo de 2024 (actualizado el 23 de mayo)</footer>
 
 [Se ha publicado NVDA 2024.2beta1](https://www.nvaccess.org/post/nvda-2024-2beta1).
+
+### Enlaces
+
+- [Descargar NVDA 2024.2beta2](https://www.nvaccess.org/files/nvda/releases/2024.2beta2/nvda_2024.2beta2.exe)
+
+  - SHA256: d0c54faf3910b389c04249b753cbfe90987b8703b3efddedaaa113732bd8fe43
+  
+- [Novedades](https://www.nvaccess.org/files/nvda/releases/2024.2beta2/documentation/es/changes.html)
+- [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
 
 Al usar la versión beta, estarás eligiendo el canal beta y solo recibirás notificaciones sobre actualizaciones disponibles para versiones beta y rc. La última versión rc publicada antes de una versión estable será idéntica a esa versión estable.
 
 Para volver al canal estable, actualiza manualmente NVDA a la última versión estable.
 
-
 ### [Actualización 20 de mayo de 2024](https://www.nvaccess.org/post/nvda-2024-2beta2)
 
 Se ha publicado NVDA 2024.2beta2 con los siguientes cambios:
 
-- Deshabilitada la navegación por estilos en Outlook y Word sin UIÇAÇ.
+- Deshabilitada la navegación por estilos en Outlook y Word sin UIA.
 - Deshabilitados los comandos de navegación rápida vertical, por estilo y texto en Kindle.
 - Correcciones menores a la documentación.
 - Actualización de traducciones.
@@ -38,11 +46,3 @@ eSpeak se ha actualizado, añadiendo el nuevo idioma Tigriña.
 
 Hay correcciones menores para aplicaciones tales como Thunderbird, Adobe Reader, navegadores web, Nudi y Geekbench.
 
-### Enlaces
-
-- [Descargar NVDA 2024.2beta2](https://www.nvaccess.org/files/nvda/releases/2024.2beta2/nvda_2024.2beta2.exe)
-
-  - SHA256: d0c54faf3910b389c04249b753cbfe90987b8703b3efddedaaa113732bd8fe43
-  
-- [Novedades](https://www.nvaccess.org/files/nvda/releases/2024.2beta2/documentation/es/changes.html)
-- [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
