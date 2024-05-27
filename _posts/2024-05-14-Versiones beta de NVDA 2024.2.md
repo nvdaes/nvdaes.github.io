@@ -6,22 +6,34 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Martes, 14 de mayo de 2024 (actualizado el 23 de mayo)</footer>
+<footer>Martes, 14 de mayo de 2024 (actualizado el 27 de mayo)</footer>
 
 [Se ha publicado NVDA 2024.2beta1](https://www.nvaccess.org/post/nvda-2024-2beta1).
 
 ### Enlaces
 
-- [Descargar NVDA 2024.2beta2](https://www.nvaccess.org/files/nvda/releases/2024.2beta2/nvda_2024.2beta2.exe)
+- [Descargar NVDA 2024.2beta3](https://www.nvaccess.org/files/nvda/releases/2024.2beta3/nvda_2024.2beta3.exe)
 
-  - SHA256: d0c54faf3910b389c04249b753cbfe90987b8703b3efddedaaa113732bd8fe43
+  - SHA256: ad045686108984b4cc5d2cfb64e8c757494bb6448d97adfe725288c0a4419669
   
-- [Novedades](https://www.nvaccess.org/files/nvda/releases/2024.2beta2/documentation/es/changes.html)
+- [Novedades](https://www.nvaccess.org/files/nvda/releases/2024.2beta3/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
 
 Al usar la versión beta, estarás eligiendo el canal beta y solo recibirás notificaciones sobre actualizaciones disponibles para versiones beta y rc. La última versión rc publicada antes de una versión estable será idéntica a esa versión estable.
 
 Para volver al canal estable, actualiza manualmente NVDA a la última versión estable.
+
+
+### [Actualización 27 de mayo de 2024](https://www.nvaccess.org/post/nvda-2024-2beta3)
+
+Se ha publicado NVDA 2024.2beta3 con los siguientes cambios:
+
+- Deshabilitada la navegación por estilos en Microsoft Word.
+- Añadida una sección sobre la tienda de complementos a la guía de inicio rápido.
+- Correcciones para usar Poedit con todas las formas plurales.
+- Correcciones menores para la separación de sonidos.
+- Correcciones menores a la documentación.
+- Actualización de traducciones.
 
 ### [Actualización 20 de mayo de 2024](https://www.nvaccess.org/post/nvda-2024-2beta2)
 
