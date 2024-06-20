@@ -6,7 +6,7 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Lunes, 17 de junio de 2024</footer>
+<footer>Lunes, 17 de junio de 2024 (actualizado el 20 de junio)</footer>
 
 [Se ha publicado NVDA 2024.2rc1](https://www.nvaccess.org/post/nvda-2024-2rc1), para probar características que se incluirán en la próxima versión estable (2024.2). Se recomienda a todo el mundo descargar esta versión y enviar comentarios. Si no se encuentran errores críticos, esta versión será idéntica a NVDA 2024.2.
 
@@ -14,11 +14,15 @@ Al usar la versión rc, estarás eligiendo el canal beta/rc y solo recibirás no
 
 Para volver al canal estable, actualiza manualmente NVDA a la última versión estable.
 
+### [Actualización 19 de junio](https://www.nvaccess.org/post/nvda-2024-2rc2)
+
+Se ha publicado NVDA 2024.2rc2 con traducciones actualizadas.
+
 ### Enlaces
 
-- [Descargar NVDA 2024.2rc1](https://www.nvaccess.org/files/nvda/releases/2024.2rc1/nvda_2024.2rc1.exe)
-  - SHA256: bb54bacaf539398816115eb8fe09c23c2728341ff29f9363c4ec9cb5222abea6
-- [Novedades](https://www.nvaccess.org/files/nvda/releases/2024.2rc1/documentation/es/changes.html)
+- [Descargar NVDA 2024.2rc2](https://www.nvaccess.org/files/nvda/releases/2024.2rc2/nvda_2024.2rc2.exe)
+  - SHA256: c93f2decabd1bca648649ded7870432c4193bbe373fa279a8a439430a3d8f232
+- [Novedades](https://www.nvaccess.org/files/nvda/releases/2024.2rc2/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
 
 ### Aspectos destacados
