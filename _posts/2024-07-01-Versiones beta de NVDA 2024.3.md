@@ -6,18 +6,25 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Lunes, 1 de julio de 2024 (actualizado el 8 de julio)</footer>
+<footer>Lunes, 1 de julio de 2024 (actualizado el 15 de julio)</footer>
 
 [Se ha publicado NVDA 2024.3beta1](https://www.nvaccess.org/post/nvda-2024-3beta1).
 
 ### Enlaces
 
-- [Descargar NVDA 2024.3beta2](https://www.nvaccess.org/files/nvda/releases/2024.3beta2/nvda_2024.3beta2.exe)
-  - SHA256: 6fb3e9412506843665c18eee67c10497ad70b879af8a745dae1cf718b78167a2
-- [Novedades](https://www.nvaccess.org/files/nvda/releases/2024.3beta2/documentation/es/changes.html)
+- [Descargar NVDA 2024.3beta3](https://www.nvaccess.org/files/nvda/releases/2024.3beta3/nvda_2024.3beta3.exe)
+  - SHA256: e73a7f067f59825f4999fbc8b4b897e5d39247e83760283d64f079ba0f1bcbfe
+- [Novedades](https://www.nvaccess.org/files/nvda/releases/2024.3beta3/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
 
-### Actualización 8 de julio de 2024
+### [Actualización 15 de julio de 2024](https://www.nvaccess.org/post/nvda-2024-3beta3)
+
+Se ha publicado NVDA 2024.3beta3 con los siguientes cambios:
+
+- No volverán a aparecer notificaciones sobre actualización de complementos al ejecutar el instalador de NVDA.
+- Actualización de traducciones.
+
+### [Actualización 8 de julio de 2024](https://www.nvaccess.org/post/nvda-2024-3beta2)
 
 Se ha publicado NVDA 2024.3beta2 con los siguientes cambios:
 
