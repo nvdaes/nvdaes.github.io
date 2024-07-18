@@ -6,16 +6,26 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Lunes, 1 de julio de 2024 (actualizado el 15 de julio)</footer>
+<footer>Lunes, 1 de julio de 2024 (actualizado el 18 de julio)</footer>
 
 [Se ha publicado NVDA 2024.3beta1](https://www.nvaccess.org/post/nvda-2024-3beta1).
 
 ### Enlaces
 
-- [Descargar NVDA 2024.3beta3](https://www.nvaccess.org/files/nvda/releases/2024.3beta3/nvda_2024.3beta3.exe)
-  - SHA256: e73a7f067f59825f4999fbc8b4b897e5d39247e83760283d64f079ba0f1bcbfe
-- [Novedades](https://www.nvaccess.org/files/nvda/releases/2024.3beta3/documentation/es/changes.html)
+- [Descargar NVDA 2024.3beta4](https://www.nvaccess.org/files/nvda/releases/2024.3beta4/nvda_2024.3beta4.exe)
+  - SHA256: f61cc30ffd285aeee4b5679280d0d0480c7838f7b7b50c12c5ca595b6c912006
+- [Novedades](https://www.nvaccess.org/files/nvda/releases/2024.3beta4/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
+
+
+### [Actualización 18 de julio de 2024](https://www.nvaccess.org/post/nvda-2024-3beta4)
+
+Se ha publicado NVDA 2024.3beta4 con los siguientes cambios:
+
+- Corregida la indicación de direcciones en Outlook moderno (Para/CC/CCO).
+- Mejorado el manejo de errores al instalar complementos. Corregido un error por el que las actualizaciones fallidas eliminaban el complemento instalado.
+- Correcciones menores para mejorar la actualización de copias portables.
+- Actualización de traducciones.
 
 ### [Actualización 15 de julio de 2024](https://www.nvaccess.org/post/nvda-2024-3beta3)
 
