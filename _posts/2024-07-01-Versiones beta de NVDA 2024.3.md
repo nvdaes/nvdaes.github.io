@@ -6,17 +6,25 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Lunes, 1 de julio de 2024 (actualizado el 18 de julio)</footer>
+<footer>Lunes, 1 de julio de 2024 (actualizado el 31 de julio)</footer>
 
 [Se ha publicado NVDA 2024.3beta1](https://www.nvaccess.org/post/nvda-2024-3beta1).
 
 ### Enlaces
 
-- [Descargar NVDA 2024.3beta4](https://www.nvaccess.org/files/nvda/releases/2024.3beta4/nvda_2024.3beta4.exe)
-  - SHA256: f61cc30ffd285aeee4b5679280d0d0480c7838f7b7b50c12c5ca595b6c912006
-- [Novedades](https://www.nvaccess.org/files/nvda/releases/2024.3beta4/documentation/es/changes.html)
+- [Descargar NVDA 2024.3beta5](https://www.nvaccess.org/files/nvda/releases/2024.3beta5/nvda_2024.3beta5.exe)
+  - SHA256: 61856c2fe8b645e95c6cf6046ad575b7de9e6da3c8289eb3e34e5a45a146e03c
+- [Novedades](https://www.nvaccess.org/files/nvda/releases/2024.3beta5/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
 
+### [Actualización 31 de julio de 2024](https://www.nvaccess.org/post/nvda-2024-3beta5)
+
+Se ha publicado NVDA 2024.3beta5 con los siguientes cambios:
+
+- Corregido un error al editar enlaces en editores de texto en Mozilla Firefox.
+- Corregidos cuelgues en Chrome al salir de NVDA o al cerrar ventanas de Chrome.
+- Corregido un error al reiniciar la configuración a los valores predeterminados.
+- Actualización de traducciones.
 
 ### [Actualización 18 de julio de 2024](https://www.nvaccess.org/post/nvda-2024-3beta4)
 
