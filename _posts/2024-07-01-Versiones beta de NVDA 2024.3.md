@@ -6,16 +6,23 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Lunes, 1 de julio de 2024 (actualizado el 31 de julio)</footer>
+<footer>Lunes, 1 de julio de 2024 (actualizado el 5 de agosto)</footer>
 
 [Se ha publicado NVDA 2024.3beta1](https://www.nvaccess.org/post/nvda-2024-3beta1).
 
 ### Enlaces
 
-- [Descargar NVDA 2024.3beta5](https://www.nvaccess.org/files/nvda/releases/2024.3beta5/nvda_2024.3beta5.exe)
-  - SHA256: 61856c2fe8b645e95c6cf6046ad575b7de9e6da3c8289eb3e34e5a45a146e03c
-- [Novedades](https://www.nvaccess.org/files/nvda/releases/2024.3beta5/documentation/es/changes.html)
+- [Descargar NVDA 2024.3beta6](https://www.nvaccess.org/files/nvda/releases/2024.3beta6/nvda_2024.3beta6.exe)
+  - SHA256: 22e0727f667c9f589a8d47856f0abcd040aaf8f65185b3bfead7f27bc46f2879
+- [Novedades](https://www.nvaccess.org/files/nvda/releases/2024.3beta6/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
+
+### [Actualización 5 de agosto de 2024](https://www.nvaccess.org/post/nvda-2024-3beta6)
+
+Se ha publicado NVDA 2024.3beta6 con los siguientes cambios:
+
+- Corregido un error de la normalización Unicode.
+- Actualización de traducciones.
 
 ### [Actualización 31 de julio de 2024](https://www.nvaccess.org/post/nvda-2024-3beta5)
 
