@@ -6,16 +6,26 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Miércoles, 28 de agosto de 2024 (actualizado el 3 de septiembre)</footer>
+<footer>Miércoles, 28 de agosto de 2024 (actualizado el 9 de septiembre)</footer>
 
 [Se ha publicado NVDA 2024.4beta1](https://www.nvaccess.org/post/nvda-2024-4beta1).
 
 ### Enlaces
 
-- [Descargar NVDA 2024.4beta2](https://www.nvaccess.org/files/nvda/releases/2024.4beta2/nvda_2024.4beta2.exe)
-  - SHA256: fec011fd210e56d1f0c40f9b202d5e7cd516721a6282b981ae829ec4c49897d9
-- [Novedades](https://www.nvaccess.org/files/nvda/releases/2024.4beta2/documentation/es/changes.html)
+- [Descargar NVDA 2024.4beta3](https://www.nvaccess.org/files/nvda/releases/2024.4beta3/nvda_2024.4beta3.exe)
+  - SHA256: b16ceaf9816e2211bd0b2d5633387aaa5b478b4b8db57db2ea65de913e733076
+- [Novedades](https://www.nvaccess.org/files/nvda/releases/2024.4beta3/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
+
+### [Actualización 9 de septiembre de 2024](https://www.nvaccess.org/post/nvda-2024-4beta3)
+
+Se ha publicado NVDA 2024.4beta3 con los siguientes cambios:
+
+- Actualizado el transcriptor braille LibLouis a [3.31.0](https://github.com/liblouis/liblouis/releases/tag/v3.31.0).
+  - se ha corregido un error en los números para braille en español;
+  - Nuevas tablas braille: tailandés grado 1; griego internacional (letras acentuadas de una sola celda);
+  - cambiado el nombre de algunas tablas: tailandés de 6 puntos pasa a llamarse tailandés grado 0 por motivos de consistencia; la tabla existente "griego internacional" se llama griego internacional (letras acentuadas de dos celdas), para aclarar la diferencia entre los dos sistemas de griego.
+- Actualización de traducciones.
 
 ### [Actualización 3 de septiembre de 2024](https://www.nvaccess.org/post/nvda-2024-4beta2)
 
@@ -45,5 +55,7 @@ Ahora puedes configurar cómo se muestra el formato de texto en braille, y hacer
 La versión mínima de Poedit requerida es 3.5.
 
 Se ha actualizado eSpeak NG, con soporte para los idiomas feroés y Xextan.
+
+Se ha actualizado LibLouis, con nuevas tablas para tailandés y griego internacional con letras acentuadas de una sola celda.
 
 También hay mejoras para el seguimiento del ratón en Firefox y el modo de voz "A petición".
