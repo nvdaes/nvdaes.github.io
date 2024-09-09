@@ -21,9 +21,9 @@ author: Noelia
 
 Se ha publicado NVDA 2024.4beta3 con los siguientes cambios:
 
-- Actualizado el transcriptor braille LibLouis a [3.31.0](https://github.com/liblouis/liblouis/releases/tag/v3.31.0).
+- Actualizado el transcriptor braille LibLouis a [3.31.0](https://github.com/liblouis/liblouis/releases/tag/v3.31.0):
   - se ha corregido un error en los números para braille en español;
-  - Nuevas tablas braille: tailandés grado 1; griego internacional (letras acentuadas de una sola celda);
+  - nuevas tablas braille: tailandés grado 1; griego internacional (letras acentuadas de una sola celda);
   - cambiado el nombre de algunas tablas: tailandés de 6 puntos pasa a llamarse tailandés grado 0 por motivos de consistencia; la tabla existente "griego internacional" se llama griego internacional (letras acentuadas de dos celdas), para aclarar la diferencia entre los dos sistemas de griego.
 - Actualización de traducciones.
 
