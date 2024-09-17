@@ -6,16 +6,25 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Miércoles, 28 de agosto de 2024 (actualizado el 9 de septiembre)</footer>
+<footer>Miércoles, 28 de agosto de 2024 (actualizado el 17 de septiembre)</footer>
 
 [Se ha publicado NVDA 2024.4beta1](https://www.nvaccess.org/post/nvda-2024-4beta1).
 
 ### Enlaces
 
-- [Descargar NVDA 2024.4beta3](https://www.nvaccess.org/files/nvda/releases/2024.4beta3/nvda_2024.4beta3.exe)
-  - SHA256: b16ceaf9816e2211bd0b2d5633387aaa5b478b4b8db57db2ea65de913e733076
-- [Novedades](https://www.nvaccess.org/files/nvda/releases/2024.4beta3/documentation/es/changes.html)
+- [Descargar NVDA 2024.4beta4](https://www.nvaccess.org/files/nvda/releases/2024.4beta4/nvda_2024.4beta4.exe)
+  - SHA256: 7968a514020d27ce7c7cc842ce7c6bb36625cf21fc122a2204fb8a26057af489
+- [Novedades](https://www.nvaccess.org/files/nvda/releases/2024.4beta4/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
+
+
+### [Actualización 17 de septiembre de 2024](https://www.nvaccess.org/post/nvda-2024-4beta4)
+
+Se ha publicado NVDA 2024.4beta4 con los siguientes cambios:
+
+- Corregido el diseño visual de la pestaña de opciones de braille.
+- Corregido un error por el que aparecía texto no relacionado con teclas rápidas en la refereencia rápida de comandos.
+- Actualización de traducciones.
 
 ### [Actualización 9 de septiembre de 2024](https://www.nvaccess.org/post/nvda-2024-4beta3)
 
