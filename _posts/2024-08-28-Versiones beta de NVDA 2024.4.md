@@ -6,16 +6,23 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Miércoles, 28 de agosto de 2024 (actualizado el 17 de septiembre)</footer>
+<footer>Miércoles, 28 de agosto de 2024 (actualizado el 5 de octubre)</footer>
 
 [Se ha publicado NVDA 2024.4beta1](https://www.nvaccess.org/post/nvda-2024-4beta1).
 
 ### Enlaces
 
-- [Descargar NVDA 2024.4beta4](https://www.nvaccess.org/files/nvda/releases/2024.4beta4/nvda_2024.4beta4.exe)
-  - SHA256: 7968a514020d27ce7c7cc842ce7c6bb36625cf21fc122a2204fb8a26057af489
-- [Novedades](https://www.nvaccess.org/files/nvda/releases/2024.4beta4/documentation/es/changes.html)
+- [Descargar NVDA 2024.4beta5](https://www.nvaccess.org/files/nvda/releases/2024.5beta5/nvda_2024.4beta5.exe)
+  - SHA256: e3b862a2137a45ef1ca0e7b71edaca2697c725f4f9f50ef36e5043f326c76b57
+- [Novedades](https://www.nvaccess.org/files/nvda/releases/2024.4beta5/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
+
+### [Actualización 2 de octubre de 2024](https://www.nvaccess.org/post/nvda-2024-4beta5)
+
+Se ha publicado NVDA 2024.4beta5 con los siguientes cambios:
+
+- Corregido un error por el que no se respetaba el tiempo de espera personalizado al pulsar repetidamente la tecla NVDA.
+- Actualización de traducciones.
 
 
 ### [Actualización 17 de septiembre de 2024](https://www.nvaccess.org/post/nvda-2024-4beta4)
