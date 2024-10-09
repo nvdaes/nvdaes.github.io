@@ -8,7 +8,7 @@ author: Noelia
 
 <footer>Miércoles, 9 de octubre de 2024</footer>
 
-[Se ha publicado NVDA 2024.4rc1](https://www.nvaccess.org/post/nvda-2024-4rc1), para probar características que se incluirán en la próxima versión estable (2024.4). Se recomienda a todo el mundo descargar esta versión y enviar comentarios. Si no se encuentran errores críticos, esta versión será idéntica a NVDA 2024.3.
+[Se ha publicado NVDA 2024.4rc1](https://www.nvaccess.org/post/nvda-2024-4rc1), para probar características que se incluirán en la próxima versión estable (2024.4). Se recomienda a todo el mundo descargar esta versión y enviar comentarios. Si no se encuentran errores críticos, esta versión será idéntica a NVDA 2024.4.
 
 Al usar la versión rc, estarás eligiendo el canal beta/rc y solo recibirás notificaciones sobre actualizaciones disponibles para estos tipos de versiones.
 
