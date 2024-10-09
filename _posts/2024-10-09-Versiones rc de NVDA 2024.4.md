@@ -1,5 +1,5 @@
 ---
-title: Versiones rc de NVDA 2024.3
+title: Versiones rc de NVDA 2024.4
 permalink: "/nvda-2024-4rc/"
 layout: post
 giscus: true
