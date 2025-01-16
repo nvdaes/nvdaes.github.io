@@ -6,7 +6,7 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Jueves, 16 de enero de 2024</footer>
+<footer>Jueves, 16 de enero de 2025</footer>
 
 Como se explica en esta [noticia de NV Access sobre NVDA 2024.4.2](https://www.nvaccess.org/post/nvda-2024-4-2) (en inglés), se ha publicado esta nueva versión estable de NVDA.
 
