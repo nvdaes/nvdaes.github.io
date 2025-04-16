@@ -6,9 +6,10 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Miércoles, 15 de abril de 2025
+<footer>Miércoles, 15 de abril de 2025</footer>
 
 [Se ha publicado NVDA 2025.1beta1](https://www.nvaccess.org/post/nvda-2025-1beta1).
+
 
 ### Enlaces
 
