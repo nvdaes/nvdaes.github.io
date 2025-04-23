@@ -6,18 +6,24 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Martes, 15 de abril de 2025</footer>
+<footer>Martes, 15 de abril de 2025 (actualizado el 22 de abril)</footer>
 
 [Se ha publicado NVDA 2025.1beta1](https://www.nvaccess.org/post/nvda-2025-1beta1).
 
 
 ### Enlaces
 
-- [Descargar NVDA 2025.1beta1](https://download.nvaccess.org/releases/2025.1beta1/nvda_2025.1beta1.exe)
- 
-  - SHA256: fce84012153d96581f9bab3cdf0fc50959e89759e844aa68e052bc0c66604072
+- [Descargar NVDA 2025.1beta2](https://download.nvaccess.org/releases/2025.1beta2/nvda_2025.1beta2.exe)
+  - SHA256: 26533221ee59e3f10a7c326c178ad030b37930039f3e697049ca8060b6b9e5c1
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
+
+### [Actualización 22 de abril de 2025](https://www.nvaccess.org/post/nvda-2025-1beta2)
+
+Se ha publicado NVDA 2025.1beta2 con los siguientes cambios:
+
+- Actualización de traducciones.
+- Corrección menor para voces SAPI 5 cuando se usa alzado brusco.
 
 ### Aspectos destacados
 
