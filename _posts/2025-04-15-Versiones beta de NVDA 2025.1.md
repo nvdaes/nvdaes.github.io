@@ -6,17 +6,30 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Martes, 15 de abril de 2025 (actualizado el 22 de abril)</footer>
+<footer>Martes, 15 de abril de 2025 (actualizado el 28 de abril)</footer>
 
 [Se ha publicado NVDA 2025.1beta1](https://www.nvaccess.org/post/nvda-2025-1beta1).
 
 
 ### Enlaces
 
-- [Descargar NVDA 2025.1beta2](https://download.nvaccess.org/releases/2025.1beta2/nvda_2025.1beta2.exe)
-  - SHA256: 26533221ee59e3f10a7c326c178ad030b37930039f3e697049ca8060b6b9e5c1
+- [Descargar NVDA 2025.1beta3](https://download.nvaccess.org/releases/2025.1beta3/nvda_2025.1beta3.exe)
+  - SHA256: 59f47cbb18d2a3c8f391019b58f665d0e204ed950f6f49094e51c02cfeb89292
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
+
+### ]Actualización 28 de abril de 2025](https://www.nvaccess.org/post/nvda-2025-1beta3)
+
+Se ha publicado NVDA 2025.1beta3 con los siguientes cambios:
+
+- Actualización de traducciones.
+- Se impide iniciar una nueva sesión de acceso remoto en modo seguro.
+- Actualizaciones para la interfaz de acceso remoto.
+- Añadido un nuevo comando (sin gesto de entrada asignado) para mostrar la configuración de acceso remoto.
+- Correcciones menores para voces SAPI 4.
+
+
+
 
 ### [Actualización 22 de abril de 2025](https://www.nvaccess.org/post/nvda-2025-1beta2)
 
