@@ -18,7 +18,7 @@ author: Noelia
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
 
-### ]Actualización 28 de abril de 2025](https://www.nvaccess.org/post/nvda-2025-1beta3)
+### [Actualización 28 de abril de 2025](https://www.nvaccess.org/post/nvda-2025-1beta3)
 
 Se ha publicado NVDA 2025.1beta3 con los siguientes cambios:
 
