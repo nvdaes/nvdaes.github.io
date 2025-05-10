@@ -13,10 +13,22 @@ author: Noelia
 
 ### Enlaces
 
-- [Descargar NVDA 2025.1beta3](https://download.nvaccess.org/releases/2025.1beta3/nvda_2025.1beta3.exe)
-  - SHA256: 59f47cbb18d2a3c8f391019b58f665d0e204ed950f6f49094e51c02cfeb89292
+- [Descargar NVDA 2025.1beta3](https://download.nvaccess.org/releases/2025.1beta4/nvda_2025.1beta4.exe)
+  - SHA256: 888a5d232aa06234051c73b2430362ecd2f77bf1a9e891a78c8e05606b0e74fc
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
+
+### [Actualización 20 de mayo de 2025](https://www.nvaccess.org/post/nvda-2025-1beta4)
+
+Se ha publicado NVDA 2025.1beta4 con los siguientes cambios:
+
+- Actualización de traducciones.
+- Corregido un error que permitía a un proceso arbitrario conectarse a una sesión de acceso remoto ejecutándose en una pantalla segura.
+- Ahora quienes controlan sesiones de acceso remoto pueden recuperar el control después de que el último PC controlado se haya desconectado.
+- Se ha mejorado el manejo del foco en el diálogo de conexión de acceso remoto.
+- No se cambiará el estado de silencio de acceso remoto cuando no existen conexiones activas.
+- 
+
 
 ### [Actualización 28 de abril de 2025](https://www.nvaccess.org/post/nvda-2025-1beta3)
 
