@@ -6,7 +6,7 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Martes, 15 de abril de 2025 (actualizado el 28 de abril)</footer>
+<footer>Martes, 15 de abril de 2025 (actualizado el 5 de abril)</footer>
 
 [Se ha publicado NVDA 2025.1beta1](https://www.nvaccess.org/post/nvda-2025-1beta1).
 
@@ -18,7 +18,7 @@ author: Noelia
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
 
-### [Actualización 20 de mayo de 2025](https://www.nvaccess.org/post/nvda-2025-1beta4)
+### [Actualización 5 de mayo de 2025](https://www.nvaccess.org/post/nvda-2025-1beta4)
 
 Se ha publicado NVDA 2025.1beta4 con los siguientes cambios:
 
@@ -27,8 +27,6 @@ Se ha publicado NVDA 2025.1beta4 con los siguientes cambios:
 - Ahora quienes controlan sesiones de acceso remoto pueden recuperar el control después de que el último PC controlado se haya desconectado.
 - Se ha mejorado el manejo del foco en el diálogo de conexión de acceso remoto.
 - No se cambiará el estado de silencio de acceso remoto cuando no existen conexiones activas.
-- 
-
 
 ### [Actualización 28 de abril de 2025](https://www.nvaccess.org/post/nvda-2025-1beta3)
 
