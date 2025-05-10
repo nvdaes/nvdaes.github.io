@@ -23,7 +23,7 @@ author: Noelia
 Se ha publicado NVDA 2025.1beta4 con los siguientes cambios:
 
 - Actualización de traducciones.
-- Corregido un error que permitía a un proceso arbitrario conectarse a una sesión de acceso remoto ejecutándose en una pantalla segura.
+- Corregido un error de seguridad que permitía a un proceso arbitrario conectarse a una sesión de acceso remoto ejecutándose en una pantalla segura.
 - Ahora quienes controlan sesiones de acceso remoto pueden recuperar el control después de que el último PC controlado se haya desconectado.
 - Se ha mejorado el manejo del foco en el diálogo de conexión de acceso remoto.
 - No se cambiará el estado de silencio de acceso remoto cuando no existen conexiones activas.
