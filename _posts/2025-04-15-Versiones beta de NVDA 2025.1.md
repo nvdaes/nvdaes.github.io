@@ -13,7 +13,7 @@ author: Noelia
 
 ### Enlaces
 
-- [Descargar NVDA 2025.1beta3](https://download.nvaccess.org/releases/2025.1beta4/nvda_2025.1beta4.exe)
+- [Descargar NVDA 2025.1beta4](https://download.nvaccess.org/releases/2025.1beta4/nvda_2025.1beta4.exe)
   - SHA256: 888a5d232aa06234051c73b2430362ecd2f77bf1a9e891a78c8e05606b0e74fc
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
