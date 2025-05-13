@@ -23,7 +23,7 @@ author: Noelia
 Se ha publicado NVDA 2025.1beta5 con los siguientes cambios:
 
 - Actualización de traducciones.
-- - Correcciones para leer atributos de matemáticas en PDF.
+- Correcciones para leer atributos de matemáticas en PDF.
 - Pequeñas mejoras en la experiencia con el uso de acceso remoto.
 ### [Actualización 5 de mayo de 2025](https://www.nvaccess.org/post/nvda-2025-1beta4)
 
