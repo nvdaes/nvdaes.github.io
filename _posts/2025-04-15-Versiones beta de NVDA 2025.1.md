@@ -6,18 +6,25 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Martes, 15 de abril de 2025 (actualizado el 5 de mayo)</footer>
+<footer>Martes, 15 de abril de 2025 (actualizado el 12 de mayo)</footer>
 
 [Se ha publicado NVDA 2025.1beta1](https://www.nvaccess.org/post/nvda-2025-1beta1).
 
 
 ### Enlaces
 
-- [Descargar NVDA 2025.1beta4](https://download.nvaccess.org/releases/2025.1beta4/nvda_2025.1beta4.exe)
-  - SHA256: 888a5d232aa06234051c73b2430362ecd2f77bf1a9e891a78c8e05606b0e74fc
+- [Descargar NVDA 2025.1beta5](https://download.nvaccess.org/releases/2025.1beta5/nvda_2025.1beta5.exe)
+  - SHA256: 6b4d5037222e1a8211ae117efd7f52b81ed56dc9d60eb812352ffbb5b6b81caf
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
 
+### [Actualización 12 de mayo de 2025](https://mailchi.mp/58d6d37363ea/nvda-20251-beta-5-now-available?e=4f535ed214)
+
+Se ha publicado NVDA 2025.1beta5 con los siguientes cambios:
+
+- Actualización de traducciones.
+- - Correcciones para leer atributos de matemáticas en PDF.
+- Pequeñas mejoras en la experiencia con el uso de acceso remoto.
 ### [Actualización 5 de mayo de 2025](https://www.nvaccess.org/post/nvda-2025-1beta4)
 
 Se ha publicado NVDA 2025.1beta4 con los siguientes cambios:
