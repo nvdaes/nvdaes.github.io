@@ -6,17 +6,27 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Martes, 15 de abril de 2025 (actualizado el 12 de mayo)</footer>
+<footer>Martes, 15 de abril de 2025 (actualizado el 19 de mayo)</footer>
 
 [Se ha publicado NVDA 2025.1beta1](https://www.nvaccess.org/post/nvda-2025-1beta1).
 
 
 ### Enlaces
 
-- [Descargar NVDA 2025.1beta5](https://download.nvaccess.org/releases/2025.1beta5/nvda_2025.1beta5.exe)
-  - SHA256: 6b4d5037222e1a8211ae117efd7f52b81ed56dc9d60eb812352ffbb5b6b81caf
+- [Descargar NVDA 2025.1beta6](https://download.nvaccess.org/releases/2025.1beta6/nvda_2025.1beta6.exe)
+  - SHA256: 5c4e7d04c31fbee7016434e6e61c02483c402b0fae6cc42597e90b41e673a51f
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
+
+### [Actualización 19 de mayo de 2025](https://www.nvaccess.org/post/nvda-2025-1beta6)
+
+Se ha publicado NVDA 2025.1beta6 con los siguientes cambios:
+
+- Actualización de traducciones.
+- Corrección para la herramienta "COM registration fixing": no se ejecutará cuando se cancele con `alt+f4`.
+- Pequeña corrección para voces SAPI 4.
+- Corrección para detección de dispositivos braille.
+- Pequeñas mejoras en la experiencia con el acceso remoto.
 
 ### [Actualización 12 de mayo de 2025](https://mailchi.mp/58d6d37363ea/nvda-20251-beta-5-now-available?e=4f535ed214)
 
