@@ -6,17 +6,30 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Martes, 15 de abril de 2025 (actualizado el 19 de mayo)</footer>
+<footer>Martes, 15 de abril de 2025 (actualizado el 26 de mayo)</footer>
 
 [Se ha publicado NVDA 2025.1beta1](https://www.nvaccess.org/post/nvda-2025-1beta1).
 
 
 ### Enlaces
 
-- [Descargar NVDA 2025.1beta6](https://download.nvaccess.org/releases/2025.1beta6/nvda_2025.1beta6.exe)
-  - SHA256: 5c4e7d04c31fbee7016434e6e61c02483c402b0fae6cc42597e90b41e673a51f
+- [Descargar NVDA 2025.1beta8](https://download.nvaccess.org/releases/2025.1beta8/nvda_2025.1beta8.exe)
+  - SHA256: 9cd8d2f53fd4627902705bded3a19d60e91a0a008ece43b6e4eb4bee1a707f6d
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
+
+
+### [Actualización 26 de mayo de 2025](https://www.nvaccess.org/post/nvda-2025-1beta8)
+
+Se ha publicado NVDA 2025.1beta8. La versión beta7 se ha omitido debido a un problema durante el proceso de publicación. Se han introducido los siguientes cambios:
+
+- Actualización de traducciones.
+- Correcciones para deshabilitar adecuadamente las opciones de configuración de acceso remoto y de la tienda de complementos en modo seguro.
+- Correcciones para leer matemáticas en PDF cuando el texto alternativo incluya "&" o "<".
+- Correcciones en el comando que cambia el anunciado de CLDR.
+- Corrección de incidencias al conectarse a un servidor que no sea de confianza.
+- Ahora la documentación incluye un fabicono.
+
 
 ### [Actualización 19 de mayo de 2025](https://www.nvaccess.org/post/nvda-2025-1beta6)
 
