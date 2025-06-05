@@ -6,17 +6,27 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Martes, 15 de abril de 2025 (actualizado el 26 de mayo)</footer>
+<footer>Martes, 15 de abril de 2025 (actualizado el 5 de junio)</footer>
 
 [Se ha publicado NVDA 2025.1beta1](https://www.nvaccess.org/post/nvda-2025-1beta1).
 
 
 ### Enlaces
 
-- [Descargar NVDA 2025.1beta8](https://download.nvaccess.org/releases/2025.1beta8/nvda_2025.1beta8.exe)
-  - SHA256: 9cd8d2f53fd4627902705bded3a19d60e91a0a008ece43b6e4eb4bee1a707f6d
+- [Descargar NVDA 2025.1beta10](https://download.nvaccess.org/releases/2025.1beta10/nvda_2025.1beta10.exe)
+  - SHA256: 6d802bed91619845fef30740867885e2e1c3eb075ee2021542de83096404c3c8
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
+
+### [Actualización 5 de junio de 2025](https://www.nvaccess.org/post/nvda-2025-1beta10)
+
+
+La versión beta9 se ha omitido debido a una incidencia técnica durante el proceso de publicación.
+
+Se ha publicado NVDA 2025.1beta10 con los siguientes cambios (introducidos en beta9/10):
+
+- Actualización de traducciones.
+- Corregida la navegación de ayuda contextual en diálogos de acceso remoto.
 
 
 ### [Actualización 26 de mayo de 2025](https://www.nvaccess.org/post/nvda-2025-1beta8)
