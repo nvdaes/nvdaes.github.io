@@ -8,7 +8,7 @@ author: Noelia
 
 <footer>Lunes, 16 de junio de 2025</footer>
 
-Como se explica en esta [noticia de NV Access sobre NVDA 2025.1](https://www.nvaccess.org/post/nvda-2024-4-2) (en inglés), se ha publicado esta nueva versión estable de NVDA.
+Como se explica en esta [noticia de NV Access sobre NVDA 2025.1](https://www.nvaccess.org/post/nvda-2025-1) (en inglés), se ha publicado esta nueva versión estable de NVDA.
 
 Se recomienda a todo el mundo actualizar NVDA a esta versión.
 
