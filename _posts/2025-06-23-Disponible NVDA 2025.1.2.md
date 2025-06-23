@@ -22,7 +22,7 @@ Corregido un error por el que la tienda de complementos no se abría si se usaba
 
 ### Aspectos destacados
 
-En esta versión se introduce Acceso Remoto, que ofrece la posibilidad de controlar un ordenador en el que se ejecute NVDA desde otro dispositivo en el que NVDA también se esté ejecutando.
+En la versión 2025.1 se introduce Acceso Remoto, que ofrece la posibilidad de controlar un ordenador en el que se ejecute NVDA desde otro dispositivo en el que NVDA también se esté ejecutando.
 
 Hay muchas mejoras en la salida por voz, en concreto, en la respuesta de SAPI 4, SAPI 5 y voces OneCore. Ahora en SAPI 5 se admite el alzado brusco y el cambio automático de idioma. Ahora las voces SAPI 4 admiten atenuación de audio, eliminación de silencio inicial, y pueden mantener activo el dispositivo de sonido.
 
