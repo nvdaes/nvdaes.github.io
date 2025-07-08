@@ -6,10 +6,21 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Lunes, 30 de junio de 2025</footer>
+<footer>Lunes, 30 de junio de 2025 (actualizado el 8 de julio)</footer>
 
 [Se ha publicado NVDA 2025.2beta1](https://www.nvaccess.org/post/nvda-2025-2beta1).
 
+## [Actualización 8 de julio de 2025](https://groups.google.com/a/nvaccess.org/g/nvda-users/c/uxgQTcfsPE0)
+
+Se ha publicado NVDA 2025.2beta2 con los siguientes cambios:
+
+- Al escribir en una celda de Microsoft Excel, el dispositivo braille se actualiza correctamente para mostrar el nuevo contenido.
+- Corregido un error por el que el dispositivo braille NLS eReader Zoomax no funcionaba en todos los equipos.
+- Corregidos errores en la navegación de objetos con braille en controles de texto estático XAML.
+- Corregidos problemas con certificados en la tienda de complementos.
+
+- Corregido el comando que informa sobre el idioma del texto en la posición del cursor para que proporcione la misma información independientemente de la configuración de NVDA.
+- Actualización de traducciones.
 
 Al usar la versión beta, estarás eligiendo el canal beta/rc y solo recibirás notificaciones sobre actualizaciones disponibles para estos tipos de versiones.
 
@@ -17,8 +28,8 @@ Para volver al canal estable, actualiza manualmente NVDA a la última versión e
 
 ### Enlaces
 
-- [Descargar NVDA 2025.2beta1](https://download.nvaccess.org/releases/2025.2beta1/nvda_2025.2beta1.exe)
-  - SHA256: 4c6937ae8d35edf49c2e02101133e116e33ca44bd115679367c715587a5e39af
+- [Descargar NVDA 2025.2beta2](https://download.nvaccess.org/releases/2025.2beta2/nvda_2025.2beta2.exe)
+  - SHA256: 1b8635bb951ea9313bb6ee625433e5617be558770d079ce8efd22e8e7b2aa632
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
 
