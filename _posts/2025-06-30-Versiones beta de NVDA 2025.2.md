@@ -10,7 +10,7 @@ author: Noelia
 
 [Se ha publicado NVDA 2025.2beta1](https://www.nvaccess.org/post/nvda-2025-2beta1).
 
-## [Actualización 8 de julio de 2025](https://groups.google.com/a/nvaccess.org/g/nvda-users/c/uxgQTcfsPE0)
+### [Actualización 8 de julio de 2025](https://groups.google.com/a/nvaccess.org/g/nvda-users/c/uxgQTcfsPE0)
 
 Se ha publicado NVDA 2025.2beta2 con los siguientes cambios:
 
