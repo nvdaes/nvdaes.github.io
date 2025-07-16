@@ -6,9 +6,20 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Lunes, 30 de junio de 2025 (actualizado el 8 de julio)</footer>
+<footer>Lunes, 30 de junio de 2025 (actualizado el 16 de julio)</footer>
 
 [Se ha publicado NVDA 2025.2beta1](https://www.nvaccess.org/post/nvda-2025-2beta1).
+
+
+### [Actualización 16 de julio de 2025](https://mailchi.mp/1bd1b3a81f2a/nvda-20252-beta-3-now-available?e=4f535ed214)
+
+
+Se ha publicado NVDA 2025.2beta3 con los siguientes cambios:
+  
+- Añadida la posibilidad de activar o desactivar WASAPI para SAPI5.
+- Añadido un diálogo de confirmación para actualizar certificados al descargar complementos.
+- Al usar el acceso remoto de NVDA, la salida de voz desde pantallas del control de cuenta de usuario en el ordenador remoto funciona correctamente.
+- Actualización de traducciones.
 
 ### [Actualización 8 de julio de 2025](https://groups.google.com/a/nvaccess.org/g/nvda-users/c/uxgQTcfsPE0)
 
@@ -18,7 +29,6 @@ Se ha publicado NVDA 2025.2beta2 con los siguientes cambios:
 - Corregido un error por el que el dispositivo braille NLS eReader Zoomax no funcionaba en todos los equipos.
 - Corregidos errores en la navegación de objetos con braille en controles de texto estático XAML.
 - Corregidos problemas con certificados en la tienda de complementos.
-
 - Corregido el comando que informa sobre el idioma del texto en la posición del cursor para que proporcione la misma información independientemente de la configuración de NVDA.
 - Actualización de traducciones.
 
@@ -28,8 +38,8 @@ Para volver al canal estable, actualiza manualmente NVDA a la última versión e
 
 ### Enlaces
 
-- [Descargar NVDA 2025.2beta2](https://download.nvaccess.org/releases/2025.2beta2/nvda_2025.2beta2.exe)
-  - SHA256: 1b8635bb951ea9313bb6ee625433e5617be558770d079ce8efd22e8e7b2aa632
+- [Descargar NVDA 2025.2beta3](https://download.nvaccess.org/releases/2025.2beta3/nvda_2025.2beta3.exe)
+  - SHA256: b93a83a01ced074248985402a477f19c36bcb478416a38784feaf99c40dc4633
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
 
