@@ -10,6 +10,14 @@ author: Noelia
 
 [Se ha publicado NVDA 2025.2beta1](https://www.nvaccess.org/post/nvda-2025-2beta1).
 
+## [Actualización 23 de julio de 2025](https://groups.google.com/a/nvaccess.org/g/nvda-users/c/q7IIY8eMBpg/m/abzsxV5uCwAJ)
+
+Se ha publicado NVDA 2025.2beta4 con los siguientes cambios:
+
+- Eliminados cambios en la forma en que NVDA recupera ciertos textos, ya que causaban problemas con el cursor de revisión y en la revisión de objetos.
+- Añadido un aviso al instalar NVDA en un ordenador controlado mediante conexión de acceso remoto.
+- Eliminados cambios en el manejo de certificados, ya que causaban problemas en el acceso remoto y a algunos complementos.
+- Actualización de traducciones.
 
 ### [Actualización 16 de julio de 2025](https://mailchi.mp/1bd1b3a81f2a/nvda-20252-beta-3-now-available?e=4f535ed214)
 
@@ -38,8 +46,8 @@ Para volver al canal estable, actualiza manualmente NVDA a la última versión e
 
 ### Enlaces
 
-- [Descargar NVDA 2025.2beta3](https://download.nvaccess.org/releases/2025.2beta3/nvda_2025.2beta3.exe)
-  - SHA256: b93a83a01ced074248985402a477f19c36bcb478416a38784feaf99c40dc4633
+- [Descargar NVDA 2025.2beta3](https://download.nvaccess.org/releases/2025.2beta4/nvda_2025.2beta4.exe)
+  - SHA256: 649a715f9d7416e97a8cc631c506136cfe1beb5d97cdc98c8c5ac95d3c2a674c
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
 
