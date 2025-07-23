@@ -6,7 +6,7 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Lunes, 30 de junio de 2025 (actualizado el 16 de julio)</footer>
+<footer>Lunes, 30 de junio de 2025 (actualizado el 23 de julio)</footer>
 
 [Se ha publicado NVDA 2025.2beta1](https://www.nvaccess.org/post/nvda-2025-2beta1).
 
@@ -46,7 +46,7 @@ Para volver al canal estable, actualiza manualmente NVDA a la última versión e
 
 ### Enlaces
 
-- [Descargar NVDA 2025.2beta3](https://download.nvaccess.org/releases/2025.2beta4/nvda_2025.2beta4.exe)
+- [Descargar NVDA 2025.2beta4](https://download.nvaccess.org/releases/2025.2beta4/nvda_2025.2beta4.exe)
   - SHA256: 649a715f9d7416e97a8cc631c506136cfe1beb5d97cdc98c8c5ac95d3c2a674c
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
