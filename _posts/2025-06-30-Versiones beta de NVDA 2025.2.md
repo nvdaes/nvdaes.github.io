@@ -6,9 +6,16 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Lunes, 30 de junio de 2025 (actualizado el 23 de julio)</footer>
+<footer>Lunes, 30 de junio de 2025 (actualizado el 28 de julio)</footer>
 
 [Se ha publicado NVDA 2025.2beta1](https://www.nvaccess.org/post/nvda-2025-2beta1).
+
+## [Actualización 28 de julio de 2025](https://www.nvaccess.org/post/nvda-2025-2beta5)
+
+Se ha publicado NVDA 2025.2beta5 con los siguientes cambios:
+
+- Corregido un error por el que idiomas admitidos se señalaban incorrectamente como no admitidos.
+- Actualización de traducciones.
 
 ## [Actualización 23 de julio de 2025](https://groups.google.com/a/nvaccess.org/g/nvda-users/c/q7IIY8eMBpg/m/abzsxV5uCwAJ)
 
@@ -46,8 +53,8 @@ Para volver al canal estable, actualiza manualmente NVDA a la última versión e
 
 ### Enlaces
 
-- [Descargar NVDA 2025.2beta4](https://download.nvaccess.org/releases/2025.2beta4/nvda_2025.2beta4.exe)
-  - SHA256: 649a715f9d7416e97a8cc631c506136cfe1beb5d97cdc98c8c5ac95d3c2a674c
+- [Descargar NVDA 2025.2beta5](https://download.nvaccess.org/releases/2025.2beta5/nvda_2025.2beta5.exe)
+  - SHA256: ceae71eb954bb9d72d1ae0c119f11ace08afa756b1808b7dd4bbfeb5d19f3207
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
 
