@@ -27,7 +27,7 @@ Esta versión incluye mejoras para el acceso remoto, voces SAPI5 y la tienda de 
 
 Los complementos pueden ordenarse por versiones mínima y última probada, y por fecha de instalación.
 
-En el acceso remoto se han añadido pequeñas correcciones y mejoras, como un comando para enviar control+alt+suprimir, y la capacidad de recordar las últimas configuraciones de conexión. Tambien se han corregido errores de conexión y audio.
+En el acceso remoto se han añadido pequeñas correcciones y mejoras, como un comando para enviar control+alt+suprimir, y la capacidad de recordar las últimas configuraciones de conexión. También se han corregido errores de conexión y audio.
 
 En cuanto al braille, se ha mejorado el ajuste de línea al dividir por palabras. Ahora la selección de tabla braille permanece estable al cambiar el idioma de NVDA. Y se ofrece la posibilidad de detección automática de USB para Dot Pad.
 
