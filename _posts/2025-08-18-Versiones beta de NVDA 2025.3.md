@@ -6,7 +6,7 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Lunes, 18 de agosto de 2025 (actualizado el 25 de agosto)</footer>
+<footer>Lunes, 18 de agosto de 2025 (actualizado el 1 de septiembre)</footer>
 
 [Se ha publicado NVDA 2025.3beta1](https://nvaccess.org/post/nvda-2025-3beta1).
 
@@ -16,8 +16,8 @@ Para volver al canal estable, actualiza manualmente NVDA a la última versión e
 
 ### Enlaces
 
-- [Descargar NVDA 2025.3beta2](https://download.nvaccess.org/releases/2025.3beta2/nvda_2025.3beta2.exe)
-  - SHA256: 70ffdc0a0c7cca5bc3801bb196513a2c5f0c0d285d71c4ee1196e3c628f752f7
+- [Descargar NVDA 2025.3beta3]https://download.nvaccess.org/releases/2025.3beta3/nvda_2025.3beta3.exe()
+  - SHA256: 0b5917ff8ba430b5f36526607784ebc4545af2fc529d378e15108d55ca64ea70
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
 
@@ -35,6 +35,12 @@ Hay varias correcciones para voces SAPI5, como las relativas al excesivo recorte
 
 Se han actualizado eSpeak NG y Unicode CLDR. Y se han añadido datos de traducción de emojis para bielorruso y bosnio.
 
+### [Actualización 1 de septiembre de 2025](https://nvaccess.org/post/nvda-2025-3beta3)
+
+Se ha publicado NVDA 2025.3beta3 con los siguientes cambios:
+
+- Corregido un error de SAPI 5 por el que NVDA no anunciaba ciertos gestos.
+- Actualización de traducciones.
 
 ### [Actualización 25 de agosto de 2025](https://nvaccess.org/post/nvda-2025-3beta2)
 
