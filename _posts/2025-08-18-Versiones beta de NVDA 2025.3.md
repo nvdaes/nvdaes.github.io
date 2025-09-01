@@ -16,7 +16,7 @@ Para volver al canal estable, actualiza manualmente NVDA a la última versión e
 
 ### Enlaces
 
-- [Descargar NVDA 2025.3beta3]https://download.nvaccess.org/releases/2025.3beta3/nvda_2025.3beta3.exe()
+- [Descargar NVDA 2025.3beta3](https://download.nvaccess.org/releases/2025.3beta3/nvda_2025.3beta3.exe()
   - SHA256: 0b5917ff8ba430b5f36526607784ebc4545af2fc529d378e15108d55ca64ea70
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
