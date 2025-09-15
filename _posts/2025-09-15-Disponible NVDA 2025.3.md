@@ -40,7 +40,7 @@ Si ya usas NVDA, puedes configurarlo para *buscar automáticamente las actualiza
 
 Puedes consultar los siguientes documentos (enlaces a la web de NVAccess):
 
-- [qué hay de nuevo](https://download.nvaccess.org/releases/2025.2/documentation/es/changes.html)
+- [qué hay de nuevo](https://download.nvaccess.org/releases/2025.3/documentation/es/changes.html)
 - [guía de NVDA](https://download.nvaccess.org/releases/stable/documentation/es/userGuide.html)
 
 Salud
