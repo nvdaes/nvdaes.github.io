@@ -26,6 +26,5 @@ Para volver al canal estable, actualiza manualmente NVDA a la última versión e
 Esta versión de mantenimiento resuelve un fallo de seguridad y un error:
 
 - Se corrige una vulnerabilidad para que no se impida el acceso remoto a pantallas seguras. Una semana después de la publicación de la versión estable 2025.3.1 se publicarán más [detalles sobre la vulnerabilidad](https://github.com/nvaccess/nvda/security/advisories/GHSA-vr27-g5ph-xvq2).
-- 
 - El acceso remoto vuelve a controlar el ordenador local si se bloquea al controlar el remoto.
 
