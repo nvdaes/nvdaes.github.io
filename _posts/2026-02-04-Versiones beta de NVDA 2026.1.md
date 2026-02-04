@@ -35,17 +35,17 @@ También se ha mejorado el soporte para braille.
 
 Ahora sigue funcionando al pasar a una pantalla segura, como la pantalla de inicio de sesión o el diálogo de control de la cuenta de usuario.
 
-Ahora, los mensajes de NVDA procedentes del ordenador local se muestran en braille al controlar un ordenador mediante acceso remoto.
+Los mensajes de NVDA procedentes del ordenador local se muestran en braille al controlar un ordenador mediante acceso remoto.
 
 Los errores ortográficos y el número de elementos de una lista en modo exploración se pueden mostrar en braille. También se han añadido otras correcciones de errores en braille, como las relativas a Microsoft Outlook y LibreOffice Writer.
 
 Al usar navegadores web en modo exploración, NVDA ya no considera como invisibles los controles con anchura o altura 0. Esto puede facilitar el acceso a contenido disponible solo para lectores de pantalla en algunos sitios web.
 
-Ciertos enlaces construidos incorrectamente ya no impiden a NVDA leer contenido en en Google Chrome y otros navegadores basados en Chromium.
+Ciertos enlaces construidos incorrectamente ya no impiden a NVDA leer contenido en Google Chrome y otros navegadores basados en Chromium.
 
 El resaltado para modo exploración ahora aparece en los resultados de reconocimiento de contenido, por ejemplo, al usar el OCR de Windows.
 
-En Microsoft Word, se han añadido comandos sin asignar para desplazarse a referencias, que ahora también se muestran en la lista de elementos.
+En Microsoft Word, se han añadido comandos sin asignar para desplazarse a referencias, que también se muestran en la lista de elementos.
 
 Ahora es posible ver los resultados del análisis de antivirus para complementos desde la tienda.
 
@@ -53,9 +53,9 @@ Para complementos que dispongan de registro de cambios, será posible ver esta i
 
 Se ha mejorado el funcionamiento de la actualización de complementos en segundo plano.
 
-Se ha añadido una nueva categoría "Privacidad y seguridad" al diálogo de opciones de NVDA. El "Nivel de mensajes guardados en el registro" y "Permitir a NV Access recopilar estadísticas sobre el uso de NVDA" se han trasladado aquí desde la categoría General. Las opciones de cortina de pantalla también se han trasladado aquí desde la categoría Visión. Además, las opciones de cortina de pantalla no dependen de perfiles de configuración.
+Se ha añadido una nueva categoría "Privacidad y seguridad" al diálogo de opciones de NVDA. El "Nivel de mensajes guardados en el registro" y "Permitir a NV Access recopilar estadísticas sobre el uso de NVDA" se han trasladado aquí desde la categoría General. Las opciones de cortina de pantalla también se han trasladado aquí desde la categoría Visión. Además, las opciones de cortina de pantalla ya no dependen de perfiles de configuración.
 
-Ahora la interfaz de NVDA está traducida a camboyano. 
+La interfaz de NVDA está traducida a camboyano. 
 
 Se han actualizado Liblouis, Unicode CLDR e eSpeak NG.
 
