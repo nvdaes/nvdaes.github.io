@@ -6,7 +6,7 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Miércoles, 4 de febrero de 2026</footer>
+<footer>Miércoles, 4 de febrero de 2026 (actualizado el 10 de febrero)</footer>
 
 [Se ha publicado NVDA 2026.3beta1](https://www.nvaccess.org/post/nvda-2026-1beta1/).
 
@@ -16,8 +16,8 @@ Para volver al canal estable, actualiza manualmente NVDA a la última versión e
 
 ### Enlaces
 
-- [Descargar NVDA 2026.1beta1](https://download.nvaccess.org/releases/2026.1beta1/nvda_2026.1beta1.exe)
-  - SHA256: 77A24B2D9EC4C9FA010397D26F5D1FDD6F94DFB99515466F4DA657417ACE4E2E
+- [Descargar NVDA 2026.1beta2](https://download.nvaccess.org/releases/2026.1beta2/nvda_2026.1beta2.exe)
+  - SHA256: BF564BA5CF7389E64F43A79979A6656847F622AE6EDDC0B874D8682342BB6AD5
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
 
@@ -65,3 +65,11 @@ Se ha añadido traducción de emojis para luxemburgués.
 
 Además, hay otras muchas correcciones y mejoras.
 
+### [Actualización 10 de febrero de 2026](https://www.nvaccess.org/post/nvda-2026-1beta2/)
+
+Se ha publicado NVDA 2026.1beta2 con los siguientes cambios:
+
+- Se ha corregido un error que impedía usar cadenas traducidas para controladores de sintetizadores SAPI 4 y SAPI 5 32-bit.
+- Se ha solucionado una situación en la que NVDA podía ejecutarse como administrador de forma inesperada.
+- Se ha mejorado la documentación sobre el soporte para SAPI 4 y SAPI 5 32-bit.
+- Se incluyen traducciones actualizadas.
