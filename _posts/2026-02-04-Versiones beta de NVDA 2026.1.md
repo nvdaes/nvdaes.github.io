@@ -68,7 +68,7 @@ Además, hay otras muchas correcciones y mejoras.
 
 ### [Actualización 17 de febrero de 2026](https://www.nvaccess.org/post/nvda-2026-1beta3)
 
-Se ha publicado NVDA 2026beta3 con los siguientes cambios:
+Se ha publicado NVDA 2026.1beta3 con los siguientes cambios:
 
 - Corregido un error ocasional por el que NVDA quedaba congelado con sintetizadores SAPI 4 y SAPI 5-32-bit.
 - Corregido un error por el que NVDA permanecería en silencio si eSpeak NG se establecía como sintetizador predeterminado, y no se cargaría al iniciarse NVDA.
