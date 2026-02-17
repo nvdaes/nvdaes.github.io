@@ -66,7 +66,7 @@ Se ha añadido traducción de emojis para luxemburgués.
 Además, hay otras muchas correcciones y mejoras.
 
 
-###[Actualización 17 de febrero de 2026](https://www.nvaccess.org/post/nvda-2026-1beta3)
+### [Actualización 17 de febrero de 2026](https://www.nvaccess.org/post/nvda-2026-1beta3)
 
 Se ha publicado NVDA 2026beta3 con los siguientes cambios:
 
