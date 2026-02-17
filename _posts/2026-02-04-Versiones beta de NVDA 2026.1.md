@@ -6,7 +6,7 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Miércoles, 4 de febrero de 2026 (actualizado el 10 de febrero)</footer>
+<footer>Miércoles, 4 de febrero de 2026 (actualizado el 17 de febrero)</footer>
 
 [Se ha publicado NVDA 2026.3beta1](https://www.nvaccess.org/post/nvda-2026-1beta1/).
 
@@ -16,8 +16,8 @@ Para volver al canal estable, actualiza manualmente NVDA a la última versión e
 
 ### Enlaces
 
-- [Descargar NVDA 2026.1beta2](https://download.nvaccess.org/releases/2026.1beta2/nvda_2026.1beta2.exe)
-  - SHA256: BF564BA5CF7389E64F43A79979A6656847F622AE6EDDC0B874D8682342BB6AD5
+- [Descargar NVDA 2026.1beta3](https://download.nvaccess.org/releases/2026.1beta3/nvda_2026.1beta3.exe)
+  - SHA256: d97cae60fe75375c0259bff51dd62cd63fd2fac014a43eba7479ba0f14f90237
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
 
@@ -64,6 +64,16 @@ Se han añadido tablas para inglés grado 3, japonés (Rokuten Kanji) y braille 
 Se ha añadido traducción de emojis para luxemburgués. 
 
 Además, hay otras muchas correcciones y mejoras.
+
+
+###[Actualización 17 de febrero de 2026](https://www.nvaccess.org/post/nvda-2026-1beta3)
+
+Se ha publicado NVDA 2026beta3 con los siguientes cambios:
+
+- Corregido un error ocasional por el que NVDA quedaba congelado con sintetizadores SAPI 4 y SAPI 5-32-bit.
+- Corregido un error por el que NVDA permanecería en silencio si eSpeak NG se establecía como sintetizador predeterminado, y no se cargaría al iniciarse NVDA.
+- Traducciones actualizadas.
+
 
 ### [Actualización 10 de febrero de 2026](https://www.nvaccess.org/post/nvda-2026-1beta2/)
 
