@@ -6,7 +6,7 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Miércoles, 4 de febrero de 2026 (actualizado el 17 de febrero)</footer>
+<footer>Miércoles, 4 de febrero de 2026 (actualizado el 23 de febrero)</footer>
 
 [Se ha publicado NVDA 2026.3beta1](https://www.nvaccess.org/post/nvda-2026-1beta1/).
 
@@ -16,8 +16,8 @@ Para volver al canal estable, actualiza manualmente NVDA a la última versión e
 
 ### Enlaces
 
-- [Descargar NVDA 2026.1beta3](https://download.nvaccess.org/releases/2026.1beta3/nvda_2026.1beta3.exe)
-  - SHA256: d97cae60fe75375c0259bff51dd62cd63fd2fac014a43eba7479ba0f14f90237
+- [Descargar NVDA 2026.1beta4](https://download.nvaccess.org/releases/2026.1beta4/nvda_2026.1beta4.exe)
+  - SHA256: 867f83bac74d150f4c8e91c63a1aa909ce51aa43ba5dccceea9c338234eff096
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
 
@@ -65,6 +65,16 @@ Se ha añadido traducción de emojis para luxemburgués.
 
 Además, hay otras muchas correcciones y mejoras.
 
+
+### [Actualización 17 de febrero de 2026](https://www.nvaccess.org/post/nvda-2026-1beta4)
+
+Se ha publicado NVDA 2026.1beta4 con los siguientes cambios:
+
+- Corregido un error por el que eSpeak NG seguía hablando a velocidad reducida tras leer matemáticas si la velocidad relativa en opciones de matemáticas se había establecido como menor al 100 %.
+- Corregida la imposibilidad de cambiar temporalmente las opciones de MathCAT  cuando el directorio de configuración es de solo lectura.
+- La casilla de verificación "Usar NVDA durante el inicio de sesión" ya no está marcada por defecto en el instalador cuando se lleve a cabo una instalación limpia.
+- Cuando se cree una copia portable, se mostrará una advertencia si, al hacerlo en el directorio elegido, NVDA se actualizará a una versión anterior.
+- Traducciones actualizadas.
 
 ### [Actualización 17 de febrero de 2026](https://www.nvaccess.org/post/nvda-2026-1beta3)
 
