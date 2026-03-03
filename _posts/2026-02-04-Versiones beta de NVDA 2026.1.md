@@ -6,7 +6,7 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Miércoles, 4 de febrero de 2026 (actualizado el 23 de febrero)</footer>
+<footer>Miércoles, 4 de febrero de 2026 (actualizado el 2 de marzo)</footer>
 
 [Se ha publicado NVDA 2026.3beta1](https://www.nvaccess.org/post/nvda-2026-1beta1/).
 
@@ -16,8 +16,8 @@ Para volver al canal estable, actualiza manualmente NVDA a la última versión e
 
 ### Enlaces
 
-- [Descargar NVDA 2026.1beta4](https://download.nvaccess.org/releases/2026.1beta4/nvda_2026.1beta4.exe)
-  - SHA256: 867f83bac74d150f4c8e91c63a1aa909ce51aa43ba5dccceea9c338234eff096
+- [Descargar NVDA 2026.1beta5](https://download.nvaccess.org/releases/2026.1beta5/nvda_2026.1beta5.exe)
+  - SHA256: 30a7045a37a60f11b4cc98ae0c62067d11a17b16ee1654aa9913057c3115b606
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
 
@@ -64,6 +64,18 @@ Se han añadido tablas para inglés grado 3, japonés (Rokuten Kanji) y braille 
 Se ha añadido traducción de emojis para luxemburgués. 
 
 Además, hay otras muchas correcciones y mejoras.
+
+
+### [Actualización 2 de marzo de 2026](https://www.nvaccess.org/post/nvda-2026-1beta5)
+
+Se ha publicado NVDA 2026.1beta5 con los siguientes cambios:
+
+- NVDA indica que no admite atenuación de audio al usar sintetizadores SAPI 4 o SAPI 5 32-bit.
+- El estado de la cortina de pantalla vuelve a restablecerse al cancelar desde el diálogo de opciones.
+- En el diálogo que se muestra al intentar crear una copia portable en una ruta relativa de archivos, se muestra la ruta expandida.
+- Se ha mejorado la forma de validar las opciones de configuración de MathCAT.
+- Añadida la opción de usar la verbalización de contenido matemático nativa en Microsoft Word y Outlook.
+- Traducciones actualizadas.
 
 ### [Actualización 23 de febrero de 2026](https://www.nvaccess.org/post/nvda-2026-1beta4)
 
