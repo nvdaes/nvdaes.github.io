@@ -6,9 +6,9 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Miércoles, 4 de febrero de 2026 (actualizado el 2 de marzo)</footer>
+<footer>Miércoles, 4 de febrero de 2026 (actualizado el 10 de marzo)</footer>
 
-[Se ha publicado NVDA 2026.3beta1](https://www.nvaccess.org/post/nvda-2026-1beta1/).
+[Se ha publicado NVDA 2026.1beta1](https://www.nvaccess.org/post/nvda-2026-1beta1/).
 
 Al usar la versión beta, estarás eligiendo el canal beta/rc y solo recibirás notificaciones sobre actualizaciones disponibles para estos tipos de versiones.
 
@@ -16,8 +16,8 @@ Para volver al canal estable, actualiza manualmente NVDA a la última versión e
 
 ### Enlaces
 
-- [Descargar NVDA 2026.1beta5](https://download.nvaccess.org/releases/2026.1beta5/nvda_2026.1beta5.exe)
-  - SHA256: 30a7045a37a60f11b4cc98ae0c62067d11a17b16ee1654aa9913057c3115b606
+- [Descargar NVDA 2026.1beta6](https://download.nvaccess.org/releases/2026.1beta6/nvda_2026.1beta6.exe)
+  - SHA256: 63905bb90eb4cd1da8dfe98f1567fead053582cc01f7d5ab439500979dbac244
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
 
@@ -55,16 +55,23 @@ Se ha mejorado el funcionamiento de la actualización de complementos en segundo
 
 Se ha añadido una nueva categoría "Privacidad y seguridad" al diálogo de opciones de NVDA. El "Nivel de mensajes guardados en el registro" y "Permitir a NV Access recopilar estadísticas sobre el uso de NVDA" se han trasladado aquí desde la categoría General. Las opciones de cortina de pantalla también se han trasladado aquí desde la categoría Visión. Además, las opciones de cortina de pantalla ya no dependen de perfiles de configuración.
 
-La interfaz de NVDA está traducida a camboyano. 
+La interfaz de NVDA está traducida a camboyano.
 
 Se han actualizado Liblouis, Unicode CLDR e eSpeak NG.
 
 Se han añadido tablas para inglés grado 3, japonés (Rokuten Kanji) y braille macedonio no contraído. Se han mejorado las tablas de braille para hebreo bíblico, inglés unificado, griego internacional, húngaro, noruego, portugués de ocho puntos y eslovaco.
 
-Se ha añadido traducción de emojis para luxemburgués. 
+Se ha añadido traducción de emojis para luxemburgués.
 
 Además, hay otras muchas correcciones y mejoras.
 
+### [Actualización 10 de marzo de 2026](https://www.nvaccess.org/post/nvda-2026-1beta6)
+
+Se ha publicado NVDA 2026.1beta6 con los siguientes cambios:
+
+- Ha cambiado la forma de guardar internamente el estado de los complementos (habilitado, actualización pendiente, etc).
+- El host del controlador de sintetizadores de 32-bit ahora está firmado correctamente, las versiones son correctas y ya no contiene ficheros extraños.
+- Actualización de traducciones.
 
 ### [Actualización 2 de marzo de 2026](https://www.nvaccess.org/post/nvda-2026-1beta5)
 
