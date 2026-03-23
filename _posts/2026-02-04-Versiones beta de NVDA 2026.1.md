@@ -6,7 +6,7 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Miércoles, 4 de febrero de 2026 (actualizado el 18 de marzo)</footer>
+<footer>Miércoles, 4 de febrero de 2026 (actualizado el 23 de marzo)</footer>
 
 [Se ha publicado NVDA 2026.1beta1](https://www.nvaccess.org/post/nvda-2026-1beta1/).
 
@@ -16,8 +16,8 @@ Para volver al canal estable, actualiza manualmente NVDA a la última versión e
 
 ### Enlaces
 
-- [Descargar NVDA 2026.1beta7](https://download.nvaccess.org/releases/2026.1beta7/nvda_2026.1beta7.exe)
-  - SHA256: 2c7a1114311bb93f80778c440fdbf35d37824c59070cac594f2d529d16bbb78b
+- [Descargar NVDA 2026.1beta8](https://download.nvaccess.org/releases/2026.1beta8/nvda_2026.1beta8.exe)
+  - SHA256: 99bb6428e628a58619bbd3e102bd74fe03014b1c035b0b7b461d52960e570ec3
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
 
@@ -64,6 +64,14 @@ Se han añadido tablas para inglés grado 3, japonés (Rokuten Kanji) y braille 
 Se ha añadido traducción de emojis para luxemburgués.
 
 Además, hay otras muchas correcciones y mejoras.
+
+
+### [Actualización 23 de marzo de 2026](https://www.nvaccess.org/post/nvda-2026-1beta8)
+
+Se ha publicado NVDA 2026.1beta8 con los siguientes cambios:
+
+- Corregido el estilo del habla en opciones de matemáticas.
+- Actualización de traducciones.
 
 ### [Actualización 18 de marzo de 2026](https://www.nvaccess.org/post/nvda-2026-1beta7)
 
