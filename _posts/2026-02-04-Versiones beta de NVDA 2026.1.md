@@ -6,7 +6,7 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Miércoles, 4 de febrero de 2026 (actualizado el 23 de marzo)</footer>
+<footer>Miércoles, 4 de febrero de 2026 (actualizado el 30 de marzo)</footer>
 
 [Se ha publicado NVDA 2026.1beta1](https://www.nvaccess.org/post/nvda-2026-1beta1/).
 
@@ -16,8 +16,8 @@ Para volver al canal estable, actualiza manualmente NVDA a la última versión e
 
 ### Enlaces
 
-- [Descargar NVDA 2026.1beta8](https://download.nvaccess.org/releases/2026.1beta8/nvda_2026.1beta8.exe)
-  - SHA256: 99bb6428e628a58619bbd3e102bd74fe03014b1c035b0b7b461d52960e570ec3
+- [Descargar NVDA 2026.1beta9](https://download.nvaccess.org/releases/2026.1beta9/nvda_2026.1beta9.exe)
+  - SHA256: 02c39659fe00e450cfde0c996d968d683eba528eb5c618af290fc14cc975402e
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
 
@@ -64,6 +64,21 @@ Se han añadido tablas para inglés grado 3, japonés (Rokuten Kanji) y braille 
 Se ha añadido traducción de emojis para luxemburgués.
 
 Además, hay otras muchas correcciones y mejoras.
+
+### [Actualización 30 de marzo de 2026](https://www.nvaccess.org/post/nvda-2026-1beta9)
+
+Se ha publicado NVDA 2026.1beta9 con los siguientes cambios:
+
+- Mejorado el diálogo Copiar opciones a la configuración del sistema: ahora se mostrará la versión de los complementos presentes en la configuración del sistema. Los complementos presentes en el sistema aparecerán verificados, y se avisará en caso de que, al copiar, se vayan a eliminar complementos de la configuración del sistema.
+- Corregido el estado de la cortina de pantalla al no guardarse cuando se cambia desde opciones de configuración.
+- Deshabilitado el botón Copiar versión en el diálogo Acerca de, al ejecutar NVDA en modo seguro.
+- Corregido el mensaje de ayuda de entrada para los comandos de navegación de MathCAT.
+- Excluida la categoría Matemáticas de las opciones de configuración en pantallas seguras.
+- Revertida la corrección de algunos casos de cuelgues en pantallas seguras introducida en beta7.
+- Corregido el fallo de los comandos md2html y xliff2html de l10nUtil al no ejecutarse desde el código fuente.
+- Traducciones actualizadas.
+
+
 
 
 ### [Actualización 23 de marzo de 2026](https://www.nvaccess.org/post/nvda-2026-1beta8)
