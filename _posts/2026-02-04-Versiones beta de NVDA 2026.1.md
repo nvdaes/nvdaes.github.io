@@ -16,8 +16,8 @@ Para volver al canal estable, actualiza manualmente NVDA a la última versión e
 
 ### Enlaces
 
-- [Descargar NVDA 2026.1beta9](https://download.nvaccess.org/releases/2026.1beta9/nvda_2026.1beta9.exe)
-  - SHA256: 02c39659fe00e450cfde0c996d968d683eba528eb5c618af290fc14cc975402e
+- [Descargar NVDA 2026.1beta10](https://download.nvaccess.org/releases/2026.1beta10/nvda_2026.1beta10.exe)
+  - SHA256: b7a758f32ef2e42da0c64f065c62092a8f21ecddfd81c3a5e373c06de794e35b
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
 
@@ -64,6 +64,16 @@ Se han añadido tablas para inglés grado 3, japonés (Rokuten Kanji) y braille 
 Se ha añadido traducción de emojis para luxemburgués.
 
 Además, hay otras muchas correcciones y mejoras.
+
+
+### [Actualización 7 de abril de 2026](https://www.nvaccess.org/post/nvda-2026-1beta10)
+
+Se ha publicado NVDA 2026.1beta10 con los siguientes cambios:
+
+- Se evita un cuelgue intermitente en Notepad++.
+- Se corrige el restablecimiento de opciones de MathCAT al revertir o restablecer la configuración de NVDA.
+- Corrección para el controlador del sintetizador SAPI 4.
+- Traducciones actualizadas.
 
 ### [Actualización 30 de marzo de 2026](https://www.nvaccess.org/post/nvda-2026-1beta9)
 
