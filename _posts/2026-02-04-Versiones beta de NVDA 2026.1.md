@@ -6,7 +6,7 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Miércoles, 4 de febrero de 2026 (actualizado el 30 de marzo)</footer>
+<footer>Miércoles, 4 de febrero de 2026 (actualizado el 14 de abril)</footer>
 
 [Se ha publicado NVDA 2026.1beta1](https://www.nvaccess.org/post/nvda-2026-1beta1/).
 
