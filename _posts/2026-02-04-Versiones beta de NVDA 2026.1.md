@@ -16,8 +16,8 @@ Para volver al canal estable, actualiza manualmente NVDA a la última versión e
 
 ### Enlaces
 
-- [Descargar NVDA 2026.1beta10](https://download.nvaccess.org/releases/2026.1beta10/nvda_2026.1beta10.exe)
-  - SHA256: b7a758f32ef2e42da0c64f065c62092a8f21ecddfd81c3a5e373c06de794e35b
+- [Descargar NVDA 2026.1beta11](https://download.nvaccess.org/releases/2026.1beta11/nvda_2026.1beta11.exe)
+  - SHA256: e69ae8e7d6156f3b077d7ad8870c1c0a96bbd444ccbb045f26a3ddb8e43a2378
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
 
@@ -65,6 +65,18 @@ Se ha añadido traducción de emojis para luxemburgués.
 
 Además, hay otras muchas correcciones y mejoras.
 
+
+### [Actualización 14 de abril de 2026](https://www.nvaccess.org/post/nvda-2026-1beta11)
+
+Se ha publicado NVDA 2026.1beta11 con los siguientes cambios:
+
+- Eliminada la opción de idioma automático en opciones de habla de MathCAT.
+- Corregido un error que impedía abrir la tienda de complementos entre la instalación de un complemento y el reinicio de NVDA.
+- Corregido un problema por el que la lectura de matemáticas fallaba al usar el complemento MultiLang con una velocidad de voz relativa distinta al 100 %.
+- Corregido un error por el que NVDA indicaba el fin de errores ortográficos o gramaticales mediante voz cuando estaba configurado para mostrarlos solo en braille.
+- Aclarada la opción de usar el soporte de matemáticas de Microsoft Word o Outlook en lugar de MathCAT.
+- Varias correcciones en la documentación.
+- Actualización de traducciones.
 
 ### [Actualización 7 de abril de 2026](https://www.nvaccess.org/post/nvda-2026-1beta10)
 
@@ -130,7 +142,7 @@ Se ha publicado NVDA 2026.1beta5 con los siguientes cambios:
 Se ha publicado NVDA 2026.1beta4 con los siguientes cambios:
 
 - Corregido un error por el que eSpeak NG seguía hablando a velocidad reducida tras leer matemáticas si la velocidad relativa en opciones de matemáticas se había establecido como menor al 100 %.
-- Corregida la imposibilidad de cambiar temporalmente las opciones de MathCAT  cuando el directorio de configuración es de solo lectura.
+- Corregida la imposibilidad de cambiar temporalmente las opciones de MathCAT cuando el directorio de configuración es de solo lectura.
 - La casilla de verificación "Usar NVDA durante el inicio de sesión" ya no está marcada por defecto en el instalador cuando se lleve a cabo una instalación limpia.
 - Cuando se cree una copia portable, se mostrará una advertencia si, al hacerlo en el directorio elegido, NVDA se actualizará a una versión anterior.
 - Traducciones actualizadas.
