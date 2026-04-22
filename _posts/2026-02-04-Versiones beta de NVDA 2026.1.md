@@ -66,6 +66,14 @@ Se ha añadido traducción de emojis para luxemburgués.
 Además, hay otras muchas correcciones y mejoras.
 
 
+### [Actualización 21 de abril de 2026](https://www.nvaccess.org/post/nvda-2026-1beta12)
+
+Se ha publicado NVDA 2026.1beta12 con los siguientes cambios:
+
+- Corregida la indicación de errores ortográficos en Microsoft Word al acceder a través del modelo de objetos.
+- Corregido un fallo por el que la tienda de complementos no se abría en algunas situaciones.
+- Actualización de traducciones.
+
 ### [Actualización 14 de abril de 2026](https://www.nvaccess.org/post/nvda-2026-1beta11)
 
 Se ha publicado NVDA 2026.1beta11 con los siguientes cambios:
