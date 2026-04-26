@@ -6,7 +6,7 @@ giscus: true
 author: Noelia
 ---
 
-<footer>Miércoles, 4 de febrero de 2026 (actualizado el 14 de abril)</footer>
+<footer>Miércoles, 4 de febrero de 2026 (actualizado el 24 de abril)</footer>
 
 [Se ha publicado NVDA 2026.1beta1](https://www.nvaccess.org/post/nvda-2026-1beta1/).
 
@@ -16,8 +16,8 @@ Para volver al canal estable, actualiza manualmente NVDA a la última versión e
 
 ### Enlaces
 
-- [Descargar NVDA 2026.1beta11](https://download.nvaccess.org/releases/2026.1beta11/nvda_2026.1beta11.exe)
-  - SHA256: e69ae8e7d6156f3b077d7ad8870c1c0a96bbd444ccbb045f26a3ddb8e43a2378
+- [Descargar NVDA 2026.1beta13](https://download.nvaccess.org/releases/2026.1beta13/nvda_2026.1beta13.exe)
+  - SHA256: 3348b141263538cd870e16fbc0d831bb7d3378256e5421f523ce5594fd1efa9b
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
 
@@ -65,6 +65,12 @@ Se ha añadido traducción de emojis para luxemburgués.
 
 Además, hay otras muchas correcciones y mejoras.
 
+### [Actualización 24 de abril de 2026](https://www.nvaccess.org/post/nvda-2026-1beta13)
+
+Se ha publicado NVDA 2026.1beta 13 con los siguientes cambios:
+
+- Para complementos instalados a partir de ahora, los resultados del análisis con VirusTotal volverán a estar disponibles.
+- Actualización de traducciones.
 
 ### [Actualización 21 de abril de 2026](https://www.nvaccess.org/post/nvda-2026-1beta12)
 
