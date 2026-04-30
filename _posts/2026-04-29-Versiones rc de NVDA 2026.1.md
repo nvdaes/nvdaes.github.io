@@ -23,8 +23,6 @@ Para volver al canal estable, actualiza manualmente NVDA a la última versión e
 
 ### Importante
 
-Importante:
-
 - Esta versión no es compatible con complementos desarrollados para NVDA 2025.3.3 o versiones anteriores.
 - Esta versión no funciona en Windows 8.1, en Windows 32-bit ni en Windows 10 en ARM. La versión mínima de Windows admitida es Windows 10. Se recomienda actualizar a Windows 11 o, si esto no es posible, a la última versión de Windows 10 ((22H2).
 - Ya no se incluye soporte para Wiris MathPlayer.
