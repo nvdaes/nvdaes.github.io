@@ -4,7 +4,7 @@ permalink: "/nvda-2026-1-1rc/"
 layout: post
 giscus: true
 author: Noelia
-excerpt: "Se ha publicado NVDA 2026.1.1rc1 antes de la versión estable 2026.1.1."
+excerpt: "Lunes, 18 de mayo de 2026"
 ---
 
 <footer>Lunes, 18 de mayo de 2026</footer>
