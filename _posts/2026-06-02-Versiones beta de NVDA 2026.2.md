@@ -27,7 +27,7 @@ Para volver al canal estable, actualiza manualmente NVDA a la última versión e
 
 Esta versión incluye una nueva lupa integrada, mejoras en los gestos y la navegación táctil, y amplía las capacidades de la salida por voz y el braille.
 
-La lupa proporciona opciones de zoom y filtrado de colores para asistir a usuarios con discapacidad visual. Actualmente, la lupa solo admite modo de pantalla completa, y se prevé incorporar modos de acoplamiento en una futura versión.
+La lupa proporciona opciones de zum y filtrado de colores para asistir a usuarios con discapacidad visual. Actualmente, la lupa solo admite modo de pantalla completa, y se prevé incorporar modos de acoplamiento en una futura versión.
 
 El soporte táctil se ha ampliado significativamente, con gestos de pellizco y navegación táctil en modo exploración para contenido web. Ahora puedes navegar por enlaces, encabezados, campos de formulario y otros elementos con gestos táctiles de deslizamiento.
 
