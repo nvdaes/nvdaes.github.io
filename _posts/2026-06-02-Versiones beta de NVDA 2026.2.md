@@ -3,7 +3,7 @@ title: Versiones beta de NVDA 2026.2
 permalink: "/nvda-2026-2beta/"
 layout: post
 giscus: true
-excerpt: "Martes, 2 de junio de 2026 (actualizado el 23 de junio)"
+excerpt: "Martes, 2 de junio de 2026 (actualizado el 30 de junio)"
 
 author: Noelia
 ---
@@ -18,8 +18,8 @@ Para volver al canal estable, actualiza manualmente NVDA a la última versión e
 
 ### Enlaces
 
-- [Descargar NVDA 2026.2beta4](https://download.nvaccess.org/releases/2026.2beta4/nvda_2026.2beta4.exe)
-  - SHA256: 0a9ad9e6170bee0fd767fb12865893adda8d4951d350b6b8c0035c647a2e81d7
+- [Descargar NVDA 2026.2beta5](https://download.nvaccess.org/releases/2026.2beta5/nvda_2026.2beta5.exe)
+  - SHA256: eb1d20e1958def6bff3d4dc242df2277ec09a1d71b965b6be62edf3185267869
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
 
@@ -36,6 +36,16 @@ Las funciones de salida de voz se han mejorado con soporte para diccionarios de 
 Ahora las pantallas braille pueden avanzar automáticamente, y los dispositivos DotPad admiten combinaciones "multibotón". Liblouis se ha actualizado, con nuevas tablas braille para italiano y estonio.
 
 Cuando NVDA se reinicia a los valores predeterminados, hay disponible un nuevo botón Deshacer para restablecer la configuración anterior.
+
+### [Actualización 30 de junio de 2026](https://www.nvaccess.org/post/nvda-2026-2beta5)
+
+
+Se ha publicado NVDA 2026.2beta5 con los siguientes cambios:
+
+- Actualización de traducciones.
+- Se usa la categoría navegación por matemáticas en un comando más.
+- Se evita la congelación de NVDA al mostrar matemáticas en braille con ciertos caracteres unicode.
+- Se mejoran ciertos mensajes y nombres de opciones para la lupa.
 
 ### [Actualización 23 de junio de 2026](https://www.nvaccess.org/post/nvda-2026-2beta4)
 
