@@ -3,12 +3,12 @@ title: Versiones beta de NVDA 2026.2
 permalink: "/nvda-2026-2beta/"
 layout: post
 giscus: true
-excerpt: "Martes, 2 de junio de 2026 (actualizado el 30 de junio)"
+excerpt: "Martes, 2 de junio de 2026 (actualizado el 8 de julio)"
 
 author: Noelia
 ---
 
-<footer>Martes, 2 de junio de 2026 (actualizado el 23 de junio)</footer>
+<footer>Martes, 2 de junio de 2026 (actualizado el 8 de julio)</footer>
 
 [Se ha publicado NVDA 2026.2beta1](https://www.nvaccess.org/post/nvda-2026-2beta1).
 
@@ -18,8 +18,8 @@ Para volver al canal estable, actualiza manualmente NVDA a la última versión e
 
 ### Enlaces
 
-- [Descargar NVDA 2026.2beta5](https://download.nvaccess.org/releases/2026.2beta5/nvda_2026.2beta5.exe)
-  - SHA256: eb1d20e1958def6bff3d4dc242df2277ec09a1d71b965b6be62edf3185267869
+- [Descargar NVDA 2026.2beta6](https://download.nvaccess.org/releases/2026.2beta6/nvda_2026.2beta6.exe)
+  - SHA256: 6f102bc0b7cfb928e628ef193341ae7c83b0df278e6c58ccdce68fa67c1805f1
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
 
@@ -37,8 +37,21 @@ Ahora las pantallas braille pueden avanzar automáticamente, y los dispositivos 
 
 Cuando NVDA se reinicia a los valores predeterminados, hay disponible un nuevo botón Deshacer para restablecer la configuración anterior.
 
-### [Actualización 30 de junio de 2026](https://www.nvaccess.org/post/nvda-2026-2beta5)
+### [Actualización 8 de julio de 2026](https://www.nvaccess.org/post/nvda-2026-2beta6)
 
+Nota: En esta beta hay errores conocidos al usar voces SAPI5, que se corregirán en la próxima beta.
+
+Se ha publicado NVDA 2026.2beta6 con los siguientes cambios:
+
+- Actualización de traducciones.
+- Se muestra el diálogo para reiniciar tras actualizar desde el propio NVDA, garantizando que se ofrece la posibilidad de guardar el trabajo en curso.
+- Corrección de error con SAPI5: se omiten las voces que no sean válidas, en vez de hacer que falle todo el controlador.
+- Corrección de error con SAPI4 para 32 bits: compatibilidad con voces que no admiten tono o velocidad.
+- Mejora en el manejo de conflictos entre la lupa y la cortina de pantalla.
+- Restablecimiento de la capacidad de los complementos para registrar modos táctiles personalizados en "availableTouchModes" (modos táctiles disponibles).
+
+
+### [Actualización 30 de junio de 2026](https://www.nvaccess.org/post/nvda-2026-2beta5)
 
 Se ha publicado NVDA 2026.2beta5 con los siguientes cambios:
 
