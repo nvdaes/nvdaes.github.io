@@ -8,7 +8,7 @@ excerpt: "Martes, 2 de junio de 2026 (actualizado el 8 de julio)"
 author: Noelia
 ---
 
-<footer>Martes, 2 de junio de 2026 (actualizado el 8 de julio)</footer>
+<footer>Martes, 2 de junio de 2026 (actualizado el 14 de julio)</footer>
 
 [Se ha publicado NVDA 2026.2beta1](https://www.nvaccess.org/post/nvda-2026-2beta1).
 
@@ -18,8 +18,8 @@ Para volver al canal estable, actualiza manualmente NVDA a la última versión e
 
 ### Enlaces
 
-- [Descargar NVDA 2026.2beta6](https://download.nvaccess.org/releases/2026.2beta6/nvda_2026.2beta6.exe)
-  - SHA256: 6f102bc0b7cfb928e628ef193341ae7c83b0df278e6c58ccdce68fa67c1805f1
+- [Descargar NVDA 2026.2beta7](https://download.nvaccess.org/releases/2026.2beta7/nvda_2026.2beta7.exe)
+  - SHA256: d57817664b7468924671485e4ef637e9435a2e63901bd64024b42d3e7bcb4d7f
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
 
@@ -36,6 +36,16 @@ Las funciones de salida de voz se han mejorado con soporte para diccionarios de 
 Ahora las pantallas braille pueden avanzar automáticamente, y los dispositivos DotPad admiten combinaciones "multibotón". Liblouis se ha actualizado, con nuevas tablas braille para italiano y estonio.
 
 Cuando NVDA se reinicia a los valores predeterminados, hay disponible un nuevo botón Deshacer para restablecer la configuración anterior.
+
+
+### [Actualización 14 de julio de 2026](https://www.nvaccess.org/post/nvda-2026-2beta7)
+
+Se ha publicado NVDA 2026.2beta7 con los siguientes cambios:
+
+- Actualización de traducciones.
+- Corregido el mensaje sobre reinicio al actualizar, en vez de cerrar sesión.
+- Revertida la corrección para SAPI5 de beta6, que ocasionaba fallos en la carga de sintetizadores.
+- Corregida la lectura de contenido PDF con el editor Foxit en modo exploración.
 
 ### [Actualización 8 de julio de 2026](https://www.nvaccess.org/post/nvda-2026-2beta6)
 
