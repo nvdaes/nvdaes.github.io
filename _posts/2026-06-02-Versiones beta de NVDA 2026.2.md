@@ -3,7 +3,7 @@ title: Versiones beta de NVDA 2026.2
 permalink: "/nvda-2026-2beta/"
 layout: post
 giscus: true
-excerpt: "Martes, 2 de junio de 2026 (actualizado el 14 de julio)"
+excerpt: "Martes, 2 de junio de 2026 (actualizado el 8 de julio)"
 
 author: Noelia
 ---
@@ -18,8 +18,8 @@ Para volver al canal estable, actualiza manualmente NVDA a la última versión e
 
 ### Enlaces
 
-- [Descargar NVDA 2026.2beta7](https://download.nvaccess.org/releases/2026.2beta7/nvda_2026.2beta7.exe)
-  - SHA256: d57817664b7468924671485e4ef637e9435a2e63901bd64024b42d3e7bcb4d7f
+- [Descargar NVDA 2026.2beta8](https://download.nvaccess.org/releases/2026.2beta8/nvda_2026.2beta8.exe)
+  - SHA256: 183c222c8c32f0f677b0b6512d38da874cdbae7d8fd79edb755bfa13441a8178
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
 
@@ -37,6 +37,15 @@ Ahora las pantallas braille pueden avanzar automáticamente, y los dispositivos 
 
 Cuando NVDA se reinicia a los valores predeterminados, hay disponible un nuevo botón Deshacer para restablecer la configuración anterior.
 
+# [Actualización 21 de julio de 2026](https://www.nvaccess.org/post/nvda-2026-2beta8)
+
+Se ha publicado NVDA 2026.2beta8 con los siguientes cambios:
+
+- Actualización de traducciones.
+- Mejora en el comportamiento de la lupa al utilizar escalas DPI altas.
+- Corrección de la interferencia de la lupa al abrir diálogos de diccionarios.
+- Se ha mejorado el manejo del fallo en la activación de la lupa.
+- Cuando es posible, se bloquea la entrada mediante pantalla táctil al usar la lupa, ya que todavía esto no funciona.
 
 ### [Actualización 14 de julio de 2026](https://www.nvaccess.org/post/nvda-2026-2beta7)
 
