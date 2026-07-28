@@ -3,12 +3,12 @@ title: Versiones beta de NVDA 2026.2
 permalink: "/nvda-2026-2beta/"
 layout: post
 giscus: true
-excerpt: "Martes, 2 de junio de 2026 (actualizado el 21 de julio)"
+excerpt: "Martes, 2 de junio de 2026 (actualizado el 28 de julio)"
 
 author: Noelia
 ---
 
-<footer>Martes, 2 de junio de 2026 (actualizado el 14 de julio)</footer>
+<footer>Martes, 2 de junio de 2026 (actualizado el 28 de julio)</footer>
 
 [Se ha publicado NVDA 2026.2beta1](https://www.nvaccess.org/post/nvda-2026-2beta1).
 
@@ -18,8 +18,8 @@ Para volver al canal estable, actualiza manualmente NVDA a la última versión e
 
 ### Enlaces
 
-- [Descargar NVDA 2026.2beta8](https://download.nvaccess.org/releases/2026.2beta8/nvda_2026.2beta8.exe)
-  - SHA256: 183c222c8c32f0f677b0b6512d38da874cdbae7d8fd79edb755bfa13441a8178
+- [Descargar NVDA 2026.2beta9](https://download.nvaccess.org/releases/2026.2beta9/nvda_2026.2beta9.exe)
+  - SHA256: c5d15865d06aefe431b6674da0e93f9273b54ef59c5a951dad5da02d8a65726a
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
 
@@ -37,7 +37,16 @@ Ahora las pantallas braille pueden avanzar automáticamente, y los dispositivos 
 
 Cuando NVDA se reinicia a los valores predeterminados, hay disponible un nuevo botón Deshacer para restablecer la configuración anterior.
 
-# [Actualización 21 de julio de 2026](https://www.nvaccess.org/post/nvda-2026-2beta8)
+### [Actualización 28 de julio de 2026](https://www.nvaccess.org/post/nvda-2026-2beta9)
+
+Se ha publicado NVDA 2026.2beta9 con los siguientes cambios:
+
+- Actualización de traducciones.
+- Actualizada lectura en braille y desplazamiento automático en la guía de NVDA.
+- Desplazamiento por frases en word: ahora, `alt+flecha abajo` o `alt+flecha arriba` al principio o al final de un documento se detienen, en vez de volver a la parte opuesta del documento.
+- Se han cambiado las teclas de acceso rápido a las opciones de la lupa para que sean únicas.
+
+### [Actualización 21 de julio de 2026](https://www.nvaccess.org/post/nvda-2026-2beta8)
 
 Se ha publicado NVDA 2026.2beta8 con los siguientes cambios:
 
