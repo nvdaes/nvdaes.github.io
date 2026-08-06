@@ -3,7 +3,7 @@ title: Versiones beta de NVDA 2026.2
 permalink: "/nvda-2026-2beta/"
 layout: post
 giscus: true
-excerpt: "Martes, 2 de junio de 2026 (actualizado el 28 de julio)"
+excerpt: "Martes, 2 de junio de 2026 (actualizado el 6 de agosto)"
 
 author: Noelia
 ---
@@ -18,8 +18,8 @@ Para volver al canal estable, actualiza manualmente NVDA a la última versión e
 
 ### Enlaces
 
-- [Descargar NVDA 2026.2beta9](https://download.nvaccess.org/releases/2026.2beta9/nvda_2026.2beta9.exe)
-  - SHA256: c5d15865d06aefe431b6674da0e93f9273b54ef59c5a951dad5da02d8a65726a
+- [Descargar NVDA 2026.2beta10](https://download.nvaccess.org/releases/2026.2beta10/nvda_2026.2beta10.exe)
+  - SHA256: 027c1b5a1d6024288ffc672f601069856aaa75de1b8600ce40ce5beceb623306
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
 
@@ -36,6 +36,18 @@ Las funciones de salida de voz se han mejorado con soporte para diccionarios de 
 Ahora las pantallas braille pueden avanzar automáticamente, y los dispositivos DotPad admiten combinaciones "multibotón". Liblouis se ha actualizado, con nuevas tablas braille para italiano y estonio.
 
 Cuando NVDA se reinicia a los valores predeterminados, hay disponible un nuevo botón Deshacer para restablecer la configuración anterior.
+
+
+### [Actualización 6 de agosto de 2026](https://www.nvaccess.org/post/nvda-2026-2beta10)
+
+
+Se ha publicado NVDA 2026.2beta10 con los siguientes cambios:
+
+- Actualización de traducciones.
+- Corregidas las entradas de pantalla táctil, panel táctil y ratón para la lupa.
+- Añadidos gestos para el desplazamiento automático en braille.
+- Eliminados el modo centrado y el modo borde de la lupa, debido a errores de diseño.
+- Eliminada la opción no funcional "Separador decimal" para matemáticas.
 
 ### [Actualización 28 de julio de 2026](https://www.nvaccess.org/post/nvda-2026-2beta9)
 
