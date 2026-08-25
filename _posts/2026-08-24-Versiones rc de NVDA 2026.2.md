@@ -1,5 +1,5 @@
 ---
-title: Versiones rc de NVDA 2026.1.1
+title: Versiones rc de NVDA 2026.2
 permalink: "/nvda-2026-2rc/"
 layout: post
 giscus: true
