@@ -3,7 +3,7 @@ title: Versiones beta de NVDA 2026.3
 permalink: "/nvda-2026-3beta/"
 layout: post
 giscus: true
-excerpt: "Lunes, 7 de septiembre de 2026 (actualizado el 17 de agosto)"
+excerpt: "Lunes, 7 de septiembre de 2026
 
 author: Noelia
 ---
