@@ -3,12 +3,12 @@ title: Versiones beta de NVDA 2026.3
 permalink: "/nvda-2026-3beta/"
 layout: post
 giscus: true
-excerpt: "Lunes, 7 de septiembre de 2026
+excerpt: "Lunes, 7 de septiembre de 2026 (actualizado el 14 de septiembre)
 
 author: Noelia
 ---
 
-<footer>Lunes, 7 de septiembre de 2026</footer>
+<footer>Lunes, 7 de septiembre de 2026 (actualizado el 14 de septiembre)</footer>
 
 [Se ha publicado NVDA 2026.3beta1](https://www.nvaccess.org/post/nvda-2026-3beta1).
 
@@ -18,8 +18,8 @@ Para volver al canal estable, actualiza manualmente NVDA a la última versión e
 
 ### Enlaces
 
-- [Descargar NVDA 2026.3beta1](https://download.nvaccess.org/releases/2026.3beta1/nvda_2026.3beta1.exe)
-  - SHA256: 288e684536edb011710d760fc18ba7b652241085742e304e17d8ee01ede2d20f
+- [Descargar NVDA 2026.3beta2](https://download.nvaccess.org/releases/2026.3beta2/nvda_2026.3beta2.exe)
+  - SHA256: d26386e7ac3ac6d245c8adcfc82c07e9332278360af3396b69888b6b31e08d33
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
 
@@ -41,4 +41,16 @@ Se ha añadido un nuevo gesto para llevar el ratón al centro de la vista de la 
 Liblouis se ha actualizado con soporte para elfdaliano, sami, maorí, braille inglés unificado de Nueva Zelanda y criollo haitiano, una tabla noruega para texto en español, y variantes adicionales de seis y ocho puntos para sueco.
 
 eSpeak NG se ha actualizado con soporte para ligur y abjasio.
+
+
+### [Actualización 14 de septiembre de 2026](https://www.nvaccess.org/post/nvda-2026-3beta2)
+
+Se ha publicado NVDA 2026.3beta2 con los siguientes cambios:
+
+- Actualización de traducciones.
+- Corrección en la función "vista general de pantalla" de la lupa al usar seguimiento relativo.
+- Actualizado eSpeak.
+- Ahora, en modo exploración, `alt+flecha arriba` y `alt+flecha abajo` colapsan o expanden los cuadros combinados en más situaciones.
+- Se evita el parpadeo al cambiar el filtro de color de la lupa para reducir el riesgo de convulsiones.
+- Actualización de la biblioteca cppjieba para la segmentación de palabras en chino, para evitar cuelgues al iniciar desde rutas con símbolos en ese idioma.
 
