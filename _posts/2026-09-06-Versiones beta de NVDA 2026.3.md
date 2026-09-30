@@ -18,8 +18,8 @@ Para volver al canal estable, actualiza manualmente NVDA a la última versión e
 
 ### Enlaces
 
-- [Descargar NVDA 2026.3beta2](https://download.nvaccess.org/releases/2026.3beta2/nvda_2026.3beta2.exe)
-  - SHA256: d26386e7ac3ac6d245c8adcfc82c07e9332278360af3396b69888b6b31e08d33
+- [Descargar NVDA 2026.3beta3](https://download.nvaccess.org/releases/2026.3beta3/nvda_2026.3beta3.exe)
+  - SHA256: ca17ceb9cd3a8ed7b9732d2a6856c2c3979fbfd86fde1dad91a8a7170dcec612
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
 
@@ -42,6 +42,14 @@ Liblouis se ha actualizado con soporte para elfdaliano, sami, maorí, braille in
 
 eSpeak NG se ha actualizado con soporte para ligur y abjasio.
 
+
+### [Actualización 30 de septiembre de 2026](https://www.nvaccess.org/post/nvda-2026-3beta3)
+
+Se ha publicado NVDA 2026.3beta3 con los siguientes cambios:
+
+- Actualización de traducciones.
+- Se ha revertido una corrección relativa a terminales, con lo cual NVDA puede volver a quedar congelado si se vuelcan grandes cantidades de texto a la pantalla. La corrección no funcionaba correctamente y se han deshecho los cambios.
+- Se evita la reactivación automática  cuando la lupa queda inutilizada para que no parpadee y así reducir el riesgo de convulsiones.
 
 ### [Actualización 14 de septiembre de 2026](https://www.nvaccess.org/post/nvda-2026-3beta2)
 
