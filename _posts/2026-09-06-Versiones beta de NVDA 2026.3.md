@@ -3,11 +3,11 @@ title: Versiones beta de NVDA 2026.3
 permalink: "/nvda-2026-3beta/"
 layout: post
 giscus: true
-excerpt: "Lunes, 7 de septiembre de 2026 (actualizado el 6 de octubre)"
+excerpt: "Lunes, 7 de septiembre de 2026 (actualizado el 14 de octubre)"
 author: Noelia
 ---
 
-<footer>Lunes, 7 de septiembre de 2026 (actualizado el 6 de octubre)</footer>
+<footer>Lunes, 7 de septiembre de 2026 (actualizado el 14 de octubre)</footer>
 
 [Se ha publicado NVDA 2026.3beta1](https://www.nvaccess.org/post/nvda-2026-3beta1).
 
@@ -17,8 +17,8 @@ Para volver al canal estable, actualiza manualmente NVDA a la última versión e
 
 ### Enlaces
 
-- [Descargar NVDA 2026.3beta4](https://download.nvaccess.org/releases/2026.3beta4/nvda_2026.3beta4.exe)
-  - SHA256: 8be91476179710c4abffe5094459df9be1696d92e5d6cd0ace47d52321bb87ab
+- [Descargar NVDA 2026.3beta5](https://download.nvaccess.org/releases/2026.3beta5/nvda_2026.3beta5.exe)
+  - SHA256: c1d2cc7bc21126a224fdc0733fef5f20adf212d6098fd31863c89f7d05195544
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
 
@@ -41,8 +41,14 @@ Liblouis se ha actualizado con soporte para elfdaliano, sami, maorí, braille in
 
 eSpeak NG se ha actualizado con soporte para ligur y abjasio.
 
+### [Actualización 14 de octubre de 2026](https://www.nvaccess.org/post/nvda-2026-3beta5)
 
-# [Actualización 6 de octubre de 2026](https://www.nvaccess.org/post/nvda-2026-3beta4)
+Se ha publicado NVDA 2026.3beta5 con los siguientes cambios:
+
+- Actualización de traducciones.
+- Corregido un error por el que NVDA fallaba al iniciarse en versiones de Windows anteriores a Windows 10 1903.
+
+### [Actualización 6 de octubre de 2026](https://www.nvaccess.org/post/nvda-2026-3beta4)
 
 Se ha publicado NVDA 2026.3beta4 con los siguientes cambios:
 
