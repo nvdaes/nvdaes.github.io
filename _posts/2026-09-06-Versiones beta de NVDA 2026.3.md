@@ -3,11 +3,11 @@ title: Versiones beta de NVDA 2026.3
 permalink: "/nvda-2026-3beta/"
 layout: post
 giscus: true
-excerpt: "Lunes, 7 de septiembre de 2026 (actualizado el 14 de octubre)"
+excerpt: "Lunes, 7 de septiembre de 2026 (actualizado el 19 de octubre)"
 author: Noelia
 ---
 
-<footer>Lunes, 7 de septiembre de 2026 (actualizado el 14 de octubre)</footer>
+<footer>Lunes, 7 de septiembre de 2026 (actualizado el 19 de octubre)</footer>
 
 [Se ha publicado NVDA 2026.3beta1](https://www.nvaccess.org/post/nvda-2026-3beta1).
 
@@ -17,8 +17,8 @@ Para volver al canal estable, actualiza manualmente NVDA a la última versión e
 
 ### Enlaces
 
-- [Descargar NVDA 2026.3beta5](https://download.nvaccess.org/releases/2026.3beta5/nvda_2026.3beta5.exe)
-  - SHA256: c1d2cc7bc21126a224fdc0733fef5f20adf212d6098fd31863c89f7d05195544
+- [Descargar NVDA 2026.3beta6](https://download.nvaccess.org/releases/2026.3beta6/nvda_2026.3beta6.exe)
+  - SHA256: 407cd4afb19d72b533c7a88a7eda86fb38d8aa753134b1000a4b6f6275fc172d
 - [Novedades](https://download.nvaccess.org/documentation/es/changes.html)
 - [Incidencias en GitHub](https://github.com/nvaccess/nvda/issues)
 
@@ -40,6 +40,13 @@ Se ha añadido un nuevo gesto para llevar el ratón al centro de la vista de la 
 Liblouis se ha actualizado con soporte para elfdaliano, sami, maorí, braille inglés unificado de Nueva Zelanda y criollo haitiano, una tabla noruega para texto en español, y variantes adicionales de seis y ocho puntos para sueco.
 
 eSpeak NG se ha actualizado con soporte para ligur y abjasio.
+
+### [Actualización 19 de octubre de 2026](https://www.nvaccess.org/post/nvda-2026-3beta6)
+
+Se ha publicado NVDA 2026.3beta6 con los siguientes cambios:
+
+- Actualización de traducciones.
+- Los gestos para modelos específicos de pantallas braille vuelven a tener prioridad sobre gestos genéricos.
 
 ### [Actualización 14 de octubre de 2026](https://www.nvaccess.org/post/nvda-2026-3beta5)
 
