@@ -24,7 +24,7 @@ Para volver al canal estable, actualiza manualmente NVDA a la última versión e
 
 ### Aspectos destacados
 
-Esta versión incluye mejoras significativas en el rendimiento, mejoras en los diálogos de NVDA, y amplía la capacidad en cuanto a gestos en pantalla táctil.
+Esta versión incluye mejoras significativas en el rendimiento, mejoras en los diálogos de NVDA, y amplía los gestos de entrada para pantallas táctiles.
 
 Se han realizado varias mejoras en cuanto al rendimiento para reducir demoras y mejorar la capacidad de respuesta. Ahora, NVDA recupera y almacena en caché más información sobre controles en segundo plano, de modo que se mejora el rendimiento en controles como cuadros combinados y el explorador de archivos. NVDA ya no produce cuelgues en el explorador de archivos ni en otras aplicaciones al reiniciar o salir del lector de pantalla. Ahora, NVDA se recupera de forma más rápida cuando una aplicación deja de responder, y ya no se quedará congelado ni saturará el registro con errores de aplicaciones que no responden.
 
